@@ -84,7 +84,7 @@ repositories whatever they want. Here is a diagram of the connections between
 the remote repositories on GitHub and the local computers of each of three
 collaborators on the ``spyder`` project:
 
-![Git Workflow](https://github.com/goanpeca/spyder-img-src/blob/master/img-src/git-flow.png)
+![Git Workflow](https://github.com/goanpeca/spyder-img-src/blob/master/img-src/git-flow-diagram.png)
 
 Developers (like ``blink1073`` in the diagram) typically first go to the
 [official repo of the project](https://github.com/spyder-ide/spyder)
