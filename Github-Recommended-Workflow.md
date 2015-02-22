@@ -1,4 +1,4 @@
-# Users
+# <a name="Users"></a>Users
 If you want to use software that is hosted on GitHub and get updates when they
 are released, but you don't think it's likely that you will ever want to fix
 bugs or add new features yourself, then probably you are a User (you can upgrade
@@ -60,7 +60,7 @@ update ``expyfun`` to a newer version using :bash:`git pull`, what :bash:`git`
 is really doing is :bash:`git pull origin master`, i.e., pulling changes that
 exist in the ``origin`` copy of ``expyfun`` into your local ``master`` branch.
 
-# Developers
+# <a name="Developers"></a>Developers
 
 One of the most challenging concepts with :bash:`git` source code control
 is the fact that its job is to seamlessly manage multiple different versions
@@ -174,7 +174,7 @@ This synchronizes their local ``master`` branch with the ``master`` branch of
 the ``upstream`` remote repo, and deletes their local ``fix_branch`` (which is
 no longer needed, since its changes have been merged into the upstream master).
 
-# Maintainers
+# <a name="Mantainers"></a>Maintainers
 
 Maintainers start out with a similar set up as Developers_. However, they might
 want to be able to push directly to the ``upstream`` repo as well as pushing to
