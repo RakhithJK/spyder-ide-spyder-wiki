@@ -5,60 +5,57 @@ bugs or add new features yourself, then probably you are a User (you can upgrade
 yourself to a Developer later if you need to).
 
 Users will want to take the "official" version of the software, make a copy of
-it on their own computer, and run the code from there. Using ``expyfun``
-software as an example, this is done on the command line like this::
+it on their own computer, and run the code from there. Using ``spyder``
+repository as an example, this is done on the command line like this:
 
-    $ git clone git://github.com/LABSN/expyfun.git
+    $ git clone https://github.com/spyder-ide/spyder.git
     $ cd expyfun
-    $ python setup.py install
+    $ python bootstrap.py
 
-The :bash:`git clone` command will create a folder ``expyfun`` in the current
-directory to store the source code, and the :bash:`python setup.py install`
-command will install the necessary parts of ``expyfun`` in the special places
-where python
-looks when you do :python:`import expyfun` and call ``expyfun`` functions in
-your own scripts. The only thing you really need to decide first is where on
-your computer to store the source code. When you want to update ``expyfun`` to a
-newer version of the source code, just go back to that folder in your terminal
-and type::
+The `git clone` command will create a folder ``spyder`` in the current
+directory to store the source code, and the `python bootstrap.py`
+command will run the cloned version of Spyder. `bootsrat.py` is a script specific to Spyder that allows for an easy use of Spyder without the need to run an installer. The only thing you really need to decide first is where on
+your computer to store the source code. When you want to update ``spyder`` to a
+newer version of the source code and run it, just go back to that folder in your terminal
+and type:
 
     $ git pull
-    $ python setup.py install
+    $ python bootstrap.py
 
 What is actually happening under the hood when you do these things? In addition
-to making you a local copy of the source code, the initial :bash:`git clone`
+to making you a local copy of the source code, the initial `git clone`
 command sets up a relationship between that folder on your computer and the
 "origin" of the code. You can see this by typing::
 
     $ git remote -v
-    origin	git://github.com/LABSN/expyfun.git (fetch)
-    origin	git://github.com/LABSN/expyfun.git (push)
+    origin	https://github.com/spyder-ide/spyder.git (fetch)
+    origin	https://github.com/spyder-ide/spyder.git (push)
 
-This tells you that :bash:`git` knows about two "remote" addresses of
-``expyfun``: one to ``fetch`` new changes from (if the source code gets updated
+This tells you that `git` knows about two "remote" addresses of
+``spyder``: one to ``fetch`` new changes from (if the source code gets updated
 by someone else), and one to ``push`` new changes to (if you make changes that
 you want to share). In this case the two addresses both point to the "official"
-version of the ``expyfun`` software, and because you're a User, you won't
+version of the ``spyder`` software, and because you're a User, you won't
 actually be allowed to ``push`` any changes you make: the ``remote`` copy that
 your computer calls ``origin`` is picky about who it allows to make changes
-(i.e., only the Maintainers_ can).
+(i.e., only the [Maintainers](#Maintainers can)).
 
-The initial :bash:`git clone` command also automatically gives your local copy
+The initial `git clone` command also automatically gives your local copy
 of the code a "branch" name. You probably won't need to use this functionality,
-but the short explanation is that :bash:`git` allows you to add, delete, and
-change files within the  ``expyfun`` directory and then easily go back to where
-you started from in case your changes didn't work. One way :bash:`git` enables
+but the short explanation is that `git` allows you to add, delete, and
+change files within the ``spyder`` directory and then easily go back to where
+you started from in case your changes didn't work. One way `git` enables
 this is by having different "branches" of the same source code, and by default
 it creates a branch called "master" when it first clones the remote repository
-to your computer::
+to your computer:
 
     $ git branch
     * master
 
 The asterisk means that ``master`` is the currently active branch. Later, if you
-update ``expyfun`` to a newer version using :bash:`git pull`, what :bash:`git`
-is really doing is :bash:`git pull origin master`, i.e., pulling changes that
-exist in the ``origin`` copy of ``expyfun`` into your local ``master`` branch.
+update ``spyder`` to a newer version using `git pull`, what `git`
+is really doing is `git pull origin master`, i.e., pulling changes that
+exist in the ``origin`` copy of ``spyder`` into your local ``master`` branch.
 
 # <a name="Developers"></a>Developers
 
@@ -174,7 +171,7 @@ This synchronizes their local ``master`` branch with the ``master`` branch of
 the ``upstream`` remote repo, and deletes their local ``fix_branch`` (which is
 no longer needed, since its changes have been merged into the upstream master).
 
-# <a name="Mantainers"></a>Maintainers
+# <a name="Maintainers"></a>Maintainers
 
 Maintainers start out with a similar set up as Developers_. However, they might
 want to be able to push directly to the ``upstream`` repo as well as pushing to
