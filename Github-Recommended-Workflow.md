@@ -9,7 +9,7 @@ it on their own computer, and run the code from there. Using ``spyder``
 repository as an example, this is done on the command line like this:
 
     $ git clone https://github.com/spyder-ide/spyder.git
-    $ cd expyfun
+    $ cd spyder
     $ python bootstrap.py
 
 The `git clone` command will create a folder ``spyder`` in the current
@@ -59,63 +59,63 @@ exist in the ``origin`` copy of ``spyder`` into your local ``master`` branch.
 
 # <a name="Developers"></a>Developers
 
-One of the most challenging concepts with :bash:`git` source code control
+One of the most challenging concepts with `git` source code control
 is the fact that its job is to seamlessly manage multiple different versions
-of a code base. The idea is that :bash:`git` allows you to swap back and
+of a code base. The idea is that `git` allows you to swap back and
 forth between these different versions while working within the same directory
 structure.
 
 In other words, typically there is only one repository for a given project on
 a developer's local machine. That repository can have multiple
-`branches <http://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell>`_
+[branches](http://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
 within it.
+
 When a developer switches between branches, they are effectively switching
-between different copies of that repository. The :bash:`git` protocol thus
+between different copies of that repository. The `git` protocol thus
 modifies or updates files in-place, and you can keep track of different versions
 of the files by keeping track of branch names, instead of storing temporary
 copies in other folders, or appending ``_newVersion`` to the filename.
 
 In addition to each developer having a local git repository, they usually become
 associated with some number of remote repositories on
-`GitHub <https://github.com>`_. The developer's local repository can "know"
+[GitHub](https://github.com)`. The developer's local repository can "know"
 about any number of remote repositories, and users get to name those remote
 repositories whatever they want. Here is a diagram of the connections between
 the remote repositories on GitHub and the local computers of each of three
-collaborators on the ``expyfun`` project:
+collaborators on the ``spyder`` project:
 
-.. _diagram:
-.. image:: https://cdn.rawgit.com/LABSN/expyfun/master/doc/git_flow.svg
+IMAGE
 
-Developers (like ``rkmaddox`` in the diagram) typically first go to the
-`official repo of the project <https://github.com/LABSN/expyfun>`_
-and `fork <https://help.github.com/articles/fork-a-repo/>`_ the repository so
+Developers (like ``blink1073`` in the diagram) typically first go to the
+[official repo of the project](https://github.com/spyder-ide/expyfun)
+and [fork](https://help.github.com/articles/fork-a-repo/) the repository so
 that their changes can be sandboxed. The convention is to then set up their
 local copy of the codebase with their own fork as the remote ``origin``, and
 connect to the official remote repo with the name ``upstream``. So after forking
-`expyfun <https://github.com/LABSN/expyfun>`_ to his own GitHub account, user
-``rkmaddox`` would run::
+[spyder](https://github.com/spyder-ide/spyder) to his own GitHub account, user
+``blink1073`` would run::
 
-    $ git clone git@github.com:/rkmaddox/expyfun.git
+    $ git clone https://github.com/blink1073/spyder.git
     $ cd expyfun
-    $ git remote add upstream git://github.com/LABSN/expyfun.git
+    $ git remote add upstream https://github.com/spyder-ide/spyder.git
 
 Now this user has the standard ``origin``/``upstream`` configuration, as seen
-below. Note the difference in the URIs between ``origin`` and ``upstream``::
+below. Note the difference in the URIs between ``origin`` and ``upstream``:
 
     $ git remote -v
-    origin	git@github.com:/rkmaddox/expyfun.git (fetch)
-    origin	git@github.com:/rkmaddox/expyfun.git (push)
-    upstream	git://github.com/LABSN/expyfun.git (fetch)
-    upstream	git://github.com/LABSN/expyfun.git (push)
+    origin	https://github.com/blink1073/spyder.git (fetch)
+    origin	https://github.com/blink1073/spyder.git (push)
+    upstream	git://github.com/spyder-ide/spyder.git (fetch)
+    upstream	git://github.com/spyder-ide/spyder.git (push)
     $ git branch
     * master
 
-URIs beginning with ``git://`` are read-only connections, so ``rkmaddox`` can
+URIs beginning with ``git://`` are read-only connections, so ``blink1073`` can
 pull down new changes from ``upstream``, but won't be able to directly push his
 local changes to upstream. Instead, he would have to push to his fork
 (``origin``) first, and create a
-`pull request <https://help.github.com/articles/using-pull-requests/>`_.
-For example, to add some trivial file::
+[pull request](https://help.github.com/articles/using-pull-requests/).
+For example, to add some trivial file:
 
     $ git branch fix_branch
     $ git branch
@@ -133,13 +133,13 @@ For example, to add some trivial file::
 This creates a new branch called ``fix_branch`` on the local machine, checks out
 that branch, adds a file, commits the change to the branch, and then pushes the
 branch to a new remote branch (also called ``fix_branch``) on the ``origin``
-repo (i.e., their fork of the official repo). ``rkmaddox`` could then navigate
-to `the website of the upstream repository <http://github.com/LABSN/expyfun/>`_
+repo (i.e., their fork of the official repo). ``blink1073`` could then navigate
+to [the website of the upstream repository](http://github.com/spyder-ide/spyder/)
 and they would find a nice **Pull Request** button available.
 
-Maintainers_ would then typically comment on the pull request and ask for
+Maintainers would then typically comment on the pull request and ask for
 some changes. For example, maybe the user forgot to also add the necessary
-``bar`` file. The user could then do::
+``bar`` file. The user could then do:
 
     $ git branch
     * fix_branch
@@ -152,13 +152,12 @@ some changes. For example, maybe the user forgot to also add the necessary
 After this set of commands, the pull request (PR) is automatically
 updated to reflect this new addition. The cycle of commenting on and
 updating the continues until the Maintainers_ are satisfied with the
-changes. They will then
-`merge <https://help.github.com/articles/merging-a-pull-request/>`_ the pull
+changes. They will then [merge](https://help.github.com/articles/merging-a-pull-request/) the pull
 request to incorporate the proposed changes into the upstream GitHub repo.
 
 Once their branch gets merged into the ``master`` branch of
 the upstream repo, the developer can do the following to get
-up to date on their local machine::
+up to date on their local machine:
 
     $ git checkout master
     $ git fetch upstream
@@ -173,7 +172,7 @@ no longer needed, since its changes have been merged into the upstream master).
 
 # <a name="Maintainers"></a>Maintainers
 
-Maintainers start out with a similar set up as Developers_. However, they might
+Maintainers start out with a similar set up as Developers. However, they might
 want to be able to push directly to the ``upstream`` repo as well as pushing to
 their fork. Having a repo set up with :bash:`git://` access instead of
 :bash:`git@github.com` or :bash:`https://` access will not allow pushing. So
