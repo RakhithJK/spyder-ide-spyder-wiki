@@ -25,7 +25,7 @@ and type:
 What is actually happening under the hood when you do these things? In addition
 to making you a local copy of the source code, the initial `git clone`
 command sets up a relationship between that folder on your computer and the
-"origin" of the code. You can see this by typing::
+"origin" of the code. You can see this by typing:
 
     $ git remote -v
     origin	https://github.com/spyder-ide/spyder.git (fetch)
@@ -96,7 +96,7 @@ connect to the official remote repo with the name ``upstream``. So after forking
 ``blink1073`` would run::
 
     $ git clone https://github.com/blink1073/spyder.git
-    $ cd expyfun
+    $ cd spyder
     $ git remote add upstream https://github.com/spyder-ide/spyder.git
 
 Now this user has the standard ``origin``/``upstream`` configuration, as seen
