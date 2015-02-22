@@ -17,4 +17,4 @@ into the code base.
 ## Feature Proposals
 This section lists some of the active proposals under work for future releases. This should help to polish details before the actual implementation takes place.
 
-* [Spyder Projects](https://github.com/spyder-ide/spyder/wiki/Project-Proposal)
+* [Spyder Projects](https://github.com/spyder-ide/spyder/wiki/Projects-Proposal)
