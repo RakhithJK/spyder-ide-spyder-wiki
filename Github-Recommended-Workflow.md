@@ -38,7 +38,7 @@ you want to share). In this case the two addresses both point to the "official"
 version of the ``spyder`` software, and because you're a User, you won't
 actually be allowed to ``push`` any changes you make: the ``remote`` copy that
 your computer calls ``origin`` is picky about who it allows to make changes
-(i.e., only the [Maintainers](#Maintainers can)).
+(i.e., only the [Maintainers](#Maintainers) can).
 
 The initial `git clone` command also automatically gives your local copy
 of the code a "branch" name. You probably won't need to use this functionality,
@@ -174,53 +174,53 @@ no longer needed, since its changes have been merged into the upstream master).
 
 Maintainers start out with a similar set up as Developers. However, they might
 want to be able to push directly to the ``upstream`` repo as well as pushing to
-their fork. Having a repo set up with :bash:`git://` access instead of
-:bash:`git@github.com` or :bash:`https://` access will not allow pushing. So
-starting from scratch, a maintainer ``Eric89GXL`` might fork the upstream repo
+their fork. Having a repo set up with `git://` access instead of
+`git@github.com` or `https://` access will not allow pushing. So
+starting from scratch, a maintainer ``ccordoba12`` might fork the upstream repo
 and then do::
 
-    $ git clone git@github.com:/Eric89GXL/expyfun.git
-    $ cd expyfun
-    $ git remote add upstream git@github.com:/LABSN/expyfun.git
-    $ git remote add ross git://github.com/rkmaddox/expyfun.git
+    $ git clone git@github.com:/ccordoba12/spyder
+    $ cd spyder
+    $ git remote add upstream git@github.com:/spyder-ide/spyder.git
+    $ git remote add blink git://github.com/blink1073/spyder.git
 
 Now the maintainer's local repository has push/pull access to their own personal
 development fork and the upstream repo, and has read-only access to
-``rkmaddox``'s fork::
+``blink1073``'s fork:
 
     $ git remote -v
-    origin	git@github.com:/Eric89GXL/expyfun.git (fetch)
-    origin	git@github.com:/Eric89GXL/expyfun.git (push)
-    ross	git://github.com/rkmaddox/expyfun.git (fetch)
-    ross	git://github.com/rkmaddox/expyfun.git (push)
-    upstream	git@github.com:/LABSN/expyfun.git (fetch)
-    upstream	git@github.com:/LABSN/expyfun.git (push)
+    origin	git@github.com:/ccordoba12/spyder.git (fetch)
+    origin	git@github.com:/ccordoba12/spyder.git (push)
+    blink	git://github.com/blink1073/spyder.git (fetch)
+    blink	git://github.com/blink1073/spyder.git (push)
+    upstream	git@github.com:/LABSN/spyder.git (fetch)
+    upstream	git@github.com:/LABSN/spyder.git (push)
 
-Let's say ``rkmaddox`` has opened a PR on Github, and the maintainer wants
-to test out the code. This can be done this way::
+Let's say ``blink1073`` has opened a PR on Github, and the maintainer wants
+to test out the code. This can be done this way:
 
-    $ git fetch ross
-    $ git checkout -b ross_branch ross/fix_branch
+    $ git fetch nlink
+    $ git checkout -b blink_branch blink/fix_branch
 
 The first command allows the local repository to know about the changes (if
-any) that have occurred on ``rkmaddox``'s fork of the project
-(`<github.com/rkmaddox/expyfun.git>`_).
+any) that have occurred on ``blink1073``'s fork of the project
+(`<github.com/blink1073/spyder.git>`_).
 In this case, a new branch named ``fix_branch`` has been added.
 
-The second command is more complex. :bash:`git checkout -b $NAME` is a command
-that first creates a branch named :bash:`$NAME`, then checks it out. The
-additional argument :bash:`ross/fix_branch` tells :bash:`git` to make the
+The second command is more complex. `git checkout -b $NAME` is a command
+that first creates a branch named `$NAME`, then checks it out. The
+additional argument `blink/fix_branch` tells `git` to make the
 branch track changes from the remote branch ``fix_branch`` in the remote
-repository known as ``ross``, which you may recall points to
-`<github.com/rkmaddox/expyfun.git>`_. The full command can thus be interpreted
+repository known as ``blink``, which you may recall points to
+`<github.com/blink1073/spyder.git>`. The full command can thus be interpreted
 in human-readable form as "create and check out a branch named
-``ross_branch`` that tracks the changes in the branch
-``fix_branch`` from the remote repo named ``ross``". The maintainer can
-now inspect and test ``rkmaddox``'s code locally rather than just viewing the
+``blink_branch`` that tracks the changes in the branch
+``fix_branch`` from the remote repo named ``blink``". The maintainer can
+now inspect and test ``blink1073``'s code locally rather than just viewing the
 changes on the GitHub pull request page.
 
 Once the code is merged on GitHub, the maintainer can update their local copy
-in a similar way as the developer did earlier::
+in a similar way as the developer did earlier:
 
     $ git checkout master
     $ git pull upstream/master
