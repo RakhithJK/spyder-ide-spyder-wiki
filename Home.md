@@ -1,4 +1,5 @@
-* Spyder (previously known as Pydee) is a powerful interactive development environment for the Python language with advanced editing, interactive testing, debugging and introspection features
+## Spyder IDE
+Spyder (previously known as Pydee) is a powerful interactive development environment for the Python language with advanced editing, interactive testing, debugging and introspection features
 
 [Spyder roadmap](https://bitbucket.org/spyder-ide/spyderlib/wiki/Roadmap) |
  [Spyder FAQ](https://bitbucket.org/spyder-ide/spyderlib/wiki/faq)
