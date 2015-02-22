@@ -78,16 +78,14 @@ copies in other folders, or appending ``_newVersion`` to the filename.
 
 In addition to each developer having a local git repository, they usually become
 associated with some number of remote repositories on
-[GitHub](https://github.com)`. The developer's local repository can "know"
+[GitHub](https://github.com). The developer's local repository can "know"
 about any number of remote repositories, and users get to name those remote
 repositories whatever they want. Here is a diagram of the connections between
 the remote repositories on GitHub and the local computers of each of three
 collaborators on the ``spyder`` project:
 
-IMAGE
-
 Developers (like ``blink1073`` in the diagram) typically first go to the
-[official repo of the project](https://github.com/spyder-ide/expyfun)
+[official repo of the project](https://github.com/spyder-ide/spyder)
 and [fork](https://help.github.com/articles/fork-a-repo/) the repository so
 that their changes can be sandboxed. The convention is to then set up their
 local copy of the codebase with their own fork as the remote ``origin``, and
@@ -204,7 +202,7 @@ to test out the code. This can be done this way:
 
 The first command allows the local repository to know about the changes (if
 any) that have occurred on ``blink1073``'s fork of the project
-(`<github.com/blink1073/spyder.git>`_).
+*<github.com/blink1073/spyder.git>*.
 In this case, a new branch named ``fix_branch`` has been added.
 
 The second command is more complex. `git checkout -b $NAME` is a command
@@ -212,7 +210,7 @@ that first creates a branch named `$NAME`, then checks it out. The
 additional argument `blink/fix_branch` tells `git` to make the
 branch track changes from the remote branch ``fix_branch`` in the remote
 repository known as ``blink``, which you may recall points to
-`<github.com/blink1073/spyder.git>`. The full command can thus be interpreted
+*<github.com/blink1073/spyder.git>*. The full command can thus be interpreted
 in human-readable form as "create and check out a branch named
 ``blink_branch`` that tracks the changes in the branch
 ``fix_branch`` from the remote repo named ``blink``". The maintainer can
