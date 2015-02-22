@@ -3,7 +3,7 @@ Welcome to the Spyder IDE Wiki!
 
 Spyder (previously known as Pydee) is a powerful interactive development environment for the Python language with advanced editing, interactive testing, debugging and introspection features
 
-[Spyder Roadmap](https://github.com/spyder-ide/spyder/wiki/Roadmap)
+[Spyder Roadmap](https://github.com/spyder-ide/spyder/wiki/Roadmap) | [Changelog](https://github.com/spyder-ide/spyder/wiki/Changelog)
 
 ## Recommended GitHub Workflow
 Typically there are three types of people who use GitHub to access source code:
