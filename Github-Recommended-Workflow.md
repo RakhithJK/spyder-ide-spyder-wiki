@@ -1,4 +1,4 @@
-# <a name="Users"></a>Users
+# Users
 If you want to use software that is hosted on GitHub and get updates when they
 are released, but you don't think it's likely that you will ever want to fix
 bugs or add new features yourself, then probably you are a User (you can upgrade
