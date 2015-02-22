@@ -4,7 +4,7 @@ Spyder (previously known as Pydee) is a powerful interactive development environ
 [Spyder Roadmap](https://github.com/spyder-ide/spyder/wiki/Roadmap)
 
 ## Contribution
-For details on contributing to Spyder, visit the [developers](https://bitbucket.org/spyder-ide/spyderlib/wiki/developers/Home). wiki.
+For details on contributing to Spyder, visit the [developers]<!--(https://bitbucket.org/spyder-ide/spyderlib/wiki/developers/Home) wiki.
 
 For contributing to translations, look [here](https://bitbucket.org/spyder-ide/spyderlib/wiki/Translations).
 
