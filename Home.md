@@ -19,3 +19,5 @@ This section lists some of the active proposals under work for future releases. 
 
 * [Spyder Projects](https://github.com/spyder-ide/spyder/wiki/Projects-Proposal)
 * [Version Control](https://github.com/spyder-ide/spyder/wiki/Version-Control-Proposal)
+* Plugin Manager?
+* Pip/Conda Installable Plugins?
