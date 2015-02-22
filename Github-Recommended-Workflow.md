@@ -84,6 +84,8 @@ repositories whatever they want. Here is a diagram of the connections between
 the remote repositories on GitHub and the local computers of each of three
 collaborators on the ``spyder`` project:
 
+![Git Workflow](https://www.dropbox.com/s/g2wguhwiaaf99nz/git-flow.png?dl=0)
+
 Developers (like ``blink1073`` in the diagram) typically first go to the
 [official repo of the project](https://github.com/spyder-ide/spyder)
 and [fork](https://help.github.com/articles/fork-a-repo/) the repository so
