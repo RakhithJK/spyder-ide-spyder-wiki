@@ -137,7 +137,7 @@ repo (i.e., their fork of the official repo). ``blink1073`` could then navigate
 to [the website of the upstream repository](http://github.com/spyder-ide/spyder/)
 and they would find a nice **Pull Request** button available.
 
-Maintainers would then typically comment on the pull request and ask for
+[Maintainers](#Maintainers) would then typically comment on the pull request and ask for
 some changes. For example, maybe the user forgot to also add the necessary
 ``bar`` file. The user could then do:
 
@@ -151,7 +151,7 @@ some changes. For example, maybe the user forgot to also add the necessary
 
 After this set of commands, the pull request (PR) is automatically
 updated to reflect this new addition. The cycle of commenting on and
-updating the continues until the Maintainers_ are satisfied with the
+updating the continues until the [Maintainers](#Maintainers) are satisfied with the
 changes. They will then [merge](https://help.github.com/articles/merging-a-pull-request/) the pull
 request to incorporate the proposed changes into the upstream GitHub repo.
 
