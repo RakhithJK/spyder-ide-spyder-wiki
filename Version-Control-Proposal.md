@@ -1,5 +1,5 @@
 # Conversation and Discussion
-Over [Gitter](https://gitter.im/spyder-ide/feature-version-control)
+Over [Gitter](https://gitter.im/spyder-ide/)
 
 # Description
 The idea is to have a basic abstraction layer and support for different version control systems, namely Git and Mercurial. [Issue 816](https://github.com/spyder-ide/spyder/issues/816) started the discussion and will serve as basis for this PR.
