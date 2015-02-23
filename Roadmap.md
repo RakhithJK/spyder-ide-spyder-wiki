@@ -52,6 +52,7 @@
 * Spyder is now on Github: https://github.com/spyder-ide/spyder
 
 * Editor
+    - Use the Jedi library to do code completions
     - Add Ctrl+= as a shortcut to do Zoom in
     - Add an option to show blank spaces, under the Source menu. There is also an option to make this permanent under `Preferences > Editor`.
 * IPython Console
