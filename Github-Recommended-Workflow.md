@@ -193,8 +193,8 @@ development fork and the upstream repo, and has read-only access to
     origin	git@github.com:/ccordoba12/spyder.git (push)
     blink	git://github.com/blink1073/spyder.git (fetch)
     blink	git://github.com/blink1073/spyder.git (push)
-    upstream	git@github.com:/LABSN/spyder.git (fetch)
-    upstream	git@github.com:/LABSN/spyder.git (push)
+    upstream	git@github.com:/spyder-ide/spyder.git (fetch)
+    upstream	git@github.com:/spyder-ide/spyder.git (push)
 
 Let's say ``blink1073`` has opened a PR on Github, and the maintainer wants
 to test out the code. This can be done this way:
