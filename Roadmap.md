@@ -12,25 +12,24 @@
     - Add search facilities  
 
 
-## Version 2.4 / February 2015
+## Version 2.4 / July 2015
 ### Status: Early Stage of Development
 
 **New major features**:
 
 * IPython:
-    - Notebook plugin to run notebooks natively inside Spyder (pull request #77)
-    - Drop support for version 0.13
+    - Notebook plugin to run notebooks natively inside Spyder
+    - Drop support for version 1.0 and 2.0
     - Pygments highlighting for the console
-* Additional support for PyQt5 (along with our current PySide/PyQt4 support) (pull request #76)
-* Conda Package Manager to install/uninstall packages included in Continuum repositories (pull request #61)
-* Interactive tutorial (similar to the IPython notebook one) (pull request #70)
+* Additional support for PyQt5 (along with our current PySide/PyQt4 support)
+* Conda Package Manager to install/uninstall packages included in Continuum repositories
+* Interactive tutorial (similar to the IPython notebook one)
 * Custom Layouts
-    - pull request #65
     - Support for Matlab, RStudio and new defaults (horizontal/vertical layouts).
     - New shortcuts
     - Save as many named layouts as the user wants
 * Editor Enhancements:
-    - Code folding support (pull request #56)
+    - Code folding support
     - Markdown and Restructured text support
 * History Log:
     - Better support for IPython cells
@@ -39,28 +38,28 @@
 
 # Present
 
-## Version 2.3.3 / December 2014
+## Version 2.3.3 / February 2014
 ### Status: Under Development
 
 * Mainly about bug fixes
 
-## Version 2.3.2 / November 2014
-### Status: Under Development
+## Version 2.3.2 / December 2014
+### Status: Released
 
 **New major features**
 
 * Editor
-    - Improve cells visualization (pull request #51)
-    - Add support for drag selection and improve look of line number area (pull request #51)
-    - Open any text file present in the Variable Explorer (pull request #63)
-    - View and edit IPython notebooks as Json files (pull request #32)
-    - Syntax highlighting for Json files (pull request #32) 
+    - Improve cells visualization
+    - Add support for drag selection and improve look of line number area
+    - Open any text file present in the Variable Explorer
+    - View and edit IPython notebooks as Json files
+    - Syntax highlighting for Json files
 * Variable Explorer:
-    - Import csv files as DataFrames (if Pandas is present) (pull request #63)
+    - Import csv files as DataFrames (if Pandas is present)
 * Debugging
-    - Make it easier to set conditions on breakpoints (pull request #39)
+    - Make it easier to set conditions on breakpoints
 * Python Console
-    - Fixes various issues with unicode (pull request #83)
+    - Fixes various issues with unicode
 
 ## Version 2.3.1 / September 2014
 ### Status: Maintenance
@@ -68,19 +67,18 @@
 **New major features**:
 
 * Variable Explorer
-    - Support for Pandas DataFrame's and TimeSerie's types (pull request #31)
-    - Support for Numpy 3D arrays (pull request #38)
-    - Drag and drop works for all its supported file types (e.g. images, mat files, json files, etc) (pull request #4)
+    - Support for Pandas DataFrame's and TimeSerie's types
+    - Support for Numpy 3D arrays
+    - Drag and drop works for all its supported file types (e.g. images, mat files, json files, etc)
 * Editor
     - F9 runs the current line under the cursor if nothing is selected
     - Focus remains on it after evaluating cells and selections (an option was added to return to the old behavior)
-      (pull request #66)
 * IPython console
-    - Connect to external kernels through ssh (pull request #20)
+    - Connect to external kernels through ssh
 * Object Inspector
-    - Add a tutorial for beginners (pull request #11)
+    - Add a tutorial for beginners
 * Main Window
-    - Improve style on Mac (pull request #64)
+    - Improve style on Mac
 
 ## Version 2.3 / July 2014
 ### Status: Maintenance
