@@ -14,7 +14,7 @@ repository as an example, this is done on the command line like this:
 
 The `git clone` command will create a folder ``spyder`` in the current
 directory to store the source code, and the `python bootstrap.py`
-command will run the cloned version of Spyder. `bootsrat.py` is a script specific to Spyder that allows for an easy use of Spyder without the need to run an installer. The only thing you really need to decide first is where on
+command will run the cloned version of Spyder. `bootstrap.py` is a script specific to Spyder that allows for an easy use of Spyder without the need to run an installer. The only thing you really need to decide first is where on
 your computer to store the source code. When you want to update ``spyder`` to a
 newer version of the source code and run it, just go back to that folder in your terminal
 and type:
