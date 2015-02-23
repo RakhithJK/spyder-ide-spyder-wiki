@@ -84,6 +84,9 @@ A project could also be opened through the file explorer, if a folder contains a
 
 ## Projects to support
 Initially there should be support for basic projects such as simple container for a bunch of scripts in version control and a specific environment, and a Python package. 
+
+### Python packages
+This projects could include a basic setup for including a `readme.md` file, a .**ignore file and the basic structure including a `setup.py` etc..
  
 ## Future Projects to support?
 Support for more project types could grow gradually in the form of plugins
@@ -92,5 +95,6 @@ Support for more project types could grow gradually in the form of plugins
 
 
 ### Pelican?
+
 
 ### Others?
