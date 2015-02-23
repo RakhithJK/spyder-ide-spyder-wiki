@@ -22,7 +22,7 @@ This section lists some of the active proposals under work for future releases. 
 * Plugin Manager?
 * Pip/Conda Installable Plugins?
 
-## Be Social
+## Be Social :+1: 
 Connect with **Spyder** through our social media channels and stay up to date with current developments!
  
 * [Google+ Page](https://plus.google.com/107193318474220481102/posts)
