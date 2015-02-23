@@ -1,3 +1,8 @@
+# Conversation and comments
+I recently discovered [Gitter](Gitter.im) and seems like a nice place to have some discussions, includes markdown support and could be used to have fine grain discussions on this feature.
+
+[Chat room here](https://gitter.im/spyder-ide/feature-projects)
+
 # Current status
 There is a basic project management in Spyder that works using a main **workspace** where all the project folder are stored. For project management there is currently a `Project Explorer` panel that is basically the `File explorer` panel plus some options.
 
