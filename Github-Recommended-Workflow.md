@@ -199,7 +199,7 @@ development fork and the upstream repo, and has read-only access to
 Let's say ``blink1073`` has opened a PR on Github, and the maintainer wants
 to test out the code. This can be done this way:
 
-    $ git fetch nlink
+    $ git fetch blink
     $ git checkout -b blink_branch blink/fix_branch
 
 The first command allows the local repository to know about the changes (if
