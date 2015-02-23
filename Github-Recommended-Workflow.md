@@ -1,3 +1,5 @@
+*Adapted from https://github.com/LABSN/expyfun/blob/master/git_flow.rst*
+
 # <a name="Users"></a>Users
 If you want to use software that is hosted on GitHub and get updates when they
 are released, but you don't think it's likely that you will ever want to fix
