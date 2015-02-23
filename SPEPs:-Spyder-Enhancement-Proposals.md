@@ -20,7 +20,7 @@ Each IPEP should have a table/area at the top with the following information:
 <tr><td> Author </td><td> Full Name &lt;full.name@gmail.com&gt;</td></tr>
 <tr><td> Created </td><td> April 6, 2013</td></tr>
 <tr><td> Updated </td><td> April 26, 2013</td></tr>
-<tr><td> Discussion </td><td> link to the issue where the IPEP is being discussed </td></tr>
+<tr><td> Discussion </td><td> link to the issue where the SPEP is being discussed </td></tr>
 <tr><td> Implementation </td><td> link to the PR </td></tr>
 </table>
 
