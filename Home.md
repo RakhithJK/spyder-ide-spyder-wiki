@@ -14,7 +14,7 @@ code. [Developers](https://github.com/spyder-ide/spyder/wiki/Github-Recommended-
 ones who make sure the changes to the code make sense, and incorporate them
 into the code base.
 
-## Feature Proposals
+## Spyder Enhancement Proposals (SPEPs)
 This section lists some of the active proposals under work for future releases. This should help to polish details before the actual implementation takes place. Some of this discussions could take place live on IRC/Hangout through the Google+ Community or via [Gitter](https://gitter.im/), any suggestions here?
 
 * [Spyder Projects](https://github.com/spyder-ide/spyder/wiki/Proposal-Projects)
