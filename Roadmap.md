@@ -39,12 +39,12 @@
 
 # Present
 
-## Version 2.3.4 / March 2014
+## Version 2.3.4 / March 2015
 ### Status: Under Development
 
 * Mainly about bugfixes
 
-## Version 2.3.3 / February 2014
+## Version 2.3.3 / February 2015
 ### Status: Under Development
 
 **New major features**
