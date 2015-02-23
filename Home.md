@@ -17,8 +17,9 @@ into the code base.
 ## Feature Proposals
 This section lists some of the active proposals under work for future releases. This should help to polish details before the actual implementation takes place. Some of this discussions could take place live on IRC/Hangout through the Google+ Community or via [Gitter](https://gitter.im/), any suggestions here?
 
-* [Spyder Projects](https://github.com/spyder-ide/spyder/wiki/Projects-Proposal)
-* [Version Control](https://github.com/spyder-ide/spyder/wiki/Version-Control-Proposal)
+* [Spyder Projects](https://github.com/spyder-ide/spyder/wiki/Proposal-Projects)
+* [Version Control](https://github.com/spyder-ide/spyder/wiki/Proposal-Version-Control)
+* [Tutorial Content](https://github.com/spyder-ide/spyder/wiki/Proposal-Tutorial-Content)
 * Plugin Manager?
 * Pip/Conda Installable Plugins?
 
