@@ -17,7 +17,7 @@ into the code base.
 ## Spyder Enhancement Proposals (SEPs)
 This section of the proposals under work for future releases. This should help to polish details before the actual implementation takes place. Some of this discussions could take place live on via [Gitter](https://gitter.im/)
 
-[Index of SEPs](as)
+[[SEPs: Spyder Enhancement Proposals]]
 
 ## Be Social :+1: 
 Connect with **Spyder** through our social media channels and stay up to date with current developments!
