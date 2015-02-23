@@ -14,14 +14,10 @@ code. [Developers](https://github.com/spyder-ide/spyder/wiki/Github-Recommended-
 ones who make sure the changes to the code make sense, and incorporate them
 into the code base.
 
-## Spyder Enhancement Proposals (SPEPs)
-This section lists some of the active proposals under work for future releases. This should help to polish details before the actual implementation takes place. Some of this discussions could take place live on IRC/Hangout through the Google+ Community or via [Gitter](https://gitter.im/), any suggestions here?
+## Spyder Enhancement Proposals (SEPs)
+This section of the proposals under work for future releases. This should help to polish details before the actual implementation takes place. Some of this discussions could take place live on via [Gitter](https://gitter.im/)
 
-* [Spyder Projects](https://github.com/spyder-ide/spyder/wiki/Proposal-Projects)
-* [Version Control](https://github.com/spyder-ide/spyder/wiki/Proposal-Version-Control)
-* [Tutorial Content](https://github.com/spyder-ide/spyder/wiki/Proposal-Tutorial-Content)
-* Plugin Manager?
-* Pip/Conda Installable Plugins?
+[Index of SEPs](as)
 
 ## Be Social :+1: 
 Connect with **Spyder** through our social media channels and stay up to date with current developments!
