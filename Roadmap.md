@@ -21,6 +21,10 @@
     - Notebook plugin to run notebooks natively inside Spyder
     - Drop support for version 1.0 and 2.0
     - Pygments highlighting for the console
+* Editor:
+    - Code folding support
+    - Emacs keybindings
+    - Markdown and Restructured text support
 * Additional support for PyQt5 (along with our current PySide/PyQt4 support)
 * Conda Package Manager to install/uninstall packages included in Continuum repositories
 * Interactive tutorial (similar to the IPython notebook one)
@@ -28,9 +32,6 @@
     - Support for Matlab, RStudio and new defaults (horizontal/vertical layouts).
     - New shortcuts
     - Save as many named layouts as the user wants
-* Editor Enhancements:
-    - Code folding support
-    - Markdown and Restructured text support
 * History Log:
     - Better support for IPython cells
 
@@ -38,13 +39,36 @@
 
 # Present
 
+## Version 2.3.4 / March 2014
+### Status: Under Development
+
+* Mainly about bugfixes
+
 ## Version 2.3.3 / February 2014
 ### Status: Under Development
 
-* Mainly about bug fixes
+**New major features**
+
+* Spyder is now on Github: https://github.com/spyder-ide/spyder
+
+* Editor
+    - Add Ctrl+= as a shortcut to do Zoom in
+    - Add an option to show blank spaces, under the Source menu. There is also an option to make this permanent under `Preferences > Editor`.
+* IPython Console
+    - Don't print DataFrames as html tables because this won't be supported since IPython 3 
+    - Drop support for IPython 0.13
+    - Support the upcoming 3.0 version
+    - Add Ctrl+T as shortcut to open new consoles
+    - Simplify how consoles are named
+* Variable Explorer
+    - More optimizations to handle big DataFrames and NumPy arrays (i.e. with more than 1e6 elements).
+
+* Main Window
+    - Add Ctrl+W and Ctrl+F4 to close tabs in all platforms
+    - Show shortcuts to move to each pane in `View > Panes`
 
 ## Version 2.3.2 / December 2014
-### Status: Released
+### Status: Maintenance
 
 **New major features**
 
