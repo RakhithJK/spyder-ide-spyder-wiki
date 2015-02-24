@@ -25,6 +25,7 @@
     - Code folding support
     - Emacs keybindings
     - Markdown and Restructured text support
+    - Array builder
 * Additional support for PyQt5 (along with our current PySide/PyQt4 support)
 * Conda Package Manager to install/uninstall packages included in Continuum repositories
 * Interactive tutorial (similar to the IPython notebook one)
@@ -34,6 +35,8 @@
     - Save as many named layouts as the user wants
 * History Log:
     - Better support for IPython cells
+* Consoles:
+    - Array builder  
 
 ----
 
