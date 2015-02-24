@@ -39,3 +39,8 @@ class SpyderWidget(QWidget):
 # Internationalization / Localization
 TODO:
 
+```python
+from spyderlib.baseconfig import _
+
+
+```
