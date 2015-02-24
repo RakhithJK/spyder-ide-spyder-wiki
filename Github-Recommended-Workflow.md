@@ -172,6 +172,27 @@ This synchronizes their local ``master`` branch with the ``master`` branch of
 the ``upstream`` remote repo, and deletes their local ``fix_branch`` (which is
 no longer needed, since its changes have been merged into the upstream master).
 
+Here a few `bash` functions that make Development a bit easier (which can be put in your `.bashrc` file):
+
+```bash
+function git-new() {
+    git fetch upstream master
+    git checkout -b "$1" upstream/master
+}
+
+function git-rb() {
+    git fetch upstream master
+    git rebase -i upstream/master
+}
+
+function git-pr() {
+    git checkout master
+    git branch -D pr/$1 2>/dev/null
+    git fetch upstream pull/$1/head:pr/$1
+    git checkout pr/$1
+}
+```
+
 # <a name="Maintainers"></a>Maintainers
 
 Maintainers start out with a similar set up as Developers. However, they might
