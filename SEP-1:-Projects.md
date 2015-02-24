@@ -1,3 +1,12 @@
+| key            | value                                                 |
+|----------------|-------------------------------------------------------|
+| Status         | Active                                                |
+| Author         | Full Name &lt;full.name@gmail.com&gt;                 |
+| Created        | February, 2015                                        |
+| Updated        | February, 2015                                        |
+| Discussion     | link to the issue where the SEP is being discussed    |
+| Implementation | link to the PR                                        |
+
 # Conversation and comments
 I recently discovered [Gitter](Gitter.im) and seems like a nice place to have some discussions, includes markdown support and could be used to have specific discussions on this feature.
 
