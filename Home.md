@@ -18,7 +18,7 @@ ones who make sure the changes to the code make sense, and incorporate them
 into the code base.
 
 ## Spyder Enhancement Proposals (SEPs)
-This section of the proposals under work for future releases. This should help to polish details before the actual implementation takes place. Some of this discussions could take place live on via [Gitter](https://gitter.im/)
+This section of the proposals under work for future releases. This should help to polish details before the actual implementation takes place. Some of these discussions can take place over the issue tracker or live via [Gitter](https://gitter.im/).
 
 [[SEPs: Spyder Enhancement Proposals]]
 
