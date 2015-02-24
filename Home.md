@@ -2,7 +2,7 @@
 
 Welcome to the Spyder IDE Wiki!
 
-Spyder is a powerful interactive development environment for the Python language with advanced editing, interactive testing, debugging and introspection features
+Spyder is a powerful interactive development environment for the Python language with advanced editing, interactive testing, debugging and introspection features.
 
 ## Development
 
