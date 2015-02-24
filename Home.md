@@ -6,7 +6,7 @@ Spyder is a powerful interactive development environment for the Python language
 
 ## Development
 
-[[Roadmap]] | [[Changelog]]
+[[Roadmap]] | [[Changelog]] | [[Gitub Workflow]]
 
 ## Recommended GitHub Workflow
 Typically there are three types of people who use GitHub to access source code:
