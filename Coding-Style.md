@@ -24,8 +24,8 @@ These are some suggestions to take into account when using the Qt bindings in Py
 ```python
 class SpyderWidget(QWidget):
     """ Example widget """
-    def __init__(self):
-        pass
+    def __init__(self, parent):
+        QWidget.__init__(self, parent)
     
     def mousePressEvent(self, event):
         """ Overloaded method """
