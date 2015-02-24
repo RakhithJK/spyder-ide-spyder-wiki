@@ -1,4 +1,4 @@
-* Adapted from https://docs.djangoproject.com/en/1.7/internals/contributing/writing-code/coding-style/ *
+*Adapted from https://docs.djangoproject.com/en/1.7/internals/contributing/writing-code/coding-style/*
 
 # Coding style
 
