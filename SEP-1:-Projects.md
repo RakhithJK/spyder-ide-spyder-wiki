@@ -95,7 +95,7 @@ A new toolbar could be created consisting of a dropdown combobox with the listin
 A project could also be opened through the file explorer, if a folder contains a .spyderproject, the icon could change and when double clicked a pop dialog could ask if you want to open the project. If the user accepts opening this would add this to the combobox as recently used project
 
 ## Projects to support
-Initially there should be support for basic projects such as simple container for a bunch of scripts in version control and a specific environment, and a Python package. 
+Initially there should be support for basic projects such as simple container for a bunch of scripts in version control and a specific environment, and a Python package. The plugin could be thought from the start to be extendable with plugins?, to offer support for other projects
 
 ### Python packages
 This projects could include a basic setup for including a `readme.md` file, a .**ignore file and the basic structure including a `setup.py` etc..
