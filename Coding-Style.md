@@ -34,6 +34,5 @@ class SpyderWidget(QWidget):
     def new_method(self):
         """ Some docstring """
         # Do something interesting
-        pass
 ```
 
