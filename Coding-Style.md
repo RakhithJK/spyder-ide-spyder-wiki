@@ -13,3 +13,6 @@ Use flake8 to check for problems in this area. Remember that PEP 8 is only a gui
 One big exception to PEP 8 is our preference of longer line lengths. We’re well into the 21st Century, and we have high-resolution computer screens that can fit way more than 79 characters on a screen. Don’t limit lines of code to 79 characters if it means the code looks significantly uglier or is harder to read.
 
 * Use four spaces for indentation.
+
+# PyQt / PySide Style
+
