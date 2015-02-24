@@ -6,21 +6,7 @@ Spyder is a powerful interactive development environment for the Python language
 
 ## Development
 
-[[Roadmap]] | [[Changelog]] | [[Gitub Workflow]]
-
-## Recommended GitHub Workflow
-Typically there are three types of people who use GitHub to access source code:
-users, developers, and maintainers. 
-
-[Users](https://github.com/spyder-ide/spyder/wiki/Github-Recommended-Workflow#Users) simply want access to the latest
-code. [Developers](https://github.com/spyder-ide/spyder/wiki/Github-Recommended-Workflow#Developers) want to make some changes to the code. [Maintainers](https://github.com/spyder-ide/spyder/wiki/Github-Recommended-Workflow#Maintainers) are the
-ones who make sure the changes to the code make sense, and incorporate them
-into the code base.
-
-## Spyder Enhancement Proposals (SEPs)
-This section of the proposals under work for future releases. This should help to polish details before the actual implementation takes place. Some of these discussions can take place over the issue tracker or live via [Gitter](https://gitter.im/).
-
-[[SEPs: Spyder Enhancement Proposals]]
+[[Roadmap]] | [[Changelog]] | [[Github Workflow]] | [[SEPs: Spyder Enhancement Proposals]]
 
 ## Be Social :+1: 
 Connect with **Spyder** through our social media channels and stay up to date with current developments!
