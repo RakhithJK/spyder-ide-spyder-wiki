@@ -172,7 +172,7 @@ This synchronizes their local ``master`` branch with the ``master`` branch of
 the ``upstream`` remote repo, and deletes their local ``fix_branch`` (which is
 no longer needed, since its changes have been merged into the upstream master).
 
-Here a few `bash` functions that make Development a bit easier (which can be put in your `.bashrc` file):
+Here a couple `bash` functions that make Development a bit easier (which can be put in your `.bashrc` file):
 
 ```bash
 function git-new() {
@@ -185,14 +185,6 @@ function git-rb() {
     # rebase a branch on the latest upstream master
     git fetch upstream master
     git rebase -i upstream/master
-}
-
-function git-pr() {
-    # create a local branch based on a github PR #
-    git checkout master
-    git branch -D pr/$1 2>/dev/null  # clean up if previous version of the PR exists
-    git fetch upstream pull/$1/head:pr/$1
-    git checkout pr/$1
 }
 ```
 
@@ -250,3 +242,13 @@ in a similar way as the developer did earlier:
 
     $ git checkout master
     $ git pull upstream/master
+
+Here is a bash function that allows one to check out a new branch based on a PR #:
+
+```bash
+function git-pr() {
+    # create a local branch based on a github PR #
+    git fetch upstream pull/$1/head:pr/$1
+    git checkout pr/$1
+}
+```
