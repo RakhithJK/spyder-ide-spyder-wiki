@@ -1,5 +1,10 @@
 *Adapted from https://github.com/LABSN/expyfun/blob/master/git_flow.rst*
 
+Typically there are three types of people who use GitHub to access source code:
+users, developers, and maintainers. 
+
+[Users](https://github.com/spyder-ide/spyder/wiki/Github-Recommended-Workflow#Users) simply want access to the latest code. [Developers](https://github.com/spyder-ide/spyder/wiki/Github-Recommended-Workflow#Developers) want to make some changes to the code. [Maintainers](https://github.com/spyder-ide/spyder/wiki/Github-Recommended-Workflow#Maintainers) are the ones who make sure the changes to the code make sense, and incorporate them into the code base.
+
 # <a name="Users"></a>Users
 If you want to use software that is hosted on GitHub and get updates when they
 are released, but you don't think it's likely that you will ever want to fix
