@@ -37,5 +37,5 @@ class SpyderWidget(QWidget):
 ```
 
 # Internationalization / Localization
-
+TODO:
 
