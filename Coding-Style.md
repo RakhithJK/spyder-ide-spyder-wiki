@@ -36,3 +36,6 @@ class SpyderWidget(QWidget):
         # Do something interesting
 ```
 
+# Internationalization / Localization
+
+
