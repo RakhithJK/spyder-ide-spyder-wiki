@@ -176,18 +176,21 @@ Here a few `bash` functions that make Development a bit easier (which can be put
 
 ```bash
 function git-new() {
+    # create a new branch based on the latest upstream master
     git fetch upstream master
     git checkout -b "$1" upstream/master
 }
 
 function git-rb() {
+    # rebase a branch on the latest upstream master
     git fetch upstream master
     git rebase -i upstream/master
 }
 
 function git-pr() {
+    # create a local branch based on a github PR #
     git checkout master
-    git branch -D pr/$1 2>/dev/null
+    git branch -D pr/$1 2>/dev/null  # clean up if previous version of the PR exists
     git fetch upstream pull/$1/head:pr/$1
     git checkout pr/$1
 }
