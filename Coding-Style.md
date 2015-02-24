@@ -19,5 +19,21 @@ Qt by default has its own conventions for the definitions of methods and classes
 
 These are some suggestions to take into account when using the Qt bindings in Python:
 
-* Although Qt defines methods in camelCase ... TODO
+* Qt defines methods in camelCase, and when Spyder overloads these methods, we cannot avoid camelCase. However, When new methods are defined in Spyder, these methods should follow the PEP8 convention:
+
+```python
+class SpyderWidget(QWidget):
+    """ Example widget """
+    def __init__(self):
+        pass
+    
+    def mousePressEvent(self, event):
+        """ Overloaded method """
+        # Do something with the event...
+
+    def new_method(self):
+        """ Some docstring """
+        # Do something interesting
+        pass
+```
 
