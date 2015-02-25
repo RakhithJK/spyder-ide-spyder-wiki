@@ -7,26 +7,26 @@ This section aims to give an introduction into Spyder internals.
 The following tree represents the current structure of Spyder master repo. The branches here represent only folders, more specifics and explanations will be given below.
 
 
-├── [spyder-ide/spyder.git](https://github.com/spyder-ide/spyder) <br>
-&nbsp;&nbsp;&nbsp;&nbsp;├── [app_example](#app_example)           <br>
-&nbsp;&nbsp;&nbsp;&nbsp;├── [doc](#doc)                              <br>
-&nbsp;&nbsp;&nbsp;&nbsp;├── [external-py2](#external-py2)                           <br>
-&nbsp;&nbsp;&nbsp;&nbsp;├── [external-py3](external-py3)                        <br>
-&nbsp;&nbsp;&nbsp;&nbsp;├── [img_src](#img_src)                                   <br>
-&nbsp;&nbsp;&nbsp;&nbsp;├── [rope_profiling](#rope_profiling)                             <br>
-&nbsp;&nbsp;&nbsp;&nbsp;├── [scripts](#scripts)                                      <br>
-&nbsp;&nbsp;&nbsp;&nbsp;├── [spyderlib](#spyderlib)                                       <br>
-&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;├── [defaults](#defaults)             // <br>
-&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;├── [images](#images)               // <br>
-&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;├── [locale](#locale)               // <br>
-&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;├── [plugins](#plugins)              // <br>
-&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;├── [qt](#qt)                   // <br>
-&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;├── [utils](#utils)                // <br>
-&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;├── [widgets](#widgets)              // <br>
-&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;├── [externalshell](#externalshell) // <br>
-&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;└── [sourcecode](#sourcecode)     // <br>
-&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;└── [windows](#windows)              // <br>
-&nbsp;&nbsp;&nbsp;&nbsp;└── [spyderplugins](#spyderplugins)<br>
+:open_file_folder: [spyder-ide/spyder.git](https://github.com/spyder-ide/spyder) <br>
+├── [app_example](#app_example)           <br>
+├── [doc](#doc)                              <br>
+├── [external-py2](#external-py2)                           <br>
+├── [external-py3](external-py3)                        <br>
+├── [img_src](#img_src)                                   <br>
+├── [rope_profiling](#rope_profiling)                             <br>
+├── [scripts](#scripts)                                      <br>
+├── [spyderlib](#spyderlib)                                       <br>
+│&nbsp;&nbsp;&nbsp;&nbsp;├── [defaults](#defaults)             // <br>
+│&nbsp;&nbsp;&nbsp;&nbsp;├── [images](#images)               // <br>
+│&nbsp;&nbsp;&nbsp;&nbsp;├── [locale](#locale)               // <br>
+│&nbsp;&nbsp;&nbsp;&nbsp;├── [plugins](#plugins)              // <br>
+│&nbsp;&nbsp;&nbsp;&nbsp;├── [qt](#qt)                   // <br>
+│&nbsp;&nbsp;&nbsp;&nbsp;├── [utils](#utils)                // <br>
+│&nbsp;&nbsp;&nbsp;&nbsp;├── [widgets](#widgets)              // <br>
+│&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;├── [externalshell](#externalshell) // <br>
+│&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;└── [sourcecode](#sourcecode)     // <br>
+│&nbsp;&nbsp;&nbsp;&nbsp;└── [windows](#windows)              // <br>
+└── [spyderplugins](#spyderplugins)<br>
 
 ## app_example
 
