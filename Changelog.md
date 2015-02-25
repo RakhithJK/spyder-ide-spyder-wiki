@@ -1,11 +1,11 @@
 # History of changes
 
-## Version 2.3.3
+## Version 2.3.3dev
 
 ### New features since v2.3.2
 
 * Editor
-    * Use the Jedi library to do code completions
+    * Use the [Jedi](http://http://jedi.jedidjah.ch) library to do code completions
     * Add `Ctrl+=` as a shortcut to do Zoom in and `Ctrl+0` to reset zoom
     * Add an option to show blank spaces, under the Source menu. There is also an option to make this permanent under `Preferences > Editor`.
 * IPython Console
