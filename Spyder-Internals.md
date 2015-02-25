@@ -15,10 +15,10 @@ The following tree represents the current structure of Spyder master repo. The b
 ├── [img_src](#img_src)                                                                <br>
 ├── [rope_profiling](#rope_profiling)                                                  <br>
 ├── [scripts](#scripts)                                                                <br>
-├── [spyderlib](#spyderlib)                                                            <br>
+├── [spyderlib](#spyderlib) # Main library                                             <br>
 │&nbsp;&nbsp;&nbsp;&nbsp;├── [defaults](#defaults)                                     <br>
 │&nbsp;&nbsp;&nbsp;&nbsp;├── [images](#images)                                         <br>
-│&nbsp;&nbsp;&nbsp;&nbsp;├── [locale](#locale)                                         <br>
+│&nbsp;&nbsp;&nbsp;&nbsp;├── [locale](#locale) # Translations                          <br>
 │&nbsp;&nbsp;&nbsp;&nbsp;├── [plugins](#plugins)                                       <br>
 │&nbsp;&nbsp;&nbsp;&nbsp;├── [qt](#qt)                                                 <br>
 │&nbsp;&nbsp;&nbsp;&nbsp;├── [utils](#utils)                                           <br>
