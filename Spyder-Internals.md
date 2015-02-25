@@ -9,7 +9,7 @@ The following tree represents the current structure of Spyder master repo. The b
 
 ├── [spyder-ide/spyder.git](https://github.com/spyder-ide/spyder) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;├── [app_example](#app_example)           <br>
-&nbsp;&nbsp;&nbsp;&nbsp;├── [[#doc]]                              <br>
+&nbsp;&nbsp;&nbsp;&nbsp;├── [doc](#doc)                              <br>
 &nbsp;&nbsp;&nbsp;&nbsp;├── external-py2                           <br>
 &nbsp;&nbsp;&nbsp;&nbsp;├── external-py3                            <br>
 &nbsp;&nbsp;&nbsp;&nbsp;├── img_src                                   <br>
@@ -24,8 +24,8 @@ The following tree represents the current structure of Spyder master repo. The b
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;├── utils                // <br>
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;├── widgets              // <br>
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;├── externalshell // <br>
-&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp└── sourcecode     // <br>
-&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;  └── windows              // <br>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;└── sourcecode     // <br>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;└── windows              // <br>
 &nbsp;&nbsp;&nbsp;&nbsp;└── [[#spyderplugins]]<br>
 
 ## doc
