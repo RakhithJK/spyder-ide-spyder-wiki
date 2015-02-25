@@ -7,25 +7,25 @@ This section aims to give an introduction into Spyder internals.
 The following tree represents the current structure of Spyder master repo. The branches here represent only folders, more specifics and explanations will be given below.
 
 ├── [spyder-ide/spyder.git](https://github.com/spyder-ide/spyder) <br>
-&nbsp;&nbsp;&nbsp;&nbsp;├── [[#app_example]]                     <br>
-&nbsp;&nbsp;&nbsp;&nbsp;├── [[#doc]]                             <br>
-&nbsp;&nbsp;&nbsp;&nbsp;├── external-py2
-&nbsp;&nbsp;&nbsp;&nbsp;├── external-py3
-&nbsp;&nbsp;&nbsp;&nbsp;├── img_src
-&nbsp;&nbsp;&nbsp;&nbsp;├── rope_profiling
-&nbsp;&nbsp;&nbsp;&nbsp;├── scripts
-&nbsp;&nbsp;&nbsp;&nbsp;├── spyderlib
-&nbsp;&nbsp;&nbsp;&nbsp;│   ├── defaults             // 
-&nbsp;&nbsp;&nbsp;&nbsp;│   ├── images               // 
-&nbsp;&nbsp;&nbsp;&nbsp;│   ├── locale               // 
-&nbsp;&nbsp;&nbsp;&nbsp;│   ├── plugins              // 
-&nbsp;&nbsp;&nbsp;&nbsp;│   ├── qt                   // 
-&nbsp;&nbsp;&nbsp;&nbsp;│   ├── utils                // 
-&nbsp;&nbsp;&nbsp;&nbsp;│   ├── widgets              // 
-&nbsp;&nbsp;&nbsp;&nbsp;│   │   ├── externalshell    // 
-&nbsp;&nbsp;&nbsp;&nbsp;│   │   └── sourcecode       // 
-&nbsp;&nbsp;&nbsp;&nbsp;│   └── windows              // 
-&nbsp;&nbsp;&nbsp;&nbsp;└── [[#spyderplugins]]
+&nbsp;&nbsp;&nbsp;&nbsp;├── [[#app_example]]                      <br>
+&nbsp;&nbsp;&nbsp;&nbsp;├── [[#doc]]                              <br>
+&nbsp;&nbsp;&nbsp;&nbsp;├── external-py2<br>
+&nbsp;&nbsp;&nbsp;&nbsp;├── external-py3<br>
+&nbsp;&nbsp;&nbsp;&nbsp;├── img_src<br>
+&nbsp;&nbsp;&nbsp;&nbsp;├── rope_profiling<br>
+&nbsp;&nbsp;&nbsp;&nbsp;├── scripts<br>
+&nbsp;&nbsp;&nbsp;&nbsp;├── spyderlib<br>
+&nbsp;&nbsp;&nbsp;&nbsp;│   ├── defaults             // <br>
+&nbsp;&nbsp;&nbsp;&nbsp;│   ├── images               // <br>
+&nbsp;&nbsp;&nbsp;&nbsp;│   ├── locale               // <br>
+&nbsp;&nbsp;&nbsp;&nbsp;│   ├── plugins              // <br>
+&nbsp;&nbsp;&nbsp;&nbsp;│   ├── qt                   // <br>
+&nbsp;&nbsp;&nbsp;&nbsp;│   ├── utils                // <br>
+&nbsp;&nbsp;&nbsp;&nbsp;│   ├── widgets              // <br>
+&nbsp;&nbsp;&nbsp;&nbsp;│   │   ├── externalshell    // <br>
+&nbsp;&nbsp;&nbsp;&nbsp;│   │   └── sourcecode       // <br>
+&nbsp;&nbsp;&nbsp;&nbsp;│   └── windows              // <br>
+&nbsp;&nbsp;&nbsp;&nbsp;└── [[#spyderplugins]]<br>
 
 ## doc
 As the name suggests this is the folder where the documentation of the project resides. 
