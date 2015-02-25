@@ -12,7 +12,7 @@
   * Add the ability to save and restore profiler data to compare speed improvements
 
 * Main Window
-  * Add Introduction and New Features interactive tutorials
+  * Add *Introduction* and *New Features* interactive tutorials
   * Add new default layouts (Horizontal, Vertical, Matlab and Rstudio), and also the possibility to name custom layouts.
   * Add an option to warn when exiting the application, under `Preferences > General > Interface > Prompt when exiting`
 
