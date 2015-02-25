@@ -43,6 +43,16 @@ TODO:
 This is the actual main module of Spyder. 
 The name spyderlib is due to the existence of another project with the spyder name.
 
+
+### locale 
+TODO: 
+
+### plugins
+TODO:
+
+### qt
+TODO:
+
 ### widgets
 TODO:
 
