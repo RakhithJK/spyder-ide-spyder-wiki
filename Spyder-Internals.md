@@ -20,7 +20,7 @@ The following tree represents the current structure of Spyder master repo. The b
 │&nbsp;&nbsp;&nbsp;&nbsp;├── [images](#images) ······················· *TODO:*                       <br>
 │&nbsp;&nbsp;&nbsp;&nbsp;├── [locale](#locale) ························· *Translations*              <br>
 │&nbsp;&nbsp;&nbsp;&nbsp;├── [plugins](#plugins) ······················· *TODO:*                     <br>
-│&nbsp;&nbsp;&nbsp;&nbsp;├── [qt](#qt) ······························· *TODO:*                       <br>
+│&nbsp;&nbsp;&nbsp;&nbsp;├── [qt](#qt) ······························· *PySide/PyQt wrapper*                       <br>
 │&nbsp;&nbsp;&nbsp;&nbsp;├── [utils](#utils) ···························· *TODO:*                    <br>
 │&nbsp;&nbsp;&nbsp;&nbsp;├── [widgets](#widgets) ······················ *TODO:*                      <br>
 │&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;├── [externalshell](#externalshell) ······· *TODO:*<br>
