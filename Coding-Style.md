@@ -24,18 +24,18 @@ These are some suggestions to take into account when using the Qt bindings in Py
 * Qt defines methods in camelCase, and when Spyder overloads these methods, we cannot avoid camelCase. However, When new methods are defined in Spyder, these methods should follow the PEP8 convention:
 
     ```python
-class SpyderWidget(QWidget):
-    """ Example widget """
-    def __init__(self, parent):
-        QWidget.__init__(self, parent)
+    class SpyderWidget(QWidget):
+        """ Example widget """
+        def __init__(self, parent):
+            QWidget.__init__(self, parent)
     
-    def mousePressEvent(self, event):
-        """ Overloaded Qt method """
-        # Do something with the event...
+        def mousePressEvent(self, event):
+            """ Overloaded Qt method """
+            # Do something with the event...
 
-    def new_method(self):
-        """ Some new method """
-        # Do something interesting
+        def new_method(self):
+            """ Some new method """
+            # Do something interesting
     ```
 
 * **QUESTION:** Should we define some conventions as well for widgets? or for signal naming? for instance:
