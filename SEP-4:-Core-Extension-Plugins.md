@@ -7,6 +7,8 @@
 | Discussion     | link to the issue where the SEP is being discussed    |
 | Implementation | link to the PR                                        |
 
+**Note: Work under progress**
+
 # Description 
 Spyder was born as an IDE built using Python for use with the Python language. With more and more enhancements and the appearance of new dedicated libraries, frameworks and languages, Scientific Research and Computing is no longer tied exclusively to Python scripts (well it never was like this...). 
 
@@ -26,14 +28,27 @@ New needs involved in scientific computing include:
 
 As the list grows and grows it seems unfeasible and unrealistic to provide support from the core of Spyder to all these different frameworks/languages/Projects. 
 
+# Current status
 The current plugin interface allows for the creation of new widgets/panels to provide new functionality (Profiler, Pylint, Conda Packages etc...), but there is no clear and defined way of extending the functionality of core Spyder plugins (Variable Explorer, Editor, Object Inspector, Consoles).
 
-The general idea is that every panel/plugin that could be extendable should provide a general implementation so that installable plugins can extend the general implementation with a particular one, through the creation and documentation of a Public (and hopefully) stable API. 
+# Proposal
+Describe a set of methods/signals and objects (menu, toolbars, Widgets/Panel) that would constitute a public API to extend connect from installable external plugins.
 
-Since each widget/panel
+## Toolbars
+
+## Menus
+
+### Menu: Run
+
+## Widgets/Panels
+
+### Widget: Editor
+
+### Widget: Variable Explorer
 
 
 **Note: Work under progress**
+
 I have some ideas but we need to figure out how these plugins (the installable ones I mean) should be incorporated. Should each dockwidget plugin has some machinery to look for plugins that extend its functionality? or should Spyder as a final step of setup go through all installed plugins and modify the core dockwidget plugins accordingly (depending if the plugin is enable or not)?
 
 *--- side note: the name plugins brings confusion, "Editor Plugin" is a core dockwidget, but we have also plugins to be installed eventually, but these words do not relate to each other ---*
