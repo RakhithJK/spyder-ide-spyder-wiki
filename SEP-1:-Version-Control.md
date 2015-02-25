@@ -25,3 +25,5 @@ https://code.google.com/p/pysync/
 
 https://github.com/alex/pyvcs
 
+https://github.com/codeinn/vcs/
+
