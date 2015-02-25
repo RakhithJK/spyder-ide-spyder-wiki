@@ -24,7 +24,7 @@ The following tree represents the current structure of Spyder master repo. The b
 │&nbsp;&nbsp;&nbsp;&nbsp;├── [utils](#utils) ···························· *TODO:*                    <br>
 │&nbsp;&nbsp;&nbsp;&nbsp;├── [widgets](#widgets) ······················ *TODO:*                      <br>
 │&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;├── [externalshell](#externalshell) ······· *TODO:*<br>
-│&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;└── [sourcecode](#sourcecode) ········· *Code editor widget*    <br>
+│&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;└── [sourcecode](#sourcecode) ········· *Code editor widget, Syntax highlighting*    <br>
 │&nbsp;&nbsp;&nbsp;&nbsp;└── [windows](#windows) ···················· *TODO:*                        <br>
 └── [spyderplugins](#spyderplugins) ·················· *TODO:*                                       <br>
 
