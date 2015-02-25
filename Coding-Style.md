@@ -25,16 +25,16 @@ These are some suggestions to take into account when using the Qt bindings in Py
 
     ```python
     class SpyderWidget(QWidget):
-        """ Example widget """
+        """Example widget."""
         def __init__(self, parent):
             QWidget.__init__(self, parent)
     
         def mousePressEvent(self, event):
-            """ Overloaded Qt method """
+            """Overloaded Qt method."""
             # Do something with the event...
 
-        def new_method(self):
-            """ Some new method """
+        def run_new_method(self):
+            """Run some new method."""
             # Do something interesting
     ```
 
@@ -45,9 +45,8 @@ These are some suggestions to take into account when using the Qt bindings in Py
     from spyderlib.qt.QtCore import Signal
     
     class SpyderWidget(SpyderPluginWidget):
-        """
-        Multi-file Editor widget
-        """    
+        """Multi-file Editor widget"""    
+
         # Signals
         sig_run_in_current_ipyclient = Signal(str, str, str, bool, bool)
     
