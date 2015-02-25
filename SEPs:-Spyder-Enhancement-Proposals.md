@@ -27,8 +27,8 @@ Each SEP should have a table/area at the top with the following information:
 # Index of SEPs
 
 * [[SEP 0: SEP Template]] -- *Accepted*
-* [[SEP 1: Projects]] -- *Active*
+* [[SEP 1: Version Control]] -- *Active*
 * [[SEP 2: Interactive Tutorial Content]] -- *Active*
-* [[SEP 3: Version Control]] -- *Active*
+* [[SEP 3: Projects]] -- *Active*
 * [[SEP 4: Pip Conda Installable Plugins]] -- *Active*
 * [[SEP 5: Core Extension Plugins]] -- *Active*
