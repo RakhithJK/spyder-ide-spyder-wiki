@@ -63,7 +63,7 @@
 
 * Editor
     - Improve cells visualization
-    - Open any text file present in the Variable Explorer
+    - Open any text file present in the File Explorer on the Editor
 * Variable Explorer:
     - Import csv files as DataFrames (if Pandas is present)
 * Python Console
