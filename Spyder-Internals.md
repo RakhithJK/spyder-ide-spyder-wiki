@@ -1,4 +1,4 @@
-This section aims to give a brief introduction into Spyder internals.
+This section aims to give an introduction into Spyder internals.
 
 # Directory Structure
 
