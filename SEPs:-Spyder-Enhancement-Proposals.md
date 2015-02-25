@@ -30,5 +30,5 @@ Each SEP should have a table/area at the top with the following information:
 * [[SEP 1: Projects]] -- *Active*
 * [[SEP 2: Interactive Tutorial Content]] -- *Active*
 * [[SEP 3: Version Control]] -- *Active*
-* [[SEP 4: Pip/Conda Installable Plugins]] -- *Active*
+* [[SEP 4: Pip Conda Installable Plugins]] -- *Active*
 * [[SEP 5: Core Extension Plugins]] -- *Active*
