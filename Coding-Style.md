@@ -15,6 +15,8 @@ One big exception to PEP 8 is our preference of longer line lengths. We’re wel
 * Use four spaces for indentation.
 
 # PyQt / PySide Style
+Spyder aims to be compatible with PySide and PyQt, so make sure code runs with both bindings.
+
 Qt by default has its own conventions for the definitions of methods and classes, and sometimes this clashes with was is suggested by [PEP 8](https://www.python.org/dev/peps/pep-0008/). 
 
 These are some suggestions to take into account when using the Qt bindings in Python:
