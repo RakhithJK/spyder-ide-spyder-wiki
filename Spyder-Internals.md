@@ -33,7 +33,10 @@ TODO:
 
 ## doc
 As the name suggests this is the folder where the documentation of the project resides. 
+
 The documentation is written in [reStructuredText](http://docutils.sourceforge.net/rst.html) (.rst) and is parsed using [Sphinx](http://sphinx-doc.org/).
+
+The documentation is hosted in [Python Hosted](https://pythonhosted.org/spyder/).
 
 ## external-py2
 TODO:
@@ -51,7 +54,8 @@ TODO:
 TODO:
 
 ## spyderlib
-This is the actual main module of Spyder. 
+This is the actual main module of Spyder.
+
 The name spyderlib is due to the existence of another project with the spyder 
 
 ### locale 
