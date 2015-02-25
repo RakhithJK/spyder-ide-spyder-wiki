@@ -39,11 +39,16 @@ The documentation is written in [reStructuredText](http://docutils.sourceforge.n
 The documentation is hosted in [Python Hosted](https://pythonhosted.org/spyder/).
 
 ## external-py2
-TODO:
+Spyder makes use of external python libraries, such as pyflakes, rope, pep8 and a modified version of the conda_api. When Spyder runs from a Python 2 versions, the `external-py2` folder is added to the `PATH`. 
+
+The modules saved here must be compatible with Python 2
 
 ## external-py3
-TODO:
+Spyder makes use of external python libraries, such as pyflakes, rope, pep8 and a modified version of the conda_api. When Spyder runs from a Python 3 versions, the `external-py2` folder is added to the `PATH`. 
 
+The modules saved here must be compatible with Python 3
+
+**Note: Even if the same module works with both Python 2 and Python 3, it must be copied inside both `external-py2` and `external-py3` folders.**
 ## img_src
 TODO:
 
