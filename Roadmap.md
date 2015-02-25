@@ -52,7 +52,6 @@
 ### Status: Under Development
 
 * Move Spyder to Github
-
 * Editor
     - Use the Jedi library to do code completions
 * IPython Console
