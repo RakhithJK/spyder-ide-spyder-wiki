@@ -21,6 +21,7 @@
     - Notebook plugin to run notebooks natively inside Spyder
     - Drop support for version 1.0 and 2.0
     - Pygments highlighting for the console
+    - Array builder
 * Editor:
     - Code folding support
     - Emacs keybindings
