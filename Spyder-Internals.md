@@ -10,12 +10,12 @@ The following tree represents the current structure of Spyder master repo. The b
 ├── [spyder-ide/spyder.git](https://github.com/spyder-ide/spyder) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;├── [app_example](#app_example)           <br>
 &nbsp;&nbsp;&nbsp;&nbsp;├── [doc](#doc)                              <br>
-&nbsp;&nbsp;&nbsp;&nbsp;├── external-py2                           <br>
-&nbsp;&nbsp;&nbsp;&nbsp;├── external-py3                            <br>
-&nbsp;&nbsp;&nbsp;&nbsp;├── img_src                                   <br>
-&nbsp;&nbsp;&nbsp;&nbsp;├── rope_profiling                             <br>
-&nbsp;&nbsp;&nbsp;&nbsp;├── scripts                                      <br>
-&nbsp;&nbsp;&nbsp;&nbsp;├── spyderlib                                       <br>
+&nbsp;&nbsp;&nbsp;&nbsp;├── [external-py2](#external-py2)                           <br>
+&nbsp;&nbsp;&nbsp;&nbsp;├── [external-py3](external-py3)                        <br>
+&nbsp;&nbsp;&nbsp;&nbsp;├── [img_src](#img_src)                                   <br>
+&nbsp;&nbsp;&nbsp;&nbsp;├── [rope_profiling](#rope_profiling)                             <br>
+&nbsp;&nbsp;&nbsp;&nbsp;├── [scripts](#scripts)                                      <br>
+&nbsp;&nbsp;&nbsp;&nbsp;├── [spyderlib](#spyderlib)                                       <br>
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;├── defaults             // <br>
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;├── images               // <br>
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;├── locale               // <br>
@@ -27,6 +27,8 @@ The following tree represents the current structure of Spyder master repo. The b
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;└── sourcecode     // <br>
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;└── windows              // <br>
 &nbsp;&nbsp;&nbsp;&nbsp;└── [[#spyderplugins]]<br>
+
+## app_example
 
 ## doc
 As the name suggests this is the folder where the documentation of the project resides. 
