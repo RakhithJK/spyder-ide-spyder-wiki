@@ -28,4 +28,5 @@ Each SEP should have a table/area at the top with the following information:
 
 * [[SEP 0: SEP Template]] -- *Accepted*
 * [[SEP 1: Projects]] -- *Active*
-* [[SEP 2: Interactice Tutorial Content]] -- *Active*
+* [[SEP 2: Interactive Tutorial Content]] -- *Active*
+* [[SEP 3: Core Extension Plugins]] -- *Active*
