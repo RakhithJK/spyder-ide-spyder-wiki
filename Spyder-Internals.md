@@ -15,18 +15,18 @@ The following tree represents the current structure of Spyder master repo. The b
 ├── [img_src](#img_src)                                                                <br>
 ├── [rope_profiling](#rope_profiling)                                                  <br>
 ├── [scripts](#scripts)                                                                <br>
-├── [spyderlib](#spyderlib) *Main library*                                             <br>
-│&nbsp;&nbsp;&nbsp;&nbsp;├── [defaults](#defaults)                                     <br>
-│&nbsp;&nbsp;&nbsp;&nbsp;├── [images](#images)                                         <br>
-│&nbsp;&nbsp;&nbsp;&nbsp;├── [locale](#locale) *Translations*                          <br>
-│&nbsp;&nbsp;&nbsp;&nbsp;├── [plugins](#plugins)                                       <br>
-│&nbsp;&nbsp;&nbsp;&nbsp;├── [qt](#qt)                                                 <br>
-│&nbsp;&nbsp;&nbsp;&nbsp;├── [utils](#utils)                                           <br>
-│&nbsp;&nbsp;&nbsp;&nbsp;├── [widgets](#widgets)                                       <br>
-│&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;├── [externalshell](#externalshell)  <br>
-│&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;└── [sourcecode](#sourcecode)        <br>
-│&nbsp;&nbsp;&nbsp;&nbsp;└── [windows](#windows)                                       <br>
-└── [spyderplugins](#spyderplugins)<br>
+├── [spyderlib](#spyderlib) ··························· *Main library*                               <br>
+│&nbsp;&nbsp;&nbsp;&nbsp;├── [defaults](#defaults) ······················ *TODO:*                    <br>
+│&nbsp;&nbsp;&nbsp;&nbsp;├── [images](#images) ······················· *TODO:*                       <br>
+│&nbsp;&nbsp;&nbsp;&nbsp;├── [locale](#locale) ························· *Translations*              <br>
+│&nbsp;&nbsp;&nbsp;&nbsp;├── [plugins](#plugins) ······················· *TODO:*                     <br>
+│&nbsp;&nbsp;&nbsp;&nbsp;├── [qt](#qt) ······························· *TODO:*                       <br>
+│&nbsp;&nbsp;&nbsp;&nbsp;├── [utils](#utils) ···························· *TODO:*                    <br>
+│&nbsp;&nbsp;&nbsp;&nbsp;├── [widgets](#widgets) ······················ *TODO:*                      <br>
+│&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;├── [externalshell](#externalshell) ······· *TODO:*<br>
+│&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;└── [sourcecode](#sourcecode) ········· *TODO:*    <br>
+│&nbsp;&nbsp;&nbsp;&nbsp;└── [windows](#windows) ···················· *TODO:*                        <br>
+└── [spyderplugins](#spyderplugins) ·················· *TODO:*                                       <br>
 
 ## app_example
 TODO:
