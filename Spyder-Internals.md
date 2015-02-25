@@ -67,7 +67,7 @@ This is the actual main module of Spyder.
 The name spyderlib is due to the existence of another project with the spyder 
 
 ### locale 
-The translations of the interface for Spyder is stored in this folder. Currently Spyder has translations for Spanish (es) and French (fr). 
+The translations of the interface for Spyder are stored in this folder. Currently Spyder has translations available for Spanish (es) and French (fr). 
 
 If you would like to have Spyder translated to a new language please drop us a line on the [public chat](https://gitter.im/spyder-ide/public).
 
