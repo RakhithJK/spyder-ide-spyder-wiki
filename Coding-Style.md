@@ -40,6 +40,8 @@ class SpyderWidget(QWidget):
     - When working with signals, use the new style:
     - For naming custom signals, use the `sig_` prefix?:
     ```python
+    from spyderlib.qt.QtCore import Signal
+    
     class SpyderWidget(SpyderPluginWidget):
         """
         Multi-file Editor widget
