@@ -2,7 +2,7 @@ This section aims to give a brief introduction into Spyder internals.
 
 ## Directory Structure
 
-To make your own theme, you must follow the following structure::
+The following tree represents the current structure of Spyder master repo.
 
     ├── app_example
     ├── doc
