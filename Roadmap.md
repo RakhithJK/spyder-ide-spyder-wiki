@@ -51,78 +51,45 @@
 ## Version 2.3.3 / February 2015
 ### Status: Under Development
 
-**New major features**
-
-* Spyder is now on Github: https://github.com/spyder-ide/spyder
+* Move Spyder to Github
 
 * Editor
     - Use the Jedi library to do code completions
-    - Add Ctrl+= as a shortcut to do Zoom in
-    - Add an option to show blank spaces, under the Source menu. There is also an option to make this permanent under `Preferences > Editor`.
 * IPython Console
-    - Don't print DataFrames as html tables because this won't be supported since IPython 3 
     - Drop support for IPython 0.13
     - Support the upcoming 3.0 version
-    - Add Ctrl+T as shortcut to open new consoles
-    - Simplify how consoles are named
-* Variable Explorer
-    - More optimizations to handle big DataFrames and NumPy arrays (i.e. with more than 1e6 elements).
-
-* Main Window
-    - Add Ctrl+W and Ctrl+F4 to close tabs in all platforms
-    - Show shortcuts to move to each pane in `View > Panes`
 
 ## Version 2.3.2 / December 2014
 ### Status: Maintenance
 
-**New major features**
-
 * Editor
     - Improve cells visualization
-    - Add support for drag selection and improve look of line number area
     - Open any text file present in the Variable Explorer
-    - View and edit IPython notebooks as Json files
-    - Syntax highlighting for Json files
 * Variable Explorer:
     - Import csv files as DataFrames (if Pandas is present)
-* Debugging
-    - Make it easier to set conditions on breakpoints
 * Python Console
     - Fixes various issues with unicode
 
 ## Version 2.3.1 / September 2014
 ### Status: Maintenance
 
-**New major features**:
-
 * Variable Explorer
     - Support for Pandas DataFrame's and TimeSerie's types
     - Support for Numpy 3D arrays
-    - Drag and drop works for all its supported file types (e.g. images, mat files, json files, etc)
-* Editor
-    - F9 runs the current line under the cursor if nothing is selected
-    - Focus remains on it after evaluating cells and selections (an option was added to return to the old behavior)
 * IPython console
     - Connect to external kernels through ssh
 * Object Inspector
     - Add a tutorial for beginners
-* Main Window
-    - Improve style on Mac
 
 ## Version 2.3 / July 2014
 ### Status: Maintenance
 
 The main purpose of this release is to support officially Python 3 and improve our user interface (reorganize menu, improve startup time, etc)
 
-**New major features**:
-
 * Python 3 support
 * Editor
     - Use the Tab key to do code completions
     - Highlight cells, i.e. portions of a file delimited by separators of the form `# %%`
-    - First-class support for Enaml files
-    - Syntax highlighting for Julia files
-    - Use Shift+Tab to show the signature corresponding to a function/method while it's been called
     - Do code completions using the tokens (or words) found in a file
     - Token-based completions work for any file type supported by the Editor
     - Add a new tooltip widget (borrowed from the IPython project) to better handle how to show function signatures
