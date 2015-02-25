@@ -49,8 +49,11 @@ Spyder makes use of external python libraries, such as [pyflakes](https://github
 The modules saved here must be compatible with Python 3
 
 **Note: Even if the same module works with both Python 2 and Python 3, it must be copied inside both `external-py2` and `external-py3` folders.**
+
 ## img_src
-TODO:
+This folder holds the editable and rendered versions of images and art.
+
+Include: Official icons, main logo, and some screenshots.
 
 ## rope_profiling
 TODO:
