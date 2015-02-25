@@ -30,11 +30,11 @@ class SpyderWidget(QWidget):
         QWidget.__init__(self, parent)
     
     def mousePressEvent(self, event):
-        """ Overloaded method """
+        """ Overloaded Qt method """
         # Do something with the event...
 
     def new_method(self):
-        """ Some docstring """
+        """ Ssome new method """
         # Do something interesting
     ```
 
