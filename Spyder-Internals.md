@@ -75,7 +75,21 @@ If you would like to have Spyder translated to a new language please drop us a l
 TODO:
 
 ### qt
-TODO:
+Spyder is and will remain compatible with the available Qt bindings, [PyQt](), and [PySide]().
+
+This folder contains the modules that detect the available binding and wrap the necessary classes inside a single code base so that instead of using:
+
+```python
+
+```
+
+We can use:
+```python
+
+```
+
+Independent of which library is used. 
+
 
 ### widgets
 TODO:
