@@ -6,25 +6,26 @@ This section aims to give an introduction into Spyder internals.
 
 The following tree represents the current structure of Spyder master repo. The branches here represent only folders, more specifics and explanations will be given below.
 
+
 ├── [spyder-ide/spyder.git](https://github.com/spyder-ide/spyder) <br>
-&nbsp;&nbsp;├── [[#app_example]]                      <br>
-&nbsp;&nbsp;├── [[#doc]]                              <br>
-&nbsp;&nbsp;├── external-py2<br>
-&nbsp;&nbsp;├── external-py3<br>
-&nbsp;&nbsp;├── img_src<br>
-&nbsp;&nbsp;├── rope_profiling<br>
-&nbsp;&nbsp;├── scripts<br>
-&nbsp;&nbsp;├── spyderlib<br>
-&nbsp;&nbsp;│&nbsp;&nbsp;├── defaults             // <br>
-&nbsp;&nbsp;&nbsp;&nbsp;│   ├── images               // <br>
-&nbsp;&nbsp;&nbsp;&nbsp;│   ├── locale               // <br>
-&nbsp;&nbsp;&nbsp;&nbsp;│   ├── plugins              // <br>
-&nbsp;&nbsp;&nbsp;&nbsp;│   ├── qt                   // <br>
-&nbsp;&nbsp;&nbsp;&nbsp;│   ├── utils                // <br>
-&nbsp;&nbsp;&nbsp;&nbsp;│   ├── widgets              // <br>
-&nbsp;&nbsp;&nbsp;&nbsp;│   │   ├── externalshell    // <br>
-&nbsp;&nbsp;&nbsp;&nbsp;│   │   └── sourcecode       // <br>
-&nbsp;&nbsp;&nbsp;&nbsp;│   └── windows              // <br>
+&nbsp;&nbsp;&nbsp;&nbsp;├── [app_example](#app_example)           <br>
+&nbsp;&nbsp;&nbsp;&nbsp;├── [[#doc]]                              <br>
+&nbsp;&nbsp;&nbsp;&nbsp;├── external-py2                           <br>
+&nbsp;&nbsp;&nbsp;&nbsp;├── external-py3                            <br>
+&nbsp;&nbsp;&nbsp;&nbsp;├── img_src                                   <br>
+&nbsp;&nbsp;&nbsp;&nbsp;├── rope_profiling                             <br>
+&nbsp;&nbsp;&nbsp;&nbsp;├── scripts                                      <br>
+&nbsp;&nbsp;&nbsp;&nbsp;├── spyderlib                                       <br>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;├── defaults             // <br>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;├── images               // <br>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;├── locale               // <br>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;├── plugins              // <br>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;├── qt                   // <br>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;├── utils                // <br>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;├── widgets              // <br>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;├── externalshell // <br>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp└── sourcecode     // <br>
+&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;  └── windows              // <br>
 &nbsp;&nbsp;&nbsp;&nbsp;└── [[#spyderplugins]]<br>
 
 ## doc
