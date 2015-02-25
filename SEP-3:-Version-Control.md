@@ -1,3 +1,12 @@
+| key            | value                                                 |
+|----------------|-------------------------------------------------------|
+| Status         | Active                                                |
+| Author         | Full Name &lt;full.name@gmail.com&gt;                 |
+| Created        | February, 2015                                        |
+| Updated        | February, 2015                                        |
+| Discussion     | link to the issue where the SEP is being discussed    |
+| Implementation | link to the PR                                        |
+
 # Conversation and Discussion
 Over [Gitter](https://gitter.im/spyder-ide/)
 
