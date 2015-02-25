@@ -39,12 +39,12 @@ The documentation is written in [reStructuredText](http://docutils.sourceforge.n
 The documentation is hosted in [Python Hosted](https://pythonhosted.org/spyder/).
 
 ## external-py2
-Spyder makes use of external python libraries, such as [pyflakes](https://github.com/pyflakes/pyflakes/), [rope](http://rope.sourceforge.net/), [pep8](https://github.com/jcrocholl/pep8) and a modified version of the [conda_api](https://github.com/conda/conda-api). When Spyder runs from a Python 2 versions, the `external-py2` folder is added to the `PATH`. 
+Spyder makes use of external python libraries, such as [pyflakes](https://github.com/pyflakes/pyflakes/), [rope](http://rope.sourceforge.net/), [pep8](https://github.com/jcrocholl/pep8) and a modified version of the [conda_api](https://github.com/conda/conda-api). When Spyder runs from a Python 2 interpreter, the `external-py2` folder is added to the `PATH`. 
 
 The modules saved here must be compatible with Python 2
 
 ## external-py3
-Spyder makes use of external python libraries, such as [pyflakes](https://github.com/pyflakes/pyflakes/), [rope](http://rope.sourceforge.net/), [pep8](https://github.com/jcrocholl/pep8) and a modified version of the [conda_api](https://github.com/conda/conda-api). When Spyder runs from a Python 3 versions, the `external-py3` folder is added to the `PATH`. 
+Spyder makes use of external python libraries, such as [pyflakes](https://github.com/pyflakes/pyflakes/), [rope](http://rope.sourceforge.net/), [pep8](https://github.com/jcrocholl/pep8) and a modified version of the [conda_api](https://github.com/conda/conda-api). When Spyder runs from a Python 3 interpreter, the `external-py3` folder is added to the `PATH`. 
 
 The modules saved here must be compatible with Python 3
 
