@@ -37,7 +37,7 @@ class SpyderWidget(QWidget):
     ```
 
 * **QUESTION:** Should we define some conventions as well for widgets? or for signal naming? for instance:
-    - When working with signals, use the new style:
+    - When working with signals, use the [new style](http://pyqt.sourceforge.net/Docs/PyQt4/new_style_signals_slots.html):
     - For naming custom signals, use the `sig_` prefix?:
     ```python
     from spyderlib.qt.QtCore import Signal
