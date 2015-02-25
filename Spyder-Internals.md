@@ -1,6 +1,6 @@
 This section aims to give a brief introduction into Spyder internals.
 
-## Directory Structure
+# Directory Structure
 
 The following tree represents the current structure of Spyder master repo. The branches here represent only folders, more specifics and explanations will be given below.
 
@@ -23,5 +23,15 @@ The following tree represents the current structure of Spyder master repo. The b
     │   │   └── sourcecode       // 
     │   └── windows              // 
     └── spyderplugins
+
+## spyderlib
+
+### widgets
+
+#### externalshell
+
+#### sourcecode
+
+### spyderplugins
 
 **Note: This is a work in progress!**
