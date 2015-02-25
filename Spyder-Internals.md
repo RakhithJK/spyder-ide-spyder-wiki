@@ -2,7 +2,7 @@ This section aims to give a brief introduction into Spyder internals.
 
 ## Directory Structure
 
-The following tree represents the current structure of Spyder master repo.
+The following tree represents the current structure of Spyder master repo. The branches here represent only folders, more specifics and explanations will be given below.
 
     ├── app_example
     ├── doc
