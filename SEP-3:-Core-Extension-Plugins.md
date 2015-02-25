@@ -22,17 +22,6 @@ To do this we should define some global constants to refer to the languages.... 
 ```
 spyder.constants.languages.PYTHON
 spyder.constants.languages.MARKDOWN
-```
-
-The sourcecodeeditor should have then a method like...   `get_language` that would look if it is .md or .markdown... and return `spyder.constants.languages.MARKDOWN`
-
-A similar principle could hold for all the other menus, expect in menus that affect ALL types of files, the actions to add should be placed in a specific section only... as to not get an additional action below the `Quit` button in the File menu, which would make no sense!
-
-To do this we should define some global constants to refer to the languages.... something  like:
-
-```
-spyder.constants.languages.PYTHON
-spyder.constants.languages.MARKDOWN
 spyder.constants.languages.UNDEFINED
 ```
 
