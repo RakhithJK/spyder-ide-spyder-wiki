@@ -65,7 +65,7 @@ There are two options to work here:
 * Use [virtualenv](https://github.com/pypa/virtualenv). This would work for users not using anaconda, but would have some limitations for nonpython libraries and dependencies not handled by **pip** or the like. there could be something like a `Pip Package Manager?` to be used in this cases?
 
 ## Version Control
-This will be developed in a separate [proposal](https://github.com/spyder-ide/spyder/wiki/Version-Control-Proposal). The idea is to have a basic abstraction layer and support for different version control systems, namely Git and Mercurial. [Issue 816](https://github.com/spyder-ide/spyder/issues/816) started the discussion and will serve as basis for this PR.
+This will be developed in a separate [proposal](https://github.com/spyder-ide/spyder/wiki/[SEP-1:-Version-Control). The idea is to have a basic abstraction layer and support for different version control systems, namely Git and Mercurial. [Issue 816](https://github.com/spyder-ide/spyder/issues/816) started the discussion and will serve as basis for this PR.
 
 The plan is to have a minimal set of features that would allow common vc commands to be used inside spyder by calling the external programs (using a QProcess)
 
