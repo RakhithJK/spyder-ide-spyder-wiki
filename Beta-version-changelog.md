@@ -4,6 +4,7 @@
 
 * Editor
   * Add highlighting to all file types supported by Pygments (a syntax highlighting library)
+  * Use `Ctrl+*` and `Shift+Ctrl+*` to visually create matrices and vectors. It also works on the Python and IPython consoles.
 
 * Debugging
   * Integrate post mortem debugging when running a file
