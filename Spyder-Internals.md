@@ -25,6 +25,8 @@ The following tree represents the current structure of Spyder master repo. The b
     └── spyderplugins
 
 ## doc
+As the name suggests this is the folder where the documentation of the project resides. 
+The documentation is written in [reStructuredText](http://docutils.sourceforge.net/rst.html) (.rst) and is parsed using [Sphinx]().
 
 ## external-py2
 
