@@ -39,5 +39,3 @@ spyder.constants.languages.UNDEFINED
 The sourcecodeeditor should have then a method like...   `get_language` that would look if it is .md or .markdown... and return `spyder.constants.languages.MARKDOWN` or spyder.constants.languages.UNDEFINED, in which case no special actions should be added (much like what happens now with any language besides python)
 
 With all in place, then we could look at the object inspector, which actually would not need much change as the way I see it would just accept some input from a function `render_this_html(self, html)` tied to the added Parse action in the run menu. Also this plugin would have `mistune` as a dependency, and maybe a version of the Editor and Object Inspector Public API. If we have a version for the API of each dockwidget it would be easier to control changes per dockwidget plugin and also have checks to ensure that an installable plugin can work.
-
-@ccordoba12  please let me know what you think, or any ideas to add on this. 
