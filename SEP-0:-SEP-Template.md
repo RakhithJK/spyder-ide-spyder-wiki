@@ -2,8 +2,8 @@
 |----------------|-------------------------------------------------------|
 | Status         | Active | Deferred | Accepted | Rejected | Implemented |
 | Author         | Full Name &lt;full.name@gmail.com&gt;                 |
-| Created        | April 6, 2013                                         |
-| Updated        | April 26, 2013                                        |
+| Created        | February, 2015                                        |
+| Updated        | February, 2015                                        |
 | Discussion     | link to the issue where the SEP is being discussed    |
 | Implementation | link to the PR                                        |
 
