@@ -51,9 +51,9 @@ The modules saved here must be compatible with Python 3
 **Note: Even if the same module works with both Python 2 and Python 3, it must be copied inside both `external-py2` and `external-py3` folders.**
 
 ## img_src
-This folder holds the editable and rendered versions of images and art.
+This folder holds the editable and rendered versions of images and art for the Spyder project.
 
-Include: Official icons, main logo, and some screenshots.
+Included files: Official icons, main logo, and some screenshots.
 
 ## rope_profiling
 TODO:
@@ -67,7 +67,9 @@ This is the actual main module of Spyder.
 The name spyderlib is due to the existence of another project with the spyder 
 
 ### locale 
-TODO: 
+The translations of the interface for Spyder is stored in this folder. Currently Spyder has translations for Spanish (es) and French (fr). 
+
+If you would like to have Spyder translated to a new language please drop us a line on the [public chat](https://gitter.im/spyder-ide/public).
 
 ### plugins
 TODO:
