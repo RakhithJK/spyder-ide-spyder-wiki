@@ -34,7 +34,7 @@ class SpyderWidget(QWidget):
         # Do something with the event...
 
     def new_method(self):
-        """ Ssome new method """
+        """ Some new method """
         # Do something interesting
     ```
 
