@@ -1,7 +1,7 @@
 | key            | value                                                 |
 |----------------|-------------------------------------------------------|
 | Status         | Active                                                |
-| Author         | Gonzalo Peña-Castellanos (@goanpeca)                  |
+| Author         | Gonzalo Peña-Castellanos ([@goanpeca](https://github.com/goanpeca))                  |
 | Created        | February, 2015                                        |
 | Updated        | February, 2015                                        |
 | Discussion     | [Issue 816](https://github.com/spyder-ide/spyder/issues/816) / [Guitter](https://gitter.im/spyder-ide/)      |
