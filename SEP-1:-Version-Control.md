@@ -27,3 +27,5 @@ https://github.com/alex/pyvcs
 
 https://github.com/codeinn/vcs/
 
+https://github.com/gitpython-developers/GitPython
+
