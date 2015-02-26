@@ -1,7 +1,7 @@
 | key            | value                                                 |
 |----------------|-------------------------------------------------------|
 | Status         | Active | Deferred | Accepted | Rejected | Implemented |
-| Author         | Full Name &lt;full.name@gmail.com&gt;                 |
+| Author         | Full Name &lt;full.name@gmail.com&gt; / (@username)   |
 | Created        | February, 2015                                        |
 | Updated        | February, 2015                                        |
 | Discussion     | link to the issue where the SEP is being discussed    |
