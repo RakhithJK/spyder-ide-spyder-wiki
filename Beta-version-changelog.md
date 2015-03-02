@@ -17,6 +17,8 @@
   * Add new default layouts (Horizontal, Vertical, Matlab and Rstudio), and also the possibility to name custom layouts.
   * Add an option to warn when exiting the application, under `Preferences > General > Interface > Prompt when exiting`
 
+* Add Brazilian Portuguese translation
+
 * Under the hood
   * Support PyQt5
   * Use the new (pythonic) style for signals and slots
