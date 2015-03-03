@@ -43,4 +43,13 @@ There are several conversion tutorial online, as:
 
 Of course all these material are available online, but having it in the everyday IDE would probably reduce the opportunity cost of finding a solution to the problem.
 
+## cheat sheet for cvs and simulation management
+In the last few years the concept of reproducibility in computational science has become a major issue.
+Aside from the statistical and methodological steps required in every fields, the computational side has several tools that can help with the process, nominally control version system and simulation management systems.
+
+An example of the first is git, that is currently used as the CVS for spyder, while for the second systems like [sumatra](https://pythonhosted.org/Sumatra/) could be used.
+These tools can help the user to deal with most of the long term problems that scientist are faced, but require the scientist to learn new tools external of its workflow.
+
+This is not a problem, but a simple interactive help to remind the user of the most common command and issues with these instruments could simplify the everyday work.
+
 ## TODO
