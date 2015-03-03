@@ -23,4 +23,20 @@ The content is great and cover most of the topics necessary for a beginner scien
 
 The content are written in rst, so we coud either fork the content and adapt it, or find a way to automatically sync to the upstream repo.
 
+## python from matlab/R conversion
+
+Several user of Spyder comes from a background of using MATLAB or R.
+This connection is recognized by the Spyder team, as one of the possible disposition is an explicit reference to MATLAB. 
+
+In my experience one of the things that prevent the adoption of python for scientific environment is the cost of conversion. Having an explicit tutorial to ease the transition could help the transition.
+
+There are several conversion tutorial online, as:
+[The scipy page for matlab -> numpy](http://wiki.scipy.org/NumPy_for_Matlab_Users)
+[Mathesaurus page about matlab -> numpy](http://mathesaurus.sourceforge.net/matlab-numpy.html)
+[hyperpolyglot for matlab, r and python](http://hyperpolyglot.org/numerical-analysis)
+[a tutorial for matlab -> numpy](http://bastibe.de/2013-01-20-a-python-primer-for-matlab-users.html)
+[pdf cheatsheet for matlab -> numpy](http://web.stanford.edu/class/physics91si/2014/handouts/matlab-python-xref.pdf)
+
+Of course all these material are available online, but having it in the everyday IDE would probably reduce the opportunity cost of finding a solution to the problem.
+
 ## TODO
