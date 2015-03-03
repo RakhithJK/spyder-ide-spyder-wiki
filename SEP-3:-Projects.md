@@ -20,7 +20,9 @@ Projects are created via the `New project..` option in the `File` menu, or direc
 Version control right now just tries to open any existing program on the OS to run commits (e.g. tortoise hg). 
 
 # Proposal
-The idea is to bring the project support up to date, to clean up the existing code, and probably to get rid of the project explorer widget (panel) as it seems redundant and seems to bring more confusion than clarity to the Spyder interface. The `File explorer` should be able to handle exploring files and projects at the same time. 
+The idea is to bring the project support up to date, to clean up the existing code, and merge the outline explorer widget with the project explorer widget.
+
+The project explorer panel as it is nowadays seems to be redundant (several users have expressed this) and seems to bring more confusion than clarity to the Spyder interface. The `File explorer` should be able to handle exploring files and the outline explorer should be extended to display the files and folder belonging to a specific project.
 
 **Modifications suggested**
 * The actual created binary files should be changed to a readable format and store the basic information of a project.
@@ -32,30 +34,17 @@ The idea is to bring the project support up to date, to clean up the existing co
     * An Ipython session
     * Command history specific to the project?
     * Workspace (All variables in the object inspector upon exit)
-* When opening or creating a new project, all the files in the editor should be closed and replaced with 
-the ones pertaining  to the project (an empty file if a new project). The las Ipython session could be restored as well?
+    * The complete state of the consoles (implementing with [dill](https://github.com/uqfoundation/dill))
 
-Some of these options could be stored in the .spyderproject file, but other might need a folder (.spyderprojectdir?).
+* When opening or creating a new project, all the files in the editor should be closed and replaced with 
+the ones pertaining  to the project (an empty file if a new project). The last Ipython session could be restored as well?
+
+Some of these options could be stored in the .spyderproject file, but other might need a folder (.spyderprojectdir?). For instance we could use this directory to store the environments (either conda or virtual env) as to not pollute the project directory with many folders.
 
 ## Projects files
 A .spyderproject file could be created, but this file should be in a human readable format, and contain information relating to description of the project etc...
 
-R-Studio uses a file like:
-```
-Version: 1.0
-
-RestoreWorkspace: Default
-SaveWorkspace: Default
-AlwaysSaveHistory: Default
-
-EnableCodeIndexing: Yes
-UseSpacesForTab: Yes
-NumSpacesForTab: 4
-Encoding: UTF-8
-
-RnwWeave: Sweave
-LaTeX: pdfLaTeX
-```
+The proposed format is JSON
 
 ## Environments
 Reproducible science is a key component in Scientific Research and one way to replicates someone else work when working with code is through the use of environment. The use of environments should be optional, but should also be encouraged when aimed at sharing work/results etc...
@@ -67,14 +56,19 @@ There are two options to work here:
 ## Version Control
 This will be developed in a separate [proposal](https://github.com/spyder-ide/spyder/wiki/SEP-1:-Version-Control). The idea is to have a basic abstraction layer and support for different version control systems, namely Git and Mercurial. [Issue 816](https://github.com/spyder-ide/spyder/issues/816) started the discussion and will serve as basis for this PR.
 
-The plan is to have a minimal set of features that would allow common vc commands to be used inside spyder by calling the external programs (using a QProcess)
+The plan is to have a minimal set of features that would allow common vc commands to be used inside spyder by calling the external programs (using a QProcess) or by using an already established external module.
 
 ## Interface
 
 ### Menu
-The entry point from the file menu would remain the same, but it would call a more elaborate dialog (with stacked tabs) offering different options. 
+The entry point from the file menu would remain the same, but it would call a more elaborate dialog 
 
 ### Main projects dialog
+
+The basic proposed layout is something like:
+
+
+
 The main dialog would include (subdialogs as subbullets):
 * Create New Project
     * Create empty project
