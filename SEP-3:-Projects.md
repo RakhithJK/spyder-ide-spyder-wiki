@@ -65,23 +65,25 @@ The entry point from the file menu would remain the same, but it would call a mo
 
 ### Main projects dialog
 
-The basic proposed layout is something like:
+The basic proposed dialog is to have a two step (2 dialogs, one after the other).
 
+The initial dialog would contain the basic information of the project and a combobox to select the type of the project:
 
+* Create New Project (Dialog 1)
+    - Location (Textbox plus dir picker): Select location with a directory picker
+    - Name (Textbox): Write name of project (will also be the folder name)
+    - Description (Textbox): Write a description (optional)
+    - Version Control (Group Box) (off by default)
+        - Use URL (Checkbox + Textbox) (default disabled): Select from repo url and add repo url
+        - Version System (Combobox): Select hg or git, disabled if from repo url 
+    - Project type (Combobox):
+ 
+Depending on the option selected and the available programs, the user could select to include version control in a project.
 
-The main dialog would include (subdialogs as subbullets):
-* Create New Project
-    * Create empty project
-    * Create Python Package
-    * Create ...
-    * Create Django Project?  (available if django is detected and could be a plugin?) 
-    * Create Pelican Project?  (available if pelican is detected and could be a plugin?) 
-* Import From Existing Directory
-* Import from version control (if git or mercurial detected, otherwise grey out?)
-    * Git (if detected)
-    * Hg  (if detected)
-
-Depending on the option selected and the available programs, the user could select to include version control in a project, and to create new environment selecting the python version to use in the project. The options would adjust or grey out depending on availability or distribution used.
+The second dialog would yield options for the project selected. Spyder can include:
+    * Empty project
+    * Python Package
+    * Spyder Plugin
 
 ### Projects toolbar
 A new toolbar could be created consisting of a dropdown combobox with the listing of recently created projects (this would be stored in the spyder.ini file and if not found on startup, would not displayed) , and a setup button with some options (including creating a new project or opening a new project).
