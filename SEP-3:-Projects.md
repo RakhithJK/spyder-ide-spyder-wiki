@@ -1,7 +1,7 @@
 | key            | value                                                 |
 |----------------|-------------------------------------------------------|
 | Status         | Active                                                |
-| Author         | Full Name &lt;full.name@gmail.com&gt;                 |
+| Author         | Gonzalo Peña-Castellanos - [@goanpeca](https://github.com/) |
 | Created        | February, 2015                                        |
 | Updated        | February, 2015                                        |
 | Discussion     | link to the issue where the SEP is being discussed    |
