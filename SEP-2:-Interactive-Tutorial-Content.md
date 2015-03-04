@@ -53,3 +53,13 @@ These tools can help the user to deal with most of the long term problems that s
 This is not a problem, but a simple interactive help to remind the user of the most common command and issues with these instruments could simplify the everyday work.
 
 ## TODO
+
+#Implementation Details
+The impletation should be easy enough.
+The interactive tutorials are simply rst files, so write them is simple.
+
+To expand the interactive tutorial menu the reference line in the code are the following:
+
+[Including the line in the menu](https://github.com/EnricoGiampieri/spyder/blob/master/spyderlib/spyder.py#L943)
+
+[loading the rst file in the viewer](https://github.com/EnricoGiampieri/spyder/blob/master/spyderlib/plugins/inspector.py#L776)
