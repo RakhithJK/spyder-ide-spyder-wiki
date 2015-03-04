@@ -4,7 +4,7 @@
 | Author         | Enrico Giampieri ([@EnricoGiampieri](https://github.com/EnricoGiampieri))                  |
 | Created        | March 04, 2015                                     |
 | Updated        | March 04, 2015                                     |
-| Discussion     | link to the issue where the SEP is being discussed    |
+| Discussion     | [discussion over the pull request](https://github.com/spyder-ide/spyder/pull/2225)    |
 | Implementation | [Multiple rst tutorial menu](https://github.com/spyder-ide/spyder/pull/2225)                                        |
 
 # Description
