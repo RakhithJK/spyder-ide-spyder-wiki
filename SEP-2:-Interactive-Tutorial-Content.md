@@ -5,7 +5,7 @@
 | Created        | February 24, 2015                                     |
 | Updated        | March 04, 2015                                     |
 | Discussion     | link to the issue where the SEP is being discussed    |
-| Implementation | link to the PR                                        |
+| Implementation | [Multiple rst tutorial menu](https://github.com/spyder-ide/spyder/pull/2225)                                        |
 
 # Description
 
