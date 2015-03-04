@@ -60,6 +60,6 @@ The interactive tutorials are simply rst files, so write them is simple.
 
 To expand the interactive tutorial menu the reference line in the code are the following:
 
-[Including the line in the menu](https://github.com/EnricoGiampieri/spyder/blob/master/spyderlib/spyder.py#L943)
+[Including the line in the menu](https://github.com/EnricoGiampieri/spyder/blob/master/spyderlib/spyder.py#L975)
 
 [loading the rst file in the viewer](https://github.com/EnricoGiampieri/spyder/blob/master/spyderlib/plugins/inspector.py#L776)
