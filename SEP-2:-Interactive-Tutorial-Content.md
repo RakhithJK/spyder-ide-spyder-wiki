@@ -3,7 +3,7 @@
 | Status         | Active                                                |
 | Author         | Gonzalo Peña-Castellanos ([@goanpeca](https://github.com/goanpeca))                  |
 | Created        | February 24, 2015                                     |
-| Updated        | February 24, 2015                                     |
+| Updated        | March 04, 2015                                     |
 | Discussion     | link to the issue where the SEP is being discussed    |
 | Implementation | link to the PR                                        |
 
