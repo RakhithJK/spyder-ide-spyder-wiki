@@ -2,7 +2,7 @@
 
 ## Version 2.3.4dev
 
-* IPython Cosole
+* IPython Console
   * Drop support for Sympy versions less than 0.7.3 
 
 ----
