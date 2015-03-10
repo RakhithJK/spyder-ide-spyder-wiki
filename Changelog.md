@@ -1,5 +1,13 @@
 # History of changes
 
+## Version 2.3.4dev
+
+* IPython Cosole
+  * Drop support for Sympy versions less than 0.7.3 
+
+----
+
+
 ## Version 2.3.3
 
 ### New features since v2.3.2
