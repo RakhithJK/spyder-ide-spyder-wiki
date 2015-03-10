@@ -4,7 +4,7 @@
 
 ## Things to do
 
-* Join the [Spyder mailing list](https://groups.google.com/group/spyderlib) and introduce yourself.  Not only do we get to know you, but you can use the mailing list to get feedback on project ideas and get help as you start working with the code base.
+* Join the [Spyder mailing list](https://groups.google.com/group/spyderlib) and the [Spyder Google+ Community](https://plus.google.com/communities/112932801653352854842), and introduce yourself.  Not only do we get to know you, but you can use the mailing list to get feedback on project ideas and get help as you start working with the code base.
 
 * Write and submit a proposal to the Google Summer of Code website (http://www.google-melange.com). If you want to, you can draft your project proposal on our wiki (https://github.com/spyder-ide/spyder/wiki/).  This is not required, but if you do, we will help you proofread it.  See the section below for how to name and link to your application so we can easily find it. 
 
@@ -92,8 +92,7 @@ In addition to the written proposal, we require every GSoC applicant to write a 
 
 * Create an account at GitHub and fork Spyder (https://github.com/spyder-ide/spyder).
 
-* Find something in the Spyder repo that doesn't work or needs improvement and send us a git patch fixing it. If you need inspiration, feel free to fix any issue from our `easy to fix issues list
-  <http://code.google.com/p/sympy/issues/list?q=label:EasyToFix>`. Aside from the issues, search for ``FIXME`` or ``TODO`` in the code. You can grep from the command line with ``git grep "TODO"``. You could also play with Spyder and find something that needs fixing or that could be implemented, and do it.
+* Find something in the Spyder repo that doesn't work or needs improvement and send us a git patch fixing it. If you need inspiration, feel free to fix any issue from our [easy to fix issues list](https://github.com/spyder-ide/spyder/issues?q=is%3Aopen+is%3Aissue+label%3AEasy). Aside from the issues, search for ``FIXME`` or ``TODO`` in the code. You can grep from the command line with ``git grep "TODO"``. You could also play with Spyder and find something that needs fixing or that could be implemented, and do it.
 
 * Your patch must be code-related, not documentation. If your project will use a language other than Python (e.g., JavaScript), you should submit patches that use that language as well, so that we know that you know you are proficient in that language. **However, for the patch requirement to be fulfilled, you must have at least one patch in Spyder itself.**
 
