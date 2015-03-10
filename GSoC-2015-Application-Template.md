@@ -1,10 +1,8 @@
 *Based on: https://github.com/sympy/sympy/wiki/GSoC-2015-Application-Template*
 
-GSoC 2015 Application Template
-==============================
+# GSoC 2015 Application Template
 
-Things to do
-------------
+## Things to do
 
 * Join the [Spyder mailing list](https://groups.google.com/group/spyderlib) and introduce yourself.  Not only do we get to know you, but you can use the mailing list to get feedback on project ideas and get help as you start working with the code base.
 
@@ -15,8 +13,7 @@ Things to do
 * If you need help with anything, ask on the [Spyder mailing list](https://groups.google.com/group/spyderlib) or at [Gitter](https://gitter.im/spyder-ide/public) (don't be afraid if you don't know git for example. We'll teach you everything that is needed, the only required thing from you is enthusiasm and willingness to learn new things).
 
 
-Writing your proposal
----------------------
+## Writing your proposal
 
 To be considered, a GSoC application must have a written proposal submitted to http://www.google-melange.com/.
 
@@ -91,47 +88,19 @@ You do not need to format your application as a question/answer format for the a
 
 In addition to the written proposal, we require every GSoC applicant to write a patch and get it pushed into our current master. To do this:
 
-* Set up your platform to develop with SymPy (install git, clone
-  https://github.com/sympy/sympy.git, execute tests). The page on our
-  [[Development workflow]] will walk you through setting up git and lays out
-  our preferred way of development.
+* Set up your platform to develop with Spyder (install git, clone https://github.com/spyder-ide/spyder.git). The page on our [[Github Workflow]] will walk you through setting up git and lays out our preferred way of development.
 
-* Create an account at GitHub and fork SymPy (https://github.com/sympy/sympy).
+* Create an account at GitHub and fork Spyder (https://github.com/spyder-ide/spyder).
 
-* Find something in SymPy that doesn't work or needs improvement and send us a
-  git patch fixing it. If you need inspiration, feel free to fix any issue
-  from our `easy to fix issues list
-  <http://code.google.com/p/sympy/issues/list?q=label:EasyToFix>`_. Aside from
-  the issues, search for ``FIXME`` or ``TODO`` in the code. You can grep from
-  the command line with ``git grep "TODO"`` . You could also search for
-  NotImplementedErrors and XFAILs).  You could also play with SymPy and find
-  something that needs fixing or that could be implemented, and do it.
+* Find something in the Spyder repo that doesn't work or needs improvement and send us a git patch fixing it. If you need inspiration, feel free to fix any issue from our `easy to fix issues list
+  <http://code.google.com/p/sympy/issues/list?q=label:EasyToFix>`. Aside from the issues, search for ``FIXME`` or ``TODO`` in the code. You can grep from the command line with ``git grep "TODO"``. You could also play with Spyder and find something that needs fixing or that could be implemented, and do it.
 
-* Your patch must be code-related, not documentation. If your project will use
-  a language other than Python (e.g., JavaScript), you should submit patches
-  that use that language as well, so that we know that you know you are
-  proficient in that language. **However, for the patch requirement to be
-  fulfilled, you must have at least one patch in SymPy itself.**
+* Your patch must be code-related, not documentation. If your project will use a language other than Python (e.g., JavaScript), you should submit patches that use that language as well, so that we know that you know you are proficient in that language. **However, for the patch requirement to be fulfilled, you must have at least one patch in Spyder itself.**
 
-* Report success on the SymPy list
+* Report success on the Spyder list
 
-* Publish your patch for peer review by creating a pull request on GitHub.
-  You must submit a patch that is successfully reviewed and pushed in to be
-  accepted. We do not consider applications without patches. This shows us that
-  you know Python and that you are able to interact with the community.
-  Furthermore, your patch must go through a GitHub pull request (as opposed to
-  a patch file on an issue, for example), as this is not only the easiest way
-  for us to review your code, but is also what we expect from a student working
-  on a GSoC project.
+* Publish your patch for peer review by creating a pull request on GitHub. You must submit a patch that is successfully reviewed and pushed in to be accepted. We do not consider applications without patches. This shows us that you know Python and that you are able to interact with the community. Furthermore, your patch must go through a GitHub pull request (as opposed to a patch file on an issue, for example), as this is not only the easiest way for us to review your code, but is also what we expect from a student working on a GSoC project.
 
-* **In your application, please provide a brief summary of your contributions to
-  SymPy so far, including unmerged work. At least one link to a merged pull
-  request proving that you satisfied the patch requirement.**
+* **In your application, please provide a brief summary of your contributions to Spyder so far, including unmerged work. At least one link to a merged pull request proving that you satisfied the patch requirement.**
 
-* Note that because we may be slow to review the pull requests, you do not
-  have to have your request merged by the application deadline (though you
-  should try to do it if you can!).  But you do need to at least have one
-  submitted by then.  We will give priority to reviewing requests that are
-  needed to satisfy patch requirements.  It is up to you to respond to our
-  feedback in a timely enough manner so that your patch gets merged before the
-  acceptance deadline.
+* Note that because we may be slow to review the pull requests, you do not have to have your request merged by the application deadline (though you should try to do it if you can!).  But you do need to at least have one submitted by then.  We will give priority to reviewing requests that are needed to satisfy patch requirements.  It is up to you to respond to our feedback in a timely enough manner so that your patch gets merged before the acceptance deadline.
