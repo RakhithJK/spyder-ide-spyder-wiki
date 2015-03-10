@@ -1,66 +1,11 @@
 *Based on: https://github.com/sympy/sympy/wiki/GSoC-2015-Organization-Application*
 
-This is based on the
-[Google Summer of Code 2014 application](GSoC-2014-Organization-Application)
-for SymPy to be an organization.
+NOTE: Do not use any markup in this document. We have to copy-paste the text to the application. All URLs should be in plain text.
 
-NOTE: Do not use any markup in this document. We have to copy-paste the text
-to the application. All URLs should be in plain text.
+If you want to add a comment or a TODO, use an html comment (`<!-- like this -->`) so that it doesn't accidentally end up in the final application.
 
-If you want to add a comment or a TODO, use an html comment (`<!-- like this -->`) so
-that it doesn't accidentally end up in the final application.
+**If you chose "veteran" in the checkbox, please summarize your involvement in Google Summer of Code and the successes and challenges of your participation. Please also list your pass/fail rate for each year.**
 
-**If you chose "veteran" in the checkbox, please summarize your involvement in
-  Google Summer of Code and the successes and challenges of your
-  participation. Please also list your pass/fail rate for each year.**
-
-The SymPy project participated in 2007 under the umbrellas of the Python
-Software Foundation, Portland State University, and the Space Telescope
-Science Institute.  We had five students in total.  All five projects were
-successful. All the projects details can be found here:
-
-[[https://github.com/sympy/sympy/wiki/GSoC-2007-Report]]
-
-In 2008, we participated under the umbrella of the Python Software Foundation
-and we got one student, who was successful. All details are here:
-
-[[https://github.com/sympy/sympy/wiki/GSoC-2008-Report]]
-
-In 2009, we participated under the umbrella of the Python Software Foundation
-and Portland State University, for a total of five students. All but one were
-successful.  Details are here:
-
-[[https://github.com/sympy/sympy/wiki/GSoC-2009-Report]]
-
-In 2010, we participated under the umbrella of the Python Software Foundation
-and Portland State University.  There were five students, all of whom were
-successful in their projects.  The details are here:
-
-[[https://github.com/sympy/sympy/wiki/GSoC-2010-Report]]
-
-In 2011, we participated as an official mentoring organization for the first
-time. We mentored nine students, all of whom were successful in their
-projects. The details are here:
-
-[[https://github.com/sympy/sympy/wiki/GSoC-2011-Report]]
-
-In 2012, we participated as an official mentoring organization for the second
-time. We mentored six students, all of whom were successful in their
-projects. The details are here:
-
-[[https://github.com/sympy/sympy/wiki/GSoC-2012-Report]]
-
-In 2013, we participated as an official mentoring organization for the third
-time. We mentored seven students, all of whom were successful in their
-projects. The details are here:
-
-[[https://github.com/sympy/sympy/wiki/gsoc-2013-report]]
-
-In 2014, we participated as an official mentoring organization for the fourth
-time. We mentored ten students, all of whom were successful in their
-projects. The details are here:
-
-[[https://github.com/sympy/sympy/wiki/gsoc-2014-report]]
 
 A total of 47 out of 48 GSoC projects (44 out of 45 students) were successful,
 and they incredibly boosted SymPy's development. Some of the students who did
@@ -87,88 +32,33 @@ the scope of traditional computer science and Python programming.  In many
 cases the rest of the community would not have been able to implement the
 project at all.
 
-**Why is your organization applying to participate in Google Summer of Code
-  2015? What do you hope to gain by participating?**
+**Why is your organization applying to participate in Google Summer of Code 2015? What do you hope to gain by participating?**
 
-From previous experiences, we've found that GSoC is an effective way to get
-students involved in the project, by coding on a specific task with a finite
-timeline.
+From previous experiences, we've found that GSoC is an effective way to get students involved in the project, by coding on a specific task with a finite timeline.
 
-It will be beneficial for the project and the students, who will get the
-chance to write code for an open source project (and get paid for it).
+It will be beneficial for the project and the students, who will get the chance to write code for an open source project (and get paid for it).
 
-Our participation from the past four years as an official mentoring
-organization has been very successful, totaling 32 projects with a 100% pass
-rate.  A full reports are available at
-[[https://github.com/sympy/sympy/wiki/gsoc-2011-report]],
-[[https://github.com/sympy/sympy/wiki/gsoc-2012-report]],
-[[https://github.com/sympy/sympy/wiki/gsoc-2013-report]], and
-[[https://github.com/sympy/sympy/wiki/gsoc-2014-report]]. We received boosts to
-many parts of our code base as a result.
+Almost all of these projects would have never happened without GSoC, as our active community members would not have the time to do this work.  Or, as is more often the case, they would not have the background knowledge to do the projects.  Due to the highly technical nature of SymPy, many projects require an advanced knowledge in some mathematical area to complete. GSoC gives us the opportunity to find people capable of completing such projects.
 
-Almost all of these projects would have never happened without GSoC, as our
-active community members would not have the time to do this work.  Or, as is
-more often the case, they would not have the background knowledge to do the
-projects.  Due to the highly technical nature of SymPy, many projects require
-an advanced knowledge in some mathematical area to complete. GSoC gives us the
-opportunity to find people capable of completing such projects.
+At the time of this writing, half of the core developers with push access to the main development repo originated as GSoC students (14 out of 30), including the lead developer.  Without this program, it is unlikely that any of them would have ever joined the project.
 
-At the time of this writing, half of the core developers with push access to
-the main development repo originated as GSoC students (14 out of 30),
-including the lead developer.  Without this program, it is unlikely that any
-of them would have ever joined the project.
-
-**How many potential mentors do you have for this year's program? What
-criteria did you use to select them?**
+**How many potential mentors do you have for this year's program? What criteria did you use to select them?**
 
 <!-- Make sure to update this number before submitting -->
 
-We currently have 12 mentors signed up (see the bottom of our ideas page,
-[[https://github.com/sympy/sympy/wiki/gsoc-2015-ideas]]). They have been
-chosen from members of the community who have shown themselves to be committed
-to the development of SymPy.  This means that they will be familiar both with
-the code base and with git, so they will be able to help the students
-effectively with these.  Also, we put lots of effort in choosing mentors who
-are familiar with the concepts that the student will be implementing.  In
-SymPy, these are often mathematically complicated, so it is useful to have a
-mentor who understands them well.  And of course, if someone whom we feel
-meets the above qualifications wants to mentor a particular student, we will
-let him/her, because that person is the most likely to be the best person to
-stick with that student and help him or her to complete his project.
+We currently have 2 mentors signed up (see the bottom of our ideas page [[https://github.com/sympy/sympy/wiki/gsoc-2015-ideas]]). They have been chosen from members of the community who have shown themselves to be committed to the development of SymPy.  This means that they will be familiar both with the code base and with git, so they will be able to help the students
+effectively with these.  Also, we put lots of effort in choosing mentors who are familiar with the concepts that the student will be implementing.  In SymPy, these are often mathematically complicated, so it is useful to have a mentor who understands them well.  And of course, if someone whom we feel meets the above qualifications wants to mentor a particular student, we will let him/her, because that person is the most likely to be the best person to stick with that student and help him or her to complete his project.
 
-We require all our mentors to be active contributors with push access to the
-repo. Those are people that have already proven to be part of the SymPy
-community and proven that they can be trusted. This is an obvious pool of
-people to choose from. In the past, we had mentors from outside this pool, for
-example a university professor familiar with the field of the
-project. However, such mentors tend to be poorer, because they are not active
-in the community.  We would only choose such mentors to be secondary mentors,
+We require all our mentors to be active contributors with push access to the repo. Those are people that have already proven to be part of the SymPy community and proven that they can be trusted. This is an obvious pool of people to choose from. In the past, we had mentors from outside this pool, for example a university professor familiar with the field of the project. However, such mentors tend to be poorer, because they are not active in the community.  We would only choose such mentors to be secondary mentors,
 with the primary mentor as an active contributor.
 
-In 2011, we made a big push for students to be active in the community, so
-that instead of just talking with their mentors directly, they ask questions
-on the public mailing list or Gitter chat, where even if the mentor is the
-only one to answer, everyone will see and have a chance to comment.  We found
-that this led to a huge increase in involvement after the program. Five of the
-nine students from 2011 are still active in the community a year later, and
-three are still active today. In contrast, only one of the five students from
-2010 was active a year later.
+In 2011, we made a big push for students to be active in the community, so that instead of just talking with their mentors directly, they ask questions on the public mailing list or Gitter chat, where even if the mentor is the only one to answer, everyone will see and have a chance to comment.  We found that this led to a huge increase in involvement after the program. Five of the nine students from 2011 are still active in the community a year later, and three are still active today. In contrast, only one of the five students from 2010 was active a year later.
 
-Therefore, one of the key roles of the mentors will be to push the students to
-participate openly as much as possible.  Thus, though it will still be the
-mentors' responsibilities to ensure that their students are not slipping
-behind, and to make sure that their code gets reviewed, the whole community
-will serve to "mentor" the students in that they will follow their work and
-participate in design discussions. In the past, we have even had members of
-the user community be active in certain projects that were exciting new
-developments, leading to things like pull requests against students' code.
+Therefore, one of the key roles of the mentors will be to push the students to participate openly as much as possible.  Thus, though it will still be the mentors' responsibilities to ensure that their students are not slipping behind, and to make sure that their code gets reviewed, the whole community will serve to "mentor" the students in that they will follow their work and participate in design discussions. In the past, we have even had members ofthe user community be active in certain projects that were exciting new developments, leading to things like pull requests against students' code.
 
 **What is your plan for dealing with disappearing students?**
 
-To begin with, we structure our application to try to pick students who will
-not disappear.  We require all students to have submitted at least one patch
-that passes review and is pushed into the code base in order to be considered.
-This will show that they are dedicated, because they must be willing to learn
+To begin with, we structure our application to try to pick students who will not disappear.  We require all students to have submitted at least one patch that passes review and is pushed into the code base in order to be considered. This will show that they are dedicated, because they must be willing to learn
 the code base enough to try fixing part of it, and be willing to stick around
 for the review process.  It will also help prevent us from accepting students
 who are unable to complete the project by ensuring that they are competent
@@ -407,9 +297,3 @@ students: two of SymPy students and one PSF student.
 - [[GSoC-2014-Report]] -- Report for the GSoC 2014
 - [[GSoC-Previous-Applications]] -- Some examples of successful Google Summer
   of Code applications from the past.
-
-<!-- Ignore this: it's so Emacs's Ispell will ignore these words -->
-<!--  LocalWords:  GSoC UTC CAS url popup certik IRC Googler Freenode PyDy
- -->
-<!--  LocalWords:  PyDy's
- -->
