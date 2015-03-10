@@ -2,28 +2,15 @@
 
 # GSoC 2015 Project Ideas
 
-This is the list of ideas for students wishing to apply for Google Summer of
-Code 2015. For more information on how to apply, see
-[[GSoC 2015 Application Template]].
+This is the list of ideas for students wishing to apply for Google Summer of Code 2015. For more information on how to apply, see [[GSoC 2015 Application Template]].
 
-This is for inspiration, you can apply with
-something completely different if you like. The best project for you is one
-you are interested in, and are knowledgeable about.  That way, you will be the
-most successful in your project and have the most fun doing it, while we will
-be the most confident in your commitment and your ability to complete it.
+This is for inspiration, you can apply with something completely different if you like. The best project for you is one you are interested in, and are knowledgeable about.  That way, you will be the most successful in your project and have the most fun doing it, while we will be the most confident in your commitment and your ability to complete it.
 
-If you do want to suggest your own idea, please discuss it with us first, so
-we can determine if it is already been implemented, if it is enough work to
-constitute a Summer's worth of coding, if it is not too much work, and if it is
-within the scope of our project.
+If you do want to suggest your own idea, please discuss it with us first, so we can determine if it is already been implemented, if it is enough work to constitute a Summer's worth of coding, if it is not too much work, and if it is within the scope of our project.
 
-Even if you want to do an idea listed here, you should still contact us on our
-mailing list and discuss it with us.  Also take a look at our
-[[application template|gsoc-2015-application-template]].
+Even if you want to do an idea listed here, you should still contact us on our mailing list and discuss it with us.  Also take a look at our [[application template|gsoc-2015-application-template]].
 
-**Please always ask on our [mailing list](http://groups.google.com/group/sympy)
-about these ideas to get the latest information about what is implemented and
-what exactly has to be done.**
+**Please always ask on our [mailing list](http://groups.google.com/group/spyderlib) about these ideas to get the latest information about what is implemented and what exactly has to be done.**
 
 The list is organized as follows:
 
@@ -46,17 +33,6 @@ not listed here.
 
 
 ## Table of Contents
-
-<!-- Generate the TOC below with (https://github.com/thlorenz/doctoc):
-
-doctoc.js --title " " GSoC-2015-Ideas.md
-
--->
-
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
- 
-
 - [High Priority](#high-priority)
   - [Assumptions](#assumptions)
 - [Detailed Projects: Mathematics](#detailed-projects-mathematics)
@@ -98,8 +74,6 @@ doctoc.js --title " " GSoC-2015-Ideas.md
 - [Ideas](#ideas)
 - [Non-Ideas](#non-ideas)
 - [Potential Mentors](#potential-mentors)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## High Priority
 
