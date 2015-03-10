@@ -1,7 +1,7 @@
-*Based on: https://github.com/sympy/sympy/wiki/GSoC-2015-Application-Template*GSoC 2015 Application 
+*Based on: https://github.com/sympy/sympy/wiki/GSoC-2015-Application-Template*
 
-Template
-========
+GSoC 2015 Application Template
+==============================
 
 Things to do
 ------------
