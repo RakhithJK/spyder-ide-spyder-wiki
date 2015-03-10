@@ -6,27 +6,13 @@ GSoC 2015 Application Template
 Things to do
 ------------
 
-* Join the [Spyder mailing list](https://groups.google.com/group/spyderlib) 
-  and introduce yourself.  Not only do we get to know you, but you can use 
-  the mailing list to get feedback on project ideas and get help as you
-  start working with the code base.
+* Join the [Spyder mailing list](https://groups.google.com/group/spyderlib) and introduce yourself.  Not only do we get to know you, but you can use the mailing list to get feedback on project ideas and get help as you start working with the code base.
 
-* Write and submit a proposal to the Google Summer of Code website
-  (http://www.google-melange.com). If you want to, you can draft your project
-  proposal on our wiki (https://github.com/sympy/sympy/wiki/).  This is not
-  required, but if you do, we will help you proofread it.  See the section
-  below for how to name and link to your application so we can easily find it.
-  You may take a look at the old applications to see how they did things,
-  links to pages containing old applications can be found on the wiki main
-  page.
+* Write and submit a proposal to the Google Summer of Code website (http://www.google-melange.com). If you want to, you can draft your project proposal on our wiki (https://github.com/spyder-ide/spyder/wiki/).  This is not required, but if you do, we will help you proofread it.  See the section below for how to name and link to your application so we can easily find it. 
 
 * You will need to create an account on GitHub and send a patch.  See below.
 
-* If you need help with anything, ask on the `SymPy list
-  <http://groups.google.com/group/sympy>`_ or Gitter
-  (https://gitter.im/sympy/sympy) (don't be afraid if you don't
-  know git for example. We'll teach you everything that is needed, the only
-  required thing from you is enthusiasm and willingness to learn new things).
+* If you need help with anything, ask on the [Spyder mailing list](https://groups.google.com/group/spyderlib) or at [Gitter](https://gitter.im/spyder-ide/public) (don't be afraid if you don't know git for example. We'll teach you everything that is needed, the only required thing from you is enthusiasm and willingness to learn new things).
 
 
 Writing your proposal
