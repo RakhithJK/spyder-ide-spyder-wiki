@@ -8,4 +8,4 @@ Spyder is a powerful interactive development environment for the Python language
 
 | [[Roadmap]] | [[Changelog]] | [[Github Workflow]] | [[SEPs: Spyder Enhancement Proposals]] |
 
-| [[Coding Style]] | [[Spyder Internals]] |
+| [[Coding Style]] | [[Spyder Internals]] | [[Google Summer of Code]] |
