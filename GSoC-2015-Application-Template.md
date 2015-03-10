@@ -96,7 +96,7 @@ In addition to the written proposal, we require every GSoC applicant to write a 
 
 * Your patch must be code-related, not documentation. If your project will use a language other than Python (e.g., JavaScript), you should submit patches that use that language as well, so that we know that you know you are proficient in that language. **However, for the patch requirement to be fulfilled, you must have at least one patch in Spyder itself.**
 
-* Report success on the Spyder list
+* Report success on the Spyder mailing list, Community, or Gitter.
 
 * Publish your patch for peer review by creating a pull request on GitHub. You must submit a patch that is successfully reviewed and pushed in to be accepted. We do not consider applications without patches. This shows us that you know Python and that you are able to interact with the community. Furthermore, your patch must go through a GitHub pull request (as opposed to a patch file on an issue, for example), as this is not only the easiest way for us to review your code, but is also what we expect from a student working on a GSoC project.
 
