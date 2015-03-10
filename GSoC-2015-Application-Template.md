@@ -30,13 +30,11 @@ You may be able to get equivalent formatting in Melange from the wiki by copying
 
 You should include the following information in your proposal:
 
-Title
-^^^^^
+### Title
 
-Since this year we have to accept students under umbrella organizations, please start the title of your proposal with "SymPy - ", like "SymPy - Improving the Risch integration algorithm". Please use a succinct title that describes your proposal. Do not include the words "GSoC", "2015", or your name in the proposal title. 
+Since this year we have to accept students under umbrella organizations, please start the title of your proposal with "Spyder - ", like "Spyder - Improving the plugin architecture". Please use a succinct title that describes your proposal. Do not include the words "GSoC", "2015", or your name in the proposal title. 
 
-You the person
-^^^^^^^^^^^^^^
+### You the person
 
 **Please put this information at the top of your proposal.**
 
@@ -44,20 +42,17 @@ You the person
 
 * University / current enrollment
 
-* Short bio / overview of your background
+* Short biography / overview of your background
 
-* How can we contact you (email, GitHub username, etc.)?  This information
-  will help us associate all of your various usernames with you.
+* How can we contact you (email, GitHub username, etc.)?  This information will help us associate all of your various usernames with you.
 
   - Email
   - GitHub username
   - Any other user name you want us to know about
 
-Also, please use your full real name in your Melange profile, so that it
-appears in the proposal list.
+Also, please use your full real name in your Melange profile, so that it appears in the proposal list.
 
-You the programmer
-^^^^^^^^^^^^^^^^^^
+### You the programmer
 
 In your project proposal let us know about your programming experience.  Don't
 worry if you don't know SymPy or git.  Many of our students start fresh.
