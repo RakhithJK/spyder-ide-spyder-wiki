@@ -1,4 +1,4 @@
-# Index for the Google Summer of Code Ideas (GSoC)
+# Index for the Google Summer of Code (GSoC)
 
 ## GSoC 2015
 * [[GSoC 2015 Ideas]] -- Ideas for Google Summer of Code projects
