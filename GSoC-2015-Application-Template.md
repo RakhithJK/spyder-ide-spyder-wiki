@@ -6,10 +6,10 @@ GSoC 2015 Application Template
 Things to do
 ------------
 
-* Join the `SymPy mailing list
-  <https://groups.google.com/group/sympy>`_ and introduce yourself.  Not only
-  do we get to know you, but you can use the mailing list to get feedback on
-  project ideas and get help as you start working with the code base.
+* Join the [Spyder mailing list](https://groups.google.com/group/spyderlib) 
+  and introduce yourself.  Not only do we get to know you, but you can use 
+  the mailing list to get feedback on project ideas and get help as you
+  start working with the code base.
 
 * Write and submit a proposal to the Google Summer of Code website
   (http://www.google-melange.com). If you want to, you can draft your project
