@@ -54,27 +54,18 @@ Also, please use your full real name in your Melange profile, so that it appears
 
 ### You the programmer
 
-In your project proposal let us know about your programming experience.  Don't
-worry if you don't know SymPy or git.  Many of our students start fresh.
-We will teach you what you need to know.
+In your project proposal let us know about your programming experience.  Don't worry if you don't know PyQt/PySide/Qt or git.  Many of our students start fresh. We will teach you what you need to know.
 
-* What platform do you use to code?  What editor do you prefer and why?
+* What is your experience programming?  Tell us about something you have created.
 
-* What is your experience programming?  Tell us about something you have
-  created.
+* What is your experience with Python?  What are your favorite features of Python that are lacking in most other common programming languages?  What, in your opinion, is the most advanced Python language feature or standard library functionality that you have used?
 
-* What is your experience with Python?  What are your favorite features of
-  Python that are lacking in most other common programming languages?  What,
-  in your opinion, is the most advanced Python language feature or standard
-  library functionality that you have used?
-
-* What is your favorite feature of SymPy?  Demonstrate it here with a cool example.
+* What is your favorite feature of Spyder?
 
 * Have you ever used git or another version control system?
 
 
-You and your project
-^^^^^^^^^^^^^^^^^^^^
+### You and your project
 
 Answer the following questions in your proposal:
 
@@ -82,48 +73,23 @@ Answer the following questions in your proposal:
 
 * What excites you about this project?  Why did you choose it?
 
-* What qualifications do you have to implement your idea?  For example, if you
-  are implementing solvers for partial differential equations, what courses
-  have you taken or books have you read on PDEs?  Why are you suited to work on
-  this project?
+* What qualifications do you have to implement your idea?  For example, if you are implementing a new feature for Spyder, what courses have you taken or books have you read on GUI design?  Why are you suited to work on this project?
 
-* What have other people done on this idea?  Has it been implemented before?
-  (hint: it probably has)  Are there any papers or blog posts about it?
+* What have other people done on this idea? Has it been implemented before in another IDE? (hint: it probably has) Are there any projects codebase or blog posts about it?
 
-* How much time do you plan to invest in the project before, during, and after
-  the Summer of Code? (we expect full time 40h/week during GSoC, but better
-  make this explicit) If you plan to take any vacations over the summer, let
-  us know about it here.
+* How much time do you plan to invest in the project before, during, and after the Summer of Code? (we expect full time 40h/week during GSoC, but better make this explicit) If you plan to take any vacations over the summer, let us know about it here.
 
-* Please provide a schedule of how this time will be spent on sub-tasks
-  of the project over the period of the summer. While this is only
-  preliminary, we will use it to help monitor your progress throughout
-  the program.  Also understand that during the project you will issue
-  weekly progress reports against that plan on your blog.
+* Please provide a schedule of how this time will be spent on sub-tasks of the project over the period of the summer. While this is only preliminary, we will use it to help monitor your progress throughout the program.  Also understand that during the project you will issue weekly progress reports against that plan on your blog.
 
-* In planning your project, it is good to note where along the way you could
-  formulate a pull request. These would be points where you can have a self
-  contained and well documented and tested piece of functionality. Doing this
-  at several points during the summer helps to keep branch merges reasonable
-  and code reviews manageable. A big code dump at the end of the summer will
-  likely be hard to review and merge before the project deadline.
+* In planning your project, it is good to note where along the way you could formulate a pull request. These would be points where you can have a self contained and well documented and tested piece of functionality. Doing this at several points during the summer helps to keep branch merges reasonable and code reviews manageable. A big code dump at the end of the summer will likely be hard to review and merge before the project deadline.
 
-* Please do not verbatim copy text from the ideas page, or from other people's
-  discussions about your project, but rewrite it in your own words.  If you
-  include any significant text or code from another source in your
-  application, it must be accompanied with a proper citation.  All papers or
-  references that you use or plan to use must also be cited.  Put all this in
-  a "References" section at the bottom of your application.
+* Please do not verbatim copy text from the ideas page, or from other people's discussions about your project, but rewrite it in your own words.  If you include any significant text or code from another source in your application, it must be accompanied with a proper citation.  All papers or references that you use or plan to use must also be cited.  Put all this in a "References" section at the bottom of your application.
 
-You do not need to format your application as a question/answer format
-for the above questions, but we expect to see all of the above questions
-answered in your application somewhere.
+You do not need to format your application as a question/answer format for the above questions, but we expect to see all of the above questions answered in your application somewhere.
 
-Patch requirement
------------------
+## Patch requirement
 
-In addition to the written proposal, we require every GSoC applicant to write a
-patch and get it pushed into our current master. To do this:
+In addition to the written proposal, we require every GSoC applicant to write a patch and get it pushed into our current master. To do this:
 
 * Set up your platform to develop with SymPy (install git, clone
   https://github.com/sympy/sympy.git, execute tests). The page on our
@@ -169,7 +135,3 @@ patch and get it pushed into our current master. To do this:
   needed to satisfy patch requirements.  It is up to you to respond to our
   feedback in a timely enough manner so that your patch gets merged before the
   acceptance deadline.
-
-..  Ignore this.  These are words to be ignored by Emacs's Ispell spellchecker
-..  LocalWords:  GSoC GitHub IRC FIXME TODO NotImplementedErrors XFAILs PDEs
-..  LocalWords:  Freenode
