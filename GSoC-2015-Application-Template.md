@@ -18,29 +18,15 @@ Things to do
 Writing your proposal
 ---------------------
 
-To be considered, a GSoC application must have a written proposal submitted to
-http://www.google-melange.com/.
+To be considered, a GSoC application must have a written proposal submitted to http://www.google-melange.com/.
 
-If you want, you can start a wiki page to work on your proposal at
-https://github.com/sympy/sympy/wiki/.  If you add your proposal there, we will
-help you edit it and provide feedback (though understand that we will not help
-you write it).  You can add your application to our list of
-[[GSoC 2015 Current Applications]].  To maintain a consistent naming
-scheme, title your application: "GSoC 2015 Application <Your Name>: <Project
-Name>".  Old applications can be found either through the links on the main
-page of the wiki or by browsing through [[_pages]].
+If you want, you can start a wiki page to work on your proposal at https://github.com/spyder-ide/spyder/wiki/.  If you add your proposal there, we will help you edit it and provide feedback (though understand that we will not help you write it).  You can add your application to our list of
+[[GSoC 2015 Current Applications]].  To maintain a consistent naming scheme, title your application: "GSoC 2015 Application <Your Name>: <Project Name>". 
 
-Note that your final application must be submitted at
-http://www.google-melange.com/, so do not worry about the formatting of your
-application on the wiki, as you will have to reformat it there.  You should
-not be too concerned with the formatting in Melange either, as we understand
-that the text editor there is not the best for making things look nice
-formatting-wise.  We are more concerned with the content of your application,
-and that it is readable.
+Note that your final application must be submitted at http://www.google-melange.com/, so do not worry about the formatting of your application on the wiki, as you will have to reformat it there.  You should
+not be too concerned with the formatting in Melange either, as we understand that the text editor there is not the best for making things look nice formatting-wise.  We are more concerned with the content of your application, and that it is readable.
 
-You may be able to get equivalent formatting in Melange from the wiki by
-copying the webpage contents or messing with the HTML source, but you
-shouldn't worry about it too much.
+You may be able to get equivalent formatting in Melange from the wiki by copying the webpage contents or messing with the HTML source, but you shouldn't worry about it too much.
 
 You should include the following information in your proposal:
 
