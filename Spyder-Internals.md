@@ -41,12 +41,12 @@ The documentation is hosted in [Python Hosted](https://pythonhosted.org/spyder/)
 ## external-py2
 Spyder makes use of external python libraries, such as [pyflakes](https://github.com/pyflakes/pyflakes/), [rope](http://rope.sourceforge.net/), [pep8](https://github.com/jcrocholl/pep8) and a modified version of the [conda_api](https://github.com/conda/conda-api). When Spyder runs from a Python 2 interpreter, the `external-py2` folder is added to the `PATH`. 
 
-The modules saved here must be compatible with Python 2
+The modules saved here must be compatible with Python 2.
 
 ## external-py3
 Spyder makes use of external python libraries, such as [pyflakes](https://github.com/pyflakes/pyflakes/), [rope](http://rope.sourceforge.net/), [pep8](https://github.com/jcrocholl/pep8) and a modified version of the [conda_api](https://github.com/conda/conda-api). When Spyder runs from a Python 3 interpreter, the `external-py3` folder is added to the `PATH`. 
 
-The modules saved here must be compatible with Python 3
+The modules saved here must be compatible with Python 3.
 
 **Note: Even if the same module works with both Python 2 and Python 3, it must be copied inside both `external-py2` and `external-py3` folders.**
 
@@ -64,7 +64,7 @@ TODO:
 ## spyderlib
 This is the actual main module of Spyder.
 
-The name spyderlib is due to the existence of another project with the spyder 
+The name `spyderlib` is due to the existence of another project named "spyder."
 
 ### locale 
 The translations of the interface for Spyder are stored in this folder. Currently Spyder has translations available for Spanish (es) and French (fr). 
