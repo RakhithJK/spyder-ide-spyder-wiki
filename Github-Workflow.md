@@ -257,3 +257,6 @@ function git-pr() {
     git checkout pr/$1
 }
 ```
+
+# Still looking for help?
+Check out all the [help articles on Github](https://help.github.com) and the [help articles on git](https://git-scm.com/doc).
