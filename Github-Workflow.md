@@ -258,5 +258,5 @@ function git-pr() {
 }
 ```
 
-# Still looking for help?
+## Still looking for help?
 Check out all the [help articles on Github](https://help.github.com) and the [help articles on git](https://git-scm.com/doc).
