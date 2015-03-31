@@ -1,4 +1,4 @@
-## Version 2.4dev
+## Version 3.0dev
 
 ### New features since v2.3
 
@@ -23,3 +23,4 @@
   * Support PyQt5
   * Use the new (pythonic) style for signals and slots
   * Use PyQt4 API #2 by default (API #1 is now unsupported)
+  * Start testing Spyder with the help of Travis CI
