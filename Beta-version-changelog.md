@@ -21,7 +21,7 @@
 
 * Under the hood
   * Support PyQt5
-  * Move our settings directory to be `.spyder-{py3}`
+  * Move our settings directory to be `~/.spyder{-py3}`
   * Use the new (pythonic) style for signals and slots
   * Use PyQt4 API #2 by default (API #1 is now unsupported)
   * Start testing Spyder with the help of Travis CI
