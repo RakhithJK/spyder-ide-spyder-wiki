@@ -258,5 +258,29 @@ function git-pr() {
 }
 ```
 
+# Additional infomation
+
+## Squashing commits
+TODO
+
+## Rebasing
+
+**UNDER WORK**
+
+`git checkout master`
+`git pull upstream master`
+`git push origin master`
+`git checkout your_branch`
+`git rebase master`
+
+Fix any conflicts (if any) and afterwards 
+`git rebase --continue`
+
+at any time abort with
+`git rebase --abort`
+
+finally
+`git push origin your_branch --force`
+
 ## Still looking for help?
 Check out all the [help articles on Github](https://help.github.com) and the [help articles on git](https://git-scm.com/doc).
