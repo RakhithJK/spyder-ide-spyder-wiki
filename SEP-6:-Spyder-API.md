@@ -8,7 +8,9 @@
 | Implementation | link to the PR                                        |
 
 # Rationale
-This way we can completely decouple internal and public api, and get (at the expense of some extra classes...) a clean (??) separation. We can also implement counters in the public API.
+To have a clean separation of public api (for plugin development and users) and private api (for spyder development and contributors). 
+
+This would allow to decouple internal and public api, and get (at the expense of some extra classes...) a clean separation. We can also implement counters in the public API.
 
 Or even create a module to handle all this api in a single place (call, import) so we could have.
 
