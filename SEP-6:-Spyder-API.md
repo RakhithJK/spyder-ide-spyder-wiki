@@ -1,3 +1,30 @@
+| key            | value                                                 |
+|----------------|-------------------------------------------------------|
+| Status         | Active                                                |
+| Author         | Gonzalo Peña-Castellanos / (@goanpeca)                |
+| Created        | April, 2015                                           |
+| Updated        | April, 2015                                           |
+| Discussion     | link to the issue where the SEP is being discussed    |
+| Implementation | link to the PR                                        |
+
+# Rationale
+This way we can completely decouple internal and public api, and get (at the expense of some extra classes...) a clean (??) separation. We can also implement counters in the public API.
+
+Or even create a module to handle all this api in a single place (call, import) so we could have.
+
+```python
+
+from spyder.api import variabe_explorer
+
+variabe_explorer.public_api_method_1()
+...
+```
+
+Where `spyder.api` module would import all the available api's in spyder
+
+
+# Example
+
 ```python
 # spyder_widget_example.py
 
@@ -38,17 +65,3 @@ class SpyderWidget:
 Which from the internal console would be called something like....
 
 `spy.window.editor.api.public_method_1()`
-
-This way we can completely decouple internal and public api, and get (at the expense of some extra classes...) a clean (??) separation. We can also implement counters in the public API.
-
-Or even create a module to handle all this api in a single place (call, import) so we could have.
-
-```python
-
-from spyder.api import variabe_explorer
-
-variabe_explorer.public_api_method_1()
-...
-```
-
-Where `spyder.api` module would import all the available api's in spyder
