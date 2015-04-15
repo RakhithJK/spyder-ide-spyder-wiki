@@ -1,4 +1,4 @@
-Here is a brief list of projects, packages being developed and companies using Spyder.
+Here is a brief list of projects, packages under development and companies using Spyder.
 
 If you know of more, feel free to add them.
 
