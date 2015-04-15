@@ -54,7 +54,9 @@ TODO:
     
     ```
 
-## Internationalization / Localization
+## Spyder style
+
+### Internationalization / Localization
 TODO:
 
 ```python
