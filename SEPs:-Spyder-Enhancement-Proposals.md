@@ -33,3 +33,4 @@ Each SEP should have a table/area at the top with the following information:
 * [[SEP 4: Pip Conda Installable Plugins]] -- *Active*
 * [[SEP 5: Core Extension Plugins]] -- *Active*
 * [[SEP 6: Spyder API]] -- *Active*
+* [[SEP 7: Generic Plugin Subsystem]] -- *Active*
