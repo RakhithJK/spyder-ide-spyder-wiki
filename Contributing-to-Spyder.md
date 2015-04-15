@@ -1,1 +1,1 @@
-**Work in progress**
+Spyder will always be 100% open source software, free for all to use and released under the liberal terms of the MIT license. But while the whole team does its best to work efficiently we are always in need of contributors and developers to improve our development capabilities. 
