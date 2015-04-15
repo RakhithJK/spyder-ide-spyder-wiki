@@ -37,6 +37,7 @@ These are some suggestions to take into account when using the Qt bindings in Py
             """Run some new method."""
             # Do something interesting
     ```
+
 ### Signals
 - When working with signals, use the [new style](http://pyqt.sourceforge.net/Docs/PyQt4/new_style_signals_slots.html):
 - For naming new custom signals, use the `sig_` prefix
