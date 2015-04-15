@@ -6,4 +6,4 @@ Here are the core documents describing IPython development:
 * A description of the [[perfect pull request|Dev: The perfect pull request]]
 * Our [[Dev:-Coding-style]]
 * [[Changelog]]
-* [Spyder internals | Dev:-Spyder-Internals]
+* [[Spyder internals|Dev:-Spyder-Internals]]
