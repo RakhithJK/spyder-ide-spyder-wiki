@@ -19,7 +19,7 @@ Qt by default has its own conventions for the definitions of methods and classes
 
 These are some suggestions to take into account when using the Qt bindings in Python:
 
-### CamelCaseMethod and new_method
+### Method naming conventions
 Qt defines methods in camelCase, and when Spyder overloads these methods, we cannot avoid camelCase. However, When new methods are defined in Spyder, these methods should follow the PEP8 convention:
     ```python
     class SpyderWidget(QWidget):
