@@ -12,7 +12,7 @@ Unless otherwise specified, follow [PEP 8](https://www.python.org/dev/peps/pep-0
 
 Use flake8 to check for problems in this area. Remember that PEP 8 is only a guide, so respect the style of the surrounding code as a primary goal.
 
-* Use four spaces for indentation.
+* **Always** use four (4) spaces for indentation.
 
 ## PyQt / PySide Style
 Spyder aims to be compatible with PySide and PyQt, so make sure code runs with both bindings.
