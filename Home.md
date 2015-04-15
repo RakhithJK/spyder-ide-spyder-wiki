@@ -13,7 +13,7 @@ This wiki contains:
 * [Development information](wiki/Dev:-Index)
 * [[SEPs: Spyder Enhancement Proposals]]
 * Spyder [[Roadmap]]
-* A list of [Projects using IPython](wiki/Projects-using-Spyder)
+* A list of [Projects using Spyder](Projects-using-Spyder)
 * [[Frequently asked questions]]
 
 # Editing the wiki
