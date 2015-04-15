@@ -16,7 +16,7 @@ This wiki contains:
 * A list of [Projects using Spyder](Projects-using-Spyder)
 * [[Frequently asked questions]]
 
-# Editing the wiki
+## Editing the wiki
 
 Here are some general guidelines on editing this wiki:
 
@@ -25,7 +25,7 @@ Here are some general guidelines on editing this wiki:
 * Please add your page to one of our index pages, either this page or the index pages for one of the prefixes.
 * If you find stale content, please remove it or better yet, update it.
 
-# General links
+## General links
 
 Here is a link to our [main website](http://spyder-ide.org).
 
