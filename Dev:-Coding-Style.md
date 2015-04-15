@@ -40,9 +40,8 @@ These are some suggestions to take into account when using the Qt bindings in Py
             # Do something interesting
     ```
 
-* **QUESTION:** Should we define some conventions as well for widgets? or for signal naming? for instance:
     - When working with signals, use the [new style](http://pyqt.sourceforge.net/Docs/PyQt4/new_style_signals_slots.html):
-    - For naming custom signals, use the `sig_` prefix?. This could help in uniformizing code, sometimes signals are defined with sig_ sometimes not... maybe it is better to always use sig_:
+    - For naming new custom signals, use the `sig_` prefix
     ```python
     from spyderlib.qt.QtCore import Signal
     
