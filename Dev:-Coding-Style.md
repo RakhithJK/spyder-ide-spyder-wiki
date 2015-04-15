@@ -1,5 +1,3 @@
-*Adapted from https://docs.djangoproject.com/en/1.7/internals/contributing/writing-code/coding-style/*
-
 **Note: This is a work in progress!**
 
 # Coding style
