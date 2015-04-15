@@ -9,8 +9,8 @@ This wiki contains:
 * [[Contributing to spyder]]
 * [[Development information|Dev:-Index]]
 * [[SEPs: Spyder Enhancement Proposals]]
-* Spyder [[Roadmap]]
-* A list of [Projects using Spyder](Projects-using-Spyder)
+* [[Roadmap]]
+* [[Projects using Spyder]]
 * [[Frequently asked questions]]
 
 ## Editing the wiki
