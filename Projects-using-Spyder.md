@@ -1,6 +1,6 @@
 Here is a brief list of projects, packages under development, and companies using Spyder.
 
-If you know of more, feel free to add them.
+Spyder itself is developed using Spyder, if you know of more, feel free to add them.
 
 ## Development of Python Packages
 
