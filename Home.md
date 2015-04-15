@@ -21,7 +21,7 @@ This wiki contains:
 Here are some general guidelines on editing this wiki:
 
 * **All pages should use Markdown.**
-* We are using pseudo-namespaces to organize pages.  This is accomplished by using prefixes for the page names, such as "Dev: The perfect pull request". Example prefixes are: "Dev", "Sprints", "SPEP", etc. **Please use appropriate prefixes for the pages you create.**
+* We are using pseudo-namespaces to organize pages.  This is accomplished by using prefixes for the page names, such as "Dev: The perfect pull request". Example prefixes are: "Dev", "Sprints", "SEP", etc. **Please use appropriate prefixes for the pages you create.**
 * Please add your page to one of our index pages, either this page or the index pages for one of the prefixes.
 * If you find stale content, please remove it or better yet, update it.
 
