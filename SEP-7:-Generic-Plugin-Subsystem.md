@@ -8,7 +8,7 @@
 | Implementation | -PR TBD-                                        |
 
 
-Generic plugin subsystem for Spydey is a set of conventions that can be reused outside of Spyder. This means that plugin can adapt itself to different tools and chooses provided dependencies and feature depending on environment where it is run.
+Generic Plugin Subsystem for Spydey is a set of conventions that can be reused outside of Spyder. This means that plugin can adapt itself to different tools and chooses provided dependencies and feature depending on environment where it is run.
 
 To allow max adoption, the Spydey GPS core (the tricky part on application side) should be released as CC0 / Public domain / Unlicense.
 
@@ -41,7 +41,7 @@ Plugin should not import anything except base Python dependencies at its top lev
 
 Specification or speccy is divided into levels. Every new level restricts flexibility and makes the protocol between plugin and application more strict / defined. You're free to implement the speccy until any level and state that in your plugin docs.
 
-Every new level should solve a real issue and follow at least one of the following principles:
+To avoid feature creeping and specification bloat, every new level should be practical, solve a real issue, have real plugin behind and follow at least one of the following principles:
 
  - make plugin code less mystic
  - make plugin code less verbose
