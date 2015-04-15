@@ -21,8 +21,8 @@ Qt by default has its own conventions for the definitions of methods and classes
 
 These are some suggestions to take into account when using the Qt bindings in Python:
 
-* Qt defines methods in camelCase, and when Spyder overloads these methods, we cannot avoid camelCase. However, When new methods are defined in Spyder, these methods should follow the PEP8 convention:
-
+### CamelCaseMethod and new_method
+Qt defines methods in camelCase, and when Spyder overloads these methods, we cannot avoid camelCase. However, When new methods are defined in Spyder, these methods should follow the PEP8 convention:
     ```python
     class SpyderWidget(QWidget):
         """Example widget."""
@@ -37,6 +37,9 @@ These are some suggestions to take into account when using the Qt bindings in Py
             """Run some new method."""
             # Do something interesting
     ```
+
+### Imports
+TODO:
 
 ### Signals
 - When working with signals, use the [new style](http://pyqt.sourceforge.net/Docs/PyQt4/new_style_signals_slots.html):
