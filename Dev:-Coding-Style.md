@@ -40,6 +40,17 @@ class SpyderWidget(QWidget):
 ### Imports
 TODO:
 
+## Spyder style
+
+### Internationalization / Localization
+TODO:
+
+```python
+from spyderlib.baseconfig import _
+
+```
+
+
 ### Signals
 - When working with signals, use the [new style](http://pyqt.sourceforge.net/Docs/PyQt4/new_style_signals_slots.html):
 - For naming new custom signals, use the `sig_` prefix
@@ -53,14 +64,3 @@ TODO:
         sig_run_in_current_ipyclient = Signal(str, str, str, bool, bool)
     
     ```
-
-## Spyder style
-
-### Internationalization / Localization
-TODO:
-
-```python
-from spyderlib.baseconfig import _
-
-
-```
