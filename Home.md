@@ -11,7 +11,9 @@ This wiki contains:
 :octocat: [[Development information|Dev:-Index]]
 
 * [[SEPs: Spyder Enhancement Proposals]]
-* [[Roadmap]]
+
+:crystal_ball: [[Roadmap]]
+
 * [[Projects using Spyder]]
 
 :question: [[Frequently asked questions]]:question:
