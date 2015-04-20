@@ -45,7 +45,9 @@ Spyder code and main documentation is written in English and will continue this 
 
 The interface as of now (April 2015) supports English, Spanish, French and recently (Brazilian) Portuguese.
 
-If you want to know more information on how to improve the documentation, please visit [[this section|Dev:-Translations]]
+The [[documentation|https://pythonhosted.org/spyder/]] is (so far) available in English.
+
+If you want to know more information on how to provide translations for the documentation and/or the interface, please visit [[this section|Dev:-Translations]]
 
 ## Updating the website :art: 
 If you want to know more information on how to improve the documentation, please visit [[this section|Dev:-Website]]
