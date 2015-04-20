@@ -10,10 +10,8 @@ This wiki contains
 - :thumbsup: [[Contributing to spyder]]
 - :octocat: [[Development information|Dev:-Index]]
 - :ledger: [[SEPs: Spyder Enhancement Proposals]]
-: [[Roadmap]]
-
+- :crystal_ball:  [[Roadmap]]
 - :package: [[Projects using Spyder]]
-
 - :question: [[Frequently asked questions]]
 
 ------
