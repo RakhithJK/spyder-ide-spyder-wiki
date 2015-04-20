@@ -36,7 +36,7 @@ If you want to know more information on how to improve the documentation, please
 ## Translating Spyder :gb: :fr: :es:
 If you want to know more information on how to improve the documentation, please visit [[this section|Dev:-Translations]]
 
-## Improving/Updating the website (Under construction)
+## Improving/Updating the website :art: 
 If you want to know more information on how to improve the documentation, please visit [[this section|Dev:-Website]]
 
 ## Filling issues and helping the community
