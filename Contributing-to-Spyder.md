@@ -6,6 +6,8 @@ Although a lot of people might think writing code that enhances or correct bugs 
 
 [[:speaker: Become part of community, spread the word|https://github.com/spyder-ide/spyder/wiki/Contributing-to-Spyder#become-part-of-the-community-spread-the-word-mega-scream_cat-speaker]]
 
+[[:books: Improve documentation|
+https://github.com/spyder-ide/spyder/wiki/Contributing-to-Spyder#creating-improving-and-updating-documentation-books
 ---
 
 
