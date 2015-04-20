@@ -11,7 +11,7 @@ This section contains
 
 [[:gb: Help translate Spyder | https://github.com/spyder-ide/spyder/wiki/Contributing-to-Spyder#improvingupdating-the-website-under-construction]]
 
-[[:art: Help design Spyder website | https://github.com/spyder-ide/spyder/wiki/Contributing-to-Spyder#improvingupdating-the-website-art]]
+[[:art: Help design Spyder website | https://github.com/spyder-ide/spyder/wiki/Contributing-to-Spyder#updating-the-website-art]]
 
 [[:question: Help users, answer questions | https://github.com/spyder-ide/spyder/wiki/Contributing-to-Spyder#help-users-and-answer-questions-question]]
 
