@@ -15,9 +15,9 @@ This section contains
 
 [[:question: Help users, answer questions | https://github.com/spyder-ide/spyder/wiki/Contributing-to-Spyder#help-users-and-answer-questions-question]]
 
-[[:bug: Report bugs | https://github.com/spyder-ide/spyder/wiki/Contributing-to-Spyder#updating-the-website-art]]
+[[:bug: Report bugs | https://github.com/spyder-ide/spyder/wiki/Contributing-to-Spyder#report-bugs-and-issues-bug]]
 
-[[:memo: Write code | https://github.com/spyder-ide/spyder/wiki/Contributing-to-Spyder#improvingupdating-the-website-art]]
+[[:memo: Write code | https://github.com/spyder-ide/spyder/wiki/Contributing-to-Spyder#writing-code-memo]]
 
 
 ---
@@ -53,7 +53,7 @@ TODO:
 TODO:
 
 
-## Writing Code
+## Writing Code :memo:
 TODO:
 
 ### Fixing bugs
