@@ -31,8 +31,11 @@ TODO:
 ## Answering questions
 TODO:
 
-### Writing tests
+## Writing Code
 TODO:
 
-## Writing code, fixing and enhancing
+### Fixing bugs
+TODO:
+
+### Creating tests
 TODO:
