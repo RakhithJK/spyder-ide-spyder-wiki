@@ -2,7 +2,7 @@
 
 This section contains:
 
-[[:speaker: Become part of community, spread the word|#become-part-of-the-community-spread-the-word-mega-scream_cat-speaker]]
+[[:speaker: Become part of community, spread the word|wiki\#become-part-of-the-community-spread-the-word-mega-scream_cat-speaker]]
 
 
 Although a lot of people might think writing code that enhances or correct bugs is the only way to help in an open source project such as Spyder, the truth is there are many ways an user can contribute to make Spyder the best Python development environment, including but not limited to:
