@@ -37,7 +37,7 @@ Spyder has official channels for communication including:
 * [Gitter Chat Room](https://gitter.im/spyder-ide/public)
 
 
-## Creating, improving and updating documentation :books: 
+## Creating, improving updating documentation :books: 
 If you want to know more information on how to improve the documentation, please visit [[this section|Dev:-Documentation]]
 
 ## Translating Spyder :gb: :fr: :es:
