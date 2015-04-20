@@ -42,11 +42,12 @@ If you want to know more information on how to improve the documentation, please
 ## Improving/Updating the website :art: 
 If you want to know more information on how to improve the documentation, please visit [[this section|Dev:-Website]]
 
+## Help users and answer questions :question: 
+TODO:
+
 ## Filling issues and helping the community
 TODO:
 
-## Answering questions
-TODO:
 
 ## Writing Code
 TODO:
