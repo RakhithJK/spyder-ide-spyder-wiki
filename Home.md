@@ -11,7 +11,7 @@ This wiki contains:
 * [[SEPs: Spyder Enhancement Proposals]]
 * [[Roadmap]]
 * [[Projects using Spyder]]
-* :question: [[Frequently asked questions]]
+* [[Frequently asked questions]]:question:
 
 ## Editing the wiki
 
