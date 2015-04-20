@@ -9,7 +9,7 @@ This section contains
 
 [[:books: Help improve the documentation | https://github.com/spyder-ide/spyder/wiki/Contributing-to-Spyder#creating-improving-and-updating-documentation-books]]
 
-[[:gb: Help translate Spyder | https://github.com/spyder-ide/spyder/wiki/Contributing-to-Spyder#Translating-Spyder -gb-fr-es]]
+[[:gb: Help translate Spyder | https://github.com/spyder-ide/spyder/wiki/Contributing-to-Spyder#Translating-Spyder-gb-fr-es]]
 
 [[:art: Help design Spyder website | https://github.com/spyder-ide/spyder/wiki/Contributing-to-Spyder#updating-the-website-art]]
 
