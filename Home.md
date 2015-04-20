@@ -11,7 +11,7 @@ This wiki contains
 
 :octocat: [[Development information|Dev:-Index]]
 
-* [[SEPs: Spyder Enhancement Proposals]]
+:ledger: [[SEPs: Spyder Enhancement Proposals]]
 
 :crystal_ball: [[Roadmap]]
 
