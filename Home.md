@@ -8,12 +8,9 @@ This wiki contains
 ------------------
 
 - :thumbsup: [[Contributing to spyder]]
-
 - :octocat: [[Development information|Dev:-Index]]
-
 - :ledger: [[SEPs: Spyder Enhancement Proposals]]
-
-- :crystal_ball: [[Roadmap]]
+: [[Roadmap]]
 
 - :package: [[Projects using Spyder]]
 
