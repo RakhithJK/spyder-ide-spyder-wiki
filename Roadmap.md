@@ -1,6 +1,6 @@
 # Future
 
-## Version 2.5 / December 2015
+## Version 3.1 / December 2015
 ### Status: Planned
 
 **New major features**:
@@ -12,7 +12,7 @@
     - Add search facilities  
 
 
-## Version 2.4 / July 2015
+## Version 3.0 / July 2015
 ### Status: Early Stage of Development
 
 **New major features**:
