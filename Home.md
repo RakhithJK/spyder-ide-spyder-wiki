@@ -7,11 +7,11 @@ Spyder is a powerful interactive development environment for the Python language
 This wiki contains:
 
 * [[Contributing to spyder]]
-* [[Development information|Dev:-Index]] :octocat:
+:octocat: [[Development information|Dev:-Index]]
 * [[SEPs: Spyder Enhancement Proposals]]
 * [[Roadmap]]
 * [[Projects using Spyder]]
-* [[Frequently asked questions]]:question:
+:question: [[Frequently asked questions]]:question:
 
 ## Editing the wiki
 
