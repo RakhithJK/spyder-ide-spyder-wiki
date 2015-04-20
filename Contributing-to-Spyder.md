@@ -8,9 +8,6 @@ TODO:
 ## Creating/Improving/Updating documentation
 TODO:
 
-## Answering questions on Stackoverflow
-TODO:
-
 ## Translating Spyder
 TODO:
 
