@@ -15,7 +15,7 @@ This section contains
 
 [[:question: Help users, answer questions | https://github.com/spyder-ide/spyder/wiki/Contributing-to-Spyder#help-users-and-answer-questions-question]]
 
-[[:bug: Report bugs | https://github.com/spyder-ide/spyder/wiki/Contributing-to-Spyder#improvingupdating-the-website-art]]
+[[:bug: Report bugs | https://github.com/spyder-ide/spyder/wiki/Contributing-to-Spyder#updating-the-website-art]]
 
 [[:memo: Write code | https://github.com/spyder-ide/spyder/wiki/Contributing-to-Spyder#improvingupdating-the-website-art]]
 
@@ -43,13 +43,13 @@ If you want to know more information on how to improve the documentation, please
 ## Translating Spyder :gb: :fr: :es:
 If you want to know more information on how to improve the documentation, please visit [[this section|Dev:-Translations]]
 
-## Improving/Updating the website :art: 
+## Updating the website :art: 
 If you want to know more information on how to improve the documentation, please visit [[this section|Dev:-Website]]
 
 ## Help users and answer questions :question: 
 TODO:
 
-## Filling issues and helping the community
+## Report bugs and issues :bug: 
 TODO:
 
 
