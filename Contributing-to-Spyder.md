@@ -13,11 +13,11 @@ This section contains
 
 [[:art: Help design Spyder website | https://github.com/spyder-ide/spyder/wiki/Contributing-to-Spyder#improvingupdating-the-website-art]]
 
-[[:question: Help users, answer questions | https://github.com/spyder-ide/spyder/wiki/Contributing-to-Spyder#improvingupdating-the-website-art]]
+[[:question: Help users, answer questions | https://github.com/spyder-ide/spyder/wiki/Contributing-to-Spyder#help-users-and-answer-questions-question]]
 
-[[:question: Report bugs | https://github.com/spyder-ide/spyder/wiki/Contributing-to-Spyder#improvingupdating-the-website-art]]
+[[:bug: Report bugs | https://github.com/spyder-ide/spyder/wiki/Contributing-to-Spyder#improvingupdating-the-website-art]]
 
-[[:question: Write code | https://github.com/spyder-ide/spyder/wiki/Contributing-to-Spyder#improvingupdating-the-website-art]]
+[[:memo: Write code | https://github.com/spyder-ide/spyder/wiki/Contributing-to-Spyder#improvingupdating-the-website-art]]
 
 
 ---
