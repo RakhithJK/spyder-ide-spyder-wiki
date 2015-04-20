@@ -8,7 +8,7 @@ Although a lot of people might think writing code that enhances or correct bugs 
 
 [[:books: Improve documentation | https://github.com/spyder-ide/spyder/wiki/Contributing-to-Spyder#creating-improving-and-updating-documentation-books]]
 
-[[:gb: Translate Spyder | ]]
+[[:gb: Translate Spyder | https://github.com/spyder-ide/spyder/wiki/Contributing-to-Spyder#improvingupdating-the-website-under-construction]]
 
 ---
 
