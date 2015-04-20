@@ -41,6 +41,10 @@ Spyder has official channels for communication including:
 If you want to know more information on how to improve the documentation, please visit [[this section|Dev:-Documentation]]
 
 ## Translating Spyder :gb: :fr: :es:
+Spyder code and main documentation is written in English and will continue this way for its (hopefully long) lifetime. However, in order to reach more users in need of a powerful python development environment there is opportunity to translate the documentation and the interface into different languages.
+
+The interface as of now (April 2015) supports English, Spanish, French and recently (Brazilian) Portuguese.
+
 If you want to know more information on how to improve the documentation, please visit [[this section|Dev:-Translations]]
 
 ## Updating the website :art: 
