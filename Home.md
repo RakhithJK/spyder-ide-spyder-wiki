@@ -15,7 +15,7 @@ This wiki contains
 
 :crystal_ball: [[Roadmap]]
 
-* [[Projects using Spyder]]
+:open_file_folder: [[Projects using Spyder]]
 
 :question: [[Frequently asked questions]]
 
