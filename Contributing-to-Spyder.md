@@ -19,7 +19,7 @@ Spyder has official channels for communication including:
 ## Creating, improving and updating documentation :books: 
 If you want to know more information on how to improve the documentation, please visit [[this section|Dev:-Documentation]]
 
-## Translating Spyder
+## Translating Spyder :gb: :fr: :es:
 If you want to know more information on how to improve the documentation, please visit [[this section|Dev:-Translations]]
 
 ## Improving/Updating the website (Under construction)
