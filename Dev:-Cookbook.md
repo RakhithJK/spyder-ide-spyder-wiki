@@ -2,7 +2,7 @@ A series of Python/Spyder common recipes to take into account when coding
 
 # Python
 
-## Make operations that depend on the Operating System (OS)
+## Operating system (OS) specific operation
 
 ```python
 import os
