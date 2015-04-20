@@ -7,10 +7,11 @@ This section contains
 
 [[:speaker: Become part of community, spread the word|https://github.com/spyder-ide/spyder/wiki/Contributing-to-Spyder#become-part-of-the-community-spread-the-word-mega-scream_cat-speaker]]
 
-[[:books: Improve documentation | https://github.com/spyder-ide/spyder/wiki/Contributing-to-Spyder#creating-improving-and-updating-documentation-books]]
+[[:books: Help improve the documentation | https://github.com/spyder-ide/spyder/wiki/Contributing-to-Spyder#creating-improving-and-updating-documentation-books]]
 
-[[:gb: Translate Spyder | https://github.com/spyder-ide/spyder/wiki/Contributing-to-Spyder#improvingupdating-the-website-under-construction]]
+[[:gb: Help translate Spyder | https://github.com/spyder-ide/spyder/wiki/Contributing-to-Spyder#improvingupdating-the-website-under-construction]]
 
+[[ Help with Spyder website | https://github.com/spyder-ide/spyder/wiki/Contributing-to-Spyder#improvingupdating-the-website-under-construction]]
 ---
 
 
