@@ -3,7 +3,15 @@ Spyder will always be 100% open source software, free for all to use and release
 Although probably most people think writing code is the only way to help in an open source project such as Spyder, the truth is there are many ways an user can contribute to make Spyder the best Python development environment, including but not limited to:
 
 ## Spreading the word
-TODO:
+If you are using Spyder and find it fantastic, then you can contribute to Spyder outreach by sharing your joy with others. Spyder has official channels for communication including:
+- Twitter (@Spyder_IDE)
+- Facebook (@Spyder.IDE)
+- Youtube
+- Google+ Page
+- Google+ Community
+
+## Spreading the word
+If you are using Spyder and find it fantastic, then you can contribute to Spyder outreach by sharing your joy with others.
 
 ## Creating/Improving/Updating documentation
 TODO:
