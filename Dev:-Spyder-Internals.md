@@ -78,6 +78,10 @@ TODO:
 Spyder is and will remain compatible with the available Qt bindings, [PyQt](http://www.riverbankcomputing.co.uk/software/pyqt/intro), and [PySide](http://qt-project.org/wiki/PySide).
 
 This folder contains the modules that detect the available binding and wrap the necessary classes inside a single code base so that instead of using `import PySide.QtCore` or `import PyQt4.QtCore` we can use `import spyderlib.qt.QtCore`.
+
+### utils
+This is the location of many common use functions or helpers that make Spyder work and developed in a more consistent way.
+
 ### widgets
 TODO:
 
