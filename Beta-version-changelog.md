@@ -20,6 +20,7 @@
 * Main Window
   * Add *Introduction* and *New Features* interactive tutorials
   * Add new default layouts (Horizontal, Vertical, Matlab and Rstudio), and also the possibility to name custom layouts.
+  * Add the shortcut `Shift+Alt+R` to restart the application.
   * Add an option to warn when exiting the application, under `Preferences > General > Interface > Prompt when exiting`
 
 * Add Brazilian Portuguese translation
