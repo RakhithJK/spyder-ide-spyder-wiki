@@ -267,6 +267,7 @@ TODO
 To be used when there are merge conflicts. Before doing anything we need to install a tool that helps in conflict resolution, we suggest [Meld](http://meldmerge.org/), but you are free to use any other tool you feel comfortable with. Now having install your tool of choice, you need to configure git, so it knows that the tool exists.
 
 >**Git configuration on Windows (using Meld)**
+>
 >Install Meld, and then open a command prompt and type:
 >
 ```bash
