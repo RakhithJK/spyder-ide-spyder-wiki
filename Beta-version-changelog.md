@@ -2,7 +2,14 @@
 
 ### New features since v2.3
 
-* Drop support for Python 3.2
+* Main Window
+  * Add *Introduction* and *New Features* interactive tutorials
+  * Add new default layouts (Horizontal, Vertical, Matlab and Rstudio), and also the possibility to name custom layouts.
+  * Panes that are tabbed next to each other can now be rearranged by drag and drop.
+  * Check for updates at startup and also if you go to the menu entry `Help > Check for updates`
+  * Add the shortcut `Shift+Alt+R` to restart the application.
+  * Add an option to warn when exiting the application, under `Preferences > General > Interface > Prompt when exiting`
+  * Add Portuguese translation
 
 * Editor
   * Add highlighting to all file types supported by Pygments (a syntax highlighting library)
@@ -17,17 +24,8 @@
 * Profiler
   * Add the ability to save and restore profiler data to compare speed improvements
 
-* Main Window
-  * Add *Introduction* and *New Features* interactive tutorials
-  * Add new default layouts (Horizontal, Vertical, Matlab and Rstudio), and also the possibility to name custom layouts.
-  * Add the shortcut `Shift+Alt+R` to restart the application.
-  * Panes that are tabbed next to each other can now be rearranged by drag and drop.
-  * Check for updates at startup and also if you go to the menu entry `Help > Check for updates`
-  * Add an option to warn when exiting the application, under `Preferences > General > Interface > Prompt when exiting`
-
-* Add Portuguese translation
-
 * Under the hood
+  * Drop support for Python 3.2
   * Support PyQt5
   * Move our settings directory to `~/.spyder{-py3}`
   * Use the new (pythonic) style for signals and slots
