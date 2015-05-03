@@ -282,42 +282,48 @@ Now we are ready for rebasing, open a command prompt, and go to your local repos
 
 **1.) Checkout to the master branch**
 
-&nbsp;&nbsp;`git checkout master`
+&nbsp;&nbsp;&nbsp;&nbsp;`git checkout master`
 
 **2.) Update the master branch on your local repo with the master branch from the upstream repository. (Read the [Developers](#Developers) section on this page to add the `upstream` alias)**
 
-&nbsp;&nbsp;`git pull upstream master`
+&nbsp;&nbsp;&nbsp;&nbsp;`git pull upstream master`
 
 **3.) Update your remote master branch (on your fork) with the latest changes from the master branch in the Spyder repository (that you just pulled)**
 
-&nbsp;&nbsp;`git push origin master`
+&nbsp;&nbsp;&nbsp;&nbsp;`git push origin master`
 
 **4.) Checkout to your local branch**
 
-&nbsp;&nbsp;`git checkout your_branch_name`
+&nbsp;&nbsp;&nbsp;&nbsp;`git checkout your_branch_name`
 
 **5.) Start the rebase**
 
-&nbsp;&nbsp;`git rebase master`
+&nbsp;&nbsp;&nbsp;&nbsp;`git rebase master`
 
 At this point if any problems are found you will get a message saying some conflicts need to be resolved. To solve them using the tool we installed type in the command prompt:
 
-&nbsp;&nbsp;`git mergetool`
+**6.) Solve conflicts**
+&nbsp;&nbsp;&nbsp;&nbsp;`git mergetool`
 
-And select the toold of choice, Meld for this example.
+And select the tool of choice, Meld for this example.
 
-Fix the conflicts using the graphical tool and save the changes. Then in the command prompt type:
+&nbsp;&nbsp;&nbsp;&nbsp;`meld`
 
-&nbsp;&nbsp;`git rebase --continue`
+Fix the conflicts using the graphical tool and save the changes. 
 
-If at any time you feel you did something wrong and want to start from scratch, type in the command prompt: 
+**7.) Continue with the rebase**
 
-&nbsp;&nbsp;`git rebase --abort`
+&nbsp;&nbsp;&nbsp;&nbsp;`git rebase --continue`
+
+**X.) If at any time you feel you did something wrong and want to start from scratch, type in the command prompt:**
+
+&nbsp;&nbsp;&nbsp;&nbsp;`git rebase --abort`
 
 If everything is fixed and went as planned after typing `git rebase --continue`, then the rebase will print that it was successfully executed. 
 
+**8.) Push the rebased local branch to your remote branch**
 Now all that is left is to push the rebased branch to your remote repo branch. Type in the command prompt:
-&nbsp;&nbsp;`git push origin your_branch --force`
+&nbsp;&nbsp;&nbsp;&nbsp;`git push origin your_branch --force`
 
 ## Still looking for help?
 Check out all the [help articles on Github](https://help.github.com) and the [help articles on git](https://git-scm.com/doc).
