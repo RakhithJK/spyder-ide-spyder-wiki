@@ -284,7 +284,9 @@ Now we are ready for rebasing, open a command prompt, and go to your local repos
 
 &nbsp;&nbsp;&nbsp;&nbsp;`git checkout master`
 
-**2.) Update the master branch on your local repo with the master branch from the upstream repository. (Read the [Developers](#Developers) section on this page to add the `upstream` alias)**
+**2.) Update the master branch on your local repo with the master branch from the upstream repository.** 
+
+*(Read the [Developers](#Developers) section on this page to add the `upstream` alias)*
 
 &nbsp;&nbsp;&nbsp;&nbsp;`git pull upstream master`
 
