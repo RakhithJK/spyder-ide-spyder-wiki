@@ -268,10 +268,18 @@ TODO
 **UNDER WORK**
 
 `git checkout master`
+
 `git pull upstream master`
+
 `git push origin master`
+
 `git checkout your_branch`
+
 `git rebase master`
+
+# Install a graphical merge tool, like meld and then
+
+`git mergetool`
 
 Fix any conflicts (if any) and afterwards 
 `git rebase --continue`
