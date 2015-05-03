@@ -264,10 +264,21 @@ function git-pr() {
 TODO
 
 ## Rebasing
+To be used when there are merge conflicts. Before doing anything we need to install a tool that helps in conflict resolution, we suggest [Meld](http://meldmerge.org/), but you are free to use any other tool you feel comfortable with. Now having install your tool of choice, you need to configure git, so it knows that the tool exists.
 
-**UNDER WORK**
+**For Windows (using Meld)**
+Open a command prompt and type
 
-`git checkout master`
+```bash
+git config --global merge.tool meld
+git config --global mergetool.meld.path "X:/PATH TO/MELD/Meld.exe"
+```
+
+Pay attention to the use of slashes (use `/`) and use `""` if the path contains spaces.
+
+Now we are ready for rebasing, open a command prompt, and go to your local repository and enter the following:
+
+`git checkout master`  
 
 `git pull upstream master`
 
@@ -277,17 +288,23 @@ TODO
 
 `git rebase master`
 
-# Install a graphical merge tool, like meld and then
+At this point if any problems are found you will get a message saying some conflicts need to be resolved. To solve them using the tool we installed type in the command prompt:
 
 `git mergetool`
 
-Fix any conflicts (if any) and afterwards 
+And select the toold of choice, Meld for this example.
+
+Fix the conflicts using the graphical tool and save the changes. Then in the command prompt type:
+
 `git rebase --continue`
 
-at any time abort with
+If at any time you feel you did something wrong and want to start from scratch, type in the command prompt: 
+
 `git rebase --abort`
 
-finally
+If everything is fixed and went as planned after typing `git rebase --continue`, then the rebase will print that it was successfully executed. 
+
+Now all that is left is to push the rebased branch to your remote repo branch. Type in the command prompt:
 `git push origin your_branch --force`
 
 ## Still looking for help?
