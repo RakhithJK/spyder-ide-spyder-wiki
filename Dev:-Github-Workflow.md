@@ -302,9 +302,11 @@ Now we are ready for rebasing, open a command prompt, and go to your local repos
 
 &nbsp;&nbsp;&nbsp;&nbsp;`git rebase master`
 
-At this point if any problems are found you will get a message saying some conflicts need to be resolved. To solve them using the tool we installed type in the command prompt:
+At this point if any problems are found you will get a message saying some conflicts need to be resolved. 
 
 **6.) Solve conflicts**
+
+To solve them using the tool we installed type in the command prompt:
 
 &nbsp;&nbsp;&nbsp;&nbsp;`git mergetool`
 
