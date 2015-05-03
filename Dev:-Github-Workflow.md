@@ -286,7 +286,7 @@ Now we are ready for rebasing, open a command prompt, and go to your local repos
 
 **2.) Update the master branch on your local repo with the master branch from the upstream repository.** 
 
-*(Read the [Developers](#Developers) section on this page to add the `upstream` alias)*
+*(Read the [Developers](#Developers) section on this page to add the `upstream` alias if you have not at this point)*
 
 &nbsp;&nbsp;&nbsp;&nbsp;`git pull upstream master`
 
