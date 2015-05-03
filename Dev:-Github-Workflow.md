@@ -303,26 +303,31 @@ Now we are ready for rebasing, open a command prompt, and go to your local repos
 At this point if any problems are found you will get a message saying some conflicts need to be resolved. To solve them using the tool we installed type in the command prompt:
 
 **6.) Solve conflicts**
+
 &nbsp;&nbsp;&nbsp;&nbsp;`git mergetool`
 
 And select the tool of choice, Meld for this example.
 
 &nbsp;&nbsp;&nbsp;&nbsp;`meld`
 
-Fix the conflicts using the graphical tool and save the changes. 
+Fix the conflicts using the graphical tool and save the changes. For more information on using Meld look at [this page](http://meldmerge.org/help/)
 
 **7.) Continue with the rebase**
 
 &nbsp;&nbsp;&nbsp;&nbsp;`git rebase --continue`
 
-**X.) If at any time you feel you did something wrong and want to start from scratch, type in the command prompt:**
+If more conflicts appear, repeat step 6 and 7, until all conflicts are solved.
 
-&nbsp;&nbsp;&nbsp;&nbsp;`git rebase --abort`
+&nbsp;&nbsp;&nbsp;&nbsp;*If at any time you feel you did something wrong and want to start from scratch, type in the command prompt:*
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`git rebase --abort`
 
 If everything is fixed and went as planned after typing `git rebase --continue`, then the rebase will print that it was successfully executed. 
 
 **8.) Push the rebased local branch to your remote branch**
+
 Now all that is left is to push the rebased branch to your remote repo branch. Type in the command prompt:
+
 &nbsp;&nbsp;&nbsp;&nbsp;`git push origin your_branch --force`
 
 ## Still looking for help?
