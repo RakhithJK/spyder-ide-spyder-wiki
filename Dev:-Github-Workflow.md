@@ -330,7 +330,7 @@ If everything is fixed and went as planned after typing `git rebase --continue`,
 
 Now all that is left is to push the rebased branch to your remote repo branch. Type in the command prompt:
 
-&nbsp;&nbsp;&nbsp;&nbsp;`git push origin your_branch --force`
+&nbsp;&nbsp;&nbsp;&nbsp;`git push origin your_branch_name --force`
 
 ## Still looking for help?
 Check out all the [help articles on Github](https://help.github.com) and the [help articles on git](https://git-scm.com/doc).
