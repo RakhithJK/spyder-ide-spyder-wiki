@@ -318,9 +318,9 @@ Fix the conflicts using the graphical tool and save the changes. For more inform
 
 If more conflicts appear, repeat step 6 and 7, until all conflicts are solved.
 
-&nbsp;&nbsp;&nbsp;&nbsp;*If at any time you feel you did something wrong and want to start from scratch, type in the command prompt:*
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`git rebase --abort`
+>*If at any time you feel you did something wrong and want to start from scratch, type in the command prompt:*
+>
+>&nbsp;&nbsp;&nbsp;&nbsp;`git rebase --abort`
 
 If everything is fixed and went as planned after typing `git rebase --continue`, then the rebase will print that it was successfully executed. 
 
