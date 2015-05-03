@@ -266,15 +266,16 @@ TODO
 ## Rebasing
 To be used when there are merge conflicts. Before doing anything we need to install a tool that helps in conflict resolution, we suggest [Meld](http://meldmerge.org/), but you are free to use any other tool you feel comfortable with. Now having install your tool of choice, you need to configure git, so it knows that the tool exists.
 
->**For Windows (using Meld)**
->Open a command prompt and type
+>**Git configuration on Windows (using Meld)**
+>Install Meld, and then open a command prompt and type:
 >
 ```bash
     git config --global merge.tool meld
     git config --global mergetool.meld.path "X:/PATH TO/MELD/Meld.exe"
 ```
+>*Pay attention to the use of slashes (use `/`) and use `""` if the path contains spaces.*
 >
->Pay attention to the use of slashes (use `/`) and use `""` if the path contains spaces.
+>This will let Git know that Meld is installed and available as a mergeing tool.
 
 Now we are ready for rebasing, open a command prompt, and go to your local repository and enter the following:
 
