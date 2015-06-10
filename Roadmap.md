@@ -27,15 +27,16 @@
     - Tab reordering for pane 
     - Floating panes now behave as independent windows 
     - New default icon set (Spyder 3) based on QtAwesome
+    - Additional support for PyQt5 (along with our current PySide/PyQt4 support)
 * Editor:
     - Array builder
-    - Emacs keybindings
+    - Editor Tab reordering
     - Improved auto-completion widget
+    - Emacs keybindings
     - VIM Keybindings??
     - File search (ala sublime) ??
     - Code folding support ??
     - Markdown and Restructured text support ??
-* Additional support for PyQt5 (along with our current PySide/PyQt4 support)
 * Plugins:
     - Plugin manager 
     - Custom Plugins for spyder are now be pip installable
