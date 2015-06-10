@@ -9,35 +9,58 @@
     - Greatly improve debugging experience
 * Object Inspector
     - Add class and constructor docstrings to the shown info (if available).
-    - Add search facilities  
-
+    - Add search facilities
+    - Live render support for Markdown and ReStructuredText files
+* Source Code editor reorganization
+    - Support for autoindentation for more languages
+* Outline explorer
+    - Display Markdown and ReStructuredText headers
 
 ## Version 3.0 / July 2015
 ### Status: Early Stage of Development
 
 **New major features**:
 
+* Global:
+    - New restart option from within Spyder
+    - Tab reordering for pane 
+    - Floating panes now behave as independent windows 
+* Editor:
+    - Array builder
+    - Emacs keybindings
+    - File search (ala sublime) ??
+    - Code folding support ??
+    - Markdown and Restructured text support ??
+* Additional support for PyQt5 (along with our current PySide/PyQt4 support)
+* Plugins:
+    - Plugin manager 
+    - Custom Plugins for spyder are now be pip installable
+* New plugins:
+    - Autopep8 plugin
+    - Conda Package Manager to install/uninstall packages included in Continuum repositories
+* Projects:
+    - New project model
+    - Project preferences
+* Interactive tutorial (similar to the IPython notebook one):
+    - Spyder exploration
+    - New features in Spyder version
+* Custom Layouts
+    - Support for Matlab, RStudio and new defaults (horizontal/vertical layouts).
+    - Save as many named layouts as the user wants
+    - New shortcuts
+* Preferences:
+    - New shortcut entry model, plus shortcut finder
+    - Select the interface language
+    - Reset to factory defaults from within Spyder
+* Consoles:
+    - Array builder
 * IPython:
-    - Notebook plugin to run notebooks natively inside Spyder
     - Drop support for version 1.0 and 2.0
     - Pygments highlighting for the console
     - Array builder
-* Editor:
-    - Code folding support
-    - Emacs keybindings
-    - Markdown and Restructured text support
-    - Array builder
-* Additional support for PyQt5 (along with our current PySide/PyQt4 support)
-* Conda Package Manager to install/uninstall packages included in Continuum repositories
-* Interactive tutorial (similar to the IPython notebook one)
-* Custom Layouts
-    - Support for Matlab, RStudio and new defaults (horizontal/vertical layouts).
-    - New shortcuts
-    - Save as many named layouts as the user wants
+    - Notebook plugin to run notebooks natively inside Spyder?
 * History Log:
-    - Better support for IPython cells
-* Consoles:
-    - Array builder  
+    - Better support for IPython cells?
 
 ----
 
