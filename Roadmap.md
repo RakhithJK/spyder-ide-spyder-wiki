@@ -11,8 +11,9 @@
     - Add class and constructor docstrings to the shown info (if available).
     - Add search facilities
     - Live render support for Markdown and ReStructuredText files
-* Source Code editor reorganization
-    - Support for autoindentation for more languages
+* Source Code editor reorganization and language support (Cython, C, HTML??, CSS??)
+    - Support for autoindentation
+    - Support for completion??
 * Outline explorer
     - Display Markdown and ReStructuredText headers
 
@@ -25,9 +26,12 @@
     - New restart option from within Spyder
     - Tab reordering for pane 
     - Floating panes now behave as independent windows 
+    - New default icon set (Spyder 3) based on QtAwesome
 * Editor:
     - Array builder
     - Emacs keybindings
+    - Improved auto-completion widget
+    - VIM Keybindings??
     - File search (ala sublime) ??
     - Code folding support ??
     - Markdown and Restructured text support ??
