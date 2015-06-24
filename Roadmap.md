@@ -71,13 +71,18 @@
 
 # Present
 
+## Version 2.3.5.2 / March 2015
+### Status: Maintenance
+
+* Mainly about bugfixes
+
 ## Version 2.3.4 / March 2015
-### Status: Under Development
+### Status: Maintenance
 
 * Mainly about bugfixes
 
 ## Version 2.3.3 / February 2015
-### Status: Under Development
+### Status: Maintenance
 
 * Move Spyder to Github
 * Editor
