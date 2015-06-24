@@ -71,7 +71,7 @@
 
 # Present
 
-## Version 2.3.5.2 / March 2015
+## Version 2.3.5.2 / June 2015
 ### Status: Maintenance
 
 * Mainly about bugfixes
