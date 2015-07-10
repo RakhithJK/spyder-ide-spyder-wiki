@@ -1,8 +1,9 @@
 ## Version 3.0dev
 
-### New features since v2.3
+### New features
 
 * Main Window
+  * Add a new icon theme based on FontAwesome icons.
   * Add *Introduction* and *New Features* interactive tutorials
   * Add new default layouts (Horizontal, Vertical, Matlab and Rstudio), and also the possibility to name custom layouts.
   * Panes that are tabbed next to each other can now be rearranged by drag and drop.
@@ -10,6 +11,10 @@
   * Add the shortcut `Shift+Alt+R` to restart the application.
   * Add an option to warn when exiting the application, under `Preferences > General > Interface > Prompt when exiting`
   * Add Portuguese translation
+
+* Settings
+  * Keyboard shortcuts can now be entered in an easier and more intuitive way
+  * Be able to select the language used in the interface. Current choices are: English, French, Spanish and Portuguese.
 
 * Editor
   * Add highlighting to all file types supported by Pygments (a syntax highlighting library)
