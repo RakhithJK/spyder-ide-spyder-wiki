@@ -6,15 +6,15 @@
   * Add a new icon theme based on FontAwesome.
   * Add *Introduction* and *New Features* interactive tutorials.
   * Add new default layouts (Horizontal, Vertical, Matlab and Rstudio), and also the possibility to name custom layouts.
-  * Panes that are tabbed next to each other can now be rearranged by drag and drop.
-  * Check for updates at startup and also if you go to the menu entry `Help > Check for updates`.
+  * Panes that are tabbed next to each other can now be rearranged by drag and drop their tabs.
+  * Check for Spyder updates at startup, and also if you go to the menu entry `Help > Check for updates`.
   * Add the shortcut `Shift+Alt+R` to restart the application.
   * Add an option to warn when exiting the application, under `Preferences > General > Interface > Prompt when exiting`.
   * Add Portuguese translation.
 
 * Settings
   * Keyboard shortcuts can now be entered in an easier and more intuitive way.
-  * The language used in the main interface can now be changed. The option to do it is present under `General > Interface > Language`.
+  * The language used in the main interface can now be changed. The option to do it is present in `General > Interface > Language`.
 
 * Editor
   * Add highlighting to all file types supported by Pygments (a syntax highlighting library)
