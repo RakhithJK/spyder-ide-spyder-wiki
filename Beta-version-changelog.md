@@ -9,12 +9,12 @@
   * Panes that are tabbed next to each other can now be rearranged by drag and drop their tabs.
   * Check for Spyder updates at startup, and also if you go to the menu entry `Help > Check for updates`.
   * Add the shortcut `Shift+Alt+R` to restart the application.
-  * Add a menu entry to reset to default settings, under `Tools > Reset Spyder to factory defaults`.
   * Add an option to warn when exiting the application, under `Preferences > General > Interface > Prompt when exiting`.
   * Add Portuguese translation.
 
 * Settings
   * Keyboard shortcuts can now be entered in an easier and more intuitive way.
+  * Add a menu entry to reset to default settings, under `Tools > Reset Spyder to factory defaults`.
   * The language used in the main interface can now be changed. The option to do it is present in `General > Interface > Language`.
 
 * Editor
