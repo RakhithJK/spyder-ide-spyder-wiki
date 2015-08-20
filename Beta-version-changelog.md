@@ -20,10 +20,10 @@
 * Editor
   * Add highlighting to all file types supported by Pygments (a syntax highlighting library)
   * Use `Ctrl+*` and `Shift+Ctrl+*` to visually create matrices and vectors. It also works on the Python and IPython consoles.
+  * Add a new file switcher inspired by the Sublime Text one, which can be called with the `Ctrl+P` shortcut. It can also be used to look for classes/functions/methods inside a file, using the `@my_function` syntax.
 
 * IPython console
   * Drop support for IPython versions less than 3.0.
-  * Support Jupyter 4.0.
 
 * Debugging
   * Integrate post mortem debugging when running a file.
