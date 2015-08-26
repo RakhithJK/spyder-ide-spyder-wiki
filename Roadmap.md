@@ -1,30 +1,28 @@
 # Future
 
-## Version 3.1 / December 2015
+## Version 3.1 / March 2016
 ### Status: Planned
 
 **New major features**:
 
-* Debugger
-    - Greatly improve debugging experience
 * Object Inspector
     - Add class and constructor docstrings to the shown info (if available).
     - Add search facilities
     - Live render support for Markdown and ReStructuredText files
-* Source Code editor reorganization and language support (Cython, C, HTML??, CSS??)
+* Source Code editor reorganization and language support (Cython, C, HTML, CSS)
     - Support for autoindentation
     - Support for completion??
 * Outline explorer
     - Display Markdown and ReStructuredText headers
 
-## Version 3.0 / July 2015
+## Version 3.0 / December 2015
 ### Status: Early Stage of Development
 
 **New major features**:
 
 * Global:
     - New restart option from within Spyder
-    - Tab reordering for pane 
+    - Tab reordering for panes
     - Floating panes now behave as independent windows 
     - New default icon set (Spyder 3) based on QtAwesome
     - Additional support for PyQt5 (along with our current PySide/PyQt4 support)
@@ -33,10 +31,10 @@
     - Editor Tab reordering
     - Improved auto-completion widget
     - Emacs keybindings
-    - VIM Keybindings??
-    - File search (ala sublime) ??
-    - Code folding support ??
-    - Markdown and Restructured text support ??
+    - VIM Keybindings
+    - File search (ala sublime)
+    - Code folding support
+    - Markdown and Restructured text support
 * Plugins:
     - Plugin manager 
     - Custom Plugins for spyder are now be pip installable
@@ -63,13 +61,17 @@
     - Drop support for version 1.0 and 2.0
     - Pygments highlighting for the console
     - Array builder
-    - Notebook plugin to run notebooks natively inside Spyder?
 * History Log:
     - Better support for IPython cells?
 
 ----
 
 # Present
+
+## Version 2.3.6 / August 2015
+### Status: Maintenance
+
+* Mainly about bugfixes
 
 ## Version 2.3.5.2 / June 2015
 ### Status: Maintenance
