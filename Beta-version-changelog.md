@@ -32,7 +32,7 @@
   * Add the ability to save and restore profiler data to compare speed improvements
 
 * Under the hood
-  * Drop support for Python 3.2.
+  * Drop support for Python 2.6 and 3.2.
   * Support PyQt5.
   * Move our settings directory to `~/.spyder{-py3}`. Previous location was `~/.spyder2{-py3}`
   * Use the new (pythonic) style for signals and slots.
