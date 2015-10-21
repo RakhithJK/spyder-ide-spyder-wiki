@@ -32,6 +32,18 @@
 #### Profiler
 * Add the ability to save and restore profiler data to compare speed improvements
 
+#### API Changes
+* `spyderlib.dicteditor.DictEditor` has been renamed to `spyderlib.widgets.editors.collectionseditor.CollectionsEditor`
+* Variable Explorer editor widgets were moved from `spyderlib.widgets`
+to `spyderlib.widgets.variableexplorer`:
+    * `spyderlib.widgets.variableexplorer.arrayeditor`
+    * `spyderlib.widgets.variableexplorer.collectionseditor`
+    * `spyderlib.widgets.variableexplorer.objecteditor`
+    * `spyderlib.widgets.variableexplorer.texteditor`
+    * `spyderlib.widgets.variableexplorer.dataframeeditor`
+* Modules used for configuration options (e.g. `spyderlib.config` and
+`spyderlib.baseconfig`) were moved to a new namespace: `spyderlib.config`
+
 #### Under the hood
 * Drop support for Python 2.6 and 3.2.
 * Support PyQt5.
