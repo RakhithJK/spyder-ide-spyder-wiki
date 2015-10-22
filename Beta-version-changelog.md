@@ -33,7 +33,7 @@
 * Add the ability to save and restore profiler data to compare speed improvements
 
 #### API Changes
-* `spyderlib.dicteditor.DictEditor` has been renamed to `spyderlib.widgets.editors.collectionseditor.CollectionsEditor`
+* `spyderlib.dicteditor.DictEditor` has been renamed to `spyderlib.widgets.variableexplorer.collectionseditor.CollectionsEditor`
 * Variable Explorer editor widgets were moved from `spyderlib.widgets`
 to `spyderlib.widgets.variableexplorer`:
     * `spyderlib.widgets.variableexplorer.arrayeditor`
