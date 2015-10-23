@@ -49,5 +49,5 @@ to `spyderlib.widgets.variableexplorer`:
 * Support PyQt5.
 * Move our settings directory to `~/.spyder{-py3}`. Previous location was `~/.spyder2{-py3}`
 * Use the new (pythonic) style for signals and slots.
-* Start testing Spyder with the help of Travis CI.
+* Start testing Spyder with the help of Travis and AppVeyor.
 * Reorganize the code in several places (See Issue #1320).
