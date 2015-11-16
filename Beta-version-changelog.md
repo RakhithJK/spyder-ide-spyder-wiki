@@ -32,6 +32,9 @@
 #### Profiler
 * Add the ability to save and restore profiler data to compare speed improvements
 
+#### Working directory toolbar
+* Get directory completions by pressing the `Tab` key twice
+
 #### API Changes
 * `spyderlib.dicteditor.DictEditor` has been renamed to `spyderlib.widgets.variableexplorer.collectionseditor.CollectionsEditor`
 * Variable Explorer editor widgets were moved from `spyderlib.widgets`
