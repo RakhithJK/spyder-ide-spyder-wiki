@@ -1,6 +1,6 @@
 # Recommended Github Workflow
 
-# Table of Contents
+## Table of Contents
 
 # Description
 
