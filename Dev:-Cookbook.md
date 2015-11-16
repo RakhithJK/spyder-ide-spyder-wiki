@@ -1,3 +1,4 @@
+# Description
 A series of Python/Spyder common recipes to take into account when coding
 
 # Python
