@@ -36,7 +36,16 @@
 * Get directory completions by pressing the `Tab` key twice
 
 #### API Changes
-* `spyderlib.dicteditor.DictEditor` has been renamed to `spyderlib.widgets.variableexplorer.collectionseditor.CollectionsEditor`
+* `spyderplugins` has been renamed to `spyplugins` and made a namespace package to allow
+installation of third-party plugins there.
+* `spyderlib.widgets.dicteditor.DictEditor` has been renamed to
+`spyderlib.widgets.variableexplorer.collectionseditor.CollectionsEditor`
+* `spyderlib/widgets/dicteditorutils.py` has been renamed to
+`spyderlib/widgets/variableexplorer/utils.py`
+* `spyderlib/widgets/externalshell/namespacebrowser.py` has been moved to
+`spyderlib/widgets/variableexplorer`
+* `spyderlib/widgets/externalshell/syntaxhighlighters.py` has been moved to
+`spyderlib/utils/`
 * Variable Explorer editor widgets were moved from `spyderlib.widgets`
 to `spyderlib.widgets.variableexplorer`:
     * `spyderlib.widgets.variableexplorer.arrayeditor`
