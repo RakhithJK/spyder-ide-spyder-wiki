@@ -17,6 +17,8 @@ This wiki contains
 
 :question: [[Frequently asked questions]]
 
+:bulb: [[Plugin ideas]]
+
 ------
 
 ## Editing the wiki
