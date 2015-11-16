@@ -1,4 +1,6 @@
-*Adapted from https://github.com/LABSN/expyfun/blob/master/git_flow.rst*
+# Table of Contents
+
+# Description
 
 Typically there are three types of people who use GitHub to access source code:
 users, developers, and maintainers. 
@@ -336,3 +338,6 @@ Now all that is left is to push the rebased branch to your remote repo branch. T
 
 ## Still looking for help?
 Check out all the [help articles on Github](https://help.github.com) and the [help articles on git](https://git-scm.com/doc).
+
+# References
+*Adapted from https://github.com/LABSN/expyfun/blob/master/git_flow.rst*
