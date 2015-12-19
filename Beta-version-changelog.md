@@ -13,6 +13,7 @@
 * Add the shortcut `Shift+Alt+R` to restart the application.
 * Add an option to warn when exiting the application, under `Preferences > General > Interface > Prompt when exiting`.
 * Add Portuguese translation.
+* Remove light mode
 
 #### Settings
 * Keyboard shortcuts can now be entered in an easier and more intuitive way.
