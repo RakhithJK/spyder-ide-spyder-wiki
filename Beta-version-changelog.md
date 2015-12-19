@@ -3,7 +3,8 @@
 ### New features
 
 #### Main Window
-  
+
+* Object Inspector was renamed to Help.
 * Add a new icon theme based on FontAwesome.
 * Add *Introduction* and *New Features* interactive tutorials.
 * Add new default layouts (Horizontal, Vertical, Matlab and Rstudio), and also the possibility to name custom layouts.
@@ -33,7 +34,7 @@
 * Add the ability to save and restore profiler data to compare speed improvements
 
 #### Working directory toolbar
-* Get directory completions by pressing the `Tab` key twice
+* Get directory completions by pressing the `Tab` key twice on it
 
 #### API Changes
 * `spyderplugins` has been renamed to `spyplugins` and made a namespace package to allow
@@ -55,6 +56,8 @@ to `spyderlib.widgets.variableexplorer`:
     * `spyderlib.widgets.variableexplorer.dataframeeditor`
 * Modules used for configuration options (e.g. `spyderlib.config` and
 `spyderlib.baseconfig`) were moved to a new namespace: `spyderlib.config`
+* `spyderlib/plugins/inspector.py` was renamed to `spyderlib/plugins/help.py`
+* `spyderlib/utils/inspector` was renamed to `spyderlib/utils/help`
 
 #### Under the hood
 * Drop support for Python 2.6 and 3.2.
