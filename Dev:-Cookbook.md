@@ -26,3 +26,7 @@ if os.name != 'nt':
     pass
 
 ```
+
+## Don't use `subprocess.Popen`
+
+Instead, use `programs.run_shell_command` and `programs.run_program` to launch external programs.  These wrapper functions make sure that the correct flags are set for each platform. For example, `close_fds` is set on POSIX, while on Windows the creation of a separate CMD shell window is disabled (under certain circumstances, this window would quickly flash in the background when the external call was performed).  These wrappers also set `stdout`, `stdin` and `stderr` to `subprocess.PIPE` by default.  Have a look at the implementation in `programs.py` for further details.  There are also a few examples of calls scattered throughout the source code.
