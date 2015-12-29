@@ -42,7 +42,7 @@ pipe = run_shell_command('ls -la')
 output = pipe.stdout.read()
 ```
 
-# Example using `run_program()`
+### Example using `run_program()`
 ```
 from programs import run_program
 
