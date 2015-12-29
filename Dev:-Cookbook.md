@@ -37,7 +37,7 @@ All extra `kwargs` in both `run_shell_command()` and `run_program()` are passed 
 
 ### Example using `run_shell_command()`
 
-```
+```python
 from programs import run_shell_command
 
 pipe = run_shell_command('ls -la')
@@ -45,7 +45,7 @@ output = pipe.stdout.read()
 ```
 
 ### Example using `run_program()`
-```
+```python
 from programs import run_program
 
 proc = run_program('/usr/bin/python', ['-V'], cwd='/Users/caleb')
