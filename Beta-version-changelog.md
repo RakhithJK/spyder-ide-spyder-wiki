@@ -26,10 +26,11 @@
 * Add a new file switcher inspired by the Sublime Text one, which can be called with the `Ctrl+P` shortcut. It can also be used to look for classes/functions/methods inside a file, using the `@my_function` syntax.
 
 #### IPython console
-* Drop support for IPython versions less than 3.0.
+* Drop support for IPython 3.0 and older versions.
+* Support the new `qtconsole` package instead. 
 
 #### Debugging
-* Integrate post mortem debugging when running a file.
+* Enter debugging mode if running a file generates errors. This is not activated by default.
 
 #### Profiler
 * Add the ability to save and restore profiler data to compare speed improvements
@@ -62,6 +63,7 @@ to `spyderlib.widgets.variableexplorer`:
 
 #### Under the hood
 * Drop support for Python 2.6 and 3.2.
+* Drop official support for PySide. Support for it will have to come from the community.
 * Support PyQt5.
 * Move our settings directory to `~/.spyder{-py3}`. Previous location was `~/.spyder2{-py3}`
 * Use the new (pythonic) style for signals and slots.
