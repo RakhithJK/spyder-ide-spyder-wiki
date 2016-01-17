@@ -4,7 +4,7 @@
 
 #### Main Window
 
-* Object Inspector was renamed to Help.
+* The *Object Inspector* pane was renamed to *Help*.
 * Add a new icon theme based on FontAwesome.
 * Add *Introduction* and *New Features* interactive tutorials.
 * Add new default layouts (Horizontal, Vertical, Matlab and Rstudio), and also the possibility to name custom layouts.
@@ -22,7 +22,7 @@
 
 #### Editor
 * Add highlighting to all file types supported by Pygments (a syntax highlighting library)
-* Use `Ctrl+*` and `Shift+Ctrl+*` to visually create matrices and vectors. It also works on the Python and IPython consoles.
+* Use `Ctrl+M` and `Ctrl+Alt+M` to visually create matrices and vectors. It also works on the Python and IPython consoles.
 * Add a new file switcher inspired by the Sublime Text one, which can be called with the `Ctrl+P` shortcut. It can also be used to look for classes/functions/methods inside a file, using the `@my_function` syntax.
 
 #### IPython console
