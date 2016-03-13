@@ -18,10 +18,12 @@
 #### Settings
 * Keyboard shortcuts can now be entered in an easier and more intuitive way.
 * Add a menu entry to reset to default settings, under `Tools > Reset Spyder to factory defaults`.
-* The language used in the main interface can now be changed. The option to do it is present in `General > Interface > Language`.
+* The language used in the main interface can now be changed. The option to do it is present in `General > Advanced Settings`.
+* `Syntax coloring` now has a preview of the selected theme and it's able to change the current theme for all plugins.
+* Plain and Rich text fonts for all plugins are now changed in `General > Appearance`.
 
 #### Editor
-* Add highlighting to all file types supported by Pygments (a syntax highlighting library)
+* Add highlighting and code completion to all file types supported by Pygments (a syntax highlighting library)
 * Use `Ctrl+M` and `Ctrl+Alt+M` to visually create matrices and vectors. It also works on the Python and IPython consoles.
 * Add a new file switcher inspired by the Sublime Text one, which can be called with the `Ctrl+P` shortcut. It can also be used to look for classes/functions/methods inside a file, using the `@my_function` syntax.
 
@@ -58,6 +60,7 @@ to `spyderlib.widgets.variableexplorer`:
     * `spyderlib.widgets.variableexplorer.dataframeeditor`
 * Modules used for configuration options (e.g. `spyderlib.config` and
 `spyderlib.baseconfig`) were moved to a new namespace: `spyderlib.config`
+* Modules and files related to the application have been moved to `spyderlib.app` 
 * `spyderlib/plugins/inspector.py` was renamed to `spyderlib/plugins/help.py`
 * `spyderlib/utils/inspector` was renamed to `spyderlib/utils/help`
 
@@ -69,3 +72,4 @@ to `spyderlib.widgets.variableexplorer`:
 * Use the new (pythonic) style for signals and slots.
 * Start testing Spyder with the help of Travis and AppVeyor.
 * Reorganize the code in several places (See Issue #1320).
+* Code completions and help retrieval on the Editor are done asynchronously using a client/server architecture based on pyzmq.
