@@ -9,7 +9,7 @@
 - [@SylvainCorlay](https://github.com/SylvainCorlay)
 
 ## Portuguese
-- []()
+- [@manipuladordedados](https://github.com/manipuladordedados)
 
 ## Russian
 - [@burrbull](https://github.com/burrbull)
