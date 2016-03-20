@@ -8,7 +8,7 @@
 - [@Nodd](https://github.com/nodd)
 - [@SylvainCorlay](https://github.com/SylvainCorlay)
 
-## Portuguese
+## Portuguese (Brazilian)
 - [@manipuladordedados](https://github.com/manipuladordedados)
 
 ## Russian
