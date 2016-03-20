@@ -1,1 +1,3 @@
-This page is under construction
+# Official Spyder-IDE translators
+
+- Russian @burrbull
