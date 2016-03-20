@@ -18,3 +18,6 @@
 - [@ccordoba12](https://github.com/ccordoba12)
 - [@goanpeca](https://github.com/goanpeca) 
 
+## Ukranian (Pending...)
+- [@burrbull](https://github.com/burrbull)
+
