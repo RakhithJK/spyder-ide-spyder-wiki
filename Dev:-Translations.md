@@ -2,7 +2,7 @@
 
 ## English
 - [@blink1073](https://github.com/blink1073)
-- @spyder-developers
+- [@spyder-developers](https://github.com/orgs/spyder-ide/teams/core-developers)
 
 ## French
 - [@Nodd](https://github.com/nodd)
