@@ -73,3 +73,4 @@ to `spyderlib.widgets.variableexplorer`:
 * Start testing Spyder with the help of Travis and AppVeyor.
 * Reorganize the code in several places (See Issue #1320).
 * Code completions and help retrieval on the Editor are done asynchronously using a client/server architecture based on pyzmq.
+* Spyder now uses the `qtpy` package to be able to work with PyQt4 and PyQt5.
