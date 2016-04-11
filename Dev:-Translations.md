@@ -13,6 +13,7 @@
 
 ## Russian
 - [@burrbull](https://github.com/burrbull)
+- [@Qlogin](https://github.com/Qlogin)
 
 ## Spanish
 - [@ccordoba12](https://github.com/ccordoba12)
