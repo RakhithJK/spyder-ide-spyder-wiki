@@ -54,8 +54,8 @@
 * Get directory completions by pressing the `Tab` key twice on it
 
 #### API Changes
-* `spyderplugins` has been renamed to `spyplugins` and made a namespace package to
-  allow installation of third-party plugins there.
+* `spyderplugins` has been removed and its plugins have been assigned to different
+  different directories (`spyder_profiler`, `spyder_breakpoints`, etc).
 * `spyderlib.widgets.dicteditor.DictEditor` has been renamed to
   `spyderlib.widgets.variableexplorer.collectionseditor.CollectionsEditor`
 * `spyderlib/widgets/dicteditorutils.py` has been renamed to
