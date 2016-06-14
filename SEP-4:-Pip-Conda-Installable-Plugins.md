@@ -8,8 +8,9 @@
 | Implementation | link to the PR                                        |
 
 # Description
-
+Add the possibility to install plugins via pip or conda.
 
 # Current Status
+Plugins are pip installable in spyder 3.0.
 
 # Proposal
