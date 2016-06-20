@@ -26,5 +26,5 @@ Plugins are python packages with a name starting with `spyder_`. They are loaded
 You have to restart spyder for the modifications to be taken into account (Menu _File_ > _Restart_).
 
 ## Uninstall
-If the plugin waas installed with `pip`, run `pip uninstall <PLUGINNAME>`.
+If the plugin was installed with `pip`, run `pip uninstall <PLUGINNAME>`.
 If the plugin was copy-pasted in `${HOME}/.spyder/userplugins`, just remove its directory.
