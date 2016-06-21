@@ -7,3 +7,23 @@
     └── other_internal_modules
         ├── __init__.py
 ```   
+
+# I/O Spyder plugins
+
+How to create your own I/O Spyder plugins:
+
+   * Create a Python module named `spyder_io_foobar` where `foobar` is the name of your plugin
+   * Write your loading function and/or your saving function:
+       * `load`:
+           * input is a string: `filename`
+           * output is a tuple with two elements: dictionary containing at least one element (key is the variable name) and error message (or None) 
+       * `save`:
+           * `input` is a tuple with two elements: `data` (dictionary), `filename`
+           * `output` is a string or `None`: error message or `None` if no error occured 
+   * Define the global variables `FORMAT_NAME`, `FORMAT_EXT`, `FORMAT_LOAD` and `FORMAT_SAVE`. See the example of DICOM images support:
+
+       * https://github.com/spyder-ide/spyder/tree/master/spyder_io_dcm
+
+   * More examples of load/save functions may be found here:
+
+       * https://github.com/spyder-ide/spyder/blob/master/spyderlib/utils/iofuncs.py
