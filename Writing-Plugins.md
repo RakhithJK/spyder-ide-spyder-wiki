@@ -1,3 +1,7 @@
+For general information about plugins, see https://github.com/spyder-ide/spyder/wiki/User-plugins
+
+# UI plugins
+
 ```
 ├── spyder_<PLUGIN_NAME>
     ├── __init__.py
