@@ -2,6 +2,8 @@ For general information about plugins, see https://github.com/spyder-ide/spyder/
 
 # UI plugins
 
+These third-party plugins may communicate with other Spyder components through the plugin interface (see https://github.com/spyder-ide/spyder/blob/master/spyderlib/plugins/__init__.py).
+
 ```
 ├── spyder_<PLUGIN_NAME>
     ├── __init__.py
