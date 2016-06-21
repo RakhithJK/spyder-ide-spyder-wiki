@@ -4,7 +4,7 @@
 
 Spyder capabilities can be enhanced by installing plugins. There are currently two plugin types:
 
-* **UI plugins**: These plugins add a new pane or a new menu action. Examples are the Pylint, Profiler and Breakpoint plugins, which are shippêd with spyder by default.
+* **UI plugins**: These plugins add a new pane or a new menu action. Examples are Pylint, Profiler and Breakpoint plugins, which are shippêd with spyder by default.
 * **IO plugins**: With these plugins Spyder can learn to load and save different file formats from the variable explorer
 
 Some plugins are developed by core developers and can be found on github:
