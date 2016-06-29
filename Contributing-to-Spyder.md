@@ -63,6 +63,9 @@ TODO:
 TODO:
 
 ### Fixing bugs
+
+Some bugs are marked as [easy](https://github.com/spyder-ide/spyder/issues?q=is%3Aopen+is%3Aissue+label%3ACommunity-Easy), and should be a good starting point to familiarize yourself with the codebase.
+
 TODO:
 
 ### Creating tests
