@@ -4,7 +4,13 @@ Here are the core documents describing IPython development:
 
 * A description of our [[workflow in github|Dev:-Github-Workflow]]
 * A description of the [[perfect pull request|Dev: The perfect pull request]]
+  * [[How to rebase a pull request]]
 * Our [[coding style|Dev:-Coding-style]]
 * Spyder/Python [[cookbook|Dev:-Cookbook]]
 * [[Changelog]]
 * [[Spyder internals|Dev:-Spyder-Internals]]
+* [[Writing plugins]]
+* List of [[translators|Dev: Translations]]
+* Hints for debugging:
+  * [[How to debug PyQt PySide internal crashes (segfaults) affecting Spyder]]
+  * [[How to debug Spyder deadlock freeze hang]]
