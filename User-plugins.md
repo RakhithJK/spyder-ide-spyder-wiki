@@ -21,10 +21,10 @@ We hope to see more plugins written by users in the future !
 Plugins are python packages with a name starting with `spyder_`. They are loaded from anywhere in `sys.path` or in `${HOME}/.spyder/userplugins/`. There are multiple ways to install a plugin:
 * with `pip` and PyPi: `pip install <PLUGINNAME>` (note that pypi versions of core plugins are not up-to-date as of today)
 * with `pip` without PyPi: Download and unzip (or clone) a plugin and run `pip install .` or `python setup.py install` from inside the plugin  directory
-* copy-paste: Download and unzip (or clone) a plugin and copy the directory starting with `spyder_` in `${HOME}/.spyder/userplugins`
+* copy-paste: Download and unzip (or clone) a plugin and copy the directory starting with `spyder_` in `${HOME}/.spyder/spyplugins`
 
 You have to restart spyder for the modifications to be taken into account (Menu _File_ > _Restart_).
 
 ## Uninstall
 If the plugin was installed with `pip`, run `pip uninstall <PLUGINNAME>`.
-If the plugin was copy-pasted in `${HOME}/.spyder/userplugins`, just remove its directory.
+If the plugin was copy-pasted in `${HOME}/.spyder/spyplugins`, just remove its directory.
