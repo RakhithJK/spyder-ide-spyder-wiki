@@ -19,6 +19,9 @@
 - [@ccordoba12](https://github.com/ccordoba12)
 - [@goanpeca](https://github.com/goanpeca) 
 
+## Japanese
+- [@sohnishi](https://github.com/sohnishi)
+
 ## Ukranian (Pending...)
 - [@burrbull](https://github.com/burrbull)
 
