@@ -8,6 +8,9 @@
 - [@Nodd](https://github.com/nodd)
 - [@SylvainCorlay](https://github.com/SylvainCorlay)
 
+## Japanese
+- [@sohnishi](https://github.com/sohnishi)
+
 ## Portuguese (Brazilian)
 - [@manipuladordedados](https://github.com/manipuladordedados)
 
@@ -18,9 +21,6 @@
 ## Spanish
 - [@ccordoba12](https://github.com/ccordoba12)
 - [@goanpeca](https://github.com/goanpeca) 
-
-## Japanese
-- [@sohnishi](https://github.com/sohnishi)
 
 ## Ukranian (Pending...)
 - [@burrbull](https://github.com/burrbull)
