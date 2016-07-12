@@ -1,5 +1,8 @@
 # Official Spyder-IDE translators
 
+## Dutch (Pending...)
+- [@jitseniesen](https://github.com/jitseniesen)
+
 ## English
 - [@blink1073](https://github.com/blink1073)
 - [@spyder-developers](https://github.com/orgs/spyder-ide/teams/core-developers)
