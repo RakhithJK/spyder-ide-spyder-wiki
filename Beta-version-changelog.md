@@ -6,7 +6,7 @@
 
 * The *Object Inspector* pane was renamed to *Help*.
 * Add a new icon theme based on FontAwesome.
-* Add *Introduction* and *New Features* interactive tutorials (under the `Help` menu).
+* Add an *Introduction* interactive tutorial (under the `Help` menu).
 * Add new default layouts (Horizontal, Vertical, Matlab and Rstudio), and also the
   possibility to name custom layouts.
 * Panes that are tabbed next to each other can now be rearranged by dragging and
@@ -16,7 +16,7 @@
 * Add the shortcut `Shift+Alt+R` to restart the application.
 * Add an option to warn when exiting the application, under
   `Preferences > General > Interface > Prompt when exiting`.
-* Add Portuguese and Russian translations.
+* Add Portuguese, Russian and Japanese translations.
 * Remove light mode
 
 #### Settings
@@ -51,19 +51,19 @@
 * Add the ability to save and restore profiler data to compare speed improvements.
 
 #### Working directory toolbar
-* Get directory completions by pressing the `Tab` key twice on it
+* Get directory completions by pressing the `Tab` key twice on it.
 
 #### API Changes
 * `spyderplugins` has been removed and its plugins have been assigned to different
   different directories (`spyder_profiler`, `spyder_breakpoints`, etc).
 * `spyderlib.widgets.dicteditor.DictEditor` has been renamed to
-  `spyderlib.widgets.variableexplorer.collectionseditor.CollectionsEditor`
+  `spyderlib.widgets.variableexplorer.collectionseditor.CollectionsEditor`.
 * `spyderlib/widgets/dicteditorutils.py` has been renamed to
-  `spyderlib/widgets/variableexplorer/utils.py`
+  `spyderlib/widgets/variableexplorer/utils.py`.
 * `spyderlib/widgets/externalshell/namespacebrowser.py` has been moved to
-  `spyderlib/widgets/variableexplorer`
+  `spyderlib/widgets/variableexplorer`.
 * `spyderlib/widgets/externalshell/syntaxhighlighters.py` has been moved to
-  `spyderlib/utils/`
+  `spyderlib/utils/`.
 * Variable Explorer editor widgets were moved from `spyderlib.widgets`
   to `spyderlib.widgets.variableexplorer`:
     * `spyderlib.widgets.variableexplorer.arrayeditor`
@@ -71,14 +71,14 @@
     * `spyderlib.widgets.variableexplorer.objecteditor`
     * `spyderlib.widgets.variableexplorer.texteditor`
     * `spyderlib.widgets.variableexplorer.dataframeeditor`
-* Modules used for configuration options (e.g. `spyderlib.config` and
-  `spyderlib.baseconfig`) were moved to a new namespace:
-  `spyderlib.config`
+* Modules used for configuration options (e.g. `spyderlib.config`,
+  `spyderlib.baseconfig`, etc) were moved to a new namespace called
+  `spyderlib.config`.
 * Modules and files related to the application have been moved to
-  `spyderlib.app` 
+  `spyderlib.app`.
 * `spyderlib/plugins/inspector.py` was renamed to
-  `spyderlib/plugins/help.py`
-* `spyderlib/utils/inspector` was renamed to `spyderlib/utils/help`
+  `spyderlib/plugins/help.py`.
+* `spyderlib/utils/inspector` was renamed to `spyderlib/utils/help`.
 * `spyderlib.qt` was removed.
 
 #### Under the hood
@@ -90,8 +90,8 @@
     `~/.config/spyder{-py3}` or `$XDG_CONFIG_HOME/spyder{-py3}` if `$XDG_CONFIG_HOME` is
     defined.
 * Use the new (pythonic) style for signals and slots.
-* Start testing Spyder with the help of Travis and AppVeyor.
+* Test Spyder with the help of Travis and AppVeyor.
 * Reorganize the code in several places (See Issue #1320).
 * Code completions and help retrieval on the Editor are done asynchronously using a
   client/server architecture based on PyZMQ.
-* Spyder now uses the `qtpy` package to be able to work with PyQt4 and PyQt5.
+* Spyder now uses the `qtpy` package to be able to work with PyQt4 and PyQt5 seamlessly.
