@@ -54,31 +54,32 @@
 * Get directory completions by pressing the `Tab` key twice on it.
 
 #### API Changes
+* The `spyderlib` module was renamed to `spyder`
 * `spyderplugins` has been removed and its plugins have been assigned to different
   different directories (`spyder_profiler`, `spyder_breakpoints`, etc).
 * `spyderlib.widgets.dicteditor.DictEditor` has been renamed to
-  `spyderlib.widgets.variableexplorer.collectionseditor.CollectionsEditor`.
+  `spyder.widgets.variableexplorer.collectionseditor.CollectionsEditor`.
 * `spyderlib/widgets/dicteditorutils.py` has been renamed to
-  `spyderlib/widgets/variableexplorer/utils.py`.
+  `spyder/widgets/variableexplorer/utils.py`.
 * `spyderlib/widgets/externalshell/namespacebrowser.py` has been moved to
-  `spyderlib/widgets/variableexplorer`.
+  `spyder/widgets/variableexplorer`.
 * `spyderlib/widgets/externalshell/syntaxhighlighters.py` has been moved to
-  `spyderlib/utils/`.
+  `spyder/utils/`.
 * Variable Explorer editor widgets were moved from `spyderlib.widgets`
-  to `spyderlib.widgets.variableexplorer`:
-    * `spyderlib.widgets.variableexplorer.arrayeditor`
-    * `spyderlib.widgets.variableexplorer.collectionseditor`
-    * `spyderlib.widgets.variableexplorer.objecteditor`
-    * `spyderlib.widgets.variableexplorer.texteditor`
-    * `spyderlib.widgets.variableexplorer.dataframeeditor`
+  to `spyder.widgets.variableexplorer`:
+    * `spyder.widgets.variableexplorer.arrayeditor`
+    * `spyder.widgets.variableexplorer.collectionseditor`
+    * `spyder.widgets.variableexplorer.objecteditor`
+    * `spyder.widgets.variableexplorer.texteditor`
+    * `spyder.widgets.variableexplorer.dataframeeditor`
 * Modules used for configuration options (e.g. `spyderlib.config`,
   `spyderlib.baseconfig`, etc) were moved to a new namespace called
-  `spyderlib.config`.
+  `spyder.config`.
 * Modules and files related to the application have been moved to
-  `spyderlib.app`.
+  `spyder.app`.
 * `spyderlib/plugins/inspector.py` was renamed to
-  `spyderlib/plugins/help.py`.
-* `spyderlib/utils/inspector` was renamed to `spyderlib/utils/help`.
+  `spyder/plugins/help.py`.
+* `spyderlib/utils/inspector` was renamed to `spyder/utils/help`.
 * `spyderlib.qt` was removed.
 
 #### Under the hood
