@@ -70,7 +70,8 @@
 ##### Major changes
 * The `spyderlib` module was renamed to `spyder`
 * `spyderplugins` has been removed and its plugins have been assigned to different
-  different directories (`spyder_profiler`, `spyder_breakpoints`, etc).
+  different modules (`spyder_profiler`, `spyder_breakpoints`, etc) still
+  distributed with the Spyder package.
 
 ##### Minor changes
 * `spyderlib.widgets.dicteditor.DictEditor` has been renamed to
