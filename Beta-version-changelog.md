@@ -89,6 +89,10 @@
   `spyder.config`.
 * Modules and files related to the application have been moved to
   `spyder.app`.
+* `spyderlib/plugins/projectexplorer.py` has been renamed to
+  `spyder/plugins/projects.py`
+* `spyderlib/widgets/projectexplorer.py` has been renamed to
+  `spyderlib/widgets/projects/explorer.py`
 * `spyderlib/plugins/inspector.py` was renamed to
   `spyder/plugins/help.py`.
 * `spyderlib/utils/inspector` was renamed to `spyder/utils/help`.
