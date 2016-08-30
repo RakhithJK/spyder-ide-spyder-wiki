@@ -112,7 +112,6 @@
     defined.
 * Use the new (pythonic) style for signals and slots.
 * Test Spyder with the help of Travis and AppVeyor.
-* Reorganize the code in several places (See Issue #1320).
 * Code completions and help retrieval on the Editor are done asynchronously using a
   client/server architecture based on PyZMQ.
 * Spyder now uses the `qtpy` package to be able to work with PyQt4 and PyQt5 seamlessly.
