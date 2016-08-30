@@ -19,6 +19,27 @@
 * Add Portuguese, Russian and Japanese translations.
 * Remove light mode
 
+#### Editor
+* Add highlighting and code completion to all file types supported by Pygments
+  (a syntax highlighting library)
+* Use `Ctrl+M` and `Ctrl+Alt+M` to visually create matrices and vectors. It also
+  works on the Python and IPython consoles.
+* Add a new file switcher inspired by the Sublime Text one, which can be called
+  with the `Ctrl+P` shortcut. It can also be used to look for classes, functions
+  and methods inside a file, using the `@my_function` syntax.
+
+#### Projects:
+* A new menu entry called *Projects* was added to the main window with all
+  actions related to projects.
+* A project now save the state of open files in the Editor, so that people can
+  easily work on different coding efforts at the same time.
+* The project's path is added to `PYTHONPATH`, so that Python packages
+  developed as part of a project can be easily imported in Spyder consoles.
+* The project explorer now shows a file tree view of the current project, as
+  other editors and IDEs do (e.g. Sublime Text and VSCode).
+* Projects are completely optional and not imposed on users, i.e. users can work
+  without creating any project.
+
 #### Settings
 * Keyboard shortcuts can now be entered in an easier and more intuitive way.
 * Add a menu entry to reset to default settings, under
@@ -29,15 +50,6 @@
   change the current theme for all plugins.
 * Plain and Rich text fonts for all plugins are now changed in
   `General > Appearance`.
-
-#### Editor
-* Add highlighting and code completion to all file types supported by Pygments
-  (a syntax highlighting library)
-* Use `Ctrl+M` and `Ctrl+Alt+M` to visually create matrices and vectors. It also
-  works on the Python and IPython consoles.
-* Add a new file switcher inspired by the Sublime Text one, which can be called
-  with the `Ctrl+P` shortcut. It can also be used to look for classes, functions
-  and methods inside a file, using the `@my_function` syntax.
 
 #### IPython console
 * Drop support for IPython 3.0 and older versions.
