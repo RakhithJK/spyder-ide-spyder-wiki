@@ -6,6 +6,7 @@ Here are the core documents describing IPython development:
 * A description of the [[perfect pull request|Dev: The perfect pull request]]
   * [[How to rebase a pull request]]
 * Our [[coding style|Dev:-Coding-style]]
+* [[Running and writing tests|Dev: Testing]]
 * Spyder/Python [[cookbook|Dev:-Cookbook]]
 * [[Changelog]]
 * [[Spyder internals|Dev:-Spyder-Internals]]
