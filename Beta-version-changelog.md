@@ -50,10 +50,16 @@
   change the current theme for all plugins.
 * Plain and Rich text fonts for all plugins are now changed in
   `General > Appearance`.
+* Add a new entry called `Python interpreter` to allow people to select the
+  interpreter used for all Python and IPython consoles (this was before in
+  `Console > Advanced settings`).
+* Rename the `Console` entry to `Python console`.
 
 #### IPython console
 * Drop support for IPython 3.0 and older versions.
 * Support the new `qtconsole` package instead. 
+* Communicate directly with IPython kernels instead of doing it through the
+  Python  console.
 
 #### Debugging
 * Enter debugging mode if running a file generates errors. This is not activated
@@ -102,6 +108,12 @@
   `spyder/plugins/help.py`.
 * `spyderlib/utils/inspector` was renamed to `spyder/utils/help`.
 * `spyderlib.qt` was removed.
+* `spyderlib/widgets/ipython.py` was broken in several files inside
+   `spyder/widgets/ipythonconsole`.
+* `spyder/widgets/externalshell/{sitecustomize.py, osx_app_site.py}` were
+  moved to `spyder/utils/site`
+* `spyder/widgets/externalshell/start_ipython_kernel.py` was moved to
+  `spyder/utils/ipython`
 
 #### Under the hood
 * Drop support for Python 2.6 and 3.2.
