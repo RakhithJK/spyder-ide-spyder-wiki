@@ -63,7 +63,7 @@
 
 #### Debugging
 * Enter debugging mode if running a file generates errors. This is not activated
-  by default.
+  by default but you can do it by going to `Run > Configure > General settings`.
 
 #### Profiler
 * Add the ability to save and restore profiler data to compare speed improvements.
