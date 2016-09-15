@@ -31,7 +31,7 @@
 #### Projects:
 * A new menu entry called *Projects* was added to the main window with all
   actions related to projects.
-* A project now save the state of open files in the Editor, so that people can
+* A project now saves the state of open files in the Editor, so that people can
   easily work on different coding efforts at the same time.
 * The project's path is added to `PYTHONPATH`, so that Python packages
   developed as part of a project can be easily imported in Spyder consoles.
