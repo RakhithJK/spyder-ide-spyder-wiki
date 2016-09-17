@@ -1,12 +1,5 @@
 # Official Spyder-IDE translators
 
-## Dutch (Pending...)
-- [@jitseniesen](https://github.com/jitseniesen)
-
-## English
-- [@blink1073](https://github.com/blink1073)
-- [@spyder-developers](https://github.com/orgs/spyder-ide/teams/core-developers)
-
 ## French
 - [@Nodd](https://github.com/nodd)
 - [@SylvainCorlay](https://github.com/SylvainCorlay)
@@ -23,8 +16,5 @@
 
 ## Spanish
 - [@ccordoba12](https://github.com/ccordoba12)
-- [@goanpeca](https://github.com/goanpeca) 
-
-## Ukranian (Pending...)
-- [@burrbull](https://github.com/burrbull)
+- [@goanpeca](https://github.com/goanpeca)
 
