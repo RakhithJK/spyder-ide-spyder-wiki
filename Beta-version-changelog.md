@@ -120,9 +120,9 @@
 * Support PyQt5.
 * Drop official support for PySide. Support for it will have to come from the community.
 * Move our settings directory to `HOME/.spyder{-py3}`. Previous location was `HOME/.spyder2{-py3}`
-  * On Linux we now follow the XDG specification to save our settings, i.e. they are saved in
-    `~/.config/spyder{-py3}` or `$XDG_CONFIG_HOME/spyder{-py3}` if `$XDG_CONFIG_HOME` is
-    defined.
+* On Linux we now follow the XDG specification to save our settings, i.e. they are saved in
+  `~/.config/spyder{-py3}` or `$XDG_CONFIG_HOME/spyder{-py3}` if `$XDG_CONFIG_HOME` is
+  defined.
 * Use the new (pythonic) style for signals and slots.
 * Test Spyder with the help of Travis and AppVeyor.
 * Code completions and help retrieval on the Editor are done asynchronously using a
