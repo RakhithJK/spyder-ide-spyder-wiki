@@ -11,6 +11,18 @@ Every widget must be language agnostic that, so to use it and initialize it shou
 # Managers
 All widgets in Spyder will have a corresponding Manager class in charge of providing the adequate behavior depending on the state of either the project, the current editor type or/and the current console type. This manager classes will be responsible for the registration of new behavior.
 
+Managers do not need to be exposed in the api as the only function needed is the `register_<widget>`.
+It can be located at
+
+`spyder.api._managers.py`
+or
+
+`spyder.api.managers.py`
+
+or inside each specific widget api
+
+`spyder.api.<widget_name.py>`
+
 # API
 
 
