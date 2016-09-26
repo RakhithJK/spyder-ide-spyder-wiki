@@ -25,4 +25,41 @@ or inside each specific widget api
 
 # API
 
+The idea is to expose only the api that we define to external users, so they do not have to directly interact with the widgets but only to a subset of the functionality.
 
+# Example
+
+
+```python
+# spyder.api.some_widget.py
+
+SOME_WIDGET_MANAGER = None
+
+def SomeWidgetManager(parent=None):
+    global SOME_WIDGET_MANAGER
+    if SOME_WIDGET_MANAGER is None:
+        SOME_WIDGET_MANAGER = _SomeWidgetManager(parent=parent)
+    return SOME_WIDGET_MANAGER 
+
+
+class _SomeWidgetManager(object):
+    MANAGERS = {}
+
+    @classmethod 
+    def register(cls, language, manager):
+        self.MANAGERS[language].append(manager)
+
+class SomeWidgetAPI(object):  # QObject if we want to expose signals as well
+
+   def some_api_method(self):
+      pass
+
+# On some external plugin, spyder_julia.api.somewidget.py
+
+class JuliaSomeWidgetAPI(SomeWidgetAPI):  # QObject if we want to expose signals as well
+
+   def some_api_method(self):
+      pass
+
+
+```
