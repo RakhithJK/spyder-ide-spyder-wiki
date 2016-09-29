@@ -1,6 +1,18 @@
 # Future
 
-## Version 3.1 / March 2016
+## Version 4.0 / July 2017
+
+**New major features**:
+
+* All widgets 
+  - Widget API improvement
+  - Language agnostic widget decoupling
+
+* Code Editor
+  - Bookmarks (See [Matlab Bookmarks](http://blogs.mathworks.com/community//2007/06/15/scroll-less-with-editor-bookmarks/))
+
+
+## Version 3.1 / November 2016
 ### Status: Planned
 
 **New major features**:
