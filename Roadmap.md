@@ -1,5 +1,3 @@
-# Future
-
 ## Version 4.0 / August 2017
 
 **New major features**:
