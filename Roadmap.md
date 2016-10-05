@@ -31,4 +31,4 @@
     - Emacs and RStudio keyboard shortcuts
     - Editor tabs reordering
 * IPython Console
-    - Pygments highlighting for the console
+    - Make it use the current Spyder color scheme theme
