@@ -1,16 +1,18 @@
 ## Version 4.0 / August 2017
 
 **New major features**:
-
-* All widgets 
-  - Widget API improvement
-  - Language agnostic widget decoupling
-
+* Global 
+  - Provide a public API for third-party plugins to use it
+  - Decouple widgets of its tight association with Python so they can be
+    used by other languages (e.g. Julia and R).
 * Editor
   - Bookmarks (See [Matlab Bookmarks](http://blogs.mathworks.com/community//2007/06/15/scroll-less-with-editor-bookmarks/))
   - Code folding support
+  - Comment/Uncomment for all languages
+  - Give warnings and error messages for other languages besides Python
 
 ## Version 3.2 / March 2017
+
 **New major features**:
 * Editor
     - Make code completion to work on the fly
@@ -22,7 +24,6 @@
     - Better support for IPython consoles
 
 ## Version 3.1 / December 2016
-### Status: Planned
 
 **New major features**:
 * Editor
