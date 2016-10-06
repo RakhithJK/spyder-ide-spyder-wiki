@@ -31,5 +31,6 @@
 * Editor
     - Improve Pygments integration
     - Tabs reordering
+    - Make the File Switcher to open files of the current project
 * IPython Console
     - Make it use the current Spyder color scheme theme
