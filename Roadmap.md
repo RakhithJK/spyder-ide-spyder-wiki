@@ -26,10 +26,10 @@
 ## Version 3.1 / December 2016
 
 **New major features**:
+* Global
+    - Emacs and RStudio keyboard shortcut sets
 * Editor
     - Improve Pygments integration
-* Global
-    - Emacs and RStudio keyboard shortcuts
-    - Editor tabs reordering
+    - Tabs reordering
 * IPython Console
     - Make it use the current Spyder color scheme theme
