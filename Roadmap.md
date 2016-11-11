@@ -23,10 +23,10 @@
 * History Log:
     - Better support for IPython consoles
 
-## Version 3.1 / December 2016
+## Version 3.1 / January 2017
 
 **New major features**:
-* Global
+* Settings
     - Emacs and RStudio keyboard shortcut sets
 * Editor
     - Improve Pygments integration
