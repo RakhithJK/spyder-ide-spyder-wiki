@@ -10,7 +10,8 @@
 * Add support for the most important numeric types of Numpy.
 
 #### IPython Console
-* Load kernel json files anywhere in the file system.
+* Be able to load kernel json files anywhere in the file system when
+  connecting to external kernels.
 
 #### Under the hood
 * Add the chardet library as a new dependency.
