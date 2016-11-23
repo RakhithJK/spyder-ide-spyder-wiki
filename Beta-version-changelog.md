@@ -2,7 +2,7 @@
 
 ### New features
 
-### Editor
+#### Editor
 * Add support for greedy regular expressions in the find/replace widget
   (only available under PyQt5).
 
