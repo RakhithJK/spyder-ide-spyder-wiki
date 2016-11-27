@@ -3,8 +3,9 @@
 ### New features
 
 #### Editor
+* Add the Solarized Light and Dark color schemes.
 * Add support for greedy regular expressions in the find/replace widget
-  (only available under PyQt5).
+  (only available in PyQt5).
 
 #### Variable Explorer
 * Add support for the most important numeric types of Numpy.
