@@ -5,7 +5,7 @@
 #### Editor
 * Add the Solarized Light and Dark color schemes.
 * Add support for greedy regular expressions in the find/replace widget
-  (only available in PyQt5).
+  (only available under PyQt5).
 
 #### Variable Explorer
 * Add support for the most important numeric types of Numpy.
@@ -24,6 +24,9 @@
 ## Version 4.0dev
 
 ### New features
+
+#### Python Console
+* Disconnect it from the Variable Explorer
 
 #### API Changes
 * Create the module `spyder.api` to expose a public API
