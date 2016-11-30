@@ -14,6 +14,9 @@
 * Be able to load kernel json files anywhere in the file system when
   connecting to external kernels.
 
+#### Settings
+* Make all keyboard shortcuts configurable
+
 #### Under the hood
 * Add the chardet library as a new dependency.
 
