@@ -9,7 +9,9 @@
 * Improve the use of tabs instead of spaces for indentation.
 
 #### Variable Explorer
-* Add support for the most important numeric types of Numpy.
+* Add support for the most important numeric types of Numpy (int, float
+  complex numbers of 32 and 64 bits).
+* Save format for floats in DataFrame editor.
 
 #### IPython Console
 * Be able to load kernel json files anywhere in the file system when
