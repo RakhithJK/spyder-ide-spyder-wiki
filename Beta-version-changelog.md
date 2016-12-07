@@ -7,7 +7,7 @@
 * Add support for greedy regular expressions in the find/replace widget
   (only available under PyQt5).
 * Improve the use of tabs instead of spaces for indentation.
-* Add Ctrl+Shift+T shortcut to reopen the last closed file
+* Add `Ctrl+Shift+T` shortcut to reopen the last closed file.
 
 #### Variable Explorer
 * Add support for the most important numeric types of Numpy (32 and 64
