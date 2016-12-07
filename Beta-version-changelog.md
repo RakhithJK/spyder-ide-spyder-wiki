@@ -31,6 +31,9 @@
 
 ### New features
 
+#### Editor
+* Allow setting several column edge lines (e.g. for docstrings at 72 columns)
+
 #### Python Console
 * Disconnect it from the Variable Explorer
 
