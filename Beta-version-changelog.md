@@ -8,6 +8,8 @@
   (only available under PyQt5).
 * Improve the use of tabs instead of spaces for indentation.
 * Add `Ctrl+Shift+T` shortcut to reopen the last closed file.
+* Show completions for Numpy and Matplotlib compiled objetcts (e.g.
+  `np.array` and `plt.figure`)
 
 #### Variable Explorer
 * Add support for the most important numeric types of Numpy (32 and 64
@@ -22,7 +24,7 @@
 * Make all keyboard shortcuts configurable
 
 #### Under the hood
-* Add the chardet library as a new dependency.
+* Add the chardet and numpydoc libraries as new dependencies.
 
 
 ----
