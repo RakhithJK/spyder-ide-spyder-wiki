@@ -25,6 +25,8 @@
 
 #### Under the hood
 * Add the chardet and numpydoc libraries as new dependencies.
+* Add the `--project <path-to-dir>` command line option to load
+  projects.
 
 
 ----
