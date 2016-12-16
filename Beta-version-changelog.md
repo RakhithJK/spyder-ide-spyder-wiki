@@ -8,7 +8,7 @@
   (only available under PyQt5).
 * Improve the use of tabs instead of spaces for indentation.
 * Add `Ctrl+Shift+T` shortcut to reopen the last closed file.
-* Show completions for Numpy and Matplotlib compiled objetcts (e.g.
+* Show completions for Numpy and Matplotlib compiled objects (e.g.
   `np.array` and `plt.figure`)
 
 #### Variable Explorer
