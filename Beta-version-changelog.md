@@ -15,6 +15,8 @@
 * Add support for the most important numeric types of Numpy (32 and 64
   bits int, float and complex numbers).
 * Save format for floats in DataFrame editor.
+* Make the index column of DataFrame editor always visible when scrolling
+  to right and left.
 
 #### IPython Console
 * Be able to load kernel json files anywhere in the file system when
@@ -26,7 +28,7 @@
 #### Under the hood
 * Add the chardet and numpydoc libraries as new dependencies.
 * Add the `--project <path-to-dir>` command line option to load
-  different projects at startup.
+  projects at startup.
 
 
 ----
