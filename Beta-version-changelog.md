@@ -48,7 +48,7 @@
 #### API Changes
 
 ##### Major changes
-* Create the module `spyder.api` to expose a public API for external
+* Create the `spyder.api` module to expose a public API for external
   plugins.
 
 ##### Minor changes
