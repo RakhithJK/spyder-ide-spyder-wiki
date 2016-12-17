@@ -39,14 +39,20 @@
 ### New features
 
 #### Editor
-* Allow setting several column edge lines (e.g. for docstrings at 72 columns)
+* Allow setting several column edge lines in
+  `Preferences > Editor > Display > Show vertical lines after`  
 
 #### Python Console
 * Disconnect it from the Variable Explorer
 
 #### API Changes
-* Create the module `spyder.api` to expose a public API
 
 ##### Major changes
+* Create the module `spyder.api` to expose a public API for external
+  plugins.
 
 ##### Minor changes
+* Remove the `SpyderPluginMixin` class. Its contents were added to
+  `BasePluginWidget` (in `plugins/base.py`) and `PluginWidget` (in
+  `api/plugins.py`).
+* Move `SpyderDockWidget` to `widgets/dock.py`.
