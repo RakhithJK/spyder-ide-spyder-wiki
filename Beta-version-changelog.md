@@ -10,6 +10,8 @@
 * Add `Ctrl+Shift+T` shortcut to reopen the last closed file.
 * Show completions for Numpy and Matplotlib compiled objects (e.g.
   `np.array` and `plt.figure`)
+* Disambiguate tabs in case users open several files with the same
+  name.
 
 #### Variable Explorer
 * Add support for the most important numeric types of Numpy (32 and 64
