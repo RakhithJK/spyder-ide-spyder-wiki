@@ -40,7 +40,7 @@
 
 #### Editor
 * Allow setting several column edge lines in
-  `Preferences > Editor > Display > Show vertical lines after`  
+  `Preferences > Editor > Display > Show vertical lines`  
 
 #### Python Console
 * Disconnect it from the Variable Explorer
