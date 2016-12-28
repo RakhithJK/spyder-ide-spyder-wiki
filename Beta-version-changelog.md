@@ -5,7 +5,7 @@
 #### Editor
 * Add the Solarized Light and Dark color schemes.
 * Add support for greedy regular expressions in the find/replace widget
-  (only available under PyQt5).
+  (only available with PyQt5).
 * Improve the use of tabs instead of spaces for indentation.
 * Add `Ctrl+Shift+T` shortcut to reopen the last closed file.
 * Show completions for Numpy and Matplotlib compiled objects (e.g.
@@ -24,13 +24,16 @@
 * Be able to load kernel json files anywhere in the file system when
   connecting to external kernels.
 
+#### Profiler
+* Show time units (in seconds) spent by each function or method.
+
 #### Settings
 * Make all keyboard shortcuts configurable
 
 #### Under the hood
-* Add the chardet and numpydoc libraries as new dependencies.
 * Add the `--project <path-to-dir>` command line option to load
   projects at startup.
+* Add the chardet and numpydoc libraries as new dependencies.
 
 
 ----
