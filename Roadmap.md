@@ -1,4 +1,4 @@
-## Version 4.0 / August 2017
+## Version 4.0 / December 2017
 
 **New major features**:
 * Global 
@@ -10,27 +10,22 @@
   - Code folding support
   - Comment/Uncomment for all languages
   - Give warnings and error messages for other languages besides Python
+* History Log:
+    - Better support for IPython consoles
 
-## Version 3.2 / March 2017
+## Version 3.2 / June 2017
 
 **New major features**:
 * Editor
     - Make code completion to work on the fly
     - Markdown and Restructured text support
-* Projects:
-    - Add the ability to associate a virtual or conda environment with a project
-    - Conda Package Manager to install/uninstall packages
-* History Log:
-    - Better support for IPython consoles
-
-## Version 3.1 / January 2017
-
-**New major features**:
-* Settings
-    - Emacs and RStudio keyboard shortcut sets
-* Editor
     - Improve Pygments integration
     - Tabs reordering
     - Make the File Switcher to open files of the current project
+* Projects:
+    - Add the ability to associate a virtual or conda environment with a project
+    - Conda Package Manager to install/uninstall packages
+* Settings
+    - Emacs and RStudio keyboard shortcut sets
 * IPython Console
     - Make it use the current Spyder color scheme theme
