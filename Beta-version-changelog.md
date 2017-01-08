@@ -19,6 +19,8 @@
 * Save format for floats in DataFrame editor.
 * Make the index column of DataFrame editor always visible when scrolling
   to right and left.
+* Add support for Pandas DatetimeIndex objects.
+* Show empty Numpy arrays.
 
 #### IPython Console
 * Be able to load kernel json files anywhere in the file system when
