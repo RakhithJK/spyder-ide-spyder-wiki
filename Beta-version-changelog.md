@@ -12,6 +12,10 @@
   `np.array` and `plt.figure`)
 * Disambiguate tabs in case users open several files with the same
   name.
+* Add the shortcut `Ctrl+Alt+P` to open a switcher to select among
+  the symbols (functions, methods or classes) present in a file.
+  Also add an entry in the `File` menu and toolbar button to show
+  this switcher. 
 
 #### Variable Explorer
 * Add support for the most important numeric types of Numpy (32 and 64
@@ -25,6 +29,9 @@
 #### IPython Console
 * Be able to load kernel json files anywhere in the file system when
   connecting to external kernels.
+* Add an option (under `Preferences > Run` and `Run > Configure`) to
+  clear all variables present in a console before running a file (it
+  runs `%reset -f` in the associated kernel).
 
 #### Profiler
 * Show time units (in seconds) spent by each function or method.
