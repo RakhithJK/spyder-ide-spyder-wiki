@@ -15,3 +15,6 @@ Here are the core documents describing IPython development:
 * Hints for debugging:
   * [[How to debug PyQt PySide internal crashes (segfaults) affecting Spyder]]
   * [[How to debug Spyder deadlock freeze hang]]
+
+* Creating a Python (PyPi) Package
+* Creating a Conda package
