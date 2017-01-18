@@ -2,6 +2,11 @@
 
 ### New features
 
+#### Main Window
+* Add Introduction interactive tour to explain the main Spyder
+  components (in `Help > Interactive tours`). This tour was
+  announced in Spyder 3.0 but deactivated due to an error.
+
 #### Editor
 * Add the Solarized Light and Dark color schemes.
 * Add support for greedy regular expressions in the find/replace widget
