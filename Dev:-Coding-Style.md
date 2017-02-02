@@ -37,6 +37,44 @@ class SpyderWidget(QWidget):
         # Do something interesting
 ```
 
+### Widget Structure
+Most Spyder widgets follow this convention (use it when creating new widgets)
+
+
+```
+# Variables
+
+# Widgets
+
+# Widget setup
+
+# Layouts
+
+# Signals and slots
+```
+Example:
+
+```python
+
+class SomeWidget():
+    # Variables
+    self.some_variable = None
+  
+    # Widgets
+    self.super_widget = SomeSuperWidget()
+
+    # Widget setup
+    self.super_widget.setSomething(True)
+
+    # Layouts
+    layout = QVBoxLayout()
+    layout.addWidget(self.super_widget)
+    self.setLayout(layout)
+
+   # Signals and slots
+   self.super_widget.sig_some_signal.connect(self.some_other_method)
+```
+
 ### Imports
 TODO:
 
