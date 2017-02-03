@@ -75,6 +75,21 @@ class SomeWidget():
    self.super_widget.sig_some_signal.connect(self.some_other_method)
 ```
 
+### Docstrings
+Docstrings are sentences in the infinitive form and ended with a dot `.`. The `__init__` share (at least) the same docstring as the class.
+
+Example:
+
+```python
+
+class SomeWidget():
+    """Create some widget."""
+
+    def __init__(self):
+        """Create some widget."""
+```
+
+
 ### Imports
 TODO:
 
