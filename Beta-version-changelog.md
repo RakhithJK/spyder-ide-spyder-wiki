@@ -1,5 +1,8 @@
 ## Version 3.2dev
 
+#### Editor
+* Add the ability to reorganize tabs by drag and drop
+
 ----
 
 
