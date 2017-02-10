@@ -19,12 +19,9 @@
 * Editor
     - Make code completion to work on the fly
     - Markdown and Restructured text support
-    - Improve Pygments integration
-    - Tabs reordering
     - Make the File Switcher to open files of the current project
 * Projects:
     - Add the ability to associate a virtual or conda environment with a project
-    - Conda Package Manager to install/uninstall packages
 * Settings
     - Emacs and RStudio keyboard shortcut sets
 * IPython Console
