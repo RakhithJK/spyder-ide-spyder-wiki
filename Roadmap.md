@@ -13,7 +13,7 @@
 * History Log:
     - Better support for IPython consoles
 
-## Version 3.2 / June 2017
+## Version 3.3 / August 2017
 
 **New major features**:
 * Editor
@@ -29,3 +29,12 @@
     - Emacs and RStudio keyboard shortcut sets
 * IPython Console
     - Make it use the current Spyder color scheme theme
+
+## Version 3.2 / April 2017
+
+**New major features**:
+* Editor
+    - Improve Pygments integration
+    - Tabs reordering
+* Python Console:
+    - Remove it for all operating systems
