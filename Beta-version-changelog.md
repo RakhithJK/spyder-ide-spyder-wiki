@@ -11,6 +11,7 @@
 ### New features
 
 #### Editor
+* Add code folding functionality.
 * Allow setting several column edge lines in
   `Preferences > Editor > Display > Show vertical lines`  
 
