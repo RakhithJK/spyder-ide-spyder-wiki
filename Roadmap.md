@@ -35,3 +35,5 @@
     - Tabs reordering
 * Python Console:
     - Remove it for all operating systems
+* Find in files
+    - Several improvements to make it more usable
