@@ -2,6 +2,7 @@
 
 #### Editor
 * Add the ability to reorganize tabs by drag and drop
+* Use `pycodestyle` package instead of `pep8` to do style analysis.
 
 ----
 
