@@ -4,6 +4,10 @@
 * Add the ability to reorganize tabs by drag and drop
 * Use `pycodestyle` package instead of `pep8` to do style analysis.
 * Add `Alt+Enter` as a shortcut to re-run the last cell.
+* Add support to run Cython files from the Editor (i.e. by pressing `F5`).
+
+#### IPython Console
+* Load the Cython extension if Cython is installed.
 
 ----
 
