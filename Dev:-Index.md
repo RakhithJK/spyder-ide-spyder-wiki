@@ -13,6 +13,7 @@ Here are the core documents describing IPython development:
 * [[Writing plugins]]
 * List of [[translators|Dev: Translations]]
 * Hints for debugging:
+  * [[Debugging Spyder|Dev: Debugging Spyder]]
   * [[How to debug PyQt PySide internal crashes (segfaults) affecting Spyder]]
   * [[How to debug Spyder deadlock freeze hang]]
 
