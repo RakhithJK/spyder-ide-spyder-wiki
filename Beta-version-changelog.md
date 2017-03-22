@@ -7,7 +7,7 @@
 * Add support to run Cython files from the Editor (i.e. by pressing `F5`).
 
 #### IPython Console
-* Load the Cython extension if Cython is installed.
+* Automatically load the cython extension if Cython is installed.
 
 ----
 
