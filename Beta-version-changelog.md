@@ -1,13 +1,14 @@
 ## Version 3.2dev
 
 #### Editor
-* Add the ability to reorganize tabs by drag and drop
+* Add the ability to reorganize tabs by drag and drop.
 * Use `pycodestyle` package instead of `pep8` to do style analysis.
 * Add `Alt+Enter` as a shortcut to re-run the last cell.
 * Add support to run Cython files from the Editor (i.e. by pressing `F5`).
+* Add syntax highlighting support for Markdown files.
 
 #### IPython Console
-* Automatically load the cython extension if Cython is installed.
+* Automatically load the Cython extension if Cython is installed.
 
 ----
 
