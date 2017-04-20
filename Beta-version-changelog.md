@@ -7,6 +7,9 @@
 * Add support to run Cython files from the Editor (i.e. by simply
   pressing `F5`).
 * Add syntax highlighting support for Markdown files.
+* Add a tab switcher dialog to navigate files in most recently used
+  order. This dialog is activated with `Ctrl+Tab` and
+  `Ctrl+Shift+Tab` to go in forward or backward order, respectively.
 
 #### IPython Console
 * Automatically load the Cython extension if Cython is installed.
