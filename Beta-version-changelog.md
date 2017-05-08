@@ -10,6 +10,8 @@
 * Add a tab switcher dialog to navigate files in most recently used
   order. This dialog is activated with `Ctrl+Tab` and
   `Ctrl+Shift+Tab` to go in forward or backward order, respectively.
+* Add `Ctrl+Up` and `Ctrl+Down` shortcuts to move to the next/previous
+  cell, respectively.
 
 #### IPython Console
 * Automatically load the Cython extension if Cython is installed.
