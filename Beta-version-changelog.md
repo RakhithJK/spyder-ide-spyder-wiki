@@ -1,5 +1,10 @@
 ## Version 3.2dev
 
+#### Main Window
+* Add a dialog to quickly view all keyboard shortcuts defined in Spyder.
+  It can be accessed in the `Help > Shortcuts Summary` menu or using
+  the `Meta+F1` shortcut.
+
 #### Editor
 * Add the ability to reorganize tabs by drag and drop.
 * Use `pycodestyle` package instead of `pep8` to do style analysis.
