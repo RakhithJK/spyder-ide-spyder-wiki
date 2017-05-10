@@ -1,6 +1,7 @@
 # Official Spyder-IDE translators
 
 ## French
+- [@afvincent](https://github.com/afvincent)
 - [@Nodd](https://github.com/nodd)
 - [@SylvainCorlay](https://github.com/SylvainCorlay)
 
