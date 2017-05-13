@@ -7,7 +7,8 @@
 
 #### Editor
 * Add the ability to reorganize tabs by drag and drop.
-* Use `pycodestyle` package instead of `pep8` to do style analysis.
+* Add `Ctrl+Up` and `Ctrl+Down` shortcuts to move to the next/previous
+  cell, respectively.
 * Add `Alt+Enter` as a shortcut to re-run the last cell.
 * Add support to run Cython files from the Editor (i.e. by simply
   pressing `F5`).
@@ -15,17 +16,16 @@
 * Add a tab switcher dialog to navigate files in most recently used
   order. This dialog is activated with `Ctrl+Tab` and
   `Ctrl+Shift+Tab` to go in forward or backward order, respectively.
-* Add `Ctrl+Up` and `Ctrl+Down` shortcuts to move to the next/previous
-  cell, respectively.
+* Use `pycodestyle` package instead of `pep8` to do style analysis.
 
 #### Find in files
 
-* Add options to search on the current file, project or current path.
-* Simplify visualization of results.
-* Display results as search takes place.
-* Add a spinner as indicator of a search in progress.
+* Add options to search on the current file, project or path.
 * Search path now refers to the path shown in the Working directory
   toolbar.
+* Display results as search takes place.
+* Add a spinner as indicator of a search in progress.
+* Simplify visualization of results.
 * Remove previous search results when a new search takes place.
 * Improve file and string encoding to bypass and correct errors
   associated with codification.
