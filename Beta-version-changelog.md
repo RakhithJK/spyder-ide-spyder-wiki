@@ -18,6 +18,23 @@
 * Add `Ctrl+Up` and `Ctrl+Down` shortcuts to move to the next/previous
   cell, respectively.
 
+#### Find in files
+
+* Add options to search on the current file, project or current path.
+* Simplify visualization of results.
+* Display results as search takes place.
+* Add a spinner as indicator of a search in progress.
+* Search path now refers to the path shown in the Working directory
+  toolbar.
+* Remove previous search results when a new search takes place.
+* Improve file and string encoding to bypass and correct errors
+  associated with codification.
+* Inform users if the search regexp patterns are incorrect.
+* Remove unused search options.
+* Omit binary files.
+* Allow to order results alphabetically.
+
+
 #### IPython Console
 * Automatically load the Cython extension if Cython is installed.
 
