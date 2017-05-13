@@ -9,7 +9,7 @@
 * Add the ability to reorganize tabs by drag and drop.
 * Add `Ctrl+Up` and `Ctrl+Down` shortcuts to move to the next/previous
   cell, respectively.
-* Add `Alt+Enter` as a shortcut to re-run the last cell.
+* Add `Alt+Enter` shortcut to re-run the last cell.
 * Add support to run Cython files from the Editor (i.e. by simply
   pressing `F5`).
 * Add syntax highlighting support for Markdown files.
@@ -18,12 +18,13 @@
   `Ctrl+Shift+Tab` to go in forward or backward order, respectively.
 * Use `pycodestyle` package instead of `pep8` to do style analysis.
 
-#### Find in files
+#### Find in Files
 
 * Add options to search on the current file, project or path.
 * Search path now refers to the path shown in the Working directory
   toolbar.
 * Display results as search takes place.
+* Allow to order results alphabetically.
 * Add a spinner as indicator of a search in progress.
 * Simplify visualization of results.
 * Remove previous search results when a new search takes place.
@@ -32,7 +33,6 @@
 * Inform users if the search regexp patterns are incorrect.
 * Remove unused search options.
 * Omit binary files.
-* Allow to order results alphabetically.
 
 
 #### IPython Console
