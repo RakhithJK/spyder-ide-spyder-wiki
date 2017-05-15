@@ -5,6 +5,10 @@
 - [@Nodd](https://github.com/nodd)
 - [@SylvainCorlay](https://github.com/SylvainCorlay)
 
+## Hungarian
+- [@blackPantherOS](https://github.com/blackPantherOS)
+- [@martindurant](https://github.com/martindurant)
+
 ## Japanese
 - [@sohnishi](https://github.com/sohnishi)
 
