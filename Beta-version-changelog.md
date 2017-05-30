@@ -36,6 +36,17 @@
 
 
 #### IPython Console
+* Several improvements to its debugging experience:
+  - Restore the ability to inspect variables using the Variable
+    Explorer 
+  - Make plotting work with a new `%plot` magic, but only using
+    the `inline` backend (e.g. `%plot plt.plot(range(10))`).
+  - History browsing with the Up/Down arrow keys.
+  - Make the *Clear console* and *Reset* keyboard shortcuts to work.
+  - Show plots from the Variable Explorer.
+  - Change the current working directory using the Working Directory toolbar.
+  - Use `Ctrl+Shift+C` to copy text.
+* Avoid blocking/interrupting `ipdb` as much as possible.
 * Automatically load the Cython extension if Cython is installed.
 
 ----
