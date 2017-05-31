@@ -16,6 +16,9 @@
 * Add a tab switcher dialog to navigate files in most recently used
   order. This dialog is activated with `Ctrl+Tab` and
   `Ctrl+Shift+Tab` to go in forward or backward order, respectively.
+* Add a *Save copy as* action.
+* Add an option to show the selected file in the operating system
+  file explorer.
 * Use `pycodestyle` package instead of `pep8` to do style analysis.
 
 #### IPython Console
@@ -46,6 +49,11 @@
 * Inform users if the search regexp patterns are incorrect.
 * Remove unused search options.
 * Omit binary files.
+
+#### File Explorer
+
+* Add an option to show the selected file in the operating system
+  file explorer.
 
 
 ----
