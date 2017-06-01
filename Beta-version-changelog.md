@@ -24,7 +24,7 @@
 * Use `pycodestyle` package instead of `pep8` to do style analysis.
 
 #### IPython Console
-* Several improvements to its debugging experience:
+* Several improvements to its debugger:
   - Restore the ability to inspect variables using the Variable
     Explorer.
   - Make plotting work with a new `%plot` magic, but only using
