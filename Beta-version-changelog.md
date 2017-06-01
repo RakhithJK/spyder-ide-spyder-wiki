@@ -4,6 +4,8 @@
 * Add a dialog to quickly view all keyboard shortcuts defined in Spyder.
   It can be accessed in the `Help > Shortcuts Summary` menu or using
   the `Meta+F1` shortcut.
+* Add an option to set a custom screen resolution scale factor. This option
+  is available in `Preferences > Appearance > Screen resolution`.
 
 #### Editor
 * Add the ability to reorganize tabs by drag and drop.
