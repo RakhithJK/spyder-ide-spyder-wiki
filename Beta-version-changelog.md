@@ -6,6 +6,9 @@
   the `Meta+F1` shortcut.
 * Add an option to set a custom screen resolution scale factor. This option
   is available in `Preferences > Appearance > Screen resolution`.
+* Prevent assignment of `Shift+<single key>` shortcuts because they can't be
+  used by Qt applications unless they are hard-coded in the application
+  itself.
 
 #### Editor
 * Add the ability to reorganize tabs by drag and drop.
