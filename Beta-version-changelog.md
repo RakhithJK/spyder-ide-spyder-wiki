@@ -10,6 +10,10 @@
   used by Qt applications unless they are hard-coded in the application
   itself.
 
+#### Python Console
+* Remove it for all operating systems. For an explanation, please see
+  [this issue](https://github.com/spyder-ide/spyder/issues/4524).
+
 #### Editor
 * Add the ability to reorganize tabs by drag and drop.
 * Add `Ctrl+Up` and `Ctrl+Down` shortcuts to move to the next/previous
