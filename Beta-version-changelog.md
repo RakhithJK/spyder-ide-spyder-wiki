@@ -80,10 +80,7 @@
   where the cursor is placed. This is inspired by a similar
   functionality present in Microsoft Visual Studio. 
 * Allow setting several column edge lines in
-  `Preferences > Editor > Display > Show vertical lines`  
-
-#### Python Console
-* Disconnect it from the Variable Explorer
+  `Preferences > Editor > Display > Show vertical lines`.
 
 #### API Changes
 
