@@ -12,7 +12,7 @@
 
 #### Python Console
 * Remove it for all operating systems. For an explanation, please see
-  [this issue](https://github.com/spyder-ide/spyder/issues/4524).
+  [this](https://github.com/spyder-ide/spyder/issues/4524).
 
 #### Editor
 * Add the ability to reorganize tabs by drag and drop.
