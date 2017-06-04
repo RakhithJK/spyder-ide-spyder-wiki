@@ -25,7 +25,8 @@
 * Add a tab switcher dialog to navigate files in most recently used
   order. This dialog is activated with `Ctrl+Tab` and
   `Ctrl+Shift+Tab` to go in forward or backward order, respectively.
-* Make `Shift+Enter` search text backwards.
+* Make `Shift+Enter` search text backwards in the find/replace
+  widget.
 * Add `Shift+Del` shortcut to delete lines.
 * Add a *Save copy as* action.
 * Add an option to show the selected file in the operating system
