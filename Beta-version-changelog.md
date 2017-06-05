@@ -44,7 +44,7 @@
   - Show plots from the Variable Explorer.
   - Change the current working directory using the Working Directory toolbar.
   - Use `Ctrl+Shift+C` to copy text.
-* Add options to show environment variables and `sys.path` contents.
+* Add menu entries to show environment variables and `sys.path` contents.
 * Automatically load the Cython extension if Cython is installed.
 
 #### Find in Files
