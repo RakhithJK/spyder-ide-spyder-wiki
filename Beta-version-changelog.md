@@ -28,6 +28,8 @@
 * Make `Shift+Enter` search text backwards in the find/replace
   widget.
 * Add `Shift+Del` shortcut to delete lines.
+* Add `Ctrl+]` and `Ctrl+[` shortcuts to indent/unindent text,
+  respectively.
 * Add a *Save copy as* action.
 * Add an option to show the selected file in the operating system
   file explorer.
