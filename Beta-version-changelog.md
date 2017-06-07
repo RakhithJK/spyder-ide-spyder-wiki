@@ -34,7 +34,7 @@
 * Add an option to show the selected file in the operating system
   file explorer.
 * Apply smart indentation rules to Python files only. For non-Python
-  files, the Editor will only preserve the indentation level of the
+  files, the Editor will preserve the indentation level of the
   previous line.
 * Use `pycodestyle` package instead of `pep8` to do style analysis.
 
