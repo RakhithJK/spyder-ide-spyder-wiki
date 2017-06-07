@@ -31,8 +31,8 @@
 * Add `Ctrl+]` and `Ctrl+[` shortcuts to indent/unindent text,
   respectively.
 * Add a *Save copy as* action.
-* Add an option to show the selected file in the operating system
-  file explorer.
+* Add a context menu entry to show the selected file in the operating
+  system file explorer.
 * Apply smart indentation rules to Python files only. For non-Python
   files, the Editor will preserve the indentation level of the
   previous line.
@@ -49,7 +49,8 @@
   - Show plots from the Variable Explorer.
   - Change the current working directory using the Working Directory toolbar.
   - Use `Ctrl+Shift+C` to copy text.
-* Add menu entries to show environment variables and `sys.path` contents.
+* Add menu entries to show environment variables and `sys.path` contents for
+  each console.
 * Automatically load the Cython extension if Cython is installed.
 
 #### Find in Files
