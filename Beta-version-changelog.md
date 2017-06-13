@@ -1,18 +1,15 @@
 ## Version 3.2dev
 
+#### Python Console
+* Remove it for all operating systems. For an explanation, please see
+  [here](https://github.com/spyder-ide/spyder/issues/4524).
+
 #### Main Window
 * Add a dialog to quickly view all keyboard shortcuts defined in Spyder.
   It can be accessed in the `Help > Shortcuts Summary` menu or using
   the `Meta+F1` shortcut.
 * Add an option to set a custom screen resolution scale factor. This option
   is available in `Preferences > Appearance > Screen resolution`.
-* Prevent assignment of `Shift+<single key>` shortcuts because they can't be
-  used by Qt applications unless they are hard-coded in the application
-  itself.
-
-#### Python Console
-* Remove it for all operating systems. For an explanation, please see
-  [here](https://github.com/spyder-ide/spyder/issues/4524).
 
 #### Editor
 * Add the ability to reorganize tabs by drag and drop.
@@ -36,7 +33,6 @@
 * Apply smart indentation rules to Python files only. For non-Python
   files, the Editor will preserve the indentation level of the
   previous line.
-* Use `pycodestyle` package instead of `pep8` to do style analysis.
 
 #### IPython Console
 * Several improvements to its debugger:
@@ -73,6 +69,20 @@
 
 * Add an option to show the selected file in the operating system
   file explorer.
+
+#### Preferences
+
+* Prevent assignment of `Shift+<single key>` shortcuts because they can't be
+  used by Qt applications unless they are hard-coded in the application
+  itself.
+
+#### Under the hood
+
+* Use `pycodestyle` package instead of `pep8` to do style analysis.
+* Add `pyopengl` as a new dependency to our pip wheels to prevent
+  crashes related to OpenGL in PyQt 5.7+.
+* Demand Rope 0.10.5+ because it supports Python 2 and 3 with the
+  same codebase.
 
 
 ----
