@@ -45,6 +45,7 @@
   - Show plots from the Variable Explorer.
   - Change the current working directory using the Working Directory toolbar.
   - Use `Ctrl+Shift+C` to copy text.
+* Make it use the same color scheme of the Editor.
 * Add menu entries to show environment variables and `sys.path` contents for
   each console.
 * Automatically load the Cython extension if Cython is installed.
