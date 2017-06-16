@@ -70,6 +70,8 @@
 
 * Add an option to show the selected file in the operating system
   file explorer.
+* Show icons for different file types (pdf, image, video, audio,
+  compressed and MS Office files).
 
 #### Preferences
 
