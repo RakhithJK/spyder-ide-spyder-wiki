@@ -25,3 +25,6 @@
 
 ## Simplified Chinese
 - [@kingmo888](https://github.com/kingmo888)
+
+## German
+- [@be-we](https://github.com/be-we)
