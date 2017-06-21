@@ -97,7 +97,7 @@
 
 #### Main Window
 
-* Add translation for Simplified Chinese.
+* Add translations for Simplified Chinese and German.
 
 #### Editor
 * Add code folding functionality.
