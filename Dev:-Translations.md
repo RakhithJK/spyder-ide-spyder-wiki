@@ -23,7 +23,5 @@
 - [@ccordoba12](https://github.com/ccordoba12)
 - [@goanpeca](https://github.com/goanpeca)
 
-----
-
 ## Simplified Chinese
 - [@kingmo888](https://github.com/kingmo888)
