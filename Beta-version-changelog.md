@@ -95,6 +95,10 @@
 
 ### New features
 
+#### Main Window
+
+* Add translation for Simplified Chinese.
+
 #### Editor
 * Add code folding functionality.
 * Add indentation guidelines. They can activated in the Source
