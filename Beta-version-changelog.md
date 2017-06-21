@@ -82,8 +82,8 @@
 #### Under the hood
 
 * Use `pycodestyle` package instead of `pep8` to do style analysis.
-* Add `pyopengl` as a new dependency to our pip wheels to prevent
-  crashes related to OpenGL in PyQt 5.7+.
+* Add `pyopengl` as a new dependency to our pip wheels on Linux to
+  prevent crashes related to OpenGL in PyQt 5.7+.
 * Demand `rope` 0.10.5+ because it supports Python 2 and 3 with the
   same codebase.
 
