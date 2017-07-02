@@ -48,6 +48,7 @@
 * Make it use the same color scheme of the Editor.
 * Add menu entries to show environment variables and `sys.path` contents for
   each console.
+* Allow to rename consoles by doing a left mouse double-click on its tab.
 * Automatically load the Cython extension if Cython is installed.
 
 #### Find in Files
