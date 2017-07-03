@@ -45,7 +45,7 @@
   - Show plots from the Variable Explorer.
   - Change the current working directory using the Working Directory toolbar.
   - Use `Ctrl+Shift+C` to copy text.
-* Add the possibility to run a file in the same dedicated console all the
+* Add the possibility to run a file in the same (dedicated) console all the
   time.
 * Allow to rename consoles by doing a double-click on their tabs and setting
   a new name.
