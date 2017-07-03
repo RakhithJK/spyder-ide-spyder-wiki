@@ -81,7 +81,7 @@
 * Make it change the current working directory of the active console
   when changing directories on it.
 
-#### Working Directory Toolbar
+#### Working Directory toolbar
 
 * Rename it to *Current working directory* (it was Global working 
   directory).
