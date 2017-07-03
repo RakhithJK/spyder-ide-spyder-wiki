@@ -45,10 +45,12 @@
   - Show plots from the Variable Explorer.
   - Change the current working directory using the Working Directory toolbar.
   - Use `Ctrl+Shift+C` to copy text.
-* Add the possibility to run a file in the same, dedicated console all the
+* Add the possibility to run a file in the same dedicated console all the
   time.
 * Allow to rename consoles by doing a double-click on their tabs and setting
   a new name.
+* Make the `%cd` magic to change the current working directory of the File
+  Explorer and Working Directory toolbar.
 * Add menu entries to show environment variables and `sys.path` contents for
   each console.
 * Make it use the same color scheme of the Editor.
@@ -76,6 +78,15 @@
   file explorer.
 * Show icons for different file types (pdf, image, video, audio,
   compressed and MS Office files).
+* Make it change the current working directory of the active console
+  when changing directories on it.
+
+#### Working Directory Toolbar
+
+* Rename it to *Current working directory* (it was Global working 
+  directory).
+* Make it show the current working directory of the active IPython
+  console.
 
 #### Preferences
 
