@@ -10,6 +10,8 @@
   the `Meta+F1` shortcut.
 * Add an option to set a custom screen resolution scale factor. This option
   is available in `Preferences > Appearance > Screen resolution`.
+* Show Spyder internal errors in a special dialog to ease submitting them
+  to Github.
 
 #### Editor
 * Add the ability to reorganize tabs by drag and drop.
