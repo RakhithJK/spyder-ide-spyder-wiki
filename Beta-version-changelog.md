@@ -59,9 +59,8 @@
 
 #### Find in Files
 
-* Add options to search on the current file, project or path.
-* Search path now refers to the path shown in the Working directory
-  toolbar.
+* Add options to search on the current file, project or working
+  directory.
 * Display results as search takes place.
 * Allow to order results alphabetically.
 * Add a spinner as indicator of a search in progress.
@@ -69,9 +68,9 @@
 * Remove previous search results when a new search takes place.
 * Improve file and string encoding to bypass and correct errors
   associated with codification.
-* Inform users if the search regexp patterns are incorrect.
+* Inform users if search regexp patterns are incorrect.
 * Remove unused search options.
-* Omit binary files.
+* Omit binary files during a search.
 
 #### File Explorer
 
