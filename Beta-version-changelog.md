@@ -13,7 +13,7 @@
 
 #### Editor
 * Add the ability to reorganize tabs by drag and drop.
-* Add option to find/replace in selection only.
+* Add option to only replace in a selection.
 * Add `Ctrl+Up` and `Ctrl+Down` shortcuts to move to the next/previous
   cell, respectively.
 * Add `Alt+Enter` shortcut to re-run the last cell.
