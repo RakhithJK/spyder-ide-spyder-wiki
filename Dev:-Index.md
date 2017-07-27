@@ -1,4 +1,4 @@
-IPython does all of its development using GitHub. All of our development information is hosted on this GitHub wiki. This page indexes all of that information. Developers interested in getting involved with IPython development should start here.
+Spyder does all of its development using GitHub. All of our development information is hosted on this GitHub wiki. This page indexes all of that information. Developers interested in getting involved with IPython development should start here.
 
 Here are the core documents describing IPython development:
 
