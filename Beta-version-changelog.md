@@ -12,9 +12,16 @@
   menu.
 * Add a new panel to show the current class and method/function
   where the cursor is placed. This is inspired by a similar
-  functionality present in Microsoft Visual Studio. 
+  functionality present in Microsoft Visual Studio. It can be
+  activated in the Source menu.
 * Allow setting several column edge lines in
   `Preferences > Editor > Display > Show vertical lines`.
+* Add `Ctrl+Alt+Shift+,` and `Ctrl+Alt+Shift+.` to go the
+  previous/next warning or error, respectively.
+
+#### Variable Explorer
+
+* Add support for all Pandas indexes.
 
 #### API Changes
 
