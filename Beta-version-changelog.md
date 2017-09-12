@@ -23,6 +23,12 @@
 
 * Add support for all Pandas indexes.
 
+#### File Explorer
+
+* Add `Open With OS` context menu action to all files, to open
+  them with the program associated by the operating system.
+* Add multi-select functionality (`Ctrl/Shift+click`).
+
 #### API Changes
 
 ##### Major changes
