@@ -8,12 +8,12 @@
 
 #### Editor
 * Add code folding functionality.
-* Add indentation guidelines. They can activated in the Source
+* Add indentation guidelines. They can activated in the `Source`
   menu.
-* Add a new panel to show the current class and method/function
+* Add a panel to show the current class and method/function
   where the cursor is placed. This is inspired by a similar
   functionality present in Microsoft Visual Studio. It can be
-  activated in the Source menu.
+  activated in the `Source` menu.
 * Allow setting several column edge lines in
   `Preferences > Editor > Display > Show vertical lines`.
 * Add `Ctrl+Alt+Shift+,` and `Ctrl+Alt+Shift+.` to go the
