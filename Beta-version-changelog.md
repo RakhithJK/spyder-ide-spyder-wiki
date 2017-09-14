@@ -18,6 +18,9 @@
   `Preferences > Editor > Display > Show vertical lines`.
 * Add `Ctrl+Alt+Shift+,` and `Ctrl+Alt+Shift+.` to go the
   previous/next warning or error, respectively.
+* Allow to scroll past the end of the file. This can be
+  activated in
+  `Preferences > Editor > Display > Scroll past the end`.
 
 #### Variable Explorer
 
