@@ -2,6 +2,9 @@
 
 **NOTE: These informations apply to Spyder V3.2 onwards, and spyder V4.0beta1 !**
 
+
+For information about writing plugins see [[ Writing Plugins ]]
+
 Spyder capabilities can be enhanced by installing plugins. There are currently two plugin types:
 
 * **UI plugins**: These plugins add a new pane or a new menu action. Examples are Pylint, Profiler and Breakpoint plugins, which are shippêd with spyder by default.
