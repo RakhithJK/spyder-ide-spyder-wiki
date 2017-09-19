@@ -19,6 +19,8 @@ This wiki contains
 
 :bulb: [[Plugin ideas]]
 
+:electric_plug: [[User Plugins]]
+
 ------
 
 ## Editing the wiki
