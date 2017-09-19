@@ -1,6 +1,6 @@
 # User Plugins
 
-**NOTE: These informations apply to Spyder V3.0 onwards (starting from 3.0.0b3 exactly) !**
+**NOTE: These informations apply to Spyder V3.2 onwards, and spyder V4.0beta1 !**
 
 Spyder capabilities can be enhanced by installing plugins. There are currently two plugin types:
 
@@ -8,12 +8,15 @@ Spyder capabilities can be enhanced by installing plugins. There are currently t
 * **IO plugins**: With these plugins Spyder can learn to load and save different file formats from the variable explorer
 
 Some plugins are developed by core developers and can be found on github:
-* [spyder.line_profiler](https://github.com/spyder-ide/spyder.line_profiler)
-* [spyder.memory_profiler](https://github.com/spyder-ide/spyder.memory_profiler)
-* [spyder.autopep8](https://github.com/spyder-ide/spyder.autopep8)
-* [spyder.vim](https://github.com/spyder-ide/spyder.vim) (_in development_)
-* [spyder.unittest](https://github.com/spyder-ide/spyder.unittest) (_in development_)
-* [spyder.terminado](https://github.com/spyder-ide/spyder.terminado) (_in development_)
+* [spyder_line_profiler](https://github.com/spyder-ide/spyder-line-profiler)
+* [spyder_memory_profiler](https://github.com/spyder-ide/spyder-memory_profiler)
+* [spyder_autopep8](https://github.com/spyder-ide/spyder-autopep8)
+* [spyder_vim](https://github.com/spyder-ide/spyder-vim) (_in development_)
+* [spyder_unittest](https://github.com/spyder-ide/spyder-unittest)
+* [spyder_notebook](https://github.com/spyder-ide/spyder-notebook)
+* [spyder_terminal](https://github.com/spyder-ide/spyder-terminal)
+* [spyder_reports](https://github.com/spyder-ide/spyder-reports)
+* ~[spyder.terminado](https://github.com/spyder-ide/spyder.terminado) (_in development_)~
 
 We hope to see more plugins written by users in the future !
 
