@@ -1,4 +1,4 @@
-For general information about plugins, see https://github.com/spyder-ide/spyder/wiki/User-plugins
+For general information about plugins, see [[ User-plugins ]]
 
 For creating new plugins you could use [spyder-plugin-cookiecutter](https://github.com/spyder-ide/spyder-plugin-cookiecutter/)
 
