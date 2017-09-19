@@ -9,7 +9,7 @@ Spyder capabilities can be enhanced by installing plugins. There are currently t
 
 Some plugins are developed by core developers and can be found on github:
 * [spyder_line_profiler](https://github.com/spyder-ide/spyder-line-profiler)
-* [spyder_memory_profiler](https://github.com/spyder-ide/spyder-memory_profiler)
+* [spyder_memory_profiler](https://github.com/spyder-ide/spyder-memory-profiler)
 * [spyder_autopep8](https://github.com/spyder-ide/spyder-autopep8)
 * [spyder_vim](https://github.com/spyder-ide/spyder-vim) (_in development_)
 * [spyder_unittest](https://github.com/spyder-ide/spyder-unittest)
