@@ -1,18 +1,30 @@
 For general information about plugins, see https://github.com/spyder-ide/spyder/wiki/User-plugins
 
+For creating new plugins you could use [spyder-plugin-cookiecutter](https://github.com/spyder-ide/spyder-plugin-cookiecutter/)
+
+
 # UI plugins
 
-These third-party plugins may communicate with other Spyder components through the plugin interface (see https://github.com/spyder-ide/spyder/blob/master/spyderlib/plugins/__init__.py).
+These third-party plugins may communicate with other Spyder components through the plugin interface (see https://github.com/spyder-ide/spyder/blob/master/spyder/api/plugins.py).
 
 ```
-├── spyder_<PLUGIN_NAME>
+spyder_<PLUGIN_NAME>
+├── __init__.py
+├── <PLUGIN_NAME>plugin.py
+├── tests/
+│   ├── __init__.py
+│   └── test_plugin.py
+├── utils/
+│   └── __init__.py
+├── assets/
+├── locale/   # Translations
+└── widgets/
     ├── __init__.py
-    ├── module_a.py
-    ├── images   # Resources
-    ├── locale   # Translations
-    └── other_internal_modules
+    ├── <PLUGIN_NAME>gui.py
+    └── tests
         ├── __init__.py
-```   
+        └── test_report_widget.py
+```
 
 # I/O Spyder plugins
 
@@ -32,4 +44,4 @@ How to create your own I/O Spyder plugins:
 
    * More examples of load/save functions may be found here:
 
-       * https://github.com/spyder-ide/spyder/blob/master/spyderlib/utils/iofuncs.py
+       * https://github.com/spyder-ide/spyder/blob/master/spyder/utils/iofuncs.py
