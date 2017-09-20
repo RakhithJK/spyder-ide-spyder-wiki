@@ -25,6 +25,7 @@
 #### Variable Explorer
 
 * Add support for all Pandas indexes.
+* Add support for sets.
 
 #### File Explorer
 
