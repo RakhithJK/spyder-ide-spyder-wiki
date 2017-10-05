@@ -24,6 +24,7 @@
 
 #### Variable Explorer
 
+* Add multi-index display support to the Dataframe viewer.
 * Add support for all Pandas indexes.
 * Add support for sets.
 
