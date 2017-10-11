@@ -21,6 +21,7 @@
 * Allow to scroll past the end of the file. This can be
   activated in
   `Preferences > Editor > Display > Scroll past the end`.
+* Comment lines taking into account code indentation and pep8.
 
 #### Variable Explorer
 
