@@ -8,8 +8,8 @@
 
 #### Editor
 * Add code folding functionality.
-* Add indentation guidelines. They can activated in the `Source`
-  menu.
+* Add indentation guidelines. They can be activated in the
+  `Source` menu.
 * Add a panel to show the current class and method/function
   where the cursor is placed. This is inspired by a similar
   functionality present in Microsoft Visual Studio. It can be
