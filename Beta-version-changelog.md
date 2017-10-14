@@ -4,6 +4,7 @@
 
 #### Main Window
 
+* Create a separate window when undocking all plugins.
 * Add translations for Simplified Chinese and German.
 
 #### Editor
