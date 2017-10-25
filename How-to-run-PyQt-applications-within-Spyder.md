@@ -76,9 +76,12 @@ if __name__ == "__main__":
 ```
 
 ### An explanation
-Most of the problems of running a QApplication multiple times inside Spyder is that a QApplication instance remains in the namespace of the kernel of the IPython console after the first run, then when you try to re-run your application you already have a QApplication instance initialized. Trying to quit a QApplication instance that you have a reference, probably will cause your program to get stuck in the blocking while-loop as suggested [here](https://stackoverflow.com/a/38285497), and here using `sys.exit()` doesn't help since is the same as trying to exit python (and hence the IPython console).
 
-In the code above then you can see that we make a function for the creation of the QApplication instance (to make it local and prevent it to get in the namespace of the kernel of the console). Another approach that could work in some cases is adding a validation for a instance with the method `instance()` of QApplication. In the later case you probably will need to structure the `main` that creates the QApplication instance with something like this:
+The most common problem when running a QApplication multiple times inside Spyder is that a QApplication instance remains in the namespace of the IPython console kernel after the first run. In other words, when you try to re-run your application, you already have a QApplication instance initialized.
+
+Trying to remove that instance will probably cause your program to get stuck in the blocking while-loop as suggested [here](https://stackoverflow.com/a/38285497), and using `sys.exit()` doesn't help since it's the same as trying to exit Python (and hence the IPython console).
+
+In the code above then you can see that we make a function for the creation of the QApplication instance (to make it local and prevent it to get in the namespace of the kernel of the console). Another approach that could work in some cases is adding a validation for a QApplication instance with the method `instance()`. In the later case you probably will need to structure the `main` that creates the QApplication instance with something like this:
 
 ```python
  if not QApplication.instance():
