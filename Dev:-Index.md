@@ -2,7 +2,7 @@ Spyder is developed using GitHub. This GitHub wiki hosts all of our development 
 
 Here are the core documents describing Spyder development:
 
-* A description of our [[workflow in github|Dev:-Github-Workflow]]
+* A description of our [[Github workflow|Dev:-Github-Workflow]]
 * A description of the [[perfect pull request|Dev: The perfect pull request]]
   * [[How to rebase a pull request]]
 * Our [[coding style|Dev:-Coding-style]]
@@ -16,6 +16,5 @@ Here are the core documents describing Spyder development:
   * [[Debugging Spyder|Dev: Debugging Spyder]]
   * [[How to debug PyQt PySide internal crashes (segfaults) affecting Spyder]]
   * [[How to debug Spyder deadlock freeze hang]]
-
 * Creating a Python (PyPi) Package
 * Creating a Conda package
