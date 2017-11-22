@@ -1,6 +1,10 @@
-## How to donate
+### The problem
 
-[Anaconda, Inc](https://www.anaconda.com/) has been supporting Spyder with a team of four developers working part time in the project for the last 18 months. But, unfortunately, that sponsorship is now coming to an end.
+[Anaconda, Inc](https://www.anaconda.com/) was supporting Spyder with a team of four developers working part time for the project for a year and a half. Unfortunately, that sponsorship ended in mid November 2017.
+
+This document describes our main donation mechanisms, how much funding we need to support our team, how important was Anaconda's help and what the future looks like if we're unable to raise enough funds.
+
+### How to donate
 
 We appreciate all the help you can provide us and can't thank you enough for supporting the work of Spyder devs and Spyder development.
 
@@ -8,19 +12,28 @@ If you want to contribute to maintain Spyder, please consider donating at
 
 https://opencollective.com/spyder
 
-## The importance of Anaconda's funding
+
+### How much funding is needed
+
+We need a minimum of USD $35.000 per year to maintain the same conditions we had with Anaconda, i.e. four developers working part time for the project.
+
+Please take into account that that's a small amount compared to the fact that a single developer in the USA earns USD ~$80.000 per year in a full time job. This is due to the fact that all of us live in Colombia (South America), where living costs are much cheaper than in USA or Europe.
+
+
+### The importance of Anaconda's funding
 
 Thanks to Anaconda’s funding, Spyder has grown by leaps and bounds during the last year and a half (in scope and number of users), and we’d like to share with you some metrics you’re probably not aware of:
 
-1. We are receiving ~250 new issues per month on Github. This is similar to the most important libraries in the scientific Python community (e.g. Pandas, Matplotlib and Scikit-learn) and much higher than other scientific coding environments for Python (e.g. the Jupyter notebook and JupyterLab).
+1. We are receiving ~250 new issues per month on Github. This is similar to the most important libraries in the scientific Python stack (e.g. Pandas, Matplotlib and Scikit-learn) and much higher than other scientific coding environments for Python (e.g. the Jupyter notebook and JupyterLab).
 2. We are merging ~50 PRs per month.
 3. Since the release of Spyder 3.0 (in September/2016), we have added ~3000 new commits, an increase of 40% with respect to the total number of commits in the entire history of the project.
-4. People are opening between ~2 to 6 new questions per day on StackOverflow with the Spyder tag. Carlos Cordoba (Spyder's maintainer) has made more than 3000 points this year answering Spyder questions alone, a 62% increase with respect to his overall score in seven years in the platform.
+4. People are opening between ~2 to 6 new questions per day on StackOverflow with the `spyder` tag. Carlos Cordoba (Spyder maintainer) has made more than 3000 points this year answering Spyder questions alone, a 62% increase with respect to his overall score in seven years in the platform.
 5. Three new core, voluntary developers have joined the project during the last four months.
 
 This is to show you that Spyder is in very good health and has signs to grow even more. But these numbers also make quite evident that we need a team to maintain a project with so much input from the community.
 
-## The future, without funding
+
+### The future, without funding
 
 Without support from the community, the release of Spyder 4 will be delayed a year or more from our current schedule (June/2018). A list of already implemented features can be found [here](https://github.com/spyder-ide/spyder/wiki/Beta-version-changelog). Other major, planned features include:
 
