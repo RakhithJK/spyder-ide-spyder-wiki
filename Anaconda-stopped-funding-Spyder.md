@@ -1,6 +1,8 @@
 ## How to donate
 
-[Anaconda, Inc](https://www.anaconda.com/) has been supporting Spyder with a team of four developers working part time in the project for the last 18 months. But, unfortunately, that sponsorship is now coming to an end. We appreciate all the help you can provide us and can't thank you enough for supporting the work of Spyder devs and Spyder development.
+[Anaconda, Inc](https://www.anaconda.com/) has been supporting Spyder with a team of four developers working part time in the project for the last 18 months. But, unfortunately, that sponsorship is now coming to an end.
+
+We appreciate all the help you can provide us and can't thank you enough for supporting the work of Spyder devs and Spyder development.
 
 If you want to contribute to maintain Spyder, please consider donating at
 
@@ -10,7 +12,7 @@ https://opencollective.com/spyder
 
 Thanks to Anaconda’s funding, Spyder has grown by leaps and bounds during the last year and a half (in scope and number of users), and we’d like to share with you some metrics you’re probably not aware of:
 
-1. We are receiving ~250 new issues per month on Github.
+1. We are receiving ~250 new issues per month on Github. This is similar to the most important libraries in the scientific Python community (e.g. Pandas, Matplotlib and Scikit-learn) and much higher than other scientific coding environments for Python (e.g. the Jupyter notebook and JupyterLab).
 2. We are merging ~50 PRs per month.
 3. Since the release of Spyder 3.0 (in September/2016), we have added ~3000 new commits, an increase of 40% with respect to the total number of commits in the entire history of the project.
 4. People are opening between ~2 to 6 new questions per day on StackOverflow with the Spyder tag. Carlos Cordoba (Spyder's maintainer) has made more than 3000 points this year answering Spyder questions alone, a 62% increase with respect to his overall score in seven years in the platform.
@@ -22,7 +24,7 @@ This is to show you that Spyder is in very good health and has signs to grow eve
 
 Without support from the community, the release of Spyder 4 will be delayed a year or more from our current schedule (June/2018). A list of already implemented features can be found [here](https://github.com/spyder-ide/spyder/wiki/Beta-version-changelog). Other major, planned features include:
 
-1. Add preferences to projects, which will make possible to select a conda environment and install packages in a graphical on it.
+1. Add preferences to projects, which will make possible to select a conda environment and install packages in a graphical way on it.
 2. Make code completion, the evaluation of arbitrary Python code and multiline editing work while debugging.
 3. Add the ability to view any type of Python object to the Variable Explorer.
 4. Select between RStudio, Emacs and Sublime sets of keyboard shortcuts.
