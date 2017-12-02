@@ -24,9 +24,9 @@ Please take into account that that's a small amount, considering that a single d
 
 Thanks to Anaconda’s funding, Spyder has grown by leaps and bounds during the last year and a half (in scope and number of users), and we’d like to share with you some metrics you’re probably not aware of:
 
-1. Since the release of Spyder 3.0 (in September/2016), we have added ~3000 new commits, an increase of 40% with respect to the total number of commits in the entire history of the project.
+1. Since the release of Spyder 3.0 (in September 2016), we have added ~3000 new commits, an increase of 40% with respect to the total number of commits in the entire history of the project.
 2. We are merging ~50 PRs per month. This is similar to the amount of work in the Jupyter notebook and JupyterLab, which have several developers working full time for them.
-3. We are receiving ~250 new issues per month on Github. This is similar to the most important libraries in the scientific Python stack (e.g. Pandas, Matplotlib and Scikit-learn) and much higher than the Jupyter notebook and JupyterLab.
+3. We are receiving ~250 new issues per month on Github. This is similar to the most important libraries in the Python scientific stack (e.g. Pandas, Matplotlib and Scikit-learn) and much higher than the Jupyter notebook and JupyterLab.
 4. People are opening between ~2 to 6 new questions per day on StackOverflow with the `spyder` tag. Carlos Cordoba (Spyder maintainer) has made more than 3000 points this year answering Spyder questions alone, a 62% increase with respect to his overall score in seven years in the platform.
 5. Three new core, voluntary developers have joined the project during the last four months.
 
