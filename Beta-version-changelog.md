@@ -31,6 +31,9 @@
   `Preferences > Editor > Display > Scroll past the end`.
 * Comment lines taking into account code indentation and pep8.
 * Add an option to convert end-of-line characters on save.
+* Add `Ctrl+{` and `Ctrl+_` for vertical and horizontal split
+  of panels, respectively.
+* Add `Alt+Shift+W` to close the current split panel.
 
 #### Variable Explorer
 
