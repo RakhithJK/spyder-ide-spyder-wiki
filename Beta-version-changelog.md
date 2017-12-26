@@ -1,3 +1,10 @@
+## Version 3.2.6
+
+### New features
+
+* Display date/times in human readable format in the Variable
+  Explorer.
+
 ## Version 4.0dev
 
 ### New features
