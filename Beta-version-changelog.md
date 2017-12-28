@@ -2,8 +2,14 @@
 
 ### New features
 
-* Display date/times in human readable format in the Variable
-  Explorer.
+#### Editor
+* Make `Shift+Del` to cut text if users have some
+  text selected.
+* Make `Shift+Ins` to paste text.
+
+#### Variable Explorer
+* Display date/times in human readable format.
+* Disable editing for immutable types (e.g. tuples).
 
 ## Version 4.0dev
 
