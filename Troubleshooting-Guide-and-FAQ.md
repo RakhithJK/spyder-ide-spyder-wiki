@@ -1,7 +1,3 @@
-Spyder Troubleshooting Guide and FAQ
-====================================
-
-
 Trouble with Spyder? Read this first!
 -------------------------------------
 
