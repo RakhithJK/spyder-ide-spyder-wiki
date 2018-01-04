@@ -95,8 +95,8 @@ Recommended troubleshooting steps
     ``conda`` whenever possible.
 
 
-Standard approach to isolating the problem
-------------------------------------------
+Standard approach to isolating problems
+---------------------------------------
 
 If you get the error while running a specific line, block, or script/program,
 it may not be an issue with Spyder, but rather something lower down in the
@@ -160,10 +160,14 @@ Common solutions
     and see if any of those work. If so, then something's wrong with your
     install, not Spyder itself, and so we recommend uninstalling and doing a
     clean install of the latest Anaconda <https://www.anaconda.com/download/>.
-*   If you still have issues, try running Spyder with administrator rights
-    (or not, if you have been), installing for all users or just you,
-    or reinstalling into your local startup drive, to a directory path and user
+*   If Anaconda is currently installed "for just you", try uninstalling and
+    reinstalling it "for all users" instead, and vice versa, as some systems
+    can have issues with one or the other.
+*   Reinstall it into your local startup drive, to a directory path and user
     account without spaces, special characters, or unusual permissions.
+*   Run Spyder with administrator rights just in case it is some sort of
+    permissions issue
+*   Check and repair/reset permissions, your disk, and OS if all else fails
 
 
 Advanced tricks
