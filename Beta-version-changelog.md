@@ -6,6 +6,8 @@
 * Make `Shift+Del` to cut text if users have some
   text selected.
 * Make `Shift+Ins` to paste text.
+* Make `Ctrl+PgUp`, `Ctrl+PgDn` and `Ctrl+Tab` shortcuts
+  configurable.
 
 #### Variable Explorer
 * Display date/times in human readable format.
