@@ -1,17 +1,6 @@
-## Version 3.2.6
+## Version 3.2.7
 
-### New features
-
-#### Editor
-* Make `Shift+Del` to cut text if users have some
-  text selected.
-* Make `Shift+Ins` to paste text.
-* Make `Ctrl+PgUp`, `Ctrl+PgDn` and `Ctrl+Tab` shortcuts
-  configurable.
-
-#### Variable Explorer
-* Display date/times in human readable format.
-* Disable editing for immutable types (e.g. tuples).
+----
 
 ## Version 4.0dev
 
