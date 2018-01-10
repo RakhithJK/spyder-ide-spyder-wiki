@@ -1,5 +1,14 @@
 ## Version 3.2.7
 
+### Find in Files
+
+* Remove items from the `Search in` list when hovering
+  over them and pressing `Del`.
+* Add a `Clear this list` option below `Select other
+  directory`.
+
+#### Main Window
+
 ----
 
 ## Version 4.0dev
