@@ -12,7 +12,7 @@ your problem, please make sure the issue is actually related to Spyder:
 *   If the problem appears to be a result of *your own code*,
     Stack Overflow <https://stackoverflow.com/> is a better place to start;
 *   If the bug also occurs in the *standard python, IPython, or qtconsole*
-    enviroments, or only with *a specific package*, it is unlikely to be
+    environments, or only with *a specific package*, it is unlikely to be
     something in Spyder, and you should report it to those sources instead.
 *   If the problem lies with *your specific install*, uninstalling and clean-
     reinstalling the Anaconda distribution from
@@ -165,6 +165,10 @@ Common solutions
     can have issues with one or the other.
 *   Reinstall it into your local startup drive, to a directory path and user
     account without spaces, special characters, or unusual permissions.
+*   Disable any security software you may be using, such as a firewall or
+    antivirus, as these products can occasionally interfere with Spyder or
+    its related packages. Make sure to re-enable it if it doesn't fix the
+    problem, and if it does, add a rule or exception for Spyder.
 *   Run Spyder with administrator rights just in case it is some sort of
     permissions issue
 *   Check and repair/reset permissions, your disk, and OS if all else fails
