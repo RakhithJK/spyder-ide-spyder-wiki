@@ -1,13 +1,29 @@
 ## Version 3.2.7
 
+#### Main Window
+
+* Improve the interface to report errors to Github.
+
+#### Variable Explorer
+
+* Enable the display of many more Numpy array types.
+
+#### Editor
+
+* Copy text from the search field to the replace one
+  after pressing `Tab`.
+
+#### IPython console
+
+* Make `%edit foo.py` open `foo.py` in our Editor on
+  Windows.
+
 ### Find in Files
 
 * Remove items from the `Search in` list when hovering
   over them and pressing `Del`.
 * Add a `Clear this list` option below `Select other
   directory`.
-
-#### Main Window
 
 ----
 
