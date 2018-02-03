@@ -18,7 +18,7 @@
 * Make `%edit foo.py` open `foo.py` in our Editor on
   Windows.
 
-### Find in Files
+#### Find in Files
 
 * Remove items from the `Search in` list when hovering
   over them and pressing `Del`.
