@@ -1,11 +1,4 @@
-## Version 3.2.8
-
-### New features
-
-#### Editor
-
-* Add `Ctrl+Shift+Enter` shortcut to introduce new lines at
-  any point.
+## Version 3.2.9
 
 ----
 
