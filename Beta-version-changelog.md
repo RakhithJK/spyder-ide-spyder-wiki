@@ -1,5 +1,11 @@
 ## Version 3.2.9
 
+### New features
+
+#### IPython console
+
+* Add an option to use a tight layout with inline plots.
+
 ----
 
 ## Version 4.0dev
