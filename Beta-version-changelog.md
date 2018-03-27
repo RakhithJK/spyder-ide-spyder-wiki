@@ -4,7 +4,10 @@
 
 #### IPython console
 
-* Add an option to use a tight layout with inline plots.
+* Add an option to use a tight layout with inline plots. It is
+  present in `Preferences > IPython console > Graphics`.
+* Add an option an turn on/off Jedi completions. It is present
+  in `Preferences > IPython console > Advanced`.
 
 ----
 
