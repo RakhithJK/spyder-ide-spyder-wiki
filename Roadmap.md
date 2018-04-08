@@ -1,4 +1,4 @@
-## Version 4.0 / June 2018
+## Version 4.0 / March 2019
 
 **New major features**:
 * Global 
