@@ -329,9 +329,9 @@ patch issues yourself. You can explore the error messages
 you're receiving and Spyder's inner workings with the ``Internal Console`` under
 the menu item ``View`` > ``Panes`` > ``Internal Console``. If you want more
 detailed debug output, open an Anaconda Prompt/Terminal/command line
-(on Windows/Mac/Linux), set the enviroment variable SPYDER_DEBUG to the value
+(on Windows/Mac/Linux), set the environment variable SPYDER_DEBUG to the value
 "3" (on ``cmd``, use ``set SPYDER_DEBUG=3``; with ``bash``, execute
-``SPYDER_DEBUG="3"``, and for ``tcsh``, run ``setenv SPYDER_DEBUG 3``.
+``export SPYDER_DEBUG="3"``, and for ``tcsh``, run ``setenv SPYDER_DEBUG 3``.
 Then, launch Spyder from that same shell with ``spyder``, and observe the
 results. Even if you don't manage to fix the problem yourself, this output
 can be immensely helpful in aiding us to quickly narrow down and solve your
@@ -339,7 +339,7 @@ issue for you.
 
 However, if you do feel up to it and think you know where to look and what to
 change, you are welcome to take a stab at patching the bug. Just ``clone``
-the relevant development version of Spyder (``3.x`` for bug fixes) from our
+the relevant development branch of Spyder (e.g. ``3.x`` for bug fixes) from our
 Github repo: <https://github.com/spyder-ide/spyder/>, edit the relevant Python
 code in your favorite editor or IDE (or Spyder itself!), and test your changes
 by running it from the cloned repo with ``python bootstrap.py`` from the repo's
@@ -378,7 +378,7 @@ Spyder-related platforms
     our wiki has information about how to develop and test Spyder, our
     development roadmap and the features planned in the next release, other
     common questions, the changelog, and much more.
-*   **Spyder website**: <https://spyder-ide.github.io/>
+*   **Spyder website**: <https://www.spyder-ide.org/>
     While it is still under very early alpha development and isn't polished for
     public consumption, it does contain basic information about Spyder and
     links to many other helpful resources.
@@ -396,6 +396,9 @@ Spyder-related platforms
     active Spyder community as well, with new Spyder-related questions posted
     every day, and the developers, especially the lead maintainer, are active
     in answering them.
+*   **Spyder OpenCollective**: <https://opencollective.com/spyder/>
+    If you enjoy Spyder and want to help fund us fixing bugs and adding your
+    most requested new features, please support our work on OpenCollective!
 
 
 Python help and problems
@@ -502,13 +505,6 @@ The key items, in rough order of priority:
         Anaconda Prompt/Terminal/command line (Windows/Mac/Linux) with
         ``spyder`` and copy the output printed there.
 
-    It is a common problem that tracebacks, whether automatic or copy/pasted,
-    are incomplete/cut off, which tends to omit the information (the last
-    few lines) most critical to diagnosing or solving the issue. Accordingly,
-    carefully check the included traceback to be sure this isn't the case,
-    and try one of the other sources in the list above if so, as otherwise
-    we'll probably have to close your issue as we can't solve it without that.
-
     *If you are reporting a specific behavior* rather than an error, or the
     message does not fully explain what occurs, please *describe in detail
     what actually happened, and what you expected Spyder to do*.
@@ -541,7 +537,9 @@ The key items, in rough order of priority:
     standalone Qtconsole, IPython, and/or the plain Python** interpreter.
 
 *   **Whether the problem occurred consistently before** in similar situations,
-    only some of the time, or is this the first time you observed it?
+    only some of the time, or this is the first time you've observed it, and
+    whether it occurred the first time you tried the behavior that triggered it
+    in a new Spyder install.
 
 *   **Anything else special or unusual** about your system, environment,
     packages, or specific usage that might have anything to do with the problem
