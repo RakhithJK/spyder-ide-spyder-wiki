@@ -2,6 +2,8 @@
 
     Tools > Preferences > IPython Console > Graphics
 
+After that, please restart your console kernels or Spyder itself for this change to take effect.
+
 ### Example PyQt applications that run in Spyder
 
 These applications are based on this [code](https://pythonprogramminglanguage.com/pyqt5-hello-world/))
