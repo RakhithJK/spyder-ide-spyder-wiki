@@ -9,6 +9,11 @@
 * Add an option an turn on/off Jedi completions. It is present
   in `Preferences > IPython console > Advanced`.
 
+#### Under the hood
+
+* Remove support for PyQt4.
+* Remove support for Python 3.3.
+
 ----
 
 ## Version 4.0dev
