@@ -11,6 +11,8 @@
 
 #### Under the hood
 
+* Add a new command line option called `--safe-mode` to start
+  Spyder with a clean config directory. 
 * Remove support for PyQt4.
 * Remove support for Python 3.3.
 
