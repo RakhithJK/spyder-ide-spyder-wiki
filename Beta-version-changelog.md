@@ -60,6 +60,14 @@
   them with the program associated by the operating system.
 * Add multi-select functionality (`Ctrl/Shift+click`).
 
+#### Outline Explorer
+
+* Show cells grouped in sections. Level 1 cells are defined by
+  `#%%` (as before), level 2 cells by `#%%%`, level 3 cells by
+  `#%%%%` and so on. By following this new syntax, all level
+  n+1 cells will be shown inside level n cells in the outline
+  tree.
+
 #### API Changes
 
 ##### Major changes
