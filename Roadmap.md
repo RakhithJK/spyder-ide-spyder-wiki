@@ -1,10 +1,12 @@
 ## Roadmap for 2018
 
 * **June 1**: *Spyder 4 beta 1* released, with all improvements developed while we were part of Anaconda, Inc.
-    Also, *Spyder 3.3* released, with important bugfixes and enhancements to our stable branch, such as: 
-        - Drop support for Python 3.3 and PyQt 4
-        - Fix some nasty memory leaks
-        - Usability improvements
+    
+  Also, *Spyder 3.3* released, with important bugfixes and enhancements to our stable branch, such as: 
+
+  - Dropping support for Python 3.3 and PyQt 4
+  - Fixes for several nasty memory leaks
+  - Usability improvements
 
 * **July 15th**: *Spyder 4 beta 2* released, with:
     - Language server protocol integration, to make our Editor use the best code completion architecture available.
