@@ -2,7 +2,7 @@
 
 * **June 1**: *Spyder 4 beta 1* released, with all improvements developed while we were part of Anaconda, Inc.
     
-  Also, *Spyder 3.3* released, with important bugfixes and enhancements to our stable branch, such as: 
+  Also, *Spyder 3.3* released, with important bugfixes and enhancements to our stable branch including: 
 
   - Dropping support for Python 3.3 and PyQt 4
   - Fixes for several nasty memory leaks
