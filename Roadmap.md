@@ -1,21 +1,23 @@
 ## Roadmap for 2018
 
-* **June 1**: Release of Spyder 4 beta 1, with:
-    - All improvements developed while we were part of Anaconda, Inc.
-    - Also release of Spyder 3.3, with important bugfixes to our stable branch (e.g. drop support for Python 3.3 and PyQt 4 and fix some nasty memory leaks).
+* **June 1**: *Spyder 4 beta 1* released, with all improvements developed while we were part of Anaconda, Inc.
+    Also, *Spyder 3.3* released, with important bugfixes and enhancements to our stable branch, such as: 
+        - Drop support for Python 3.3 and PyQt 4
+        - Fix some nasty memory leaks
+        - Usability improvements
 
-* **July 15th**: Release of Spyder 4 beta 2, with:
+* **July 15th**: *Spyder 4 beta 2* released, with:
     - Language server protocol integration, to make our Editor use the best code completion architecture available.
-    - Creation of an ipdb kernel package to significantly improve debugging in Spyder. This package will also contain the code used to create kernels that currently lives in Spyder.
+    - A new ``ipdb`` kernel package to significantly improve debugging in Spyder. This package will also modualize the code used to create kernels that currently lives in Spyder itself.
 
-* **September 1st**: Release of Spyder 4 beta 3, with:
-    - A much improved projects support, which includes the ability to define a conda/pip environment per project, graphical installation of packages in that env and the use of cookiecutter templates to create projects.
-    - Integration of the ipdb kernel within Spyder, to have syntax highlighting, code completion, history browsing and plotting while debugging (this is the most asked feature by our users, by the way).
+* **September 1st**: *Spyder 4 beta 3* released, with:
+    - Major enhancements to projects, including the ability to define a ``conda``/``pip`` environment per project, graphical installation of packages in that environment and the use of ``cookiecutter`` templates to create projects.
+    - Integrating the new ``ipdb`` kernel with Spyder, to enable syntax highlighting, code completion, history browsing and plotting while debugging (our most-requested new feature).
 
-* **November 1st**: Release of Spyder 4 beta 4, with:
+* **November 1st**: *Spyder 4 beta 4* released, with:
     - A new icon theme, based on the Breeze theme used in KDE.
     - A new dark theme for the entire application.
-    - Shortcut sets, to allow people set in one action the default set of shortcuts used in RStudio, Emacs or Sublime Text.
-    - Support to view any object in our Variable Explorer. Right now we only support Dataframes, NumPy arrays and builtin iterables (lists, dicts, tuples and sets).
+    - Keyboard shortcut presets, to allow users to easily set up their hotkeys to emulate RStudio, Emacs or Sublime Text.
+    - Full support for viewing any object in the Variable Explorer (Currently, only Dataframes, NumPy arrays and builtin iterables are properly supported).
 
-* **December 15th**: Release of Spyder 4 rc1, with bugfixes only on the new features added so far.
+* **December 15th**: *Spyder 4 release candidate 1*, with bugfixes and polish on the newly added features above
