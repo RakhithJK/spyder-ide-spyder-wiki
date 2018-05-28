@@ -9,10 +9,14 @@
 * Add an option to turn on/off Jedi completions.
   Activate it under `Preferences > IPython console > Advanced`.
 
+#### Variable Explorer
+* Change button names in its Dataframe, Numpy array, etc viewers
+  to better express what operation each one performs.
+
 #### Under the hood
 
 * Add a new command line option called `--safe-mode` to start
-  Spyder with a clean config directory.
+  Spyder with a clean config directory and IPython history.
 * Remove support for PyQt 5.4 and older versions.
 * Remove support for PyQt4.
 * Remove support for Python 3.3.
