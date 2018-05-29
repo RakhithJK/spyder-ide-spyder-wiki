@@ -53,6 +53,10 @@
   vertically and horizontally, respectively.
 * Add `Alt+Shift+W` shortcut to close the current split panel.
 
+#### IPython console
+* Add menu options to start consoles in Pylab, Sympy and Cython
+  modes.
+
 #### Variable Explorer
 
 * Add MultiIndex display support to the DataFrame viewer.
