@@ -15,8 +15,6 @@
 
 #### Under the hood
 
-* Add a new command line option called `--safe-mode` to start
-  Spyder with a clean config directory and IPython history.
 * Remove support for PyQt 5.4 and older versions.
 * Remove support for PyQt4.
 * Remove support for Python 3.3.
