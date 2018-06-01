@@ -2,16 +2,23 @@
 
 ### New features
 
+#### Main Window
+
+* Add new error reporting UI and functionality, automating
+  the process and making it quicker, easier and less error
+  prone for users to submit helpful reports.
+
 #### IPython console
 
 * Add an option to use a tight layout with inline plots.
-  Activate it under `Preferences > IPython console > Graphics`.
+  Activate it under ``Preferences > IPython console > Graphics``.
 * Add an option to turn on/off Jedi completions.
-  Activate it under `Preferences > IPython console > Advanced`.
+  Activate it under ``Preferences > IPython console > Advanced``.
 
 #### Variable Explorer
-* Change button names in its Dataframe, Numpy array, etc viewers
-  to better express what operation each one performs.
+
+* Change the button names in the various editors for improved UX,
+  to better express the actual function of each.
 
 #### Under the hood
 
