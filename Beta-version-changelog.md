@@ -4,9 +4,9 @@
 
 #### Main Window
 
-* Add new error reporting UI and functionality, automating
-  the process and making it quicker, easier and less error
-  prone for users to submit helpful reports.
+* Add a new error reporting dialog to simplify and
+  automate the process of submitting reports to
+  Github.
 
 #### IPython console
 
@@ -17,8 +17,10 @@
 
 #### Variable Explorer
 
-* Change the button names in the various editors for improved UX,
-  to better express the actual function of each.
+* Change the button names of all its viewers from `Ok` and
+  `Cancel` to `Save and Close` and `Close`, respectively,
+  to better express what each one really does.
+* Fix several critical memory leaks.
 
 #### Under the hood
 
