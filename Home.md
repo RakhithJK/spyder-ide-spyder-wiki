@@ -7,7 +7,11 @@ This wiki contains
 
 :thumbsup: [[Contributing to spyder]]
 
+:heart: [[Current Funding and Development Status]]
+
 :octocat: [[Development information|Dev:-Index]]
+
+:sos: [[Troubleshooting Guide and FAQ]]
 
 :ledger: [[SEPs: Spyder Enhancement Proposals]]
 
