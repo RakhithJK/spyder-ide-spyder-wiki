@@ -43,3 +43,8 @@ Users have opened over 1375 issues (bugs, feature requests and other feedback), 
 Further, over 250 pull requests from almost two dozen unique contributors, some old, some new, have been submitted since that time—fixing bugs, adding new or enhanced functionality, or making other improvements—of which 226 have been merged to the main Spyder codebase.
 This work has coalesced into four separate official releases during that period, with another only days away.
 Finally, we've recently blown past the 3000 Github stars milestone a few weeks ago (we're now at nearly 3200), with almost 700 unique forks to date.
+
+
+### Learn more
+
+For even more on the past and present situation, our progress, recent funding related annoucements and the future of Spyder, check out  [Part 1](https://www.spyder-ide.org/blog/spyder-status-2018-past/), [Part 2](https://www.spyder-ide.org/blog/spyder-status-2018-present/) and [Part 3](https://www.spyder-ide.org/blog/spyder-status-2018-future/) of our *State of the Spyder* series on our [official blog](https://www.spyder-ide.org/blog/).
