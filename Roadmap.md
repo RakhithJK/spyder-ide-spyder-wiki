@@ -1,6 +1,6 @@
 ## Roadmap for 2018
 
-* **June 1**: *Spyder 4 beta 1* released, with all improvements developed while we were part of Anaconda, Inc.
+* **June 1**: *Spyder 4 beta 1* released, with [all improvements developed while we were part of Anaconda, Inc](https://github.com/spyder-ide/spyder/wiki/Beta-version-changelog#version-40dev).
     
   Also, *Spyder 3.3* released, with important bugfixes and enhancements to our stable branch including: 
 
