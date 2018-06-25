@@ -27,8 +27,9 @@
 * Remove support for PyQt 5.4 and older versions.
 * Remove support for PyQt4.
 * Remove support for Python 3.3.
-* Move all code used to create kernels for our consoles to
-  a new package called `spyder-kernels`.
+* Move all code used to create kernels for our consoles to a
+  new package called `spyder-kernels`. It's required version
+  for Spyder 3.3+ is any `0.x.x` release (e.g `0.2.3`).
 * Add the `keyring` package as a new dependency to safely
   save users Github passwords.
 
