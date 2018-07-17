@@ -1,6 +1,6 @@
 ## Roadmap for 2018
 
-* **June 1**: *Spyder 4 beta 1* released, with [all improvements developed while we were part of Anaconda, Inc](https://github.com/spyder-ide/spyder/wiki/Beta-version-changelog#version-40dev).
+* **July 22**: *Spyder 4 beta 1* released, with [all improvements developed while we were part of Anaconda, Inc](https://github.com/spyder-ide/spyder/wiki/Beta-version-changelog#version-40dev).
     
   Also, *Spyder 3.3* released, with important bugfixes and enhancements to our stable branch including: 
 
@@ -8,11 +8,11 @@
   - Fixes for several nasty memory leaks
   - Usability improvements
 
-* **July 15th**: *Spyder 4 beta 2* released, with:
+* **August 15th**: *Spyder 4 beta 2* released, with:
     - Language server protocol integration, to make our Editor use the best code completion architecture available.
     - A new ``ipdb`` kernel package to significantly improve debugging in Spyder. This package will also modualize the code used to create kernels that currently lives in Spyder itself.
 
-* **September 1st**: *Spyder 4 beta 3* released, with:
+* **October 1st**: *Spyder 4 beta 3* released, with:
     - Major enhancements to projects, including the ability to define a ``conda``/``pip`` environment per project, graphical installation of packages in that environment and the use of ``cookiecutter`` templates to create projects.
     - Integrating the new ``ipdb`` kernel with Spyder, to enable syntax highlighting, code completion, history browsing and plotting while debugging (our most-requested new feature).
 
