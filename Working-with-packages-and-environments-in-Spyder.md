@@ -23,3 +23,17 @@ If you have an existing preconfigured setup (such as for Keras or TensorFlow), a
   This works with all Spyder versions, and should require no extra configuration once Spyder is install; however, it can result in multiple Spyder installs to manage and isn't as flexible or configurable as the alternative.
 * Starting with Spyder 3.3.0 (and Spyder 4), you can now just install the modular ``spyder-kernels`` package into a Python environment (``conda-env``, ``venv``, system Python, or even an independent install) in which you wish to work, and then simply change the ``Preferences > Python interpreter`` path in any running Spyder instance to point to the Python executable of that environment.
   This takes a small amount of preparation and configuration, but is much "lighter" and quicker than a full Spyder install into that environment, avoids dependency conflicts, and opens up new workflow possibilities.
+
+*Note:* If you go with the second option, make sure you install the correct version of ``spyder-kernels`` for the version of Spyder you are using: ``0.x`` for Spyder 3, and ``1.x`` for Spyder 4. You can do this in ``pip`` or ``conda`` by specifying the version in the install command, e.g.
+
+```bash
+conda install spyder-kernels=0
+```
+
+or
+
+```bash
+pip install spyder-kernels==0.*
+```
+
+to get the Spyder 3 version (or replace the ``0`` with ``1`` for Spyder 4).
