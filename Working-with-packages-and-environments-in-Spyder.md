@@ -27,7 +27,7 @@ If you have an existing preconfigured setup (such as for Keras or TensorFlow), a
 *Note:* If you go with the second option, make sure you install the correct version of ``spyder-kernels`` for the version of Spyder you are using: ``0.x`` for Spyder 3, and ``1.x`` for Spyder 4. You can do this in ``pip`` or ``conda`` by specifying the version in the install command, e.g.
 
 ```bash
-conda install spyder-kernels=0
+conda install spyder-kernels=0.*
 ```
 
 or
