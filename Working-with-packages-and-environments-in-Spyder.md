@@ -32,7 +32,7 @@ To avoid this problem, you need to
 
 4. Start Spyder and run the same command shown in step 3. in one of its consoles.
 
-5. If the results are the same, then things are fine and `import foo` shouldn't give you any error (except for possible installation problems)
+5. If the results are the same, then things are fine and `import foo` shouldn't give you any error.
 
 6. If the results are different, then you have two choices:
 
