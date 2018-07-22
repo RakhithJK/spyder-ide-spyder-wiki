@@ -52,7 +52,7 @@ This works with all Spyder versions and it should require no extra configuration
 
 #### 2. The modular approach
 
-Starting with Spyder 3.3.1, you can install the modular `spyder-kernels` package into any Python environment (`conda` environment, `virtualenv/venv`, system Python, WinPython, etc) in which you wish to work, and then simply change the Python interpreter used by Spyder on its IPython console to point to the Python executable of that environment.
+Starting with Spyder **3.3.1**, you can install the modular `spyder-kernels` package into any Python environment (`conda` environment, `virtualenv/venv`, system Python, WinPython, etc) in which you wish to work, and then simply change the Python interpreter used by Spyder on its IPython console to point to the Python executable of that environment.
 
 This takes a small amount of preparation and configuration, but is much "lighter" and quicker than a full Spyder installation into that environment, avoids dependency conflicts, and opens up new workflow possibilities.
 
