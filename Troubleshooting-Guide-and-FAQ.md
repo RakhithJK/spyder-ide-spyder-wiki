@@ -368,7 +368,7 @@ these places might.
 Spyder-related platforms
 ------------------------
 
-*   **Spyder documentation**: <https://pythonhosted.org/spyder/>
+*   **Spyder documentation**: <https://docs.spyder-ide.org/>
     It explains how to use Spyder's basic features and addresses a number of
     common "How can I?" questions that arise. Its still a work in progress,
     so if you discover something missing from the docs, please submit an
@@ -382,7 +382,7 @@ Spyder-related platforms
     While it is still under very early alpha development and isn't polished for
     public consumption, it does contain basic information about Spyder and
     links to many other helpful resources.
-*   **Spyder Google Group**: <http://groups.google.com/group/spyderlib>
+*   **Spyder Google Group**: <https://groups.google.com/group/spyderlib>
     Great for your more help-related questions, particularly those
     you aren't sure are a full-on Spyder issue, or you'd like to give
     more general feedback or ask questions of the team.
