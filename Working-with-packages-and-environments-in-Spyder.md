@@ -94,6 +94,6 @@ if using pip/virtualenv.
 
 4. Deactivate that environment, activate the one in which Spyder is installed (if you've installed it in its own environment) and start Spyder as you normally would.
 
-5. After Spyder has started, navigate to `Tools > Preferences > Python Interpreter > Use the following interpreter` and paste the path from Step 3 into the text box.
+5. After Spyder has started, navigate to `Preferences > Python Interpreter > Use the following interpreter` and paste the path from Step 3 into the text box.
 
 6. Start a new IPython console. All packages installed in your `myenv` environment should be available there.
