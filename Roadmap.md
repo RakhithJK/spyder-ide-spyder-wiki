@@ -4,7 +4,7 @@
 
 * **September 2nd**: *Spyder 4 beta 2* released, with:
     - Language server protocol integration, to make our Editor use the best code completion architecture available.
-    - A new ``ipdb`` kernel package to significantly improve debugging in Spyder. This package will also modualize the code used to create kernels that currently lives in Spyder itself.
+    - A new ``ipdb`` subpackage of `spyder-kernels`, to significantly improve debugging in Spyder.
 
 * **November 1st**: *Spyder 4 beta 3* released, with:
     - Major enhancements to projects, including the ability to define a ``conda``/``pip`` environment per project, graphical installation of packages in that environment and the use of ``cookiecutter`` templates to create projects.
