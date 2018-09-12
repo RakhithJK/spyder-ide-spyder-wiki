@@ -36,8 +36,8 @@ To confirm this is the problem, you need to:
 
 6. If the resulting paths are different, then you have two choices:
 
-   * Activate the environment in which Spyder is installed and install your package on it. This is described in the next section, called **Installing packages into the same environment as Spyder**. If you try to install future packages in another environment (like `myenv`), you'll get the same `ModuleNotFoundError`.
-   * Pick one of the methods mentioned in the section called **Working with other environments and Python installations** to use Spyder with packages in the existing `myenv` environment (or any other you'd like to set up to work with Spyder).
+   * Activate the environment in which Spyder is installed and install your package on it. This is described in the next section, **Installing packages into the same environment as Spyder**. If you try to install future packages in another environment (like `myenv`), you'll get the same `ModuleNotFoundError`.
+   * Pick one of the methods mentioned in the section **Working with other environments and Python installations** to use Spyder with packages in the existing `myenv` environment (or any other you'd like to set up to work with Spyder).
 
 
 ### Installing packages into the same environment as Spyder
