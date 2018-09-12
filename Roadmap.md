@@ -2,7 +2,7 @@
 
 * **August 12**: *Spyder 4 beta 1* released, with all improvements developed while we were part of Anaconda, Inc.
 
-* **September 20th**: *Spyder 4 beta 2* released, with:
+* **October 1st**: *Spyder 4 beta 2* released, with:
     - Language server protocol integration, to make our Editor use the best code completion architecture available.
     - A new ``ipdb`` subpackage of `spyder-kernels`, to significantly improve debugging in Spyder.
 
