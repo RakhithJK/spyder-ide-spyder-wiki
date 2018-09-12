@@ -36,29 +36,29 @@ To confirm this is the problem, you need to:
 
 6. If the resulting paths are different, then you have two choices:
 
-   * Activate the environment in which Spyder is installed and install your package on it (described below). If you try to install future packages in another environment (like `myenv`), you'll get the same `ModuleNotFoundError`.
-   * Pick one of the methods mentioned in the following section to use Spyder with packages in the existing `myenv` environment (or any other you'd like to set up to work with Spyder).
+   * Activate the environment in which Spyder is installed and install your package on it. This is described in the next section, called **Installing packages into the same environment as Spyder**. If you try to install future packages in another environment (like `myenv`), you'll get the same `ModuleNotFoundError`.
+   * Pick one of the methods mentioned in the section called **Working with other environments and Python installations** to use Spyder with packages in the existing `myenv` environment (or any other you'd like to set up to work with Spyder).
 
 
 ### Installing packages into the same environment as Spyder
 
-Spyder is a Python package just like any other you may be used to, and so you can `import` any package  within the Spyder console or editor as you could from a regular Python or IPython terminal launched in Spyder's environment:
+Spyder is a Python package just like any other you may be used to, and so you can `import` any package  within the Spyder console or editor as you could from a regular Python or IPython terminal launched in Spyder:
 
 * If Spyder is installed with Anaconda (as we recommend) and launched via a shortcut, from Anaconda Navigator or from Anaconda Prompt without modifying anything, this will be the default `base` Anaconda environment.
 * If Spyder is installed via `pip` (experts only) and not into a `virtualenv`/`venv`, this will usually be whatever Python installation `pip` itself belongs to.
 * If you use a system package manager (`apt-get`, `dnf`, `emerge`, etc) to install Spyder, this will typically be your system Python and its library of packages.
 * If you installed Spyder into a specific environment (`conda-env` or `venv`), or it came with a pre-configured one (like those for Keras or TensorFlow) and launched it from there, it will only have access to packages from that environment.
 
-Therefore, if you'd like to use a package with your existing Spyder install (*e.g.* `import`'ing it into your scripts, packages or a Spyder IPython console), the simplest way to do so is to install the package into the same environment in which you installed Spyder, typically by the same means you installed Spyder (`conda`, `pip`, package manager, etc). However, if you're installing packages with ``pip``, ``conda-forge``, Github, or custom channels, working on multiple major projects at once, using prebuilt environments, or otherwise have more sophisticated needs, you'll likely want to use one or more separate environments for your packages. If so, the next section explains how.
+Therefore, if you'd like to use a package with your existing Spyder install (*e.g.* `import`'ing it into your scripts, packages or a Spyder IPython console), the simplest way to do so is to install the package into the same environment in which you installed Spyder, typically by the same means you installed Spyder (`conda`, `pip`, package manager, etc). However, if you're installing packages with `pip`, `conda-forge`, Github, or custom channels, working on multiple major projects at once, using prebuilt environments, or otherwise have more sophisticated needs, you'll likely want to use one or more separate environments for your packages. If so, the next section explains how.
 
 
 ### Working with other environments and Python installations
 
-If you have an existing, preconfigured environment (such as for Keras or TensorFlow), are managing multiple environments (such as for development or testing purposes), or even would like to work within a totally separate Python installation as that in which Spyder is installed (such as a system-installed Spyder with a separate Anaconda installation, or vice-versa), you have two main options:
+If you have an existing, pre-configured environment (such as for Keras or TensorFlow), are managing multiple environments (such as for development or testing purposes), or even would like to work within a totally separate Python installation as that in which Spyder is installed (such as a system-installed Spyder with a separate Anaconda installation, or vice-versa), you have two main options:
 
 #### The naive approach
 
-To use Spyder with another environment, the most straightforward way is to just install `spyder` into the environment from which you'd like to use the packages in, and run it from there. This works with all Spyder versions and should require no extra configuration once the IDE is installed; however, it results in multiple installations to manage and isn't as flexible or configurable as the alternative. Therefore, when dealing with multiple environments, we recommend...
+To use Spyder with another environment, the most straightforward way is to just install `spyder` into the environment from which you'd like to use the packages in, and run it from there. This works with all Spyder versions and should require no extra configuration once the IDE is installed; however, it results in multiple installations to manage and isn't as flexible or configurable as the alternative. Therefore, when dealing with multiple environments, we recommend the process described next.
 
 #### The modular approach
 
