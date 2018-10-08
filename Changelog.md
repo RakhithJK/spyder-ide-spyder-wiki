@@ -1,1 +1,0 @@
-To read our full Changelog please go [here](/spyder-ide/spyder/blob/master/CHANGELOG.md)
