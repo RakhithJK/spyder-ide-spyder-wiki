@@ -13,8 +13,6 @@ This wiki contains
 
 :sos: [[Troubleshooting Guide and FAQ]]
 
-:ledger: [[SEPs: Spyder Enhancement Proposals]]
-
 :crystal_ball:  [[Roadmap]]
 
 :package: [[Projects using Spyder]]
