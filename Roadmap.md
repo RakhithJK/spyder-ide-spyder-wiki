@@ -1,6 +1,6 @@
 ## Roadmap for 2018
 
-* **August 12**: *Spyder 4 beta 1* released, with all improvements developed while we were part of Anaconda, Inc.
+* **August 12th**: *Spyder 4 beta 1* released, with all improvements developed while we were part of Anaconda, Inc.
 
 * **November 10th**: *Spyder 4 beta 2* released, with:
     - Language server protocol integration, to make our Editor use the best code completion architecture available.
