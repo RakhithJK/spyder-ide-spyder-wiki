@@ -4,6 +4,7 @@
 
 #### Main Window
 
+* Add a dark theme for the entire interface.
 * Create a separate window when undocking all plugins.
 * Add translations for Simplified Chinese and German.
 
@@ -33,6 +34,8 @@
 #### IPython console
 * Add menu options to start consoles in Pylab, Sympy and Cython
   modes.
+* Run cells through a function called `runcell` instead of
+  pasting their contents directly to the console.
 
 #### Variable Explorer
 
@@ -54,15 +57,27 @@
   `#%%%%` and so on. If using this new syntax, all  n+1 cells
   will be conveniently grouped under top-level cells in the 
   outline tree.
+* Add option to sort files alphabetically. By default files are
+  shown in the same order as in the Editor.
 
 #### API Changes
 
 ##### Major changes
 * Create the `spyder.api` module to expose a public API
   for external plugins.
+* Create one module per plugin in `spyder.plugins` and move
+  there all widgets used by that plugin. For example,
+  `spyder.widgets.sourcecode.codeeditor` is now at
+  `spyder.plugins.editor.widgets.codeeditor`.
 
 ##### Minor changes
 * Remove the `SpyderPluginMixin` class. 
   Its contents were added to `BasePluginWidget` (in `plugins/base.py`)
   and `PluginWidget` (in `api/plugins.py`).
 * Move `SpyderDockWidget` to `widgets/dock.py`.
+
+#### Under the hood
+* Deprecate the use of `debug_print` and use the `logging` module
+  instead.
+* Use the Language Server Protocol for code completion and linting
+  in the Editor.
