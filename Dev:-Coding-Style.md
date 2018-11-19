@@ -6,7 +6,7 @@ Please follow these coding standards when writing code for inclusion in Spyder.
 
 ## Python style
 
-Unless otherwise specified, follow [PEP 8](https://www.python.org/dev/peps/pep-0008/) for coding style and PEP 257 for docstrings.
+Unless otherwise specified, follow [PEP 8](https://www.python.org/dev/peps/pep-0008/) specifications and recommendations for coding style and [PEP 257](https://www.python.org/dev/peps/pep-0257/) for docstrings.
 
 Use flake8 to check for problems in this area. Remember that PEP 8 is only a guide, so respect the style of the surrounding code as a primary goal.
 
