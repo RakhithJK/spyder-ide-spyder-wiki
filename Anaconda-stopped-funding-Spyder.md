@@ -1,3 +1,7 @@
+### Important note
+
+This page is quite out of date, and kept only for historical purposes. For the current version, see [Current Funding and Development Status](https://github.com/spyder-ide/spyder/wiki/Current-Funding-and-Development-Status).
+
 ### The problem
 
 [Anaconda, Inc](https://www.anaconda.com/) was supporting Spyder with a team of four developers working part time for the project for a year and a half. Unfortunately, that sponsorship ended in mid November 2017.
