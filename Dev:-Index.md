@@ -2,6 +2,7 @@ Spyder is developed using GitHub. This GitHub wiki hosts all of our development 
 
 Here are the core documents describing Spyder development:
 
+* Learn how to run Spyder [[from source | Dev: Run from source]]
 * A description of our [[Github workflow|Dev:-Github-Workflow]]
 * [[How to rebase a pull request]]
 * Our [[coding style|Dev:-Coding-style]]
