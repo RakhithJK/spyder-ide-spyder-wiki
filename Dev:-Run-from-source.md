@@ -1,0 +1,1 @@
+To learn how to run Spyder from your own cloned repo, please follow our [Contributing guide](https://github.com/spyder-ide/spyder/blob/master/CONTRIBUTING.md).
