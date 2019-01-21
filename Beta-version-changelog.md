@@ -47,6 +47,8 @@
 * Add MultiIndex display support to the DataFrame viewer.
 * Add support for all Pandas indexes.
 * Add support for sets.
+* Add an option to its context menu (i.e. the one you get with a
+  mouse right-click) to resize columns to its contents.
 
 #### File Explorer
 
