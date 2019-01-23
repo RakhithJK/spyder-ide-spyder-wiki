@@ -17,7 +17,7 @@
 
 * Add code folding functionality.
 * Add autosave functionality to be able to recover unsaved files
-  after Spyder crashes.
+  after a crash.
 * Add indentation guides.
   They can be activated under the `Source` menu.
 * Add a panel to show the current class and method/function
