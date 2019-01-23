@@ -16,7 +16,9 @@
 #### Editor
 
 * Add code folding functionality.
-* Add indentation guides. 
+* Add autosave functionality to be able to recover unsaved files
+  after Spyder crashes.
+* Add indentation guides.
   They can be activated under the `Source` menu.
 * Add a panel to show the current class and method/function
   where the cursor is placed, inspired by similar 
@@ -56,6 +58,8 @@
   to open them with the user's Operating System
   default program associated with their file type.
 * Add multi-select functionality (`Ctrl/Shift+click`).
+* Add the ability to copy/paste files and their absolute or
+  relative paths.
 * Use special icons for different file types.
 
 #### Outline Explorer
