@@ -87,6 +87,8 @@
   Its contents were added to `BasePluginMixin` (in `plugins/base.py`)
   and `PluginWidget` (in `api/plugins.py`).
 * Move `SpyderDockWidget` to `widgets/dock.py`.
+* Config pages of all plugins are now located in a separate module
+  called `spyder/plugins/<plugin>/confpage.py`
 
 #### Under the hood
 * Deprecate the use of `debug_print` and use the `logging` module
