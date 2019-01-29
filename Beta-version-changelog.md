@@ -37,6 +37,8 @@
 * Add `Ctrl+{` and `Ctrl+_` shortcuts to split panels 
   vertically and horizontally, respectively.
 * Add `Alt+Shift+W` shortcut to close the current split panel.
+* After pressing a quote or brace the current selection gets
+  enclosed on it.
 
 #### IPython console
 * Add menu options to start consoles in Pylab, Sympy and Cython
