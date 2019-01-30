@@ -77,12 +77,12 @@
 #### API Changes
 
 ##### Major changes
-* Create the `spyder.api` module to expose a public API
-  for external plugins.
 * Create one module per plugin in `spyder.plugins` and move
   there all widgets and utility modules used by that plugin.
   For example, `spyder.widgets.sourcecode.codeeditor` is now at
   `spyder.plugins.editor.widgets.codeeditor`.
+* Create the `spyder.api` module to expose a public API
+  for external plugins.
 
 ##### Minor changes
 * Remove the `SpyderPluginMixin` class. 
