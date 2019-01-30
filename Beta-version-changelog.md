@@ -68,11 +68,11 @@
 
 * Show cells grouped in sections. Level 1 cells are defined by
   `#%%` (as before), level 2 cells by `#%%%`, level 3 cells by
-  `#%%%%` and so on. If using this new syntax, all  n+1 cells
-  will be conveniently grouped under top-level cells in the 
+  `#%%%%` and so on. If using this new syntax, all  `n+1` cells
+  will be conveniently grouped under n-level cells in the 
   outline tree.
-* Add option to sort files alphabetically. By default files are
-  shown in the same order as in the Editor.
+* Add an option to sort files alphabetically. By default files
+  are shown in the same order as in the Editor.
 
 #### API Changes
 
