@@ -32,7 +32,7 @@ This project will update `spyder-reports` to work with the latest versions of Sp
 
 ### Motivation
 
-Although Jupyter notebooks are a great reporting facility, they have a really critical problem that for reproducibility: cells can be executed in any order, which can cause that the results present in a report depend on the current state of evaluation. That's why sometimes is preferable a tool that uses a linear and repeatable order of execution. 
+Although Jupyter notebooks are a great reporting facility, they have a really critical problem that affects reproducibility: cells can be executed in any order, which can cause that the results present in a report depend on the current state of evaluation. That's why sometimes is preferable a tool that uses a linear and repeatable order of execution. 
 
 ### Expected Skills
 
