@@ -24,5 +24,21 @@ Familiarity with Python, PyQt5, Git and Github.
 
 Carlos Cordoba (@ccordoba12)
 
-## 2. Update and improve `spyder-reports`
+## 2. Update and improve *spyder-reports*
 
+[`Spyder-reports`](https://github.com/spyder-ide/spyder-reports) is a third-party plugin developed when we were sponsored by Anaconda and whose aim is to create scientific reports from markdown files.
+
+This project will update `spyder-reports` to work with the latest versions of Spyder and Pweave (our backend renderer). Besides, it'll add the ability to view reports in pdf format inside Spyder, improve markdown rendering in Spyder (e.g. code fences are not syntax highlighted right now) and extend markdown syntax in Pweave to add things like citations and cross-references.
+
+### Motivation
+
+Although Jupyter notebooks are a great reporting facility, they have a really critical problem that for reproducibility: cells can be executed in any order, which can cause that the results present in a report depend on the current state of evaluation. That's why sometimes is preferable a tool that uses a linear and repeatable order of execution. 
+
+### Expected Skills
+
+Familiarity with Python, PyQt5 and Markdown.
+
+### Available Mentors
+
+Carlos Cordoba (@ccordoba12)
+C.A.M. Gerlach (@CAM-Gerlach)
