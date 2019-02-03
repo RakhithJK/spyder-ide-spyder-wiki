@@ -40,5 +40,5 @@ Familiarity with Python, PyQt5 and Markdown.
 
 ### Available Mentors
 
-Carlos Cordoba (@ccordoba12)
-C.A.M. Gerlach (@CAM-Gerlach)
+* Carlos Cordoba (@ccordoba12)
+* C.A.M. Gerlach (@CAM-Gerlach)
