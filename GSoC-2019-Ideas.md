@@ -22,7 +22,8 @@ Familiarity with Python, PyQt5, Git and Github.
 
 ### Available Mentors
 
-Carlos Cordoba (@ccordoba12)
+* Carlos Cordoba (@ccordoba12)
+* C.A.M. Gerlach (@CAM-Gerlach)
 
 ## 2. Update and improve *spyder-reports*
 
