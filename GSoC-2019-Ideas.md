@@ -23,17 +23,17 @@ Familiarity with Python, PyQt/PySide, Git and Github.
 * C.A.M. Gerlach (@CAM-Gerlach)
 
 
-## Add refactoring/cleanup tools to Spyder
+## Add refactoring/formatting/code snippit support to Spyder
 
-Many other popular IDEs have a variety of code cleanup and automated refactoring tools built in, and thus this would be a valuable addition to Spyder as well, and one that a number of users have requested. This would be implementing by simply providing a GUI (menu and/or panel) for and employing the existing refactoring tools offered by [Rope](https://github.com/python-rope/rope/blob/master/docs/overview.rst) within Spyder.
+Many other popular IDEs have a variety of code cleanup and automated refactoring tools built in, and thus this would be a valuable addition to Spyder as well, and one that a number of users have requested. This would be implementing by providing a GUI (menu and/or panel) for and employing the existing refactoring tools offered by [Rope](https://github.com/python-rope/rope/blob/master/docs/overview.rst) within Spyder. This would all be accessed through the standardized Language Server Protocol client already integrated within Spyder to provide all code-related services. Additionally, support for code snippits and auto-formatting could be added.
 
 ### Motivation
 
-Many users have requested better refactoring tools like those offered by other IDEs, and would greatly speed up many algorithm, scientific package, and engineering toolkit development workflows that Spyder is built for, while giving it the power of a large, software-development focused IDE.
+Many users have requested better refactoring and auto-formatting tools like those offered by other IDEs, along with code snippit support, in order to aid their workflows. Refactoring and auto-formatting would help Spyder users right better quality, more re-usable code, and all three would greatly speed up many algorithm, scientific package, and engineering toolkit development workflows that Spyder is built for, while giving it the power of a large, software-development focused IDE.
 
 ### Expected Skills
 
-Familiarity with Python, PyQt/PySide, and basic refactoring practices. Experience using ``rope`` a plus.
+Familiarity with Python, PyQt/PySide, and basic refactoring practices. Experience using ``rope`` and/or the Language Server Protocol a plus.
 
 ### Available Mentors
 
