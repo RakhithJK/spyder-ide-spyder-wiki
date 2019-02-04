@@ -1,5 +1,3 @@
-# GSoC 2019 Project Ideas
-
 ## Add Git/Gitub integration to Spyder
 
 This purpose of this project is to create a Spyder plugin that allows users to work comfortably with Git repositories in Spyder and submit their work to Github. In particular, this plugin should allow users to:
@@ -10,7 +8,6 @@ This purpose of this project is to create a Spyder plugin that allows users to w
 * Commit work to the git repo with a commit message, either in total or by hunks (from `git-cola`).
 * Explore git history (with `qgit`).
 * Be able to easily define or create a remote on Github.
-
 
 ### Motivation
 
@@ -26,11 +23,11 @@ Familiarity with Python, PyQt/PySide, Git and Github.
 * C.A.M. Gerlach (@CAM-Gerlach)
 
 
-## 2. Update and improve *Spyder-Reports*
+## Update and improve *Spyder-Reports*
 
 [Spyder-Reports](https://github.com/spyder-ide/spyder-reports) is a Spyder plugin developed to allow users to create dynamic, rich text documents incorporating code blocks, Markdown prose, and dynamically updated output and figures/visualizations, all within Spyder. The goal is to bring the power and functionality of a tool equivalent to Sweave/Knitr and R Markdown to a Python IDE.
 
-This project will update `spyder-reports` to work with the latest versions of Spyder and ``pweave`` (our backend renderer). In additional, it'll add the ability to view reports in PDF format inside Spyder, improve markdown rendering in Spyder (e.g. code fences are not syntax highlighted right now), extend the syntax in Pweave to add features like citations and cross-references, and add support for LaTeX as well as Markdown for scientific output, as this is already fully implemented in ``pweave``.
+This project will update `spyder-reports` to work with the latest versions of Spyder and ``pweave`` (our backend renderer). In addition, it'll add the ability to view reports in PDF format inside Spyder, improve markdown rendering in Spyder (e.g. code fences are not syntax highlighted right now), extend the syntax in Pweave to add features like citations and cross-references, and add support for LaTeX as well as Markdown for scientific output, as this is already fully implemented in ``pweave``.
 
 ### Motivation
 
@@ -46,3 +43,28 @@ Familiarity with Python, PyQt/PySide and Markdown or LaTeX. Experience using ``p
 
 * Carlos Cordoba (@ccordoba12)
 * C.A.M. Gerlach (@CAM-Gerlach)
+
+
+## Update and improve *Spyder-Notebook*
+
+[Spyder-Notebook](https://github.com/spyder-ide/spyder-notebook) is a plugin developed to allow users to open, edit, execute and interact with Jupyter Notebooks all within the Spyder IDE, bridging the popularity and interactivity of the former with the powerful tools and re-usable workflow of the latter.
+
+This project will update `spyder-notebook` to work with the latest versions of Spyder and Jupyter. In addition, it will add several features requested by the user community employing this tool (see the Spyder Notebook Github for specific examples).
+
+### Motivation
+
+Although Jupyter notebooks offer some advantages for particular niche applications, they have many downsides if used on their own for serious research. They require Jupyter Notebook to view them, rather than being usable with any standard, interoperable Python interpreter; they have limitations when working with large datasets or multiple threads, cells can be executed in any order and have other unexpected quirks harming reproducibility, and the native UI offers extremely limited tools for developing proper scientific workflows.
+
+However, many scientists have grown accustomed to Juptyer-Notebook despite its many limitations due to it being a familiar and accessible tool, and others used to the Spyder workflow may have the need to work with notebooks from time to time. Therefore, integrating the capabilities of Jupyter within Spyder offers considerable value to both large communities.
+
+
+### Expected Skills
+
+Familiarity with Python, PyQt/PySide and Jupyter Notebooks.
+
+### Available Mentors
+
+* Carlos Cordoba (@ccordoba12)
+* C.A.M. Gerlach (@CAM-Gerlach)
+
+
