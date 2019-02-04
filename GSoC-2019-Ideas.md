@@ -1,4 +1,4 @@
-## Add Git/Gitub integration to Spyder
+## Create a Spyder-VCS plugin
 
 This purpose of this project is to create a Spyder plugin that allows users to work comfortably with Git repositories in Spyder and submit their work to Github. In particular, this plugin should allow users to:
 
@@ -16,6 +16,24 @@ Better Git/Github integration is perhaps the most-requested Spyder feature by ou
 ### Expected Skills
 
 Familiarity with Python, PyQt/PySide, Git and Github.
+
+### Available Mentors
+
+* Carlos Cordoba (@ccordoba12)
+* C.A.M. Gerlach (@CAM-Gerlach)
+
+
+## Add refactoring/cleanup tools to Spyder
+
+Many other popular IDEs have a variety of code cleanup and automated refactoring tools built in, and thus this would be a valuable addition to Spyder as well, and one that a number of users have requested. This would be implementing by simply providing a GUI (menu and/or panel) for and employing the existing refactoring tools offered by [Rope](https://github.com/python-rope/rope/blob/master/docs/overview.rst) within Spyder.
+
+### Motivation
+
+Many users have requested better refactoring tools like those offered by other IDEs, and would greatly speed up many algorithm, scientific package, and engineering toolkit development workflows that Spyder is built for, while giving it the power of a large, software-development focused IDE.
+
+### Expected Skills
+
+Familiarity with Python, PyQt/PySide, and basic refactoring practices. Experience using ``rope`` a plus.
 
 ### Available Mentors
 
