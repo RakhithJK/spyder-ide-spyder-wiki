@@ -1,4 +1,4 @@
-## Create a Spyder-VCS plugin
+## Create a Spyder version control plugin
 
 This purpose of this project is to create a Spyder plugin that allows users to work comfortably with Git repositories in Spyder and submit their work to Github. In particular, this plugin should allow users to:
 
@@ -23,7 +23,7 @@ Familiarity with Python, PyQt/PySide, Git and Github.
 * C.A.M. Gerlach (@CAM-Gerlach)
 
 
-## Add refactoring/formatting/code snippit support to Spyder
+## Add refactoring/formatting/code snippet support to Spyder
 
 Many other popular IDEs have a variety of code cleanup and automated refactoring tools built in, and thus this would be a valuable addition to Spyder as well, and one that a number of users have requested. This would be implementing by providing a GUI (menu and/or panel) for and employing the existing refactoring tools offered by [Rope](https://github.com/python-rope/rope/blob/master/docs/overview.rst) within Spyder. This would all be accessed through the standardized Language Server Protocol client already integrated within Spyder to provide all code-related services. Additionally, support for code snippits and auto-formatting could be added.
 
