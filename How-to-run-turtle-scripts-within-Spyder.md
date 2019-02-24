@@ -22,7 +22,9 @@ alex = turtle.forward(100)
 turtle.done()
 turtle.bye()   
 ```
-The call of `turtle.bye()` will raise a `Terminator` error but the IPython kernel will not die. To prevent the output of the exception you can use a `try-except`:
+
+The call of `turtle.bye()` will raise a `Terminator` error but the IPython kernel will not die. To prevent the output of the exception you can use a `try/except`, like this:
+
 ```python
 ...
 turtle.done()
@@ -31,9 +33,10 @@ try:
 except turtle.Terminator:
     pass
 ```
+
 The reason for this is to clean some elements used by `Turtle` after running.
 
-Note: The `try-except` is only needed if the `spyder-kernels` version is <= 0.4.2
+**Important note**: The `try/except` block is only needed if the Spyder version is less than **3.3.3**.
 
 ### Option 2:
 
