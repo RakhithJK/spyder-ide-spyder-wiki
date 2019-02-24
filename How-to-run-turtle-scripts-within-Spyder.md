@@ -1,5 +1,7 @@
-### Option 1:
+### Option 1
+
 Call `turtle.done()` with `turtle.bye()` and use the `Inline` or `Automatic` backend for the IPython Console (`Preferences` > `IPython Console` > `Graphics` > `Graphics Backend`). As an example:
+
 ```python
 import turtle
 
@@ -38,6 +40,6 @@ The reason for this is to clean some elements used by `Turtle` after running.
 
 **Important note**: The `try/except` block is only needed if the Spyder version is less than **3.3.3**.
 
-### Option 2:
+### Option 2
 
 Instead of using the IPython Console you can use an external system terminal. Go to `Run` > `Configuration per file...` > Select `Execute in an external system terminal` over the `Console` section.
