@@ -39,6 +39,8 @@
 * Add `Alt+Shift+W` shortcut to close the current split panel.
 * After pressing a quote or brace the current selection gets
   enclosed on it.
+* Add automatic docstring generation (parameters, return vals
+  and exceptions raised) in Numpydoc and Googledoc formats.
 
 #### IPython console
 * Add menu options to start consoles in Pylab, Sympy and Cython
