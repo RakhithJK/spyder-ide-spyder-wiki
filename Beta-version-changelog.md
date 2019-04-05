@@ -65,6 +65,8 @@
 * Add the ability to copy/paste files and their absolute or
   relative paths.
 * Use special icons for different file types.
+* Add an option to open files and directories with a single
+  click.
 
 #### Outline Explorer
 
