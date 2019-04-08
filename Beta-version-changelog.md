@@ -41,6 +41,7 @@
   enclosed on it.
 * Add automatic docstring generation (parameters, return vals
   and exceptions raised) in Numpydoc and Googledoc formats.
+* Add an option to its context menu to sort files alphabetically.
 
 #### IPython console
 * Add menu options to start consoles in Pylab, Sympy and Cython
