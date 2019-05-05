@@ -12,11 +12,11 @@ Use flake8 to check for problems in this area. Remember that PEP 8 is only a gui
 
 Additional conventions:
 
-* **Always** use four (4) spaces for indentation, including continuation lines and hanging indents, except for:
+* Always use four (4) spaces for **indentation**, including continuation lines and hanging indents, except for:
 * Use 8 spaces for hanging indent continuations of the ``def``, ``if``, ``for``, ``while`` and ``with`` statements, to avoid confusion with their indented block
-* Test-suite functions need not have a separate summary line in the docstring, particularly if it is only a few lines long, though this is suggested for longer docstrings
-* Put the ``"""`` on their own lines for multi-line docstrings; keep them all in the same line for single-line docstrings, except for module-level docstrings
-* Commit messages and comments should be in imperative tense ("do this", "fix that") and commit messages and issue/PR titles should not have a period. Prefix all PR titles with ``PR: `` and Work in progress PRs with ``[WiP]``.
+* **Test-suite functions** need not have a separate summary line in the docstring, particularly if it is only a few lines long, though this is suggested for longer docstrings
+* Put the ``"""`` on their own lines for multi-line **docstrings**; keep them all in the same line for single-line docstrings, except for module-level docstrings
+* **Commit messages and code comments** should be in imperative tense ("do this", "fix that"), sufficiently descriptive of the subject matter, understandable by themselves, and avoid non-obvious abbreviations or acronyms. Commit messages and **issue/PR titles** should not have a period. Prefix all PR titles with ``PR: `` and Work in progress PRs with ``[WiP]``.
 
 
 ## PyQt / PySide Style
