@@ -4,6 +4,22 @@
 
 Please follow these coding standards when writing code for inclusion in Spyder.
 
+## General standards and conventions
+
+* **Commit messages and code comments** should be in imperative tense ("do this", "fix that"), sufficiently descriptive of the subject matter, understandable by themselves, and avoid non-obvious abbreviations or acronyms. Commit messages and **issue/PR titles** should not have a period. Prefix all PR titles with ``PR: `` and Work in progress PRs with ``[WiP]``.
+* Reference issues in comments and docstrings as ``issue #NNNN`` and PRs as ``PR #NNNN``, except that ``#NNNN`` is permitted in commit messages if space is constrained.
+* Encode all text files as UTF-8 (no BOM), with the exception of those required to tests encodings.
+* Use standard Unix newlines (``/n``, ``LF``) on all files, except those specifically for Windows (enforced automatically by ``.gitattributes``).
+* Always end text files with a newline (``\n``/``LF``).
+* End all plain-text files with the ``.txt`` extension unless required, to maximize cross platform compatibility
+* Use ``optipng -o7`` to crush any added or modified PNGs.
+* Add ``# -*- coding: utf-8 -*-`` and the Spyder standard license header at the top of any new files.
+* Any links should use HTTPS if available, and strip any unnecessary query parameters off the end.
+* Use the decimal point (``.``), rather than the decimal comma (``,``), ISO-standard number spacing (1 234 567.8910) for consistency and to avoid ambiguity.
+* Use ISO 8601 (YYYY-MM-DD HH:MM:SS.mmm) for any dates and times to follow international standards and avoid any ambiguity across locales.
+* If units are required, always use SI.
+
+
 ## Python style
 
 Unless otherwise specified, follow [PEP 8](https://www.python.org/dev/peps/pep-0008/) specifications and recommendations for coding style and [PEP 257](https://www.python.org/dev/peps/pep-0257/) for docstrings.
@@ -16,8 +32,6 @@ Additional conventions:
 * Use 8 spaces for hanging indent continuations of the ``def``, ``if``, ``for``, ``while`` and ``with`` statements, to avoid confusion with their indented block
 * **Test-suite functions** need not have a separate summary line in the docstring, particularly if it is only a few lines long, though this is suggested for longer docstrings
 * Put the ``"""`` on their own lines for multi-line **docstrings**; keep them all in the same line for single-line docstrings, except for module-level docstrings
-* **Commit messages and code comments** should be in imperative tense ("do this", "fix that"), sufficiently descriptive of the subject matter, understandable by themselves, and avoid non-obvious abbreviations or acronyms. Commit messages and **issue/PR titles** should not have a period. Prefix all PR titles with ``PR: `` and Work in progress PRs with ``[WiP]``.
-
 
 ## PyQt / PySide Style
 Spyder aims to be compatible with PySide and PyQt, so make sure code runs with both bindings.
