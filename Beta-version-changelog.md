@@ -17,7 +17,7 @@
   every plugin. This action creates a separate window that
   only contains the plugin and can be moved to a different
   place of the screen or to a different monitor.
-* Add translations for Simplified Chinese.
+* Add translation for Simplified Chinese.
 
 #### Editor
 
