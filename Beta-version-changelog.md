@@ -85,8 +85,7 @@
 * Add an option to sort files alphabetically. By default files
   are shown in the same order as in the Editor.
 * Add a default name for cells to encourage users to name them.
-  This way cells could be more easily selected spotted in the
-  outline tree.
+  This way cells can be more easily spotted in the outline tree.
 
 #### API Changes
 
