@@ -48,6 +48,9 @@
 * Add automatic docstring generation (parameters, return vals
   and exceptions raised) in Numpydoc and Googledoc formats.
 * Add an option to its context menu to sort files alphabetically.
+* Add the ability to reference issues on Gitlab (`gl`), Github
+  (`gh`) and Bitbucket (`bb`) in comments or strings by using
+  the convention `{gl/gh/bb}:my-org/my-repo#123`.
 
 #### IPython console
 * Add menu options to start consoles in Pylab, Sympy and Cython
