@@ -50,7 +50,9 @@
 * Add an option to its context menu to sort files alphabetically.
 * Add the ability to reference issues on Gitlab (`gl`), Github
   (`gh`) and Bitbucket (`bb`) in comments or strings by using
-  the convention `{gl/gh/bb}:my-org/my-repo#123`.
+  the convention `{gl/gh/bb}:my-org/my-repo#123`. You can also
+  reference them by `{gl/gh/bb}-123`, if you previously set up
+  an `upstream` or `origin` remote in your repo.
 
 #### IPython console
 * Add menu options to start consoles in Pylab, Sympy and Cython
@@ -60,6 +62,8 @@
 
 #### Variable Explorer
 
+* Add a viewer to inspect any Python object in a tree-like
+  view.
 * Add MultiIndex display support to the DataFrame viewer.
 * Add support for all Pandas indexes.
 * Add support for sets.
@@ -102,8 +106,8 @@
 
 ##### Minor changes
 * Remove the `SpyderPluginMixin` class. 
-  Its contents were added to `BasePluginMixin` (in `plugins/base.py`)
-  and `PluginWidget` (in `api/plugins.py`).
+  Its contents were added to `BasePluginMixin` and
+  `BasePluginWidgetMixin` and (in `plugins/base.py`).
 * Move `SpyderDockWidget` to `widgets/dock.py`.
 * Config pages of all plugins are now located in a separate module
   called `spyder/plugins/<plugin>/confpage.py`
