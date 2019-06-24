@@ -72,9 +72,12 @@
 
 #### Files
 
-* Add `Open With OS` context menu action to all files, 
-  to open them with the user's Operating System
-  default program associated with their file type.
+* Add the possibility to associate different external
+  applications to open specific file extensions (e.g.
+  `.txt` files with Notepad++ or VSCode).
+* Add a context menu action called `Open externally` to all
+  files to open them with the Operating System default
+  program associated with their file type.
 * Add multi-select functionality (`Ctrl/Shift+click`).
 * Add the ability to copy/paste files and their absolute or
   relative paths.
