@@ -62,7 +62,7 @@
 
 #### Variable Explorer
 
-* Add a viewer to inspect any Python object in a tree-like
+* Add a new viewer to inspect any Python object in a tree-like
   view.
 * Add MultiIndex display support to the DataFrame viewer.
 * Add support for all Pandas indexes.
