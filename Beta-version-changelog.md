@@ -106,6 +106,8 @@
   `spyder.plugins.editor.widgets.codeeditor`.
 * Create the `spyder.api` module to expose a public API
   for external plugins.
+* Add a `SpyderPlugin` class to be able to create plugins without
+  an associated graphical pane.
 
 ##### Minor changes
 * Remove the `SpyderPluginMixin` class. 
