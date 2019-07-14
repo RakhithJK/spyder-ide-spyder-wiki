@@ -86,7 +86,7 @@ if __name__ == "__main__":
 
 ### An explanation
 
-The most common problem when running a PyQt multiple times inside Spyder is that a QApplication instance remains in the namespace of the IPython console kernel after the first run. In other words, when you try to re-run your application, you already have a QApplication instance initialized.
+The most common problem when running a PyQt application multiple times inside Spyder is that a QApplication instance remains in the namespace of the IPython console kernel after the first run. In other words, when you try to re-run your application, you already have a QApplication instance initialized.
 
 Trying to remove that instance will probably cause your program to get stuck in a blocking while-loop, as suggested [here](https://stackoverflow.com/a/38285497), and using `sys.exit()` doesn't help since it's the same as trying to exit Python (and hence the IPython console).
 
