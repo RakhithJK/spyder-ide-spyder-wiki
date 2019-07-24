@@ -64,6 +64,7 @@
 
 * Add a new viewer to inspect any Python object in a tree-like
   view.
+* Add the ability to search for variable names and types.
 * Add MultiIndex display support to the DataFrame viewer.
 * Add support for all Pandas indexes.
 * Add support for sets.
