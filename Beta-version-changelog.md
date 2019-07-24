@@ -112,7 +112,7 @@
 ##### Minor changes
 * Remove the `SpyderPluginMixin` class. 
   Its contents were added to `BasePluginMixin` and
-  `BasePluginWidgetMixin` and (in `plugins/base.py`).
+  `BasePluginWidgetMixin` (in `plugins/base.py`).
 * Move `SpyderDockWidget` to `widgets/dock.py`.
 * Config pages of all plugins are now located in a separate module
   called `spyder/plugins/<plugin>/confpage.py`
