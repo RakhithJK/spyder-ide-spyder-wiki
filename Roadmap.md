@@ -18,5 +18,5 @@
     - Show code completions on the fly in the Editor.
     - Add support for Numpy object arrays to the Variable Explorer.
 
-* **August 31**: *Spyder 4 beta 5* to be released, with:
+* **August 31th 2019**: *Spyder 4 beta 5* to be released, with:
     - Major enhancements to projects, including the ability to define a `conda` environment per project, graphical installation of packages in that environment and the use of `cookiecutter` templates to create projects.
