@@ -22,6 +22,7 @@
 #### Editor
 
 * Add code folding functionality.
+* Show code completions as you type.
 * Add autosave functionality to be able to recover unsaved files
   after a crash.
 * Add indentation guides.
@@ -65,6 +66,7 @@
 * Add a new viewer to inspect any Python object in a tree-like
   view.
 * Add the ability to search for variable names and types.
+* Add support for Numpy object arrays.
 * Add MultiIndex display support to the DataFrame viewer.
 * Add support for all Pandas indexes.
 * Add support for sets.
