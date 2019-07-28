@@ -20,3 +20,9 @@
 
 * **August 31th 2019**: *Spyder 4 beta 5* to be released, with:
     - Major enhancements to projects, including the ability to define a `conda` environment per project, graphical installation of packages in that environment and the use of `cookiecutter` templates to create projects.
+
+* **September 20th 2019**: *Spyder 4 release candidate* to be released, with:
+    - Improved API for plugin creators.
+    - Bugfixes and other minor features.
+
+* **October 6th 2019**: *Spyder 4 final release*.
