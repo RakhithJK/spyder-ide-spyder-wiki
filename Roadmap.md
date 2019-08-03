@@ -12,7 +12,7 @@
     - URL awareness in the Editor.
     - Associate different external programs to open files in the Files pane.
 
-* **July 31th 2019**: *Spyder 4 beta 4* to be released, with:
+* **August 2nd 2019**: *Spyder 4 beta 4* released, with:
     - Enhanced support for viewing any Python object in the Variable Explorer.
     - Searching for variable names and types in the Variable Explorer.
     - Show code completions on the fly in the Editor.
