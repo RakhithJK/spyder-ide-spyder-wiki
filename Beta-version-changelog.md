@@ -60,6 +60,8 @@
   modes.
 * Run cells through a function called `runcell` instead of
   pasting their contents directly to the console.
+* Use Jupyter comms to handle communications between frontend
+  and kernel.
 
 #### Variable Explorer
 
