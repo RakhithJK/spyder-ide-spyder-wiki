@@ -131,7 +131,7 @@
 #### Under the hood
 * Drop support for Python 3.4.
 * Increase minimal PyQt supported version to 5.6.
-* Deprecate the use of `debug_print` and use the `logging` module
+* Deprecate the usage of `debug_print` and use the `logging` module
   instead.
 * Use the Language Server Protocol for code completion and linting
   in the Editor.
