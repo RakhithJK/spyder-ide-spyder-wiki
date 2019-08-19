@@ -56,6 +56,11 @@
   an `upstream` or `origin` remote in your repo.
 
 #### IPython console
+* Files are now run in an empty namespace. This avoids picking up
+  variables defined in the console while running a file. The get
+  the previous behavior you need to go to the menu
+  `Run > Configuration per file` and activate the option called
+  `Run in console’s namespace instead of an empty one`.
 * Add menu options to start consoles in Pylab, Sympy and Cython
   modes.
 * Run cells through a function called `runcell` instead of
