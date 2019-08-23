@@ -76,6 +76,8 @@
   statements on it.
 * Add the ability to debug cells by pressing `Alt+Shift+Return`
   or by going to the menu `Debug > Debug cell`.
+* Add permanent history to it, separate from the console
+  history.
 * Add syntax highlighting to it and color `ipdb` prompts.
 * Disambiguate file names in the Breakpoints pane.
 
