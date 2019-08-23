@@ -25,8 +25,8 @@
 * Show code completions as you type.
 * Add autosave functionality to be able to recover unsaved files
   after a crash.
-* Add indentation guides.
-  They can be activated under the `Source` menu.
+* Add indentation guides. They can be activated under the
+  `Source` menu.
 * Add a panel to show the current class and method/function
   where the cursor is placed, inspired by similar 
   functionality present in Microsoft Visual Studio. 
@@ -54,6 +54,7 @@
   the convention `{gl/gh/bb}:my-org/my-repo#123`. You can also
   reference them by `{gl/gh/bb}-123`, if you previously set up
   an `upstream` or `origin` remote in your repo.
+* Use the Language Server Protocol for code completion and linting.
 
 #### IPython console
 * Files are now run in an empty namespace. This avoids picking up
@@ -142,5 +143,3 @@
 * Increase minimal PyQt supported version to 5.6.
 * Deprecate the usage of `debug_print` and use the `logging` module
   instead.
-* Use the Language Server Protocol for code completion and linting
-  in the Editor.
