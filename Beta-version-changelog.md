@@ -65,9 +65,18 @@
   modes.
 * Run cells through a function called `runcell` instead of
   pasting their contents directly to the console.
-* Add syntax highlighting to the debugger.
 * Use Jupyter comms to handle communications between frontend
   and kernel.
+
+#### Debugger
+
+* `runfile` and `runcell` can now be called when the debugger
+  is active. This gives the ability to easily run multi-line
+  statements on it.
+* Add the ability to debug cells by pressing `Alt+Shift+Return`
+  or by going to the menu `Debug > Debug cell`.
+* Add syntax highlighting to it and color `ipdb` prompts.
+* Disambiguate file names in the Breakpoints pane.
 
 #### Variable Explorer
 
