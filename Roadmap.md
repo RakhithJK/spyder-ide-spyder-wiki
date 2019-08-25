@@ -37,3 +37,4 @@ Tentative features for Spyder 5 (February 2020)
 * Improved git support
 * docrepr integration
 * Multiple projects
+* Improved debugger
