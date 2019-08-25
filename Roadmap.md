@@ -26,3 +26,14 @@
     - Bugfixes and other minor features.
 
 * **October 6th 2019**: *Spyder 4 final release*.
+
+----
+
+Tentative features for Spyder 5 (February 2020)
+
+* Python 3 only
+* New "Viewer" pane to display HTML content
+* Sidebar
+* Improved git support
+* docrepr integration
+* Multiple projects
