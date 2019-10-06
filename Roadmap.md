@@ -18,7 +18,7 @@
     - Show code completions on the fly in the Editor.
     - Add support for Numpy object arrays to the Variable Explorer.
 
-* **September 15th 2019**: *Spyder 4 beta 5* to be released, with:
+* **September 15th 2019**: *Spyder 4 beta 5* released, with:
     - Code snippets.
     - Major overhaul to way the Spyder frontend communicate with its kernels.
     - Initial integration with Kite.
