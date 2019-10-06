@@ -20,7 +20,7 @@
 
 * **September 15th 2019**: *Spyder 4 beta 5* released, with:
     - Code snippets.
-    - Major overhaul to way the Spyder frontend communicate with its kernels.
+    - Major overhaul to the way the Spyder frontend communicates with its kernels.
     - Initial integration with Kite.
 
 * **October 7th 2019**: *Spyder 4 beta6* to be released, with:
