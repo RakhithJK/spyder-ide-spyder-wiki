@@ -27,7 +27,7 @@
     - User interface to install Kite.
     - Improve code completion on the fly.
 
-* **October 20th 2019**: *Spyder 4 release candidate*.
+* **October 20th 2019**: *Spyder 4 release candidate*, to be released with:
     - Several debugger improvements.
 
 * **November 5th 2019**: *Spyder 4 final release*.
