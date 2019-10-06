@@ -18,14 +18,19 @@
     - Show code completions on the fly in the Editor.
     - Add support for Numpy object arrays to the Variable Explorer.
 
-* **August 31th 2019**: *Spyder 4 beta 5* to be released, with:
-    - Major enhancements to projects, including the ability to define a `conda` environment per project, graphical installation of packages in that environment and the use of `cookiecutter` templates to create projects.
+* **September 15th 2019**: *Spyder 4 beta 5* to be released, with:
+    - Code snippets.
+    - Major overhaul to way the Spyder frontend communicate with its kernels.
+    - Initial integration with Kite.
 
-* **September 20th 2019**: *Spyder 4 release candidate* to be released, with:
-    - Improved API for plugin creators.
-    - Bugfixes and other minor features.
+* **October 7th 2019**: *Spyder 4 beta6* to be released, with:
+    - User interface to install Kite.
+    - Improve code completion on the fly.
 
-* **October 6th 2019**: *Spyder 4 final release*.
+* **October 20th 2019**: *Spyder 4 release candidate*.
+    - Several debugger improvements.
+
+* **November 5th 2019**: *Spyder 4 final release*.
 
 ----
 
