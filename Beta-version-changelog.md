@@ -71,14 +71,15 @@
 
 #### Debugger
 
-* `runfile` and `runcell` can now be called when the debugger
-  is active. This gives the ability to easily run multi-line
-  statements on it.
-* Add the ability to debug cells by pressing `Alt+Shift+Return`
-  or by going to the menu `Debug > Debug cell`.
+* Add code completion to it.
+* Add the ability to execute multi-line statements on it.
+* Add syntax highlighting to it and color `ipdb` prompts.
 * Add permanent history to it, separate from the console
   history.
-* Add syntax highlighting to it and color `ipdb` prompts.
+* `runfile` and `runcell` can now be called when the debugger
+  is active.
+* Add the ability to debug cells by pressing `Alt+Shift+Return`
+  or by going to the menu `Debug > Debug cell`.
 * Disambiguate file names in the Breakpoints pane.
 
 #### Variable Explorer
