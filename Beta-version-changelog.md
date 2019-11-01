@@ -121,6 +121,17 @@
 * Add a default name for cells to encourage users to name them.
   This way cells can be more easily spotted in the outline tree.
 
+#### Preferences:
+
+* Spyder can now read default configuration options saved in
+`spyder.ini` files from system (e.g. `/etc/spyder`) and
+conda environment (e.g. `~/miniconda/envs/py36/etc/spyder`)
+directories. This can be used by sysadmins to turn on/off certain
+options by default for all users in an organization. To
+inspect the paths from which Spyder reads these files per
+operating system and the order in which it does that, you can use
+the new command line option `spyder --paths`.
+
 #### API Changes
 
 ##### Major changes
