@@ -80,6 +80,9 @@
   is active.
 * Add the ability to debug cells by pressing `Alt+Shift+Return`
   or by going to the menu `Debug > Debug cell`.
+* Add an option to ignore installed Python libraries while
+  debugging. It can be turned on in the menu
+  `Debug > Ignore Python libraries while debugging`.
 * Disambiguate file names in the Breakpoints pane.
 
 #### Variable Explorer
