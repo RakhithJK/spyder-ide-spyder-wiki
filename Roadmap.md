@@ -34,7 +34,7 @@
 
 ----
 
-Tentative features for Spyder 5 (February 2020)
+Tentative features for Spyder 5 (June 2020)
 
 * Python 3 only
 * New "Viewer" pane to display HTML content
