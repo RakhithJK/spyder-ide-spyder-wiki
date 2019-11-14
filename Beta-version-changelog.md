@@ -83,6 +83,10 @@
 * Add an option to ignore installed Python libraries while
   debugging. It can be turned on in the menu
   `Debug > Ignore Python libraries while debugging`.
+* Add the ability to see inline plots while debugging. For that
+  you need to activate the option called
+  `Process execute events while debugging`, present in in the
+  `Debug` menu.
 * Disambiguate file names in the Breakpoints pane.
 
 #### Variable Explorer
@@ -90,6 +94,8 @@
 * Add a new viewer to inspect any Python object in a tree-like
   view.
 * Add the ability to search for variable names and types.
+* Restore the ability to refresh it while code is being
+  executed.
 * Add support for Numpy object arrays.
 * Add MultiIndex display support to the DataFrame viewer.
 * Add support for all Pandas indexes.
