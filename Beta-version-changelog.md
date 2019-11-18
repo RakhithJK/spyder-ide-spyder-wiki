@@ -58,7 +58,7 @@
 
 #### IPython console
 * Files are now run in an empty namespace. This avoids picking up
-  variables defined in the console while running a file. The get
+  variables defined in the console while running a file. To get
   the previous behavior you need to go to the menu
   `Run > Configuration per file` and activate the option called
   `Run in console’s namespace instead of an empty one`.
