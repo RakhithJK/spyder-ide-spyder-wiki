@@ -43,3 +43,4 @@ Tentative features for Spyder 5 (June 2020)
 * docrepr integration
 * Multiple projects
 * Improved debugger
+* Use pyarrow for get_value
