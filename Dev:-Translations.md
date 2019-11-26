@@ -24,9 +24,11 @@
 - [@goanpeca](https://github.com/goanpeca)
 
 ## Simplified Chinese
+- [@suokunlong](https://github.com/suokunlong)
 - [@kingmo888](https://github.com/kingmo888)
 - [@nnnewb](https://github.com/nnnewb)
 - [@gepcel](https://github.com/gepcel)
+
 
 ## German
 - [@be-we](https://github.com/be-we)
