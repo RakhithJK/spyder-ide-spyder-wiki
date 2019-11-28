@@ -30,7 +30,7 @@
 * **November 3rd 2019**: *Spyder 4 release candidate 1*, released with:
     - Several debugger improvements.
 
-* **November 2019**: *Spyder 4 final release*.
+* **December 2019**: *Spyder 4 final release*.
 
 ----
 
