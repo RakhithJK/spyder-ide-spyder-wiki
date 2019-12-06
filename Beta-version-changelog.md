@@ -154,7 +154,8 @@ the new command line option `spyder --paths`.
   For example, `spyder.widgets.sourcecode.codeeditor` is now at
   `spyder.plugins.editor.widgets.codeeditor`.
 * Create the `spyder.api` module to expose a public API
-  for external plugins.
+  for external plugins. *Note*: This is still not stable. It'll be
+  improved and stabilized for Spyder 5 (to be released in 2020).
 * Add a `SpyderPlugin` class to be able to create plugins without
   an associated graphical pane.
 
