@@ -18,7 +18,7 @@
   only contains the plugin and can be moved to a different
   place of the screen or to a different monitor.
 * Add a clock to the status bar, for those who like to work
-  on full screen mode. It can be activated in
+  in full screen mode. It can be activated in
   `Preferences > General > Advanced settings > Status bar > Show clock`.
 * Show current conda environment and git branch (if any) in the status bar.
 * Add translation for Simplified Chinese.
