@@ -13,6 +13,7 @@
 - [@sohnishi](https://github.com/sohnishi)
 
 ## Portuguese (Brazilian)
+- [@sehnem](https://github.com/sehnem)
 - [@manipuladordedados](https://github.com/manipuladordedados)
 
 ## Russian
