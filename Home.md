@@ -23,6 +23,10 @@ This wiki contains
 
 :electric_plug: [[User Plugins]]
 
+🌐 [[Dev:-Translations]]
+
+
+
 ------
 
 ## Editing the wiki
