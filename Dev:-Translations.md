@@ -1,3 +1,11 @@
+# Crowdin
+
+[Crowdin](http://crowdin.com/) provides a simple web based interface for translators, proof readers and managers.
+
+To start translating please visit https://crowdin.com/project/spyder
+
+[![Crowdin](https://badges.crowdin.net/spyder/localized.svg)](https://crowdin.com/project/spyder)
+
 # Official Spyder translators
 
 ## French
