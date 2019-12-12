@@ -10,3 +10,4 @@ Tentative features for Spyder 5:
 * Multiple projects
 * Improved debugger
 * Use pyarrow for get_value
+* Problems pane
