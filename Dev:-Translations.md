@@ -38,7 +38,9 @@ To start translating please visit https://crowdin.com/project/spyder
 - [@nnnewb](https://github.com/nnnewb)
 - [@gepcel](https://github.com/gepcel)
 
-
 ## German
-- [@alexschw](https://github.com/alexschw )
+- [@alexschw](https://github.com/alexschw)
 - [@be-we](https://github.com/be-we)
+
+## Polish
+- [@wojnilowicz](https://github.com/wojnilowicz)
