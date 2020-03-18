@@ -66,7 +66,7 @@ Recommended troubleshooting steps
     latest version of your distribution (e.g. the recommended Anaconda), or
     with the relevant "update all" command in the Anaconda Prompt/Terminal/
     command line (on Windows/Mac/Linux). Using ``conda``, you can run
-    ``conda update anaconda`` to get the latest stable version of everything.
+    ``conda update --all`` to get the latest stable version of everything.
 *   **Restart your machine**, in case the problem lies with a lingering process
     or another such issue.
 *   From the Anaconda Prompt/Terminal/command line (on Windows/Mac/Linux),
