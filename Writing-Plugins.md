@@ -40,7 +40,7 @@ How to create your own I/O Spyder plugins:
            * `output` is a string or `None`: error message or `None` if no error occured 
    * Define the global variables `FORMAT_NAME`, `FORMAT_EXT`, `FORMAT_LOAD` and `FORMAT_SAVE`. See the example of DICOM images support:
 
-       * https://github.com/spyder-ide/spyder/tree/master/spyder_io_dcm
+       * https://github.com/spyder-ide/spyder/tree/master/spyder/plugins/io_dcm
 
    * More examples of load/save functions may be found here:
 
