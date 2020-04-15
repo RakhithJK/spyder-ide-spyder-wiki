@@ -94,9 +94,9 @@ In the code above you can see that we make a function for the creation of the QA
 
 ```python
  if not QApplication.instance():
-        app = QApplication(sys.argv)
-    else:
-        app = QApplication.instance() 
+     app = QApplication(sys.argv)
+ else:
+     app = QApplication.instance() 
 ``` 
 
 ### Useful info/issues/documentation of QApplication
