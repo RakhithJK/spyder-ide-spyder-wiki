@@ -7,3 +7,4 @@ Connect with **Spyder** through our social media channels and stay up to date wi
 * [Twitter](https://www.twitter.com/Spyder_IDE)
 * [Youtube](https://www.youtube.com/channel/UCK0uCG7DVzKUAhaw8veitkw)
 * [Gitter Chat Room](https://gitter.im/spyder-ide/public)
+* [Instagram](https://www.instagram.com/spyderide/)
