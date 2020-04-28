@@ -32,11 +32,35 @@ class ThirdPartySubWidget(QWidget):
         return [sc.data for sc in self.shortcuts]
 
 
+class AnotherThirdPartySubWidget(QWidget):
+
+    def __init__(self, parent=None):
+        self.shortcuts = self.create_shortcuts()
+
+    def another_method_call(self):
+        pass
+
+    # Needed!
+    def create_shortcuts(self):
+        another_shortcut = CONF.config_shortcut(
+            lambda: self.another_method_call(),
+            context='terminal',
+            name='another shortcut',
+            parent=self,
+        )
+        return [another_shortcut]
+
+    # Needed!
+    def get_shortcut_data(self):
+        return [sc.data for sc in self.shortcuts]
+
 # Plugin file
 class ThirdPartyPlugin(SpyderPluginWidget):
 
     def __init__(self, parent=None):
          self.a_sub_widget = ThirdPartySubWidget(self)
+         self.another_widget = None
+
          self.register_widget_shortcuts(self.a_sub_widget)
 
     def get_plugin_actions(self):
@@ -51,7 +75,11 @@ class ThirdPartyPlugin(SpyderPluginWidget):
         self.register_shortcut(some_action, context="_", name="Quit")
 
         return [some_action]
+
+    def create_another_subwidget(self):
+        self.another_subwidget = AnotherThirdPartySubWidget(self)
+        self.register_widget_shortcuts(self.another_subwidget)
 ```
 
 
-If the widget is not available on Plugin initialization, then you can move the widget shortcut registration to the place/method where the subwidget is initialized.
+If the widget is not available on Plugin initialization, then you can move the widget shortcut registration to the place/method (see `create_another_subwidget`) where the subwidget is initialized.
