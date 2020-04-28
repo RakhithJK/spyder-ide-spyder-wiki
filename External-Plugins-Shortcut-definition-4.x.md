@@ -53,3 +53,5 @@ class ThirdPartyPlugin(SpyderPluginWidget):
         return [some_action]
 ```
 
+
+If the widget is not available on Plugin initialization, then you can move the widget shortcut registration to the place/method where the subwidget is initialized.
