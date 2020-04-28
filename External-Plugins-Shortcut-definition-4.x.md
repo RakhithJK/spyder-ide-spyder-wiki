@@ -12,6 +12,7 @@ Example
 class ThirdPartySubWidget(QWidget):
 
     def __init__(self, parent=None):
+        super().__init__(parent)
         self.shortcuts = self.create_shortcuts()
 
     def some_method_call(self):
@@ -35,6 +36,7 @@ class ThirdPartySubWidget(QWidget):
 class AnotherThirdPartySubWidget(QWidget):
 
     def __init__(self, parent=None):
+        super().__init__(parent)
         self.shortcuts = self.create_shortcuts()
 
     def another_method_call(self):
@@ -59,6 +61,7 @@ class AnotherThirdPartySubWidget(QWidget):
 class ThirdPartyPlugin(SpyderPluginWidget):
 
     def __init__(self, parent=None):
+         super().__init__(parent)
          self.a_subwidget = ThirdPartySubWidget(self)
          self.another_subwidget = None
 
