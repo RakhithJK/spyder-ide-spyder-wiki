@@ -59,10 +59,10 @@ class AnotherThirdPartySubWidget(QWidget):
 class ThirdPartyPlugin(SpyderPluginWidget):
 
     def __init__(self, parent=None):
-         self.a_sub_widget = ThirdPartySubWidget(self)
-         self.another_widget = None
+         self.a_subwidget = ThirdPartySubWidget(self)
+         self.another_subwidget = None
 
-         self.register_widget_shortcuts(self.a_sub_widget)
+         self.register_widget_shortcuts(self.a_subwidget)
 
     def get_plugin_actions(self):
         some_action = create_action(
