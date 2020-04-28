@@ -54,6 +54,7 @@ class AnotherThirdPartySubWidget(QWidget):
     def get_shortcut_data(self):
         return [sc.data for sc in self.shortcuts]
 
+
 # Plugin file
 class ThirdPartyPlugin(SpyderPluginWidget):
 
