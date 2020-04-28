@@ -7,7 +7,7 @@ The plugin must register the widget shortcuts of any widget that exposes shortcu
 
 Example
 
-``python
+```python
 # Widget file
 class ThirdPartySubWidget(QWidget):
 
