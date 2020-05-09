@@ -11,6 +11,8 @@ This wiki contains
 
 :octocat: [[Development information|Dev:-Index]]
 
+:large_blue_diamond: [[Working with packages and environments in Spyder]]
+
 :sos: [[Troubleshooting Guide and FAQ]]
 
 :crystal_ball:  [[Roadmap]]
@@ -24,8 +26,6 @@ This wiki contains
 :electric_plug: [[User Plugins]]
 
 🌐 [[Dev:-Translations]]
-
-
 
 ------
 
