@@ -1,10 +1,6 @@
-While relatively straightforward once you're familiar with it, the interaction between Spyder and other packages and environments can sometimes be confusing for first-time users.
-With time Spyder has improved a lot to make this  process much easier (and there is more to come!), yet we'd like to clarify how that relationship works.
+While relatively straightforward once you're familiar with it, the interaction between Spyder and other packages and environments can sometimes be confusing for first-time users. Improvements to Spyder have made this process much easier (and there is more to come!), but we'd like to clarify how that relationship works.
 
-We'll start by helping you to debug a common problem encountered in Python when dealing with packages and environments, i.e. when you can't import a module
-even if you're sure that you've installed it. Next we'll guide you through setting up your Spyder environment(s) to improve your workflow.
-If you're looking for a way to use Spyder with different environments (e.g. one for simple data analysis, one for machine learning, one for developing an app, etc.) you can
-go directly to the [final section](#the-modular-approach).
+We'll start by helping you to debug a common problem encountered in Python when dealing with packages and environments, i.e. when you can't import a module even if you're sure that you've installed it. Next, we'll guide you through setting up your Spyder environment(s) to improve your workflow. If you're looking for a way to use Spyder with different environments (e.g. one for simple data analysis, one for machine learning, one for developing an app, etc.) you can go directly to the [final section](#the-modular-approach).
 
 
 - [The most common problem: Using newly-installed packages inside Spyder](#the-most-common-problem--using-newly-installed-packages-inside-spyder)
@@ -14,7 +10,7 @@ go directly to the [final section](#the-modular-approach).
   * [The modular approach](#the-modular-approach)
 
 
-### The most common problem: Using newly-installed packages inside Spyder 
+### The most common problem: Using newly-installed packages inside Spyder
 
 After installing a package (let's call it `foo`) outside Spyder, users may encounter an error trying to import it inside the IDE:
 
@@ -32,7 +28,7 @@ This happens because `foo` was installed (with either `conda` or `pip`) in a dif
 
 To confirm this is the problem, you need to:
 
-1. Activate the environment (*e.g.* `myenv`) in which you installed the package `foo` (*e.g.* with `conda activate myenv` for conda, `workon myenv` for virtualenv/venv, *etc.*)
+1. Activate the environment (*e.g.* `myenv`) in which you installed the package `foo` (*e.g.* with `conda activate myenv` for conda, `source myenv/bin/activate` or `workon myenv` for virtualenv/venv, *etc.*).
 
 2. Start a Python interpreter there by running the command `python`.
 
@@ -62,7 +58,7 @@ Spyder is a Python package just like any other you may be used to, and so you ca
 * If you use a system package manager (`apt-get`, `dnf`, `emerge`, etc) to install Spyder, this will typically be your system Python and its library of packages.
 * If you installed Spyder into a specific environment (`conda-env` or `venv`), or it came with a pre-configured one (like those for Keras or TensorFlow) and launched it from there, it will only have access to packages from that environment.
 
-Therefore, if you'd like to use a package with your existing Spyder install (*e.g.* `import`'ing it into your scripts, packages or a Spyder IPython console), the simplest way to do so is to install the package into the same environment in which you installed Spyder, typically by the same means you installed Spyder (`conda`, `pip`, package manager, etc). However, if you're installing packages with `pip`, `conda-forge`, Github, or custom channels, working on multiple major projects at once, using prebuilt environments, or otherwise have more sophisticated needs, you'll likely want to use one or more separate environments for your packages. If so, the next section explains how.
+Therefore, if you'd like to use a package with your existing Spyder install (*e.g.* importing it into your scripts, packages or a Spyder IPython console), the simplest way to do so is to install the package into the same environment in which you installed Spyder, typically by the same means you installed Spyder (`conda`, `pip`, package manager, etc). However, if you're installing packages with `pip`, `conda-forge`, Github, or custom channels, working on multiple major projects at once, using prebuilt environments, or otherwise have more sophisticated needs, you'll likely want to use one or more separate environments for your packages. If so, the next section explains how.
 
 
 ### Working with other environments and Python installations
@@ -71,7 +67,7 @@ If you have an existing, pre-configured environment (such as for Keras or Tensor
 
 #### The naive approach
 
-To use Spyder with another environment, the most straightforward way is to just install `spyder` into the environment from which you'd like to use the packages in, and run it from there. This works with all Spyder versions and should require no extra configuration once the IDE is installed; however, it results in multiple installations to manage and isn't as flexible or configurable as the alternative. Therefore, when dealing with multiple environments, we **recommend** [the modular approach](#the-modular-approach).
+To use Spyder with another environment, the simplest way is to just install it directly into the environment from which you'd like to use the packages in, and run it from there. This works with all Spyder versions and should require no extra configuration once the IDE is installed; however, it results in multiple installations to manage and isn't as flexible or configurable as the alternative. Therefore, when dealing with multiple environments, we **recommend** [the modular approach](#the-modular-approach).
 
 #### The modular approach
 
@@ -81,14 +77,13 @@ This takes a small amount of preparation and configuration, but is much "lighter
 
 To achieve this, follow these steps:
 
-1. Activate the environment (*e.g.* `myenv`) in which you'd like to work (*e.g.* with `conda activate myenv` for conda, `workon myenv` for virtualenv/venv, *etc*)
+1. Activate the environment (*e.g.* `myenv`) in which you'd like to work (*e.g.* with `conda activate myenv` for conda, `source myenv/bin/activate` or `workon myenv` for virtualenv/venv, *etc*)
 
 2. Install the `spyder-kernels` package there, with the command:
 
-   * with `conda install spyder-kernels` if using conda/Anaconda,
-   
-   * with `pip install spyder-kernels` if using pip/virtualenv.
+   * `conda install spyder-kernels` if using conda/Anaconda,
 
+   * `pip install spyder-kernels` if using pip/virtualenv.
 
 3. After installing via either method, run the following command inside the same environment:
 
@@ -102,5 +97,4 @@ To achieve this, follow these steps:
 
 5. After Spyder has started, navigate to `Preferences > Python Interpreter > Use the following interpreter` and paste the path from Step 3 into the text box.
 
-6. Start a new IPython console. All packages installed in your `myenv` environment should be available there. If conda is used the name of the current environment and its Python version
-   should be displayed in the Status bar, hovering it should display the path of the selected interpreter.
+6. Start a new IPython console. All packages installed in your `myenv` environment should be available there. If conda is used, the name of the current environment and its Python version should be displayed in Spyder's status bar, and hovering over it should display the path of the selected interpreter.
