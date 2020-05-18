@@ -98,3 +98,5 @@ To achieve this, follow these steps:
 5. After Spyder has started, navigate to `Preferences > Python Interpreter > Use the following interpreter` and paste the path from Step 3 into the text box.
 
 6. Start a new IPython console. All packages installed in your `myenv` environment should be available there. If conda is used, the name of the current environment and its Python version should be displayed in Spyder's status bar, and hovering over it should display the path of the selected interpreter.
+
+NB Variable Explorer requires packages to be available in Spyder's Conda env if you still want to display their contents (eg Pandas to display Pandas series).
