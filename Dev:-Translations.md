@@ -44,3 +44,6 @@ To start translating please visit https://crowdin.com/project/spyder
 
 ## Polish
 - [@wojnilowicz](https://github.com/wojnilowicz)
+
+## Ukrainian
+- [@VBoden](https://github.com/VBoden)
