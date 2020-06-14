@@ -82,6 +82,9 @@ Recommended troubleshooting steps
     the issue reoccurs. If it does not, it is likely due to another package
     installed on your system, particularly if done with ``pip``, which can
     cause many problems and should be avoided if at all possible.
+    See our guide to managing packages and environments with Spyder
+    <https://github.com/spyder-ide/spyder/wiki/Working-with-packages-and-environments-in-Spyder>
+    for more details on how to do so.
 *   If none of these solve your issue, you should do a full uninstall of Spyder
     by whatever means you originally installed it, and then do a
     **clean install of the latest version of the Anaconda distribution**
