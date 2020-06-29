@@ -101,4 +101,4 @@ To achieve this, follow these steps:
 
 **Notes:** 
 * In order for the Variable Explorer to be able display the built-in editors for specific data types (Numpy array, Pandas Series/DataFrame, etc) the corresponding optional Spyder dependencies (Numpy, Pandas, etc) need to be installed in Spyder's environment, not just the IPython console working env. Furthermore, this is currently also required for custom classes provided by third-party packages displayed in the Object Explorer, though future Spyder versions may remove this latter limitation.  
-* The major python version (`3.6`, `3.7`, `3.8`, etc...) has to match between the environment where spyder is installed and the environment the interpreter comes from (e.g. `myenv`).
+* While Spyder should work fine without it, ensuring the Python minor version (`3.6`, `3.7`, `3.8`, etc) in Spyder's environment matches that in your working environment, if practicable, will minimize the chance of any issues.
