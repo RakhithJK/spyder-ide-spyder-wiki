@@ -31,6 +31,7 @@ To start translating please visit https://crowdin.com/project/spyder
 ## Spanish
 - [@ccordoba12](https://github.com/ccordoba12)
 - [@goanpeca](https://github.com/goanpeca)
+- [@juanis2112](https://github.com/juanis2112)
 
 ## Simplified Chinese
 - [@suokunlong](https://github.com/suokunlong)
