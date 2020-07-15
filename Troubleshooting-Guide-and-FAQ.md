@@ -53,8 +53,8 @@ of reported issues just on their own. In the rough order you should try them:
 Recommended troubleshooting steps
 ---------------------------------
 
-*   **Restart Spyder**, and try what you were doing before again.
-*   **Upgrade Spyder** to the latest release, and you might find your issue is
+1.  **Restart Spyder**, and try what you were doing before again.
+2.  **Upgrade Spyder** to the latest release, and you might find your issue is
     resolved (along with new features, enhancements, and other bug fixes).
     Minor releases come out every two months, so unless you've updated
     recently, there is a good chance your version isn't the latest; you can
@@ -62,14 +62,14 @@ Recommended troubleshooting steps
     To perform the update with ``conda`` (strongly recommended), just run
     ``conda update spyder`` from the Anaconda Prompt/Terminal/command line
     (on Windows/Mac/Linux).
-*   **Update Spyder's dependencies and environment**, either by installing the
+3.  **Update Spyder's dependencies and environment**, either by installing the
     latest version of your distribution (e.g. the recommended Anaconda), or
     with the relevant "update all" command in the Anaconda Prompt/Terminal/
     command line (on Windows/Mac/Linux). Using ``conda``, you can run
     ``conda update --all`` to get the latest stable version of everything.
-*   **Restart your machine**, in case the problem lies with a lingering process
+4.  **Restart your machine**, in case the problem lies with a lingering process
     or another such issue.
-*   From the Anaconda Prompt/Terminal/command line (on Windows/Mac/Linux),
+5.  From the Anaconda Prompt/Terminal/command line (on Windows/Mac/Linux),
     **run the command ``spyder --reset``**, which will restore Spyder's config
     files to their defaults, which solves a huge variety of Spyder issues.
     **Note:** This will reset your preferences, as well as any custom keyboard
@@ -77,7 +77,7 @@ Recommended troubleshooting steps
     ``.spyder-py3`` folder in your user home directory if you particularly
     care about any of those, so you can restore them should this not solve
     the problem.
-*   **Try installing Spyder into a new ``conda`` environment** (recommended) or
+6.  **Try installing Spyder into a new ``conda`` environment** (recommended) or
     ``virtualenv``, and only installing its dependencies there, and seeing if
     the issue reoccurs. If it does not, it is likely due to another package
     installed on your system, particularly if done with ``pip``, which can
@@ -85,8 +85,8 @@ Recommended troubleshooting steps
     See our guide to managing packages and environments with Spyder
     <https://github.com/spyder-ide/spyder/wiki/Working-with-packages-and-environments-in-Spyder>
     for more details on how to do so.
-*   If none of these solve your issue, you should do a full uninstall of Spyder
-    by whatever means you originally installed it, and then do a
+7.  If none of these solve your issue, you should do a full uninstall of Spyder
+    by whatever means you originally installed it (for Anaconda, follow all the steps under Option B in the [Anaconda uninstall guide](https://docs.anaconda.com/anaconda/install/uninstall/)), and then do a
     **clean install of the latest version of the Anaconda distribution**
     <https://www.anaconda.com/download/>, which is how we recommend you
     install Spyder and keep in up to date. While you are welcome to get Spyder
@@ -151,30 +151,30 @@ above and below.
 Common solutions
 ----------------
 
-*   The **basic troubleshooting steps** discussed in the section above, as
+1.  The **basic troubleshooting steps** discussed in the section above, as
     they usually resolve the vast majority of Spyder install-related issues.
-*   **Make sure Spyder isn't already running** and no Spyder related windows
+2.  **Make sure Spyder isn't already running** and no Spyder related windows
     (*e.g.* Variable Explorer dialogs) are left open, and check that the
     preference setting "Use a single instance" (under ``Preferences`` >
     ``General`` > ``Advanced Settings``) isn't checked.
-*   Try **starting Spyder via a different means**, such as from a shortcut,
+3.  Try **starting Spyder via a different means**, such as from a shortcut,
     Anaconda navigator, or the Anaconda Prompt/Terminal/command line
     (on Windows/Mac/Linux) by simply typing ``spyder`` then enter/return,
     and see if any of those work. If so, then something's wrong with your
     install, not Spyder itself, and so we recommend uninstalling and doing a
     clean install of the latest Anaconda <https://www.anaconda.com/download/>.
-*   If Anaconda is currently installed "for just you", try uninstalling and
-    reinstalling it "for all users" instead, and vice versa, as some systems
-    can have issues with one or the other.
-*   Reinstall it into your local startup drive, to a directory path and user
-    account without spaces, special characters, or unusual permissions.
-*   Disable any security software you may be using, such as a firewall or
+4.  Disable any security software you may be using, such as a firewall or
     antivirus, as these products can occasionally interfere with Spyder or
     its related packages. Make sure to re-enable it if it doesn't fix the
     problem, and if it does, add a rule or exception for Spyder.
-*   Run Spyder with administrator rights just in case it is some sort of
+5.  Run Spyder with administrator rights just in case it is some sort of
     permissions issue
-*   Check and repair/reset permissions, your disk, and OS if all else fails
+6.  If Anaconda is currently installed "for just you", try uninstalling and
+    reinstalling it "for all users" instead, and vice versa, as some systems
+    can have issues with one or the other.
+7.  Reinstall it into your local startup drive, to a directory path and user
+    account without spaces, special characters, or unusual permissions.
+8.  Check and repair/reset permissions, your disk, and OS if all else fails
 
 
 Advanced tricks
