@@ -86,8 +86,12 @@ Recommended troubleshooting steps
     <https://github.com/spyder-ide/spyder/wiki/Working-with-packages-and-environments-in-Spyder>
     for more details on how to do so.
 7.  If none of these solve your issue, you should do a full uninstall of Spyder
-    by whatever means you originally installed it (for Anaconda, follow all the steps under Option B in the [Anaconda uninstall guide](https://docs.anaconda.com/anaconda/install/uninstall/)), and then do a
-    **clean install of the latest version of the Anaconda distribution**
+    by whatever means you originally installed it (for Anaconda, follow all the
+    steps under Option B in the Anaconda uninstall guide,
+    <https://docs.anaconda.com/anaconda/install/uninstall/> ,
+    delete the Anaconda directory wherever it was originally installed,
+    and (on Windows) delete the `%appdata%/python` directory if it exists,
+    and then do a **clean install of the latest version of the Anaconda distribution**
     <https://www.anaconda.com/download/>, which is how we recommend you
     install Spyder and keep in up to date. While you are welcome to get Spyder
     working on your own by one of the many other means we offer, we are only
@@ -161,8 +165,8 @@ Common solutions
     Anaconda navigator, or the Anaconda Prompt/Terminal/command line
     (on Windows/Mac/Linux) by simply typing ``spyder`` then enter/return,
     and see if any of those work. If so, then something's wrong with your
-    install, not Spyder itself, and so we recommend uninstalling and doing a
-    clean install of the latest Anaconda <https://www.anaconda.com/download/>.
+    install, not Spyder itself, and so we recommend following Step 7 under
+    Basic Troubleshooting Steps to uninstall and reinstall Anaconda.
 4.  Disable any security software you may be using, such as a firewall or
     antivirus, as these products can occasionally interfere with Spyder or
     its related packages. Make sure to re-enable it if it doesn't fix the
