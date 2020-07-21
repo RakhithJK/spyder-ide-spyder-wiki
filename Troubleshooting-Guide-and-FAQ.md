@@ -60,8 +60,8 @@ Recommended troubleshooting steps
     recently, there is a good chance your version isn't the latest; you can
     find out with the ``Check for updates`` command under the ``Help`` menu.
     To perform the update with ``conda`` (strongly recommended), just run
-    ``conda update spyder`` from the Anaconda Prompt/Terminal/command line
-    (on Windows/Mac/Linux).
+    ``conda update anaconda`` then ``conda update spyder`` from the
+    Anaconda Prompt/Terminal/command line (on Windows/Mac/Linux).
 3.  **Update Spyder's dependencies and environment**, either by installing the
     latest version of your distribution (e.g. the recommended Anaconda), or
     with the relevant "update all" command in the Anaconda Prompt/Terminal/
