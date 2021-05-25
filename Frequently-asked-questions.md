@@ -1,6 +1,6 @@
 Please post any new questions under the Spyder tag in [[Stack Overflow|http://stackoverflow.com/questions/tagged/spyder]].
 
-This FAQ is for development-related questions. For questions about Spyder itself, see the [[Troubleshooting Guide and FAQ]].
+This FAQ is for development-related questions. For questions about Spyder itself, see the official [Spyder documentation](https://docs.spyder-ide.org/current/index.html).
 
 
 # Qt / PyQt / PySide
