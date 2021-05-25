@@ -91,5 +91,5 @@ You can get a list of options for `setup.py` as follows.
 $ python setup.py -h
 ```
 
-# Building Spyder on Windows
+# Build Spyder on Windows
 
