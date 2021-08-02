@@ -2,7 +2,7 @@ Spyder **5.1.0** comes with an important, breaking change to our API. The `regis
 
 If your plugin requires others to work, you need to import the `on_plugin_available` decorator from `spyder.api.plugin_registration.decorators`, and use it to decorate a method that will use the other plugin API to perform certain actions.
 
-For instance, let's say you created an action in your container that needs to be registered in one of our menus, and you emit a signal in the container that need to do something at the plugin level. In Spyder 5.1.0 the code to do that will look like this
+For instance, let's say you emit a signal in your container that needs to do something at the plugin level, and you created an action that needs to be registered in one of our menus. In Spyder 5.1.0 the code to do that will look like this
 
 ```python
 from spyder.api.plugin_registration.decorators import on_plugin_available
