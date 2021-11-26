@@ -1,4 +1,4 @@
-While relatively straightforward once you're  familiar with it, the interaction between Spyder and other packages and environments can sometimes be confusing for first-time users. Improvements to Spyder have made this process much easier (and there is more to come!), but we'd like to clarify how that relationship works.
+While relatively straightforward once you're familiar with it, the interaction between Spyder and other packages and environments can sometimes be confusing for first-time users. Improvements to Spyder have made this process much easier (and there is more to come!), but we'd like to clarify how that relationship works.
 
 We'll start by helping you to debug a common problem encountered in Python when dealing with packages and environments, i.e. when you can't import a module even if you're sure that you've installed it. Next, we'll guide you through setting up your Spyder environment(s) to improve your workflow. If you're looking for a way to use Spyder with different environments (e.g. one for simple data analysis, one for machine learning, one for developing an app, etc.) you can go directly to the [final section](#the-modular-approach).
 
