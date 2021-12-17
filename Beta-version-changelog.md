@@ -1,5 +1,11 @@
 ## Version 4.1.1
 
+### Windows
+
+- [Download](https://linkify.me/1DGfhZY) the latest version of Spyder
+
+- Manually start Spyder by running installer
+
 ### New features
 
 * 
