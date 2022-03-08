@@ -10,5 +10,5 @@ Spyder itself is developed using Spyder, if you know of more, feel free to add t
 
 ## Companies using Spyder
 
-*
+*Li Auto Inc 
 *
