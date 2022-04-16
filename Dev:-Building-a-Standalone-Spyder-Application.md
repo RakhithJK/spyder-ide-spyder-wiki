@@ -20,7 +20,7 @@ If you don't plan to use `pyenv`, then you will need to install Python from Home
 After installing Homebrew, run:
 
 ```
-$ brew install pyenv, pyenv-virtualenv, xz, tcl-tk
+$ brew install pyenv pyenv-virtualenv xz tcl-tk
 ```
 
 `xz` is a package that provides compression algorithms that Python should be built with to satisfy some packages, namely `pandas`.
