@@ -39,7 +39,7 @@ Finally, if you still can't get it to work, and the problem is indeed
 Spyder-related (see above note), you should consult the the
 **Calling for Help** section for other resources to explore and details on how
 to submit an issue  to our Github tracker, so the problem can be fixed for
-everyone. Thanks for taking the team to read this, and best of luck!
+everyone. Thanks for taking the time to read this, and best of luck!
 
 
 
