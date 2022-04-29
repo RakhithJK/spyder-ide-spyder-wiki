@@ -1,7 +1,3 @@
-### Spyder 5.2.1 (Stable Version)
-
-Spyder is a powerful interactive development environment for the Python language with advanced editing, interactive testing, debugging and introspection features.
-
 This wiki contains
 ------------------
 
