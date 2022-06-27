@@ -16,3 +16,4 @@ Here are the core documents describing Spyder development:
   * [[How to debug PyQt PySide internal crashes (segfaults) affecting Spyder]]
   * [[How to debug Spyder deadlock freeze hang]]
 * [[Building a Standalone Spyder Application|Dev:-Building-a-Standalone-Spyder-Application]]
+* [[Codesigning the macOS Standalone Spyder Application|Dev:-Codesigning-the-macOS-Standalone-Application]]
