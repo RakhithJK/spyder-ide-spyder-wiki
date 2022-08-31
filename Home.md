@@ -38,4 +38,4 @@ Here are some general guidelines on editing this wiki:
 
 Here is a link to our [main website](http://spyder-ide.org).
 
-You may also want to look at the official [project documentation](https://pythonhosted.org/spyder/).
+You may also want to look at the official [project documentation page](https://docs.spyder-ide.org/current/index.html) and [repository](https://github.com/spyder-ide/spyder-docs).
